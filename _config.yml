@@ -1,0 +1,31 @@
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:               'International Congress on Mathematical Software'
+tagline:             'Software for the working mathematician'
+description:         'Software for the working mathematician' 
+url:                 http://icms-conference.github.io
+baseurl:             ''
+future:              True
+gems:
+  - jemoji
+  - jekyll-paginate
+  - jekyll-github-metadata
+
+exclude: ['_activities/README.md', '*.synctex.gz', '*.aux', '*.nav', '*.out', '*.snm', '*.tex', '*.log', '*.toc']
+
+# About/contact
+author:
+  name:              'ICMS'
+  url:                   http://icms-conference.github.io
+  email:               kohlhase@kwarc.info
+
+repository:          icms-conference/icms-conference.github.io
+
+collections:
+  activities:
+    output: true
+
+# Custom vars
+version:             0.2.0
