@@ -23,9 +23,9 @@ author:
 
 repository:          icms-conference/icms-conference.github.io
 
-collections:
-  activities:
-    output: true
+#collections:
+#  activities:
+#    output: true
 
 # Custom vars
 version:             0.2.0
