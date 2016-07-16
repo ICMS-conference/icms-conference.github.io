@@ -5,11 +5,16 @@ title: Home
 
 # International Congress on Mathematical Software
 
-Software for the working mathematician
+The “International Congress of Mathematical Software” (ICMS) is a community of researchers
+and practioners centered around “mathematical software” as a scientific activity. ... [more](/about/)
 
 ## Meetings:
 
+### Upcoming
+
 * [ICMS 2018 - South Bend (USA)](http://icms-conference.org/)
+
+### past Meetings
 * [ICMS 2016 - Berlin (Germany)](http://icms2016.zib.de/)
 * [ICMS 2014 - Seoul (Korea)](http://voronoi.hanyang.ac.kr/icms2014/)
 * [ICMS 2010 - Kobe (Japan)](http://www.math.kobe-u.ac.jp/icms2010/)
