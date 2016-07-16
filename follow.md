@@ -5,9 +5,10 @@ title: Follow and contact us
 
 # Follow us with our mailing lists
 
-<!-- * Community discussions: -->
-<!-- [community@opendreamkit.org](https://listes.services.cnrs.fr/wws/info/opendreamkit-community) -->
+* Community discussions:
+ [members@icms-conference.org](http://lists.jacobs-university.de/mailman/listinfo/icms-conference)
 
-# Contacts
+# ICMS Contacts
 
-* 
+* Secretary: [secretary@icms-conference.org](secretary@icms-conference.org)
+* Web Site: [postmaster@icms-conference.org](postmaster@icms-conference.org)
