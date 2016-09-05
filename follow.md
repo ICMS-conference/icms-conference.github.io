@@ -6,8 +6,8 @@ title: Follow and contact us
 # Follow us with our mailing lists
 
 * Community discussions:
- [members@icms-conference.org](http://lists.jacobs-university.de/mailman/listinfo/icms-conference)
- ([archives](http://lists.jacobs-university.de/mailman/private/icms-conference/), [subscribe/admin](http://lists.jacobs-university.de/mailman/listinfo/icms-conference))
+ [members@icms-conference.org](http://lists.kwarc.info/mailman/listinfo/icms-conference)
+ ([archives](http://lists.kwarc.info/mailman/private/icms-conference/), [subscribe/admin](http://lists.kwarc.info/mailman/listinfo/icms-conference))
 
 # ICMS Contacts
 
