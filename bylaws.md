@@ -49,34 +49,12 @@ Chair could also mean co-Chairs.
 
 1. The Advisory Board Chair will hold a ICMS business meeting
      during each conference. 
-<!-- <li> ?????? How about during the ICMS business meeting????
-     General Chair, Program Chair and Local Chair
-     are specific to a particular ICMS Conference.  
-     These three determine the venue and date, 
-     and general shape of that conference.
-
-<li> The General Chair shall run an annual meeting 
-     during the conference to discuss matters 
-     of interest to the community.  
-
-<li> The Program Chair shall ?????
-     
-<li> The Local Chair shall ?????
-     -->
 2. The Secretary shall maintain a permanent ICMS website for past activities,
      and also a list of names and emails of attendees of past ICMS conferences. 
-</ol>
 
 ## ByLaw 4: Amendments
 1. The Bylaws can be amended by ballot, either at the ICMS Business meeting or by email.
 2. Persons who have registered for at least one of the three precedingICMS Conferences are eligible to vote.
-	<!--
-	An amendment needs 2/3 of the votes of the registered participants. 
-
-	Ballot by mail before or 
-     within one month after the meeting at which the amendment is voted on. 
-     Votes are to be sent to the Advisory Board Chair.
-     -->
 
 # Appendix: Remarks on the Bylaw 
 
