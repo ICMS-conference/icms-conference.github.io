@@ -7,6 +7,7 @@ tagline:             'Software for the working mathematician'
 description:         'Software for the working mathematician' 
 url:                 http://icms-conference.github.io
 baseurl:             ''
+github-group: 'icms-conference'
 future:              True
 gems:
   - jemoji
