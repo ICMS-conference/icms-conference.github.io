@@ -7,4 +7,4 @@ We have the beginnings of a [new ICMS web site](http://icms-conference.github.io
 based on github pages; see
 [instructions on how to help](https://github.com/icms-conference/icms-conference.githug.io).
 
-We welcome help, [suggestions, and bug reports]((https://github.com/icms-conference/icms-conference.githug.io/issues). 
+We welcome help, [suggestions, and bug reports](https://github.com/icms-conference/icms-conference.githug.io/issues). 
