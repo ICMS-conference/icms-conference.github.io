@@ -3,7 +3,7 @@ layout: default
 title: ICMS 2018 - Notre Dame
 ---
 
-# International Congress on Mathematical Software 2018
+# International Congress on Mathematical Software - ICMS 2018
 ## Notre Dame, 24-27 July 2018
 
 **General Chair**: [James H. Davenport](http://people.bath.ac.uk/masjhd/)
