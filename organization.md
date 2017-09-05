@@ -19,8 +19,8 @@ The advisory board consists of the organizers of the past two ICMS.
 
 ### Secretary
 
- * [Jonathan Hauenstein](hauenstein@nd.edu), Notre Dame University.
+ * [Jonathan Hauenstein](mailto:hauenstein@nd.edu), Notre Dame University.
 
 ### Web Officer
 
- * [Michael Kohlhase](michael.kohlhase@fau.de), FAU Erlangen-Nürnberg.
+* [Michael Kohlhase](mailto:michael.kohlhase@fau.de), FAU Erlangen-Nürnberg.
