@@ -12,6 +12,6 @@ title: ICMS 2018 - Notre Dame
 [Manual Kauers](http://www.kauers.de/), and
 [George Labahn](https://cs.uwaterloo.ca/~glabahn/).
 
-**Local Organizers**: [Andrew Sommese](https://www3.nd.edu/~sommese/), [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/)
+**Local Chairs**: [Andrew Sommese](https://www3.nd.edu/~sommese/), [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/)
 
 <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
