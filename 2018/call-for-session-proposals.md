@@ -3,7 +3,7 @@ layout: default
 title: ICMS 2018 - Call for Session Proposals
 ---
 
-Call for Session Proposals
+ICMS 2018 Call for Session Proposals
 ============================
 
 
