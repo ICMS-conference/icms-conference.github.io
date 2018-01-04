@@ -1,0 +1,39 @@
+---
+layout: default
+title: News
+source: _posts/
+---
+
+{% comment %}
+  To add a new blog/news post, please create a file in the _posts/
+  directory, taking the existing files as examples.
+{% endcomment %}
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}">Read more ...</a>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}{{ paginator.next_page_path }}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}{{paginator.previous_page_path}}">Newer</a>
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
