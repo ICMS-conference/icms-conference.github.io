@@ -15,4 +15,13 @@ title: ICMS 2018 - Notre Dame
 
 **Local Chairs**: [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/), [Andrew Sommese](https://www3.nd.edu/~sommese/) 
 
+## News ([older news](/news/))
+
+{% for post in site.posts %}
+    {% if forloop.index < 8 %}
+        {% include post_link.html %}
+    {% endif %}
+{% endfor %}
+
+
 <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
