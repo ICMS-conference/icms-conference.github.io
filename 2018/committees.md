@@ -13,7 +13,7 @@ title: ICMS 2018 - Notre Dame
     * [Manual Kauers](http://www.kauers.de/)
     * [George Labahn](https://cs.uwaterloo.ca/~glabahn/)
     * [Josef Urban](https://www.ciirc.cvut.cz/~urbanjo3/)
-* Local Chair: [Andrew Sommese](https://www3.nd.edu/~sommese/) 
+* Local Chair: [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/)
 
 
 **Program Committee**
