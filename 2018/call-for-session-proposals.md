@@ -65,6 +65,7 @@ This format is meant only as a rough frame; the organization of a session can be
 *   logic
 
     *   theorem proving
+    *   formalization of mathematics
     *   logic minimization
     *   quantifier elimination
     *   ....
@@ -132,6 +133,8 @@ This format is meant only as a rough frame; the organization of a session can be
 
 *   mathematical problem solving platform
 
+    *   AI, machine learning and big-data methods in mathematics
+    *   computer understanding and natural language processing of mathematics
     *   mathematical theory exploration
     *   mathematical knowledge management
     *   user interface
