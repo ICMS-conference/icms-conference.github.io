@@ -39,7 +39,7 @@ ICMS 2018 Submission Guidelines
 *   **Level 2** : Submit an extended abstract at latest by **April 21, 2018**.
     *   It should be at least 4 pages and at most 8 pages.
     *   It should follow the [guideline](ICMS_Extended_Abstract_2018.pdf).
-    *   It should use the [latex template](http://icms-conference.org/2018/ICMS_Extended_Abstract_2018.tex) and the [LNCS latex style](llncs.cls).
+    *   It should use the [latex template](http://icms-conference.org/2018/ICMS_Extended_Abstract_2018.txt) and the [LNCS latex style](llncs.cls).
     *   Submit
         *   LaTeX source files
         *   pdf file produced from the LaTeX filesto the session organizers as an email attachment.  
