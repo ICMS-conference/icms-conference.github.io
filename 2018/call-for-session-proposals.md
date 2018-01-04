@@ -3,7 +3,7 @@ layout: default
 title: ICMS 2018 - Call for Session Proposals
 ---
 
-ICMS 2018 Call for Session Proposals
+Call for Session Proposals
 ============================
 
 
@@ -19,20 +19,20 @@ The _6th International Congress on Mathematical Software_ will consist of severa
 
 1.  Prepare a session proposal with the following contents.
 
-*   title of the session
-*   name(s) of the organizer(s), with contact addresses and emails
-*   aim and scope of the session (at most 150 words)
+    *   title of the session
+    *   name(s) of the organizer(s), with contact addresses and emails
+    *   aim and scope of the session (at most 150 words)
 
-3.  Submit it
+2.  Submit it
 
-*   to one of the program chairs: [Manuel Kauers](mailto:manuel@kauers.de) , [George Labahn](mailto:glabahn@uwaterloo.ca) or [Josef Urban](mailto:Josef.Urban@gmail.com)
-*   or to the General Chair [James Davenport](mailto:j.h.davenport@bath.ac.uk)
-*   at latest by **Jan 31, 2018**.
+    *   to one of the program chairs: [Manuel Kauers](mailto:manuel@kauers.de) , [George Labahn](mailto:glabahn@uwaterloo.ca) or [Josef Urban](mailto:Josef.Urban@gmail.com)
+    *   or to the General Chair [James Davenport](mailto:j.h.davenport@bath.ac.uk)
+    *   at latest by **Jan 31, 2018**.
 
-5.  The decision on the proposal will be made
+3.  The decision on the proposal will be made
 
-*   by the program chair, the general chair and the advisory committee
-*   within **mid-February 2018**
+    *   by the program chair, the general chair and the advisory committee
+    *   within **mid-February 2018**
 
 **How to organize a session**
 
