@@ -1,0 +1,47 @@
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}/">
+            <img src="/public/logo.png" alt="{{ site.title }}" width="100%"/>
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+      <p class="site-url lead"><a href="{{ site.url }}/">{{ site.url }}</a></p>
+    </div>
+
+    <nav class="sidebar-nav">
+      {% include sidebar-nav-item.html url="/"            title="Home" %},
+      {% include sidebar-nav-item.html url="/2018/"            title="Upcoming ICMS" %},<br/>
+      {% include sidebar-nav-item.html url="/about/"      title="About" %},
+      {% include sidebar-nav-item.html url="/bylaws/"      title="Bylaws" %},
+      {% include sidebar-nav-item.html url="/organization/"     title="Organization" %}
+      {% include sidebar-nav-item.html url="/2018/committees/"     title="Committees" %}
+      {% include sidebar-nav-item.html url="/2018/invited-speakers/"     title="Invited Speakers" %}
+      {% include sidebar-nav-item.html url="/2018/daily-program/"     title="Daily Program" %}
+      {% include sidebar-nav-item.html url="/2018/overall-program/"     title="Overall Program" %}
+      {% include sidebar-nav-item.html url="/2018/sessions/"     title="Sessions" %}
+      {% include sidebar-nav-item.html url="/2018/dates/"     title="Important Dates" %}
+      {% include sidebar-nav-item.html url="/2018/call-for-session-proposals/"     title="Call for Session Proposals" %}
+      {% include sidebar-nav-item.html url="/2018/submission-guidelines/"     title="Submission Guidelines" %}
+      {% include sidebar-nav-item.html url="/2018/demos/"     title="Call for Demos/Tutorials/Posters" %}
+      {% include sidebar-nav-item.html url="/2018/registration/"     title="Registration" %}
+      {% include sidebar-nav-item.html url="/2018/venue/"     title="Conference Venue" %}
+      {% include sidebar-nav-item.html url="/2018/travel/"     title="Travel" %}
+      {% include sidebar-nav-item.html url="/2018/accommodations/"     title="Accommodations" %}
+      <br/>
+      <a class="sidebar-nav-item" href="{{ site.github.zip_url | replace: 'zipball',
+					'edit' }}/{% if page.source %}{{ page.source }}{%
+					else %}{{ page.path }}{% endif %}">Edit this
+      page</a>
+            (<a class="sidebar-nav-item"
+	    href="https://github.com/icms-conference/icms-conference.github.io#repository-holding-the-sources-of-the-icms-conferenceorg-website-aka-icms-conferencegithubio">HowTo</a>)<br/>
+	    {% include sidebar-nav-item.html url="/follow/"     title="Contact" %},
+      <span class="sidebar-nav-item">
+        <a href="{{ site.baseurl }}/atom.xml"><img class="icon" src="{{ site.baseurl }}/public/feed_w.png" alt="atom feed"/></a>
+<!--        <a href="https://twitter.com/{{ site.author.twitter }}"><img class="icon" src="{{ site.baseurl }}/public/twitter_w.png" alt="twitter"></a>-->
+        <a href="https://github.com/{{ site.github-group}}"><img class="icon" src="{{ site.baseurl }}/public/github_w.png" alt="github"/></a>
+      </span><br/>
+  </nav>
+  </div>
+</div>
