@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default2018
 title: ICMS 2018 - Submission Guidelines
 ---
 
