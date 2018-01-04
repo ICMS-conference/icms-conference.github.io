@@ -22,7 +22,7 @@ ICMS 2018 Submission Guidelines
         Furthermore you may (if desired) proceed to Level 3.  
         Note that some sessions might not have Level 3.  
 
-    *   Submit a full paper after the meeting to the session organizer.  
+    *   Level 3: Submit a full paper after the meeting to the session organizer.  
         Some sessions will organize journal special issues immediately after the meeting.  
         The details will be communicated to you by the session organizers.  
 
