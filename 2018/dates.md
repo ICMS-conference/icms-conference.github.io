@@ -55,7 +55,7 @@ title: ICMS 2018 - Notre Dame
                 <td><b>TBA</b></td>
             </tr>
 	    <tr><td>&nbsp;</td>
-		<td>6th ICMS in Notre Dame, :</td>
+		<td>6th ICMS in Notre Dame:</td>
             	<td>&nbsp;&nbsp;</td>
                 <td><b>July  24 - 27, 2018</b></td>
             </tr>                               
