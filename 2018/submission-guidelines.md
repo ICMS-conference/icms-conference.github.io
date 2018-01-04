@@ -26,7 +26,7 @@ ICMS 2018 Submission Guidelines
         Some sessions will organize journal special issues immediately after the meeting.  
         The details will be communicated to you by the session organizers.  
 
-*   **Level 1** : Submit a short abstract at latest by **March 31, 2018**.
+*   **Level 1**: Submit a short abstract at latest by **March 31, 2018**.
     *   It should be about 200 words.
     *   It must be in plain text (without using any mathematical symbols, etc).
     *   It must be submitted to the session organizers as an email attachment.  
@@ -36,7 +36,7 @@ ICMS 2018 Submission Guidelines
         The organizers will make a decision within a week of submission.  
         If accepted, then it will appear on the conference web page immediately.  
 
-*   **Level 2** : Submit an extended abstract at latest by **April 21, 2018**.
+*   **Level 2**: Submit an extended abstract at latest by **April 21, 2018**.
     *   It should be at least 4 pages and at most 8 pages.
     *   It should follow the [guideline](ICMS_Extended_Abstract_2018.pdf).
     *   It should use the [latex template](http://icms-conference.org/2018/ICMS_Extended_Abstract_2018.txt) and the [LNCS latex style](llncs.cls).
@@ -50,7 +50,7 @@ ICMS 2018 Submission Guidelines
         If accepted, then it will appear on the conference proceedings.  
         **Conference proceedings** will appear as Lecture Notes in Computer Science (LNCS). Please use [Springer style files and templates](http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0) for the preparation of extended abstracts.  
 
-*   **Level 3** : Submit a full paper after the meeting to the session organizer.
+*   **Level 3**: Submit a full paper after the meeting to the session organizer.
     *   Some sessions will organize journal special issues immediately after the meeting.
     *   The details will be communicated to you by the session organizers.
 
