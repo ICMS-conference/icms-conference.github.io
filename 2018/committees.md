@@ -31,14 +31,21 @@ title: ICMS 2018 - Notre Dame
 
 **Advisory Board**
 
-*   Chair: [Nobuki Takayama](mailto:takayama@math.kobe-u.ac.jp), Kobe University
-*   [Chee Yap](mailto:yap@cs.nyu.edu), NY University
-*   [Komei Fukuda](mailto:komei.fukuda@math.ethz.ch), ETH Zurich
-*   [Joris Van der Hoeven](mailto:vdhoeven@lix.polytechnique.fr), Universite Paris F
-*   [Michael Joswig](mailto:joswig@math.tu-berlin.de), TU Berlin
-*   [Hoon Hong](mailto:hong@ncsu.edu), NC State University
-*   [Masayuki Noro](mailto:noro@math.kobe-u.ac.jp), Kobe University
-*   [Deok-Soo Kim](mailto:dskim@hanyang.ac.kr), Hanyang University
+The advisory board consists of the organizers of the past two ICMS.
+
+ * [Chee Yap](mailto:yap@cs.nyu.edu), NY University (chair).
+ * [Hoon Hong](mailto:hong@ncsu.edu), NC State University.
+ * [Deok-Soo Kim](mailto:dskim@hanyang.ac.kr), Hanyang University.
+ * [Gert-Martin Greuel](mailto:greuel@mathematik.uni-kl.de), Kaiserslautern University.
+ * [Peter Paule](mailto:Peter.Paule@risc.uni-linz.ac.at), RISC Linz.
+ * [Andrew Sommese](mailto:sommese@nd.edu), Notre Dame University.
+ * [Thorsten Koch](mailto:koch@zib.de), TU Berlin.
+
+**Officers**
+
+ * [Jonathan Hauenstein](mailto:hauenstein@nd.edu), Notre Dame University. (Secretary)
+ * [Michael Kohlhase](mailto:michael.kohlhase@fau.de), FAU Erlangen-Nürnberg. (Web Officer) 
+
 
 
 <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
