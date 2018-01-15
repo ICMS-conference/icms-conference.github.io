@@ -9,7 +9,7 @@ title: ICMS 2018 - Notre Dame
 **General Chair**: [James H. Davenport](http://people.bath.ac.uk/masjhd/)
 
 **Program Chairs**: 
-[Manual Kauers](http://www.kauers.de/), 
+[Manuel Kauers](http://www.kauers.de/), 
 [George Labahn](https://cs.uwaterloo.ca/~glabahn/), and
 [Josef Urban](https://www.ciirc.cvut.cz/~urbanjo3/).
 
