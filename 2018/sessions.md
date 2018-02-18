@@ -162,7 +162,7 @@ https://openmath.github.io/meetings/
 
 ### Organizers
 
-*   [Delaram Kharobei](mailto:) ()
+*   [Delaram Kahrobaei](mailto:) ()
 *   [Vladimir Shpilrain](mailto:) ()
 
 ### Aim and Scope
