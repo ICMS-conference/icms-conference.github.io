@@ -286,8 +286,8 @@ Backtrack search is a vital part of solving many problems in computational group
 
 ### Organizers
 
-*   [Dan Bates](mailto:) ()
-*   [Dani Brake](mailto:) ()
+*   [Dan Bates](mailto:bates@math.colostate.edu) (Colorado State University)
+*   [Dani Brake](mailto:brakeda@uwec.edu) (University of Wisconsin Eau Claire)
 
 ### Aim and Scope
 
@@ -301,7 +301,7 @@ The topics include algebraic geometry, applications of algebraic geometry, compu
 
 ### Organizers
 
-*   [Stephen Melczer](mailto:) ()
+*   [Stephen Melczer](mailto:smelczer@sas.upenn.edu) (University of Pennsylvania)
 
 ### Aim and Scope
 
@@ -387,9 +387,9 @@ for best practices in mathematical software and knowledge management.
 
 ### Organizers
 
-*   [Chenqi Mou](mailto:) ()
-*   [Dongming Wang](mailto:) ()
-*   [Chee K. Yap](mailto:) ()
+*   [Chenqi Mou](mailto:chenqi.mou@gmail.com) (Beihang University)
+*   [Dongming Wang](mailto:Dongming.Wang@lip6.fr) (Université Pierre et Marie Curie)
+*   [Chee K. Yap](mailto:yap@cs.nyu.edu)  (New York University)
 
 ### Aim and Scope
 
