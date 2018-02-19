@@ -41,8 +41,8 @@ Notes in Computer Science series.  See the [guidelines](http://icms-conference.o
 
 ### Organizers
 
-*   [Jin-San Cheng](mailto:) ()
-*   [Vikram Sharma](mailto:) ()
+*   [Jin-San Cheng](mailto:jcheng@amss.ac.cn) (Chinese Academy of Sciences, China)
+*   [Vikram Sharma](mailto:vikram@imsc.res.in) (IMSc Chennai, India)
 
 ### Aim and Scope
 
@@ -73,7 +73,7 @@ the recent advances made in this direction.
 
 ### Organizers
 
-*   [Christoph Koutschan](mailto:) ()
+*   [Christoph Koutschan](mailto:christoph.koutschan@ricam.oeaw.ac.at) (Austrian Academy of Sciences)
 
 ### Aim and Scope
 
@@ -95,7 +95,7 @@ implicit form or numerically.
 
 ### Organizers
 
-*   [Michael Joswig](mailto:) ()
+*   [Michael Joswig](mailto:joswig@math.tu-berlin.de) (Institut für Mathematik der Technischen Universität Berlin)
 
 ### Aim and Scope
 
@@ -127,8 +127,8 @@ Specific topics include, but are not restricted to, the following:
 
 ### Organizers
 
-*   [James Davenport](mailto:) ()
-*   [Michael Kohlhase](mailto:) ()
+*   [James Davenport](mailto:j.h.davenport@bath.ac.uk) (University of Bath, UK)
+*   [Michael Kohlhase](mailto:michael.kohlhase@fau.de) (FAU Erlangen-Nürnberg)
 
 ### Aim and Scope
 
@@ -162,8 +162,8 @@ https://openmath.github.io/meetings/
 
 ### Organizers
 
-*   [Delaram Kahrobaei](mailto:) ()
-*   [Vladimir Shpilrain](mailto:) ()
+*   [Delaram Kahrobaei](mailto:DKahrobaei@gc.cuny.edu) (CUNY Graduate Center, NY, USA)
+*   [Vladimir Shpilrain](mailto:shpil@groups.sci.ccny.cuny.edu) (The City College of New York, NY, USA)
 
 ### Aim and Scope
 
@@ -179,8 +179,8 @@ Group-based primitives are the topic of our special session. We will invite rese
 
 ### Organizers
 
-*   [Bruno Buchberger](mailto:) ()
-*   [Alexander Maletzky](mailto:) ()
+*   [Bruno Buchberger](mailto:Bruno.Buchberger@risc.uni-linz.ac.at) (Johannes Kepler University, Linz, Austria)
+*   [Alexander Maletzky](mailto:alexander.maletzky@risc.jku.at) (Johannes Kepler University, Linz, Austria)
 
 ### Aim and Scope
 
@@ -206,7 +206,7 @@ Group-based primitives are the topic of our special session. We will invite rese
 
 ### Organizers
 
-*   [Matthew England](mailto:) ()
+*   [Matthew England](mailto:Matthew.England@coventry.ac.uk) (Coventry University, U.K.)
 
 ### Aim and Scope
 
@@ -218,9 +218,9 @@ While there has been some discussion on how Computer Algebra Systems could be us
 
 ### Organizers
 
-*   [Erika Abraham](mailto:) ()
-*   [James Davenport](mailto:) ()
-*   [Matthew England](mailto:) ()
+*   [Erika Abraham](mailto:abraham@informatik.rwth-aachen.de) (RWTH Aachen, Germany)
+*   [James Davenport](mailto:j.h.davenport@bath.ac.uk) (University of Bath, UK)
+*   [Matthew England](mailto:Matthew.England@coventry.ac.uk) (Coventry University, U.K.)
 
 ### Aim and Scope
 
@@ -230,9 +230,9 @@ Software tools for checking the satisfiability of real-algebraic formulas play a
 
 ### Organizers
 
-*   [Marco Pollanen](mailto:) ()
-*   [Yasuyuki Nakamura](mailto:) ()
-*   [Masataka Kaneko](mailto:) ()
+*   [Marco Pollanen](mailto:marcopollanen@trentu.ca) (Trent University, Canada)
+*   [Yasuyuki Nakamura](mailto:nakamura@nagoya-u.jp) (Nagoya University, Japan)
+*   [Masataka Kaneko](mailto:masataka.kaneko@phar.toho-u.ac.jp) (Toho University, Japan)
 
 ### Aim and Scope
 
@@ -255,8 +255,8 @@ educational experiences by using these technologies in an original way are also 
 
 ### Organizers
 
-*   [Markus Pfeiffer](mailto:) ()
-*   [Christopher Jefferson](mailto:) ()
+*   [Markus Pfeiffer](mailto:markus.pfeiffer@st-andrews.ac.uk) (School of Computer Science, St Andrews, UK)
+*   [Christopher Jefferson](mailto:caj21@st-andrews.ac.uk) (School of Computer Science, St Andrews, UK)
 
 ### Aim and Scope
 
@@ -316,9 +316,10 @@ Topics include the manipulation of generating functions, algorithms for asymptot
 
 ### Organizers
 
-*   [Markus Pfeiffer](mailto:) ()
-*   [Florian Rabe](mailto:) ()
-*   [Nicolas Thiery](mailto:) ()
+*   [Markus Pfeiffer](mailto:markus.pfeiffer@st-andrews.ac.uk) (School of Computer Science, St Andrews, UK)
+*   [Florian Rabe](mailto:f.rabe@jacobs-university.de) (Jacobs University, Bremen, Germany)
+*   [Nicolas Thiéry](mailto:Nicolas.Thiery@u-psud.fr) (Université Paris Sud, France)
+
 
 ### Aim and Scope
 
