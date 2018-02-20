@@ -250,6 +250,24 @@ distinct challenges and further developments. This session accepts papers that a
 research and development and present new technologies. Papers exploring both research and 
 educational experiences by using these technologies in an original way are also welcomed.
 
+### Topics (including, but not limited to)
+
+* Usability studies of new or existing interfaces
+* Novel mathematical interfaces
+* User requirements for future interfaces
+* Digital documents and mathematical content
+* New models for engaging with digital mathematical content
+* Interface design for mobile and touch-enabled devices
+* Mathematical tools for the web
+* Touch-based mathematical expression editor
+* Handwriting interfaces on touch-devices
+* Web-based assessment systems
+* Interactive and collaborative mathematical environments
+* Computational systems for scientific visualization
+* Mathematical editors and compilers
+* Mathematical reasoning via web & mobile interfaces
+* Case studies of educational experiences in the field
+
 
 ## 11. Backtrack search techniques in groups and combinatorics
 
