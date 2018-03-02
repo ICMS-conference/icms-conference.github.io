@@ -405,9 +405,11 @@ for best practices in mathematical software and knowledge management.
 
 ### Organizers
 
-*   [Chenqi Mou](mailto:chenqi.mou@gmail.com) (Beihang University)
-*   [Dongming Wang](mailto:Dongming.Wang@lip6.fr) (Université Pierre et Marie Curie)
-*   [Chee K. Yap](mailto:yap@cs.nyu.edu)  (New York University)
+*   [Chenqi Mou](mailto:chenqi.mou@gmail.com) (Beihang University, China)
+*   [Dongming Wang](mailto:Dongming.Wang@lip6.fr) (Beihang University, China / CNRS, France)
+*   [Chee K. Yap](mailto:yap@cs.nyu.edu)  (New York University, USA)
+
+[Organizers web page](http://cmou.net/files/ICMS2018.html)
 
 ### Aim and Scope
 
