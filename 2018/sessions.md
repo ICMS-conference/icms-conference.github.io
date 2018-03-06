@@ -96,6 +96,7 @@ implicit form or numerically.
 ### Organizers
 
 *   [Michael Joswig](mailto:joswig@math.tu-berlin.de) (Institut für Mathematik der Technischen Universität Berlin)
+*   [Yue Ren](mailto:yueren@mis.mpg.de) (Max-Planck-Institut für Mathematik in den Naturwissenschaften)
 
 ### Aim and Scope
 
