@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 13: Symbolic Combinatorics 
+title: "ICMS 2018 - Session 13: Symbolic Combinatorics"
 ---
 ## 13. Symbolic Combinatorics 
 

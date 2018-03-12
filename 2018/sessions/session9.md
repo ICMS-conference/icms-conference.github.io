@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 9: Satisfiability Checking and Symbolic Computation
+title: "ICMS 2018 - Session 9: Satisfiability Checking and Symbolic Computation"
 ---
 ## 9. Satisfiability Checking and Symbolic Computation
 

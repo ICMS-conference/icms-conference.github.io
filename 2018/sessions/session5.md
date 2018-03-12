@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 5: The 29th OpenMath Workshop
+title: "ICMS 2018 - Session 5: The 29th OpenMath Workshop"
 ---
 ## 5. The 29th OpenMath Workshop
 

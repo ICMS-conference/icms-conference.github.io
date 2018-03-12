@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 20: Software for Mathematical Reasoning and Applications
+title: "ICMS 2018 - Session 20: Software for Mathematical Reasoning and Applications"
 ---
 ## 20. Software for Mathematical Reasoning and Applications
 

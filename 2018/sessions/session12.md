@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 12: Computational Algebraic Geometry
+title: "ICMS 2018 - Session 12: Computational Algebraic Geometry"
 ---
 ## 12. Computational Algebraic Geometry
 

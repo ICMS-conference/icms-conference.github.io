@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Notre Dame
+title: "ICMS 2018 - Notre Dame"
 ---
 
 # International Congress on Mathematical Software - ICMS 2018

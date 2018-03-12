@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 19: Formal and Informal Mathematical Corpora
+title: "ICMS 2018 - Session 19: Formal and Informal Mathematical Corpora"
 ---
 ## 19. Formal and Informal Mathematical Corpora
 

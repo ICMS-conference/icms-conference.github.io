@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 11: Backtrack search techniques in groups and combinatorics
+title: "ICMS 2018 - Session 11: Backtrack search techniques in groups and combinatorics"
 ---
 ## 11. Backtrack search techniques in groups and combinatorics
 

@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 17: Math in 2050 
+title: "ICMS 2018 - Session 17: Math in 2050"
 ---
 ## 17. Math in 2050 - Creativity, Publication, and Application supported by Knowledge Bases and Software?
 

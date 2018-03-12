@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 16: Software for exact and certified numeric computations
+title: "ICMS 2018 - Session 16: Software for exact and certified numeric computations"
 ---
 ## 16. Software for exact and certified numeric computations
 

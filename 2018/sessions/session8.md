@@ -1,6 +1,6 @@
 ---
 layout: default2018
-title: ICMS 2018 - Session 8: Machine Learning for Mathematical Software
+title: "ICMS 2018 - Session 8: Machine Learning for Mathematical Software"
 ---
 ## 8. Machine Learning for Mathematical Software
 
