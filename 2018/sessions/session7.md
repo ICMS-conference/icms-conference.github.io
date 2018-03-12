@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 7: Groebner Bases"
 ---
-## 7. Groebner Bases
+## Session 7. Groebner Bases
 
 ### Organizers
 

@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 18: Quantifier Reasoning"
 ---
-## 18. Quantifier Reasoning
+## Session 18. Quantifier Reasoning
 
 ### Organizers
 

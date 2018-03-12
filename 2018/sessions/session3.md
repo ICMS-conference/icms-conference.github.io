@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 3: Symbolic Summation and Integration"
 ---
-## 3. Symbolic Summation and Integration
+## Session 3. Symbolic Summation and Integration
 
 ### Organizers
 

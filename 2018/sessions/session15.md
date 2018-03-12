@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 15: Management of Mathematical Software, Mathematical Knowledge and Research Data"
 ---
-## 15. Management of Mathematical Software, Mathematical Knowledge and Research Data
+## Session 15. Management of Mathematical Software, Mathematical Knowledge and Research Data
 
 ### Organizers
 

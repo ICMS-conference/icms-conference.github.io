@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session1: General Session"
 ---
-## 1. General Session ([details](session1/)
+## Session1. General Session
 
 ### Organizers
 

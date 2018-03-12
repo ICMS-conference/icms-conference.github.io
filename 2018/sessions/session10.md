@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 -  Session 10: Mathematical Interfaces: Computing, Modeling, Web & Mobile"
 ---
-## 10.  Mathematical Interfaces: Computing, Modeling, Web & Mobile
+## Session10.  Mathematical Interfaces: Computing, Modeling, Web & Mobile
 
 ### Organizers
 

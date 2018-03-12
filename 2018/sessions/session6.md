@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 6: Post-Quantum Group-based Cryptography"
 ---
-## 6. Post-Quantum Group-based Cryptography
+## Session 6. Post-Quantum Group-based Cryptography
 
 ### Organizers
 

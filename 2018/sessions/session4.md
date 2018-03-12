@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 4: Polyhedral methods in geometry and optimization"
 ---
-## 4. Polyhedral methods in geometry and optimization 
+## Session 4. Polyhedral methods in geometry and optimization 
 
 ### Organizers
 

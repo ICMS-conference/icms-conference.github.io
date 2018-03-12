@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 14: Towards Composable Mathematical Software"
 ---
-## 14. Towards Composable Mathematical Software
+## Session14. Towards Composable Mathematical Software
 
 ### Organizers
 
