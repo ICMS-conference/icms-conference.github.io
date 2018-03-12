@@ -33,7 +33,7 @@ title: ICMS 2018 - Notre Dame
 * Mikolas Janota		
 * Tudor Jebelean	
 * Christopher Jefferson	
-* Michael Joswig	
+* Michael Joswig
 * Delaram Kahrobaei
 * Masataka Kaneko
 * Michael Kohlhase
