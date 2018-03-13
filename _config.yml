@@ -9,7 +9,7 @@ url:                 http://icms-conference.github.io
 baseurl:             ''
 github-group: 'icms-conference'
 future:              True
-gems:
+plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-github-metadata
