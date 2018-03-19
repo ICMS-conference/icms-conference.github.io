@@ -10,7 +10,7 @@ The congress is organized in sessions, addressing different aspects of mathemati
 software. There will be also demos, tutorials and posters. If you would like to give a
 talk, you need to submit first a short abstract and then later an extended abstract to one
 of the organizers of the corresponding session. Proceedings of ICMS'18 will be published in the Lecture
-Notes in Computer Science series.  See the [guidelines](http://icms-conference.org/2018/call-for-submissions/) for the details.  
+Notes in Computer Science series.  See the [guidelines](/2018/submission-guidelines/) for the details.  
 
 
 ### Publications
