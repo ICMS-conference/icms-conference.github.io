@@ -32,6 +32,14 @@ Society.
   * Software using or processing OpenMath;
 
 though others related to OpenMath are certainly welcomed. For examples
-of contributions see the previous OpenMath workshops at
-https://openmath.github.io/meetings/
+of contributions see the previous OpenMath workshops
+
+[2009](http://staff.bath.ac.uk/masjhd/OM2009.html#contributions),
+[2010](http://cicm2010.cnam.fr/om/), 
+[2012](http://ceur-ws.org/Vol-921/), 
+[2013](http://www.cicm-conference.org/2013/cicm.php?event=openmath),
+[2014](http://www.cicm-conference.org/2014/cicm.php?event=openmath),
+[2015](http://www.cicm-conference.org/2015/cicm.php?event=openmath),
+[2016](http://www.cicm-conference.org/2016/cicm.php?event=openmath).</p>
+<p>Contributions can be either research papers, description of new Content Dictionaries, particularly ones that are suggested for formal review and adoption by the [OpenMath Society](http://www.openmath.org/society/), or standard enhancement proposals.</p>
 
