@@ -1,6 +1,6 @@
 ## ICMS 2018 Session: ?SessionTitle
 
-ICMS 2018: [Home](http://icms-conference.org/2018), [Sessions](http://icms-conference.org/2018/sessions/)
+ICMS 2018: [Home](/2018/), [Sessions](/2018/sessions/)
 
 ### Organizers
 
@@ -27,7 +27,7 @@ This session is for facilitating the communication among the researchers and the
 
 ### Submission Guidelines
 
-*   If you would like to give a talk at ICMS, you need to submit first a short abstract and then later an extended abstract. See the [guideline](http://icms-conference.org/2018/call-for-submissions/) for the details.  
+*   If you would like to give a talk at ICMS, you need to submit first a short abstract and then later an extended abstract. See the [guidelines](/2018/submission-guidelines) for the details.  
 
 *   After the meeting, the submission guideline for a journal special issue will be communicated to you by the session organizers.
 

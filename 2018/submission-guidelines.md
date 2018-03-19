@@ -9,7 +9,7 @@ ICMS 2018 Submission Guidelines
 
 *   Choose a session for your submission.
     *   The meeting will consist of two types of sessions: General and Special.
-    *   See whether there is a special session that fits your work, from [the list of the sessions](http://icms-conference.org/2018/sessions/).
+    *   See whether there is a special session that fits your work, from [the list of the sessions](/2018/sessions/).
     *   If there is no special session that fits your work, then choose the session called "General".  
 
 *   There are three levels of submissions.
@@ -39,7 +39,7 @@ ICMS 2018 Submission Guidelines
 *   **Level 2**: Submit an extended abstract at latest by **April 21, 2018**.
     *   It should be a PDF file at least 4 pages and at most 8 pages submitted via [EasyChair](https://easychair.org/conferences/?conf=icms2018).
     *   It should follow the [guideline](ICMS_Extended_Abstract_2018.pdf).
-    *   It should use the [latex template](http://icms-conference.org/2018/ICMS_Extended_Abstract_2018.txt) and the [LNCS latex style](llncs.cls).
+    *   It should use the [latex template](ICMS_Extended_Abstract_2018.txt) and the [LNCS latex style](llncs.cls).
 
         We encourage that you submit it as soon as possible.  
         If you submit early, then you will get the decision early.  
