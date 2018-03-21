@@ -2,12 +2,13 @@
 layout: default2018
 title: "ICMS 2018 - Session 7: Groebner Bases"
 ---
-## Session 7. Groebner Bases
+## Session 7. Groebner Bases ([Web Page](http://www.risc.jku.at/people/amaletzk/ICMS2018-GB.html))
 
 ### Organizers
 
 *   [Bruno Buchberger](mailto:Bruno.Buchberger@risc.uni-linz.ac.at) (Johannes Kepler University, Linz, Austria)
 *   [Alexander Maletzky](mailto:alexander.maletzky@risc.jku.at) (Johannes Kepler University, Linz, Austria)
+
 
 ### Aim and Scope
 
