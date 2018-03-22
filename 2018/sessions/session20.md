@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 20: Software for Mathematical Reasoning and Applications"
 ---
-## Session 20. Software for Mathematical Reasoning and Applications
+## Session 20. Software for Mathematical Reasoning and Applications ([Web Page](http://www.risc.jku.at/conferences/icms2018/))
 
 ### Organizers
 
