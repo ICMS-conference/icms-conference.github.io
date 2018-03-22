@@ -13,7 +13,7 @@ ICMS 2018 Submission Guidelines
     *   If there is no special session that fits your work, then choose the session called "General".  
 
 *   There are three levels of submissions.
-    *   Level 1: You submit a short abstract by **March 31, 2018**.  
+    *   Level 1: You submit a short abstract by ~~March 31, 2018~~ Extended: **April 14, 2018**.  
         If accepted, then you will give a talk at ICMS.  
         Furthermore you may (if desired) proceed to Level 2.  
 
