@@ -31,3 +31,13 @@ Backtrack search is a vital part of solving many problems in computational group
   We would like to invite experts from AI, combinatorics, computational group
   theory and related areas with the aim of sharing and exchanging ideas, problems,
   results and implementations.
+
+### Accepted Talks
+
+#### The Theory and Practice of Refiners in Partition Backtracking
+#### [Christopher Jefferson](https://caj.host.cs.st-andrews.ac.uk/) (St Andrews, UK)
+
+
+The Partition Backtracking algorithm of Jeffrey S. Leon has provided the basis for the state of the art for a large range of permutation group problems, including intersection, stabilizer and normaliser, for almost 30 years. This algorithm is however poorly understood.
+
+This talk will give a rapid overview of the most important parts of the algorithm. In particular, I will talk about refiners, which are the central core of the algorithm. I will demonstrate some new refiners, and show how adding new refiners can provide and easy way to both improve performance on existing problems and extend existing partition backtrack systems to support new problems.
