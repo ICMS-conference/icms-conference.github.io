@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 12: Computational Algebraic Geometry"
 ---
-## Session12. Computational Algebraic Geometry
+## Session12. Computational Algebraic Geometry ([Web page](http://www.math.colostate.edu/~bates/ICMS18_session12.html))
 
 ### Organizers
 
