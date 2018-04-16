@@ -74,3 +74,34 @@ After some reductions which involve the symmetry of the quadric, the problem can
 
 Many problems in Combinatorics and related ﬁelds reduce to the problem of computing orbits of groups acting on ﬁnite sets. These problems are about classifying objects of a certain type. The main techniques are these: There is canonical augmentation and Snakes and Ladders. In this talk, we would like to give the theoretical framework for both techniques and compare the performance of some of the available implementations. Orbiter is a C++ package which provides an implementation of Snakes and Ladders. Another implementation exists in the computer algebra system GAP, using the Fining package for ﬁnite geometry. An implementation in Magma would be desirable. The canonical augmentation algorithm has been implemented in Nauty and more recently in Traces.
 
+#### Backtrack Search in the Free Group
+#### [Markus Pfeiffer](https://markusp.morphism.de/) (University of St Andrews, UK)
+
+Solving equations in free (and hyperbolic) groups has been of theoretical
+interest in geometric and combinatorial group theory. As one central example,
+the known algorithm to decide isomorphism of finitely presented hyperbolic
+groups requires solutions to equations over free groups.
+
+We demonstrate some recent progress in solving equations over free groups using
+some techniques from constraint solving, and some bespoke techniques for free groups.
+
+#### Using Strong Paths to Solve Isomorphism Problems
+#### [Matthias Koch](http://algorithmic.de)
+
+In this presentation a universal strategy to solve isomorphism problems is
+developed. The strategy is based on the homomorphism principle for group
+actions, double cosets and the ”Snakes and Ladders” algorithm.
+
+Many discrete structures can be built from simpler ones by using the fundamental
+homomorphism theorem applied to group actions. For a wide range of discrete
+structures this is not applicable, since there is no suitable unidirectional
+chain of homomorphisms. Following the ’snakes and ladders’ strategy by using
+homomorphisms in both directions, an appropriate chain of homomorphisms (ladder)
+can be built.
+
+The original snakes and ladders algorithm had several drawbacks, namely the
+extensive demand on memory and the inadequate runtime when used for single
+structures. These downsides have now been overcome by extending the mathematical
+basis by the so-called ”Strong Paths”. This strategy is applicable for the
+construction of double cosets. Since many isomorphism problems can be expressed
+by means of double cosets they can be solved by this approach.
