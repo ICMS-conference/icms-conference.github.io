@@ -27,12 +27,12 @@ title: ICMS 2018 - Notre Dame
 	    <tr><td>&nbsp;</td>
             	<td>Extended abstract submission:</td>
             	<td>&nbsp;&nbsp;</td>
-                <td><b>April 21, 2018</b></td>
+                <td><b><strike>April 21, 2018</strike> <font color="red">Extended: </font>April 30, 2018</b></td>
             </tr>
 	    <tr><td>&nbsp;</td>
             	<td>Organizers decision:</td>
             	<td>&nbsp;&nbsp;</td>
-                <td><b>April 30, 2018</b></td>
+                <td><b>May 7, 2018</b></td>
             </tr>            
 	    <tr><td>&nbsp;</td>
             	<td>Early registration:</td>
