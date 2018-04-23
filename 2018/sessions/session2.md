@@ -2,7 +2,7 @@
 layout: default2018
 title: "ICMS 2018 - Session 2: Algorithms and applications for curves and surfaces"
 ---
-## Session 2. Algorithms and applications for curves and surfaces
+## Session 2. Algorithms and applications for curves and surfaces ([Web page](http://mmrc.iss.ac.cn/~jcheng/ICMS2018.html))
 
 ### Organizers
 
