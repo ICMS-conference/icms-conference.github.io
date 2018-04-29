@@ -37,7 +37,7 @@ title: ICMS 2018 - Notre Dame
 	    <tr><td>&nbsp;</td>
             	<td>Early registration:</td>
             	<td>&nbsp;&nbsp;</td>
-                <td><b>TBA</b></td>
+                <td><b>May 15, 2018</b></td>
             </tr>            
 	    <tr><td>&nbsp;</td>
             	<td>Software Tutorial Proposal:</td>
