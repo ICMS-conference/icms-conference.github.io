@@ -19,8 +19,8 @@ title: ICMS 2018 - Notre Dame
 ### Accepted [Sessions](/2018/sessions/) (Abstract Submission Deadline: April 14, 2018)
 
 ## [Local Information](https://bertini.nd.edu/ICMS2018/)
-### [Registration Website](https://notredame.ungerboeck.com/prod/emc00/register.aspx?OrgCode=10&EvtID=18783&AppCode=REG&CC=118040603651)
-### [Apply for a Travel Grant/Free Conference Registration](https://bertini.nd.edu/ICMS2018/travelGrants.html) (Deadline: May 1, 2018)
+### [Registration Website](https://notredame.ungerboeck.com/prod/emc00/register.aspx?OrgCode=10&EvtID=18783&AppCode=REG&CC=118040603651) (Early Registration Ends: May 15, 2018)
+### [Apply for a Travel Grant/Free Conference Registration](https://bertini.nd.edu/ICMS2018/travelGrants.html) (Deadline: May 11, 2018)
 
 ## News ([older news](/news/))
 
