@@ -45,7 +45,7 @@ ICMS 2018 Submission Guidelines
         If you submit early, then you will get the decision early.  
         The organizers will make a decision at latest by ~~April 30, 2018~~ **May 7, 2018**.  
 
-        If accepted, you will be asked to submit the LaTeX source files via [EasyChair](https://easychair.org/conferences/?conf=icms2018) by May 11, 2018.  
+        If accepted, you will be asked to submit the LaTeX source files via [EasyChair](https://easychair.org/conferences/?conf=icms2018) by ~~May 11, 2018~~ **May 31, 2018**.  
 		The paper will then be published in the conference proceedings.  
 
         **Conference proceedings** will appear as Lecture Notes in Computer Science (LNCS). Please use [Springer style files and templates](http://www.springer.com/computer/lncs?SGWID=0-164-6-793341-0) for the preparation of extended abstracts.  
