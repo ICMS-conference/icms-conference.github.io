@@ -45,6 +45,17 @@ discussions and help to align the work of different groups.
 
   We present a recommender system covering math and math physics papers from the arXiv to date, to assist researchers quickly retrieve theorems and discover similar results from this vast corpus. The retrieval aims to discover not just syntactic, but also semantic similarity. We will discuss the challenges encountered and the experimental methodologies used.
 
+* *A New Style of Mathematical Proof*
+
+  [William Farmer](http://imps.mcmaster.ca/wmfarmer/), McMaster University
+
+  Mathematical proofs will play a crucial role in building a
+  universal digital mathematics library (UDML). Traditional and
+  formal style proofs do not adequately fulfill all the purposes that
+  mathematical proofs have. We propose a new style of proof that
+  achieves seven purposes of mathematical proofs. We believe this style
+  of proof is needed to build a highly interconnected UDML.
+
 * *Is Univalence Inevitable?*
 
   [Krzysztof Kapulkin](http://www.math.uwo.ca/faculty/kapulkin/), University of Western Ontario
@@ -80,23 +91,17 @@ discussions and help to align the work of different groups.
 
   The talk will present a set-theoretic model of dependent type theory handling isomorphism. In this model expressions are given their naive set-theoretic compositional meaning. For example a dependent pair type Sigma x:A B[x] denotes (literally) the set (or class) of pairs (c,d) with c a member of A and d a member of B[c]. This has the consequence that semantic values do not have unique types --- Abelian groups and permutation groups are also (literally) groups as implied by the standard naive set-theoretic definition of a group. Contrasts with homotopy type theory will be discussed from both semantic and proof-theoretic perspectives.
 
-
-* *Representing Mathematical Formulae in Content MathML using Wikidata*
-
-  [Moritz Schubotz](https://www.moritzschubotz.de/wiki/Main_Page), National Institute of Informatics (Tokyo)
-
-  We represent mathematical formulae in Content MathML
-  referring to Wikidata as the knowledge base for the grounding of the
-  semantics. By doing so, we link items in the Wikidata knowledge base
-  to mathematical identifiers or operators. In contrast to other
-  mathematical knowledge bases which define symbols in a deductive
-  fashion, the terms in Wikidata emerged inductively from Wikipedia
-  articles in different languages. To maximize the interoperability with
-  non-strict content MathML, we create a Wikidata based content
-  dictionary group.
-
 * *First Experiments with Neural Translation of Informal Mathematics to Formal*
 
   [Josef Urban](https://www.ciirc.cvut.cz/~urbanjo3/), Czech Technical University
-
-  Abstract TBA.
+  
+  The talk will give a summary of our first experiments to train deep neural
+  networks that automatically translate informalized LATEX-written Mizar
+  texts into the formal Mizar language. This is joint work with Qingxiang Wang and Cezary Kaliszyk, 
+  submitted to CICM'18. Using Luong et al.’s neural machine
+  translation model (NMT), we tested our aligned informal-formal corpora
+  against various hyperparameters and evaluated their results. Our experiments show that NMT 
+  is able to generate correct Mizar statements on
+  more than 60 percent of the inference data, indicating that formalization
+  through artificial neural network is a promising approach for automated
+  formalization of mathematics. We present several case studies to illustrate our results.
