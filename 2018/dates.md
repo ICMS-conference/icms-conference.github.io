@@ -52,7 +52,7 @@ title: ICMS 2018 - Notre Dame
 	    <tr><td>&nbsp;</td>
             	<td>Poster Proposal:</td>
             	<td>&nbsp;&nbsp;</td>
-                <td><b>TBA</b></td>
+                <td><b>June 16, 2018</b></td>
             </tr>
 	    <tr><td>&nbsp;</td>
 		<td>6th ICMS in Notre Dame:</td>
