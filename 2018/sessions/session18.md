@@ -37,3 +37,13 @@ enables mutual enrichment of the individual areas.
 
 *   A  _journal special issue_ consisting of _full papers_ will be organized immediately after the meeting.
 *   After the meeting, the submission guideline for a journal special issue will be communicated to you by the session organizers.
+
+## Accepted Talks
+
+
+### Leroy Chew:	QBF Proof Systems Modulo NP
+### Konstantin Korovin and Josef Urban:	First Experiments with Machine Learning of Useful Instantiations
+### Soonho Kong and Sicun Gao:	Quantified Reasoning in dReal	
+### Manuel Kauers and Martina Seidl:	Symmetry Breaking for Solving Quantified Boolean Formulas
+### Haniel Barbosa:	Towards higher-order unification in HOSMT
+### Mikolas Janota:	On Machine Learning in Quantified Boolean Formulas
