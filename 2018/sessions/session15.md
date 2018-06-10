@@ -41,4 +41,10 @@ and its embedding into the existing information infrastructure of
 mathematics will be part of discussion. The aim to define the framework 
 for best practices in mathematical software and knowledge management.
 
+## Accepted Talks
 
+### Katja Berčič and Janoš Vidali:	Towards a fingerprint database of discrete objects
+### Michael Kohlhase:	Math Object Identifiers - Towards Research Data in Mathematics
+### Wolfram Sperber:	Mathematical research data, software and the publication-based approach
+### Hagen Chrapary and Wolfgang Dalitz:	Software products, software versions, archiving of software, and swMATH
+### Daniel S. Katz and Neil Chue Hong:	Software Citation in Theory and Practice
