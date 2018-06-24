@@ -16,6 +16,8 @@ title: ICMS 2018 - Notre Dame
 **Local Chairs**: [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/) and
 [Andrew Sommese](https://www3.nd.edu/~sommese/)
 
+### [Program](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSULRiO4YWUFx_splhhfJKre0Q_RyY9qt6gANS7UUf49zAZzSR1_4DGlhvT231i-SrwkBF8TcoLP5y/pubhtml)
+
 ### Accepted [Sessions](/2018/sessions/) (Abstract Submission Deadline: April 14, 2018)
 
 ## [Local Information](https://bertini.nd.edu/ICMS2018/)
