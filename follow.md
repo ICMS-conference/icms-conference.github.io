@@ -11,5 +11,5 @@ title: Follow and contact us
 
 # ICMS Contacts
 
-* Secretary: [mailto:secretary@icms-conference.org](secretary@icms-conference.org)
-* Web Site: [mailto:postmaster@icms-conference.org](postmaster@icms-conference.org)
+* Secretary: [secretary@icms-conference.org](mailto:secretary@icms-conference.org)
+* Web Site: [postmaster@icms-conference.org](mailto:postmaster@icms-conference.org)
