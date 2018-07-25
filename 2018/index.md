@@ -16,7 +16,9 @@ title: ICMS 2018 - Notre Dame
 **Local Chairs**: [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/) and
 [Andrew Sommese](https://www3.nd.edu/~sommese/)
 
-### [Program](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSULRiO4YWUFx_splhhfJKre0Q_RyY9qt6gANS7UUf49zAZzSR1_4DGlhvT231i-SrwkBF8TcoLP5y/pubhtml)
+### Proceedings: [Mathematical Software - ICMS 2018](https://link.springer.com/book/10.1007/978-3-319-96418-8)
+
+### [Program - GoogleDocs](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSULRiO4YWUFx_splhhfJKre0Q_RyY9qt6gANS7UUf49zAZzSR1_4DGlhvT231i-SrwkBF8TcoLP5y/pubhtml) and [Program - GitHub PDF](http://icms-conference.org/2018/ICMS2018Schedule.pdf)
 
 ### Accepted [Sessions](/2018/sessions/) (Abstract Submission Deadline: April 14, 2018)
 

@@ -7,7 +7,7 @@ title: "ICMS 2018 - Session 12: Computational Algebraic Geometry"
 ### Organizers
 
 *   [Dan Bates](mailto:bates@math.colostate.edu) (Colorado State University)
-*   [Dani Brake](mailto:brakeda@uwec.edu) (University of Wisconsin Eau Claire)
+*   [Danielle Brake](mailto:brakeda@uwec.edu) (University of Wisconsin Eau Claire)
 
 ### Aim and Scope
 
