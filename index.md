@@ -8,7 +8,13 @@ title: Home
 The “International Congress of Mathematical Software” (ICMS) is a community of researchers
 and practioners centered around “mathematical software” as a scientific activity. ... [more](/about/)
 
+
 ### Upcoming Congress
+
+* [ICMS 2020](/2020/) somehow co-located with [ECM 2020](https://www.8ecm.si/) more
+  details soon.
+
+### Ongoing Congress
 
 * [ICMS 2018 - South Bend (USA)](/2018/) Notre Dame, 24-27 July 2018
 
