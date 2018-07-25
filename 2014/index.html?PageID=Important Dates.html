@@ -1,0 +1,69 @@
+
+
+<html>
+
+<head>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+function getCookie( name ){
+var nameOfCookie = name + "=";
+var x = 0;
+while ( x <= document.cookie.length )
+{
+var y = (x+nameOfCookie.length);
+if ( document.cookie.substring( x, y ) == nameOfCookie ) {
+if ( (endOfCookie=document.cookie.indexOf( ";", y )) == -1 )
+endOfCookie = document.cookie.length;
+return unescape( document.cookie.substring( y, endOfCookie ) );
+}
+x = document.cookie.indexOf( " ", x ) + 1;
+if ( x == 0 )
+break;
+}
+return "";
+}
+
+// 팝업창에서 만들어진 쿠키 Notice 의 값이 done 이 아니면
+// (즉, 체크하지 않으면,) 
+// 공지창 (new.htm) 을 띄웁니다
+
+//if ( getCookie( "Notice" ) != "done" ) {
+//noticeWindow = window.open('new.htm','notice','left=0, top=0, width=500,height=150');
+//noticeWindow.opener = self;
+//}
+
+// -->
+</SCRIPT>
+
+
+
+
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>ICMS 2014 - The 4th International Congress on Mathematical Software</title>
+<base target="MainFrame"></head>
+
+
+
+<frameset rows="120, *" border=0">
+    
+    
+    <frame src="Header.htm" name="HeaderFrame" namo_target_frame="HeaderFrame" marginwidth="0" marginheight="0" noresize scrolling="no">    
+
+<frameset cols="220, 1*" border="0">
+    <frame src="Menu.htm" name="MenuFrame" namo_target_frame="MenuFrame" marginwidth="0" marginheight="0" noresize scrolling="auto">
+    <frame src="Important&#32;Dates.htm" name="MainFrame" namo_target_frame="MainFrame" noresize scrolling="auto" marginwidth="0" marginheight="0">
+    <!-- <frame src="Important Dates.htm" name="MainFrame" namo_target_frame="MainFrame" noresize scrolling="auto" marginwidth="0" marginheight="0"> -->
+    <noframes>
+    <body bgcolor="white" text="black" link="blue" vlink="purple" alink="red">
+    <p>이 페이지를 보려면, 프레임을 볼 수 있는 브라우저가 필요합니다.</p>
+    </body>
+    </noframes>
+</frameset>
+
+
+</frameset>
+
+</html>
