@@ -1,10 +1,7 @@
 ---
-layout: default2018
-title: "ICMS 2018 - Notre Dame"
+layout: congress
+title: "ICMS 2018 - Sessions"
 ---
-
-# International Congress on Mathematical Software - ICMS 2018
-## Notre Dame, 24-27 July 2018
 
 The congress is organized in sessions, addressing different aspects of mathematical
 software. There will be also demos, tutorials and posters. If you would like to give a
