@@ -23,10 +23,7 @@ author:
   email:               kohlhase@kwarc.info
 
 repository:          icms-conference/icms-conference.github.io
-
-#collections:
-#  activities:
-#    output: true
+upcoming:          '2018'
 
 # Custom vars
 version:             0.2.0
