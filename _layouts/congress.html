@@ -5,9 +5,9 @@
   <body class="theme-base-odk">
     {% assign year = page.url | replace: '/', '' %}
     {% if year == site.upcoming %}
-       {% include sidebar-upcoming.html %}
+       {% include sidebar-upcoming.html year=year %}
     {% else %}
-       {% include sidebar-conference.html %}
+       {% include sidebar-conference.html year=year %}
     {% endif %}
 
      <div class="content container">
