@@ -1,8 +1,5 @@
 # Repository holding the sources of the icms-conference.org website (aka icms-conference.github.io)
 
-This is patterned after the [OpenDreamKit site](http://opendreamkit.org), also see the
-readme there. 
-
 ## About
 
 This website is hosted as a [github page](https://pages.github.com/).
