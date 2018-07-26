@@ -1,5 +1,5 @@
 ---
-layout: default2018
+layout: default
 title: ICMS 2020 - Notre Dame
 ---
 
