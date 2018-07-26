@@ -59,7 +59,7 @@ Specific topics include, but are not restricted to, the following:
 
 * *Investigating Chvatal's conjecture using exact SCIP and VIPR.*
 
-  Leon Eiffler, Zuse Intitute Berlin
+  Leon Eifler, Zuse Intitute Berlin
 
   Chvatal's conjecture in extremal combinatorics states a property of decreasing families over a finite ground set. The claim is that among the maximal sized intersecting subfamilies, there always exists a star.  We formulate a MIP that is equivalent to the correctness of the conjecture in the sense that the MIP is infeasible if and only if the conjecture holds. Floating point MIP solvers are unfit to solve such a problem, as the use of tolerances and inexact data cannot result in a certain proof. To overcome this problem, the exact variant of the solver SCIP uses a combination of exact rational arithmetic and safe dual bounding methods for floating point arithmetic. However, the possibility of algorithmic or programming errors remains. To increase confidence in the correctness of computational proofs, we use text-based certificates that are automatically generated during the solving process. The VIPR certificate format presents a possibility to verify results of branch-and-cut solvers externally, using simple inference rules that can be checked independently of the solver.
 
