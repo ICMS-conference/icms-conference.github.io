@@ -1,0 +1,44 @@
+﻿body{
+	font-family: Verdana, Geneva, Arial, sans-serif;
+		
+}
+
+p{
+	font-size:10pt;
+	line-height: 1.5;	
+}
+
+li{
+	font-size: 10pt;	
+	
+}
+
+
+h2{
+	font-size: 13pt;	
+}
+
+
+p.headRight{
+	font-size: 10pt;	
+	line-height: 2.0;	
+}
+
+
+a.ICMLink:link{
+	color: white;
+}
+
+a.ICMLink:visited{
+	color: white;
+}
+
+
+p.absref{
+	font-size:8pt;
+	line-height: 1.0;	
+}
+
+img{
+	border-style: none;
+}

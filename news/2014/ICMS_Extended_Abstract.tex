@@ -1,0 +1,105 @@
+%==================================================
+% ICMS LaTeX Template
+%==================================================
+
+%===== DO NOT MODIFY ==============================
+\documentclass[runningheads,a4paper]{llncs}
+\usepackage{amssymb}
+\setcounter{tocdepth}{3}
+\usepackage{graphicx}
+\usepackage{url}
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+\begin{document}
+
+\mainmatter
+%================================================
+
+
+%==== FILL IN ====================================
+\title{Title}  % Full title
+\titlerunning{Short title} % Shor ttitle
+\author{GivenName FamilyName\inst{1} \and  GivenName FamilyName\inst{2}}
+\authorrunning{FamilyName-FamilyName}
+\institute{
+Affiliation, Country\\
+\email{email},\\ 
+\texttt{url}
+\and
+Affiliation, Country\\
+\email{email},\\ 
+\texttt{url}
+}
+\maketitle
+
+\begin{abstract}
+This should be a short summary of the contents of the main body.  
+\begin{itemize}
+\item It must be self-contained (without any external references, etc)
+\item It must be in plain text (without using any mathematical symbols, etc).
+\end{itemize}
+\keywords{........}
+\end{abstract}
+
+%--- Remove this after reading it.
+\framebox{
+\begin{minipage}{5in}
+The main body should describe challenge, achievements and progress in
+mathematical software research, addressing issues such as
+functionality, underlying theories, design, development and applications. 
+\begin{itemize}
+ \item The whole paper (including the title page and the references) must be
+       \begin{itemize}
+       \item[] {\bf at least 4 pages} 
+       \item[] {\bf at most 8 pages}.
+       \end{itemize}
+ \item For a new software, some comparison with  existing software (if exists) will be appropriate. 
+ \item Carefully divide the main body into several meaningful sections. \\
+       For example, you could have sections such as the following. \\
+       They are {\bf \em not} required.  These are only given as an illustration.
+\end{itemize}
+\end{minipage}
+}
+
+%------------------------------------------------------------
+\section{Introduction}
+
+%------------------------------------------------------------
+\section{Functionality??}
+\begin{itemize}
+\item Describe the functionality of the software.
+\item Address  wide audience (not just experts on the particular area).
+\item Use carefully chosen  simple(toy) examples, screen shots, etc.
+\end{itemize}
+  
+%------------------------------------------------------------
+\section{Application??}
+\begin{itemize}
+\item Show important/non-trivial applications of the software.
+\item Address wide audience (not just experts on the particular area).
+\item Use carefully chosen  non-trivial  examples, screen shots, etc.
+\end{itemize}
+
+%------------------------------------------------------------
+\section{Underlying theory??}
+\begin{itemize}
+\item Explain briefly/informally the main theories/algorithms underlying the software.
+\item Address wide audience (not just experts on the particular area).
+\item If helps, use carefully chosen  simple  examples, diagrams, etc.
+\end{itemize}
+
+%------------------------------------------------------------
+\section{Technical contribution??}
+\begin{itemize}
+\item Discuss main technical challenges that had to be overcome, 
+      while developing the software.
+\item Address experts on the particular area.
+\item If helps, use carefully chosen  simple  examples, diagrams, etc.
+\end{itemize}
+
+
+%------------------------------------------------------------
+\begin{thebibliography}{4}
+\bibitem{...} .... 
+\end{thebibliography}
+\end{document}
