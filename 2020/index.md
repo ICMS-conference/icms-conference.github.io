@@ -1,32 +1,20 @@
 ---
-layout: default
-title: ICMS 2020 - Notre Dame
+layout: congress
+title: "ICMS 2020 - Notre Dame, ????, ??-??. ?? 2020"
 ---
-
-# International Congress on Mathematical Software - ICMS 2020
-## ????, ??-??. ?? 2020
-
-**General Chair**: [Michael Joswig](http://page.math.tu-berlin.de/~joswig/)
-
-**Program Chairs**: 
-tba
-
-**Local Chairs**: tba
+### Organization
+* **General Chair**: [Michael Joswig](http://page.math.tu-berlin.de/~joswig/)
+* **Program Chairs**: tba
+* **Local Chairs**: tba
 
 ### Proceedings: tba
-
-
-### Accepted [Sessions](/2020/sessions/) (Abstract Submission Deadline: ??. ?? 2020)
+### [Sessions](/2020/sessions/) (Abstract Submission Deadline: ??. ?? 2020)
 
 ## Local Information
-
-## News ([older news](/news/))
-
-{% for post in site.posts %}
-    {% if forloop.index < 8 %}
-        {% include post_link.html %}
-    {% endif %}
-{% endfor %}
-
+<!-- * [Registration Website](https://notredame.ungerboeck.com/prod/emc00/register.aspx?OrgCode=10&EvtID=18783&AppCode=REG&CC=118040603651) (Early Registration Ends: June 21, 2018)
+* -->
+<!-- [Apply for a Travel Grant/Free Conference Registration](https://bertini.nd.edu/ICMS2018/travelGrants.html) (Deadline: May 15, 2018)
+-->
+* Invitation letters can be requested from the Local Chairs
 
 <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
