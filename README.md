@@ -23,8 +23,7 @@ This is a
 automatically generated with [Jekyll](http://jekyllrb.com/) by
 [GitHub Pages](http://pages.github.com/).
 
-These instructions are for OpenMath members who wish to do more than the occasional
-editing.
+These instructions are for ICMS members who wish to do more than the occasional editing.
 
 ### Editing pages online with GitHub
 
