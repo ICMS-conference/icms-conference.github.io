@@ -1,0 +1,14 @@
+<div class="sidebar">
+  <div class="container">
+    {% include sidebar-about.html %}
+    <nav class="sidebar-nav">
+      {% include sidebar-nav-item.html url="/"            title="ICMS Home" %} <hr/>
+      {% include sidebar-nav-item.html url="/2018/committees/"     title="Committees" %}  <br/>
+      {% include sidebar-nav-item.html url="/2018/invited-speakers/"     title="Invited Speakers" %}  <br/>
+      {% include sidebar-nav-item.html url="/2018/sessions/"     title="Sessions" %} <hr/> 
+    {% include sidebar-edit.html %}<br/>
+    {% include sidebar-nav-item.html url="/follow/"     title="Contact" %},
+    {% include sidebar-feeds.html %}
+  </nav>
+  </div>
+</div>

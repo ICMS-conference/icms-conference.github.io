@@ -55,5 +55,3 @@ title: ICMS 2018 - Important Dates
                 <td><b>July  24 - 27, 2018</b></td>
             </tr>                               
            </table>
-
-<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

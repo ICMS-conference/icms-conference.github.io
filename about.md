@@ -10,5 +10,3 @@ Mathematics has a wide variety of branches, from Algebra to Analysis, from Geome
 Mathematics also has increasing overlap with many mathematical disciplines such as Computer Science and the emerging area of Computational Sciences and Engineering. A key factor in this convergence of mathematical disciplines is the idea of computation, as manifested in the form of mathematical software in such disciplines.
 
 We in the International Conference of Mathematical Software believe that the appearance of mathematical software is one of the most important new development in mathematics, and this phenomena should be studied as a coherent whole. We hope this conference can serve as the main forum for mathematicians, scientists and programmers who are interested in development of mathematical software. 
-
-<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

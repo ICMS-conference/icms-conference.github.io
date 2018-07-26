@@ -51,6 +51,3 @@ title: ICMS 2018 - Submission Guidelines
     *   Some sessions will organize journal special issues immediately after the meeting.
     *   The details will be communicated to you by the session organizers.
 
-
-<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
-

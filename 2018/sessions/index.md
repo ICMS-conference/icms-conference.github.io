@@ -40,5 +40,3 @@ Notes in Computer Science series.  See the [guidelines](/2018/submission-guideli
 19. Formal and Informal Mathematical Corpora ([details](session19/))
 20. Software for Mathematical Reasoning and Applications  ([details](session20/))
 
-
-<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

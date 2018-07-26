@@ -32,5 +32,3 @@ and practioners centered around “mathematical software” as a scientific acti
 	{% include post_link.html %}
     {% endif %}
 {% endfor %}
-
-<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

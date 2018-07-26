@@ -24,4 +24,3 @@ Notes in Computer Science series.  See the [guidelines](/2020/submission-guideli
 
 tba
 
-<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

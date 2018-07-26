@@ -1,6 +1,7 @@
 ---
 layout: congress
-title: "ICMS 2020 - Notre Dame, ????, ??-??. ?? 2020"
+title: "ICMS 2020 - Notre Dame, ????, ??-??. ??"
+news: 2020
 ---
 ### Organization
 * **General Chair**: [Michael Joswig](http://page.math.tu-berlin.de/~joswig/)
@@ -17,4 +18,3 @@ title: "ICMS 2020 - Notre Dame, ????, ??-??. ?? 2020"
 -->
 * Invitation letters can be requested from the Local Chairs
 
-<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

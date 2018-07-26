@@ -139,5 +139,3 @@ This format is meant only as a rough frame; the organization of a session can be
     *   kernel design
     *   ...
 
-
-<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

@@ -26,5 +26,3 @@ given below. At this time we solicit contributions to the poster session.
 *    We will try to decide about each submission within
     a few days.
 
-
-<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

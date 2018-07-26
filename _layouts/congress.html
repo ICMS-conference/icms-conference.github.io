@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   {% include head.html %}
 
   <body class="theme-base-odk">
-    {% include sidebar2018.html %}
+    {% assign year = page.url | replace: '/', '' %}
+    {% if year == site.upcoming %}
+       {% include sidebar-upcoming.html %}
+    {% else %}
+       {% include sidebar-conference.html %}
+    {% endif %}
 
      <div class="content container">
        <h1>{{page.title}}</h1>
-       
-       {% if page.upcoming %}
-          <h2>ICMS {{site.upcoming}} News</h2>
-          {% assign orgaposts = site.posts | where: "orga", site.upcoming %}
+       {% if page.news %}
+         <h2>ICMS {{page.news}} News</h2>
+          {% assign orgaposts = site.posts | where: "orga", page.news %}
           {% for post in orgaposts limit:8%}{% include post_link.html %}{% endfor %}
        {% endif %}
 
   {{ content }}
 </div>
-
+<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
 </body>
 <!--
      Built: {{ site.time }}
