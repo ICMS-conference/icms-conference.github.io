@@ -1,9 +1,8 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 12: Computational Algebraic Geometry"
+webpage: http://www.math.colostate.edu/~bates/ICMS18_session12.html
 ---
-## Session12. Computational Algebraic Geometry ([Web page](http://www.math.colostate.edu/~bates/ICMS18_session12.html))
-
 ### Organizers
 
 *   [Dan Bates](mailto:bates@math.colostate.edu) (Colorado State University)

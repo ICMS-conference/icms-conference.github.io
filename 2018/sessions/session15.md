@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 15: Management of Mathematical Software, Mathematical Knowledge and Research Data"
 ---
-## Session 15. Management of Mathematical Software, Mathematical Knowledge and Research Data
-
 ### Organizers
 
 *   [Wolfram Sperber](mailto:wolfram@zbmath.org) (zbMATH)

@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 14: Towards Composable Mathematical Software"
 ---
-## Session14. Towards Composable Mathematical Software
-
 ### Organizers
 
 *   [Markus Pfeiffer](mailto:markus.pfeiffer@st-andrews.ac.uk) (School of Computer Science, St Andrews, UK)

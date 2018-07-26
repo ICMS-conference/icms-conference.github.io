@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 9: Satisfiability Checking and Symbolic Computation"
 ---
-## Session 9. Satisfiability Checking and Symbolic Computation
-
 ### Organizers
 
 *   [Erika Abraham](mailto:abraham@informatik.rwth-aachen.de) (RWTH Aachen, Germany)

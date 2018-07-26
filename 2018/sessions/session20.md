@@ -1,9 +1,8 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 20: Software for Mathematical Reasoning and Applications"
+webpage: http://www.risc.jku.at/conferences/icms2018/ 
 ---
-## Session 20. Software for Mathematical Reasoning and Applications ([Web Page](http://www.risc.jku.at/conferences/icms2018/))
-
 ### Organizers
 
 *   [Bruno Buchberger](mailto:Bruno.Buchberger@risc.uni-linz.ac.at) (Johannes Kepler University, Linz, Austria)

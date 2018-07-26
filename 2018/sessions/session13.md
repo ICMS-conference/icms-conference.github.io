@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 13: Symbolic Combinatorics"
 ---
-## Session13. Symbolic Combinatorics 
-
 ### Organizers
 
 *   [Stephen Melczer](mailto:smelczer@sas.upenn.edu) (University of Pennsylvania)

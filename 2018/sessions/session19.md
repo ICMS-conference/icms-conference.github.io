@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 19: Formal and Informal Mathematical Corpora"
 ---
-## Session 19. Formal and Informal Mathematical Corpora
-
 ### Organizers
 
 *   [Yihe Dong](mailto:yihed@wolfram.com) (Wolfram Research, Champaign, IL, USA)

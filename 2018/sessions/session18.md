@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 18: Quantifier Reasoning"
 ---
-## Session 18. Quantifier Reasoning
-
 ### Organizers
 
 *   [Mikolas Janota](mailto:mikolas.janota@gmail.com) (IST, Universidade de Lisboa, Portugal)

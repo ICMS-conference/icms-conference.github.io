@@ -1,12 +1,8 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session1: General Session"
 ---
-## Session1. General Session
-
 ### Organizers
-
-
    * [James H. Davenport](http://people.bath.ac.uk/masjhd/)<br/>
    * [Manual Kauers](http://www.kauers.de/)<br/>
    * [George Labahn](https://cs.uwaterloo.ca/~glabahn/)<br/>

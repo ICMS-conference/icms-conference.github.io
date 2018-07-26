@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 11: Backtrack search techniques in groups and combinatorics"
 ---
-## Session11. Backtrack search techniques in groups and combinatorics
-
 ### Organizers
 
 *   [Markus Pfeiffer](mailto:markus.pfeiffer@st-andrews.ac.uk) (School of Computer Science, St Andrews, UK)

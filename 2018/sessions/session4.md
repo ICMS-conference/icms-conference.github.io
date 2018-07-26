@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 4: Polyhedral methods in geometry and optimization"
 ---
-## Session 4. Polyhedral methods in geometry and optimization
-
 ### Organizers
 
 *   [Michael Joswig](mailto:joswig@math.tu-berlin.de) (Institut für Mathematik der Technischen Universität Berlin)

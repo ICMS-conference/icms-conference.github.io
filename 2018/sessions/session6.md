@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 6: Post-Quantum Group-based Cryptography"
 ---
-## Session 6. Post-Quantum Group-based Cryptography
-
 ### Organizers
 
 *   [Delaram Kahrobaei](mailto:DKahrobaei@gc.cuny.edu) (CUNY Graduate Center, NY, USA)

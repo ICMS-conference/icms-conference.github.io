@@ -1,8 +1,8 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 3: Symbolic Summation and Integration"
+webpage: http://koutschan.de/conf/ICMS18/ 
 ---
-## Session 3. Symbolic Summation and Integration ([Web Page](http://koutschan.de/conf/ICMS18/))
 
 ### Organizers
 

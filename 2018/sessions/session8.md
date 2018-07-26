@@ -1,9 +1,7 @@
 ---
-layout: default2018
+layout: session
 title: "ICMS 2018 - Session 8: Machine Learning for Mathematical Software"
 ---
-## Session 8. Machine Learning for Mathematical Software
-
 ### Organizers
 
 *   [Matthew England](mailto:Matthew.England@coventry.ac.uk) (Coventry University, U.K.)
