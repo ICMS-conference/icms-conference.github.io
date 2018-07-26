@@ -8,10 +8,23 @@ In short, is built statically from Markdown source files using
 corresponding source and push. This can be done online by clicking on
 "Edit this page" in the side bar. See the above links for details.
 
-- _config.yml: main configuration page
-- _layouts/*: local style files
-- _includes/*: reusable chunks of web pages, like the side bar
-- public/*: Jekyll style files (almost vanilla), logos, ...
+- `_config.yml`: main configuration page
+- `_layouts/*`: local style files
+- `_includes/*`: reusable chunks of web pages, like the side bar
+- `public/*`: Jekyll style files (almost vanilla), logos, ...
+
+There are four general layout styles for pages (which are specified by the `layout: ` in
+the metadata section at the top of the respective markdown file:
+
+* `default`: the default layout for pages 
+* `congress`:  the layout of the pages of a particular congress. If the congress is
+upcoming (as specified in the `upcoming` variable in `_config.yml`), this layout will include
+`sidebar-upcoming.html` else `sidebar-congress.html`. The former can change with the
+organization; the latter only contains the things that are needed for archiving.
+* `session`:  the layout of the session pages of a particular congress 
+* `post`: news post; see `_posts` use the `orga: ` key to make them congress-specific.
+
+Their layouts are specified by equally-named files in `_layouts`.
 
 ## How to use Jekyll to test/build this website
 
