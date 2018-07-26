@@ -11,13 +11,15 @@ We actively solicit input from the community; please send a note to Advisory Boa
 
 The advisory board consists of the organizers of the past two ICMS.
 
- * [Chee Yap](mailto:yap@cs.nyu.edu), NY University (chair).
- * [Hoon Hong](mailto:hong@ncsu.edu), NC State University.
- * [Deok-Soo Kim](mailto:dskim@hanyang.ac.kr), Hanyang University.
- * [Gert-Martin Greuel](mailto:greuel@mathematik.uni-kl.de), Kaiserslautern University.
- * [Peter Paule](mailto:Peter.Paule@risc.uni-linz.ac.at), RISC Linz.
- * [Andrew Sommese](mailto:sommese@nd.edu), Notre Dame University.
- * [Thorsten Koch](mailto:koch@zib.de), TU Berlin.
+ * [James Davenport](http://people.bath.ac.uk/masjhd/) (chair), University of Bath (general chair  2018)
+ * [Manuel Kauers](http://www.kauers.de/), University Linz (program chair 2018)
+ * [George Labahn](https://cs.uwaterloo.ca/~glabahn/), University of Waterloo (program chair 2018)
+ * [Josef Urban](https://www.ciirc.cvut.cz/~urbanjo3/), Prague (program chair 2018)
+ * [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/), Notre Dame University (local chair 2018)
+ * [Peter Paule](mailto:Peter.Paule@risc.uni-linz.ac.at), RISC Linz (program chair 2016)
+ * [Andrew Sommese](mailto:sommese@nd.edu), Notre Dame University. (program chair 2016,
+   local chair 2018)
+ * [Thorsten Koch](mailto:koch@zib.de), TU Berlin. (local chair 2016)
 
 ### Officers
 
@@ -25,3 +27,9 @@ The advisory board consists of the organizers of the past two ICMS.
  * [Michael Kohlhase](mailto:michael.kohlhase@fau.de), FAU Erlangen-Nürnberg. (Web Officer) 
 
 
+### Former Advisory Board Members
+
+ * [Chee Yap](mailto:yap@cs.nyu.edu), NY University (chair; general chair 2014).
+ * [Hoon Hong](mailto:hong@ncsu.edu), NC State University (program chair 2014).
+ * [Deok-Soo Kim](mailto:dskim@hanyang.ac.kr), Hanyang University (local chair 2014).
+ * ... 
