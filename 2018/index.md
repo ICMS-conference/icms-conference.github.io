@@ -17,9 +17,9 @@ news: 2018
 
 ### [Program - GoogleDocs](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSULRiO4YWUFx_splhhfJKre0Q_RyY9qt6gANS7UUf49zAZzSR1_4DGlhvT231i-SrwkBF8TcoLP5y/pubhtml) and [Program - GitHub PDF](http://icms-conference.org/2018/ICMS2018Schedule.pdf)
 
-### [Sessions](/2018/sessions/) 
+### [Sessions](sessions/) 
 
-## Local Information ([details](https://bertini.nd.edu/ICMS2018/))
+## Local Information ([details](local/))
 * [Registration Website](https://notredame.ungerboeck.com/prod/emc00/register.aspx?OrgCode=10&EvtID=18783&AppCode=REG&CC=118040603651) (Early Registration Ends: June 21, 2018)
-* [Apply for a Travel Grant/Free Conference Registration](https://bertini.nd.edu/ICMS2018/travelGrants.html) (Deadline: May 15, 2018)
+* [Apply for a Travel Grant/Free Conference Registration](local/travelGrants.html) (Deadline: May 15, 2018)
 * Invitation letters can be requested from the Local Chairs
