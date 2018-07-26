@@ -1,10 +1,7 @@
 ---
-layout: default2018
+layout: congress
 title: ICMS 2018 - Submission Guidelines
 ---
-
-ICMS 2018 Submission Guidelines
-============================
 
 
 *   Choose a session for your submission.

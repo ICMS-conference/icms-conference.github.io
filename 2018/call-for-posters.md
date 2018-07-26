@@ -1,12 +1,7 @@
 ---
-layout: default2018
+layout: congress
 title: ICMS 2018 - Call for Posters
 ---
-
-ICMS 2018 Call for Posters
-============================
-
-
 
 The _6th International Congress on Mathematical Software_ will be held from July
 24 to July 27, 2018 at the University of Notre Dame. The General Chair is James

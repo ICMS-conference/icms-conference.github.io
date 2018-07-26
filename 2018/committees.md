@@ -1,10 +1,7 @@
 ---
-layout: default2018
-title: ICMS 2018 - Notre Dame
+layout: congress
+title: ICMS 2018 - Committees
 ---
-
-# International Congress on Mathematical Software - ICMS 2018
-## Notre Dame, 24-27 July 2018
 
 **Executive Committee**
 

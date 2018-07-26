@@ -1,12 +1,7 @@
 ---
-layout: default2018
-title: ICMS 2018 - Notre Dame
+layout: congress
+title: ICMS 2018 - Important Dates
 ---
-
-# International Congress on Mathematical Software - ICMS 2018
-## Notre Dame, 24-27 July 2018
-
-**Imortant Dates**
 
 <table>
 <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
