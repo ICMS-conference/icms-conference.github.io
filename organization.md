@@ -5,7 +5,7 @@ title: ICMS - Organizational Structure
 
 The organizational of the ICMS is given in the [bylaws](/bylaws/). The main governing body is the advisory board, it is supported by a secretary and a Web officer. All other offices are related to a particular congress.
 
-We actively solicit input from the community; please send a note to Advisory Board chair, [yap@cs.nyu.edu](mailto:yap@cs.nyu.edu).
+We actively solicit input from the community; please send a note to Advisory Board chair, [J.H.Davenport@bath.ac.uk](mailto:J.H.Davenport@bath.ac.uk).
 
 ### Advisory Board
 
@@ -33,3 +33,4 @@ The advisory board consists of the organizers of the past two ICMS.
  * [Hoon Hong](mailto:hong@ncsu.edu), NC State University (program chair 2014).
  * [Deok-Soo Kim](mailto:dskim@hanyang.ac.kr), Hanyang University (local chair 2014).
  * ... 
+
