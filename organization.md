@@ -34,3 +34,8 @@ The advisory board consists of the organizers of the past two ICMS.
  * [Deok-Soo Kim](mailto:dskim@hanyang.ac.kr), Hanyang University (local chair 2014).
  * ... 
 
+### Minutes
+ * [ICMS 2018](Minutes/Minutes_ICMS_2018.pdf)
+ * [ICMS 2016](Minutes/Minutes_ICMS_2016.pdf)
+ * [ICMS 2014](Minutes/Minutes_ICMS_2014.pdf)
+ 
