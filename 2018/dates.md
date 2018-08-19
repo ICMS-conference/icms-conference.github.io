@@ -54,4 +54,9 @@ title: ICMS 2018 - Important Dates
             	<td>&nbsp;&nbsp;</td>
                 <td><b>July  24 - 27, 2018</b></td>
             </tr>                               
+<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            	<td>Closing date for MiCS Special Issue<td>
+            	<td>&nbsp;&nbsp;</td>
+                <td><b>31 October, 2018</b></td>
+				</tr>
            </table>
