@@ -8,6 +8,10 @@ title: Home
 The “International Congress of Mathematical Software” (ICMS) is a community of researchers
 and practioners centered around “mathematical software” as a scientific activity. ... [more](/about/)
 
+### ICMS Publications
+
+ICMS conferences from 2006 have published with Springer: see [Conference proceedings list](https://link.springer.com/conference/icms).
+
 
 ### Upcoming Congress
 
