@@ -10,17 +10,15 @@ and practioners centered around “mathematical software” as a scientific acti
 
 ### ICMS Publications
 
-ICMS conferences from 2006 have published with Springer: see [Conference proceedings list](https://link.springer.com/conference/icms).
-
+ICMS conferences since 2006 have published with Springer: see [Conference proceedings list](https://link.springer.com/conference/icms).
 
 ### Upcoming Congress
 
-* [ICMS 2020](/2020/) somehow co-located with [ECM 2020](https://www.8ecm.si/) more
-  details soon.
+* [ICMS 2020](/2020/) - Braunschweig, 13-17 July 2020.
 
 ### Most recent Congress
 
-* [ICMS 2018 - South Bend (USA)](/2018/) Notre Dame, 24-27 July 2018
+* [ICMS 2018 - South Bend (USA)](/2018/) Notre Dame, 24-27 July 2018 
 
 ### Past Meetings
 * [ICMS 2016 - Berlin (Germany)](http://icms2016.zib.de/) ([local copy](/2016/))

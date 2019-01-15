@@ -1,12 +1,16 @@
 ---
 layout: congress
-title: "ICMS 2020 - Somewhere, ????, ??-??. ??"
+title: "ICMS 2020 - Braunschweig, 13-17 July 2020.
 news: 2020
 ---
 ### Organization
 * **General Chair**: [Michael Joswig](http://page.math.tu-berlin.de/~joswig/)
-* **Program Chairs**: tba
-* **Local Chairs**: tba
+* **Program Chairs**:
+* [Anna Bigatti](http://www.dima.unige.it/~bigatti/),  Universita di Genova, Italy
+* [Folkmar Bornemann](http://www-m3.ma.tum.de/Allgemeines/FolkmarBornemann), TU München, Germany
+* [Jacques Carette](https://www.cas.mcmaster.ca/~carette/} McMaster University, Canada
+* **Local Chair**: [Timo de Wolff](http://page.math.tu-berlin.de/~dewolff/),   Universität
+  Braunschweig (soon)
 
 ### Proceedings: tba
 ### [Sessions](/2020/sessions/) (Abstract Submission Deadline: ??. ?? 2020)
