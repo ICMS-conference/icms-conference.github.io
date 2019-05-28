@@ -1,6 +1,6 @@
 ---
 layout: congress
-title: "ICMS 2020 - Braunschweig, 13-17 July 2020.
+title: "ICMS 2020 - Braunschweig, 13-16 July 2020.
 news: 2020
 ---
 ### Organization
