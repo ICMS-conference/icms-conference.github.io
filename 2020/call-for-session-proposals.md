@@ -27,30 +27,38 @@ For inspiration, have a look at the sessions of past ICMS:
 
 2.  Submit it
 
-    *   to one of the program chairs: 
-    *   or to the General Chair 
-    *   at latest by **TBA**.
+    *   to one of the program chairs:
+    [Anna Bigatti](http://www.dima.unige.it/~bigatti/),  
+    [Folkmar Bornemann](http://www-m3.ma.tum.de/Allgemeines/FolkmarBornemann), 
+    [Jacques Carette](https://www.cas.mcmaster.ca/~carette/)
+    *   or to the General Chair:
+    [Michael Joswig](http://page.math.tu-berlin.de/~joswig/)
+    *   at latest by 02 December 2019.
 
 3.  The decision on the proposal will be made
 
     *   by the program chair, the general chair and the advisory committee
-    *   within **TBA**
+    *   until 16 December 2019
 
 **How to organize a session**
 
-*   Maintain a session web page (see template in [html-format](/2018/icms_session_2018) or [markdown-format](icms_session_2018.txt)).
-*   Send a call for abstracts to the potential speakers in the topic area of the session (see template in [tex-format](/2018/ICMS_Extended_Abstract_2018.txt) or in [pdf-format](ICMS_Extended_Abstract_2018.pdf)).
+*   Maintain a session web page (see template in [html-format](/2020/icms_session_2020) or [markdown-format](icms_session_2020.txt)).
+*   Send a call for short abstracts (about 200 words) to the potential speakers in the topic area of the session.
 *   Review the submitted abstracts and make decision on their acceptance, as soon as each one arrives.
-*   Complete the process by **TBA**.
+*   Post accepted short abstracts on the session web page.  
+*   Complete the process by 24 February 2020
 *   During the meeting, chair the session.
+
+Extended abstracts for the proceedings may be submitted via EasyChair (until 16 March 2020; details TBA) by those who were accepted as speakers in any session.
 
 **Format of a session**
 
 *   A session will consist of one or more time slots.
-*   A time slot will consist of about 3 - 4 talks.
+*   A time slot will consist of 2 talks (of 25+5 minutes)
 *   We encourage that each session begins with one general overview talk (may be given by a session organizer).
 
-This format is meant only as a rough frame; the organization of a session can be done in a quite free fashion (e.g., concerning the duration of the individual contributions). "Talks" may also include software presentations and demos.
+"Talks" may also include software presentations.
+Demos aiming at a wide audience should submitted to the Software Fair.
 
 **Possible topics for sessions**  
 
@@ -137,4 +145,3 @@ This format is meant only as a rough frame; the organization of a session can be
     *   programming language
     *   kernel design
     *   ...
-
