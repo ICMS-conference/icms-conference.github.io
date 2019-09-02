@@ -47,9 +47,10 @@ For inspiration, have a look at the sessions of past ICMS:
 *   Review the submitted abstracts and make decision on their acceptance, as soon as each one arrives.
 *   Post accepted short abstracts on the session web page.  
 *   Complete the process by 24 February 2020
-*   During the meeting, chair the session.
+*   During the meeting: manage the session, and arrange for chair(s) for each time slot.
 
 Extended abstracts for the proceedings may be submitted via EasyChair (until 16 March 2020; details TBA) by those who were accepted as speakers in any session.
+Session organisers can have papers themselves (acceptance agreed by an appropriate programme chair).
 
 **Format of a session**
 
