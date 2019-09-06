@@ -18,8 +18,9 @@ ICMS 2020 - Braunschweig, 13-16 July 2020
 * [Alan Edelman](https://math.mit.edu/~edelman/classic.htm), MIT, U.S.A.
 * [Victor Shoup](https://www.shoup.net/), Courant Institute, U.S.A.
 
+### [Call for Sessions](call-for-session-proposals)
+### [Dates](dates)
 ### Proceedings: tba (probably Springer LNCS as in the years before)
-### [Sessions](/2020/sessions/) (Abstract Submission Deadline: ??. ?? 2020)
 
 ## Local Information
 <!-- [Registration Website](https://notredame.ungerboeck.com/prod/emc00/register.aspx?OrgCode=10&EvtID=18783&AppCode=REG&CC=118040603651) (Early Registration Ends: June 21, 2018)
