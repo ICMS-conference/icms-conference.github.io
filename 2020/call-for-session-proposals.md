@@ -42,7 +42,7 @@ For inspiration, have a look at the sessions of past ICMS:
 
 **How to organize a session**
 
-*   Maintain a session web page (see template in [html-format](/2020/icms_session_2020) or [markdown-format](icms_session_2020.txt)).
+*   Maintain a session web page (see template in [html-format](/2020/icms_session_2020) or [markdown-format](/2020/icms_session_2020.txt)).
 *   Send a call for short abstracts (about 200 words) to the potential speakers in the topic area of the session.
 *   Review the submitted abstracts and make decision on their acceptance, as soon as each one arrives.
 *   Post accepted short abstracts on the session web page.  
