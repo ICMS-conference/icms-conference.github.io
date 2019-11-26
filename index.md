@@ -14,7 +14,7 @@ ICMS conferences since 2006 have published with Springer: see [Conference procee
 
 ### Upcoming Congress
 
-* [ICMS 2020](/2020/) - Braunschweig, 13-17 July 2020.
+* [ICMS 2020](/2020/) - Braunschweig, 13-17 July 2020. [local website](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
 
 ### Most recent Congress
 
