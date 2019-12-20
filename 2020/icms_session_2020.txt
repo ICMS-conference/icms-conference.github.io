@@ -20,8 +20,7 @@ This session is for facilitating the communication among the researchers and the
 
 *   A _short abstract_ will appear on the permanent conference web page (see below) as soon as accepted.  
 
-*   An _extended abstract_ will appear on the permanent conference web page (see below) as soon as accepted.  
-    It will also appear on the proceedings that will be distributed during the meeting.  
+*   An _extended abstract_ may be submitted for the conference proceedings that will be distributed during the meeting.
 
 *   A **_journal special issue_ **consisting of _full papers_ will be organized immediately after the meeting.
 
