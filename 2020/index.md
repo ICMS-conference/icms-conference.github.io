@@ -18,14 +18,12 @@ news: 2020
 * [Alan Edelman](https://math.mit.edu/~edelman/classic.htm), MIT, U.S.A.
 * [Victor Shoup](https://www.shoup.net/), Courant Institute, U.S.A.
 
-### [Call for Sessions](call-for-session-proposals)
+### [Call for Sessions](call-for-session-proposals) (closed) 
+### [Sessions](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020_Sessions.html)
 ### [Dates](dates)
 ### Proceedings: tba (probably Springer LNCS as in the years before)
 
 ## Local Information
-<!-- [Registration Website](https://notredame.ungerboeck.com/prod/emc00/register.aspx?OrgCode=10&EvtID=18783&AppCode=REG&CC=118040603651) (Early Registration Ends: June 21, 2018)
- -->
-<!-- [Apply for a Travel Grant/Free Conference Registration](https://bertini.nd.edu/ICMS2018/travelGrants.html) (Deadline: May 15, 2018)
--->
+see the [local website](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
 * Invitation letters can be requested from the Local Chairs
 
