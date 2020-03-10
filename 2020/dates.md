@@ -5,7 +5,7 @@ title: ICMS 2020 - Important Dates
 
 | Session proposal submission | 02 December, 2019 |
 | Session proposal decisions | 16 December, 2019 |
-| Extended abstract submission | 16 March 2020 |
+| Extended abstract submission | 27 March 2020 |
 | PC decision on extended abstracts | 27 April 2020 | 
 | Early registration | TBA |
 | Software Demo Proposal | 30 March, 2020 |
