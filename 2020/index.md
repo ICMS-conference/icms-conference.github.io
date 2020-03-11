@@ -1,6 +1,6 @@
 ---
 layout: congress
-title: "ICMS 2020 - Braunschweig, 13-16 July 2020.
+title: "ICMS 2020 - Braunschweig, 13-16 July 2020"
 news: 2020
 ---
 [ICMS 2020 - Braunschweig, 13-16 July 2020](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
