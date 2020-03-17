@@ -4,11 +4,8 @@
 
   <body class="theme-base-odk">
     {% assign year = page.url | replace: '/', '' %}
-    {% if year == site.upcoming %}
-       {% include sidebar-upcoming.html year=year %}
-    {% else %}
-       {% include sidebar-conference.html year=year %}
-    {% endif %}
+    {% include sidebar-conference.html year=year %}
+
 
      <div class="content container">
        <h1>{{page.title}}</h1>
