@@ -35,6 +35,7 @@ The advisory board consists of the organizers of the past two ICMS.
  * ... 
 
 ### Minutes
+ * [ICMS 2020](Minutes/Minutes_ICMS_2020.pdf)
  * [ICMS 2018](Minutes/Minutes_ICMS_2018.pdf)
  * [ICMS 2016](Minutes/Minutes_ICMS_2016.pdf)
  * [ICMS 2014](Minutes/Minutes_ICMS_2014.pdf)
