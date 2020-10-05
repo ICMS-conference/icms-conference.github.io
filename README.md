@@ -88,7 +88,7 @@ Now you can `cd` into your local clone of the repository and launch
 the compilation by
 
 ~~~
-jekyll serve -w -b''
+Jekyll serve -w -b''
 ~~~
 
 Your site will be generated in a `_site` sub-directory, and served
