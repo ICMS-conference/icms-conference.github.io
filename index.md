@@ -14,7 +14,7 @@ ICMS conferences since 2006 have published with Springer: see [Conference procee
 
 ### Upcoming Congress
 
-* ICMS 2022
+* ICMS 2024
 
 ### Most recent Congress
 
