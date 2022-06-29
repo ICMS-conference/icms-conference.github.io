@@ -5,21 +5,21 @@ title: ICMS - Organizational Structure
 
 The organizational of the ICMS is given in the [bylaws](/bylaws/). The main governing body is the advisory board, it is supported by a secretary and a Web officer. All other offices are related to a particular congress.
 
-We actively solicit input from the community; please send a note to Advisory Board chair, [J.H.Davenport@bath.ac.uk](mailto:J.H.Davenport@bath.ac.uk).
+We actively solicit input from the community; please send a note to Advisory Board chair, [Michael Joswig](https://www.math.tu-berlin.de/~joswig/).
 
 ### Advisory Board
 
 The advisory board consists of the organizers of the past two ICMS.
 
- * Michael Joswig (chair), TU Berlin & MPI-MiS (general chair 2020)
- * Anna Maria Bigatti, Genova (program co-chair 2020)
- * Jacques Carette, McMaster (program co-chair 2020)
+ * [Michael Joswig](https://www.math.tu-berlin.de/~joswig/) (chair), TU Berlin & MPI-MiS (general chair 2020)
+ * [Anna Maria Bigatti](https://www.dima.unige.it/~bigatti/), Genova (program co-chair 2020)
+ * [Jacques Carette](https://www.cas.mcmaster.ca/~carette/), McMaster (program co-chair 2020)
  * [James Davenport](http://people.bath.ac.uk/masjhd/), University of Bath (general chair 2018, program co-chair 2020)
  * [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/), Notre Dame University (local chair 2018)
  * [Manuel Kauers](http://www.kauers.de/), University Linz (program chair 2018)
  * [George Labahn](https://cs.uwaterloo.ca/~glabahn/), University of Waterloo (program co-chair 2018)
  * [Josef Urban](https://www.ciirc.cvut.cz/~urbanjo3/), Prague (program co-chair 2018)
- * Timo de Wolff, TU Braunschweig (local chair 2020)
+ * [Timo de Wolff](http://www.iaa.tu-bs.de/timodewolff/), TU Braunschweig (local chair 2020)
 
 
 ### Officers
