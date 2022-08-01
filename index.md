@@ -14,11 +14,11 @@ ICMS conferences since 2006 have published with Springer: see [Conference procee
 
 ### Upcoming Congress
 
-* ICMS 2024
+* ICMS 2024 - Durham (United Kingdom)
 
 ### Most recent Congress
 
-* [ICMS 2020](/2020/) - Braunschweig, 13-17 July 2020. [local website](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
+* [ICMS 2020](/2020/) - Braunschweig (Germany), 13-17 July 2020. [local website](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
 
 ### Past Meetings
 * [ICMS 2018 - South Bend (USA)](/2018/) Notre Dame, 24-27 July 2018 
