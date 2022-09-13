@@ -12,7 +12,7 @@ title: "ICMS 2020 - Braunschweig, 13-16 July 2020"
   * [Jacques Carette](https://www.cas.mcmaster.ca/~carette/), McMaster University, Canada
 * **Local Chair**: [Timo de Wolff](http://page.math.tu-berlin.de/~dewolff/), TU Braunschweig, Germany
 
-### Invited Speakers (confirmed)
+### Invited Speakers
 * [Erika Ábrahám](https://ths.rwth-aachen.de/people/erika-abraham/), RWTH Aachen, Germany
 * [Alan Edelman](https://math.mit.edu/~edelman/classic.htm), MIT, U.S.A.
 * [Victor Shoup](https://www.shoup.net/), Courant Institute, U.S.A.
