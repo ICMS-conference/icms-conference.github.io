@@ -4,8 +4,6 @@ title: "ICMS 2020 - Braunschweig, 13-16 July 2020"
 ---
 [ICMS 2020 - Braunschweig, 13-16 July 2020](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
 
-* [recorded presentations at TIB AV portal](https://av.tib.eu/series/880/international+congress+on+mathematical+software+icms+2020)
-
 ### Organization
 * **General Chair**: [Michael Joswig](http://page.math.tu-berlin.de/~joswig/), TU Berlin, Germany
 * **Program Chairs**:
@@ -22,7 +20,8 @@ title: "ICMS 2020 - Braunschweig, 13-16 July 2020"
 ### [Call for Sessions](call-for-session-proposals) (closed) 
 ### [Sessions](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020_Sessions.html)
 ### [Dates](dates)
-### Proceedings: tba (probably Springer LNCS as in the years before)
+### [Proceedings](https://link.springer.com/book/10.1007/978-3-030-52200-1)
+### [Recorded Presentations](https://av.tib.eu/series/880/international+congress+on+mathematical+software+icms+2020)
 
 ## Local Information
 see the [local website](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
