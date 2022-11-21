@@ -19,7 +19,7 @@ news: 2018
 
 ### [Sessions](sessions/) 
 
-## Local Information ([details](local/))
-* [Registration Website](https://notredame.ungerboeck.com/prod/emc00/register.aspx?OrgCode=10&EvtID=18783&AppCode=REG&CC=118040603651) (Early Registration Ends: June 21, 2018)
+## [Local Information (details)](local/)
+* Registration Website (Early Registration Ends: June 21, 2018)
 * [Apply for a Travel Grant/Free Conference Registration](local/travelGrants.html) (Deadline: May 15, 2018)
 * Invitation letters can be requested from the Local Chairs
