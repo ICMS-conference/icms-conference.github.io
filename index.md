@@ -14,7 +14,7 @@ ICMS conferences since 2006 have published with Springer: see [Conference procee
 
 ### Upcoming Congress
 
-* ICMS 2024 - Durham (United Kingdom), 22-25 July 2024.
+* ICMS 2024 - Durham (United Kingdom), 22-25 July 2024. [local website](https://maths.dur.ac.uk/icms2024)
 
 ### Past Meetings
 * [ICMS 2020](/2020/) - Braunschweig (Germany), 13-17 July 2020. [local website](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
