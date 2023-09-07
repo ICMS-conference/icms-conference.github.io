@@ -4,7 +4,7 @@ title: ICMS 2024 - Call for Session Proposals
 ---
 
 
-The _7th International Congress on Mathematical Software_ will consist of several topical sessions. Each session will provide an overview of the challenges, achievements and progress in a subfield of mathematical software research, development and use. The program committee will consist of the session organizers. We solicit session proposals.
+The _8th International Congress on Mathematical Software_ will consist of several topical sessions. Each session will provide an overview of the challenges, achievements and progress in a subfield of mathematical software research, development and use. The program committee will consist of the session organizers. We solicit session proposals.
 
 For inspiration, have a look at the sessions of past ICMS:
 [ICMS 2020](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020_Sessions.html),
