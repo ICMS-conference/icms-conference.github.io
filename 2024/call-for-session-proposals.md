@@ -49,7 +49,7 @@ For inspiration, have a look at the sessions of past ICMS:
 *   Complete the process by 24 February 2024
 *   During the meeting: manage the session, and arrange for chair(s) for each time slot.
 
-Extended abstracts for the proceedings may be submitted via EasyChair (until 16 March 2024; details TBA) by those who were accepted as speakers in any session.
+Extended abstracts for the proceedings may be submitted via EasyChair (by 16 March 2024; details TBA) by those who were accepted as speakers in any session.
 Session organisers can have papers themselves (acceptance agreed by an appropriate programme chair).
 
 **Format of a session**
