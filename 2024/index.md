@@ -3,7 +3,7 @@ layout: congress
 title: "ICMS 2024 - Durham"
 news: 2024
 ---
-[ICMS 2024 - Braunschweig, 22-15 July 2024](https://maths.dur.ac.uk/icms2024)
+[ICMS 2024 - Durham, 22-25 July 2024](https://maths.dur.ac.uk/icms2024)
 
 ### Organization
 * **General Chair**: [Alicia Dickenstein](https://mate.dm.uba.ar/~alidick), Universidad de Buenos Aires, Argentina
