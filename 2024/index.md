@@ -10,7 +10,10 @@ news: 2024
 * **Program Chairs**: [Kevin Buzzard](https://www.imperial.ac.uk/people/k.buzzard) (Imperial College London, United Kingdom), [Bettina Eick](http://www.iaa.tu-bs.de/beick) (TU Braunschweig, Germany), [Anton Leykin](https://antonleykin.math.gatech.edu) (Georgia Institute of Technology, United States)
 * **Local Chair**: [Yue Ren](https://www.yueren.de), Durham, United Kingdom
 
-### Invited Speakers (tba)
+### Invited Speakers
+* [Matthias Köppe](https://www.math.ucdavis.edu/~mkoeppe/) (UC Davis, USA)
+* [Heather Macbeth](https://faculty.fordham.edu/hmacbeth1/) (Fordam University, USA)
+* [Mohab Safey El Din](https://www-polsys.lip6.fr/~safey/) (Sorbonne Universityt, France)
 
 ### [Call for Sessions](call-for-session-proposals)
 ### [Dates](dates)
