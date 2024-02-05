@@ -15,11 +15,4 @@ news: 2024
 * [Heather Macbeth](https://faculty.fordham.edu/hmacbeth1/) (Fordam University, USA)
 * [Mohab Safey El Din](https://www-polsys.lip6.fr/~safey/) (Sorbonne Universityt, France)
 
-### [Call for Sessions](call-for-session-proposals)
-### [Dates](dates)
-### Proceedings: tba
-
-
-## Local Information
-(tba)
-* Invitation letters can be requested from the Local Chair.
+Information about dates, registration, sessions, proceedings, and more can be found on the [Durham website](https://maths.dur.ac.uk/icms2024/ICMS2024.html).
