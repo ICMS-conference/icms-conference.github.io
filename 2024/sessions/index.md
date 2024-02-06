@@ -17,5 +17,5 @@ title: "ICMS 2024 - Sessions"
 9. Algorithms for relative equilibria in the N-body problem ([details](session9/))
 10. Mathematical research data ([details](session10/))
 11. Computational aspects in algebraic geometry ([details](session11/))
-12. Polyhedral geometry and combinatorics([details](session12/))
+12. Polyhedral geometry and combinatorics ([details](session12/))
 13. General Session ([details](session13/))
