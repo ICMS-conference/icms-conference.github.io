@@ -7,7 +7,7 @@ title: "ICMS 2024 - Sessions"
 (specialized sessions sorted by organizers)
 
 1. Number theory and related areas ([details](session1/))
-2. Interactions between proof assistants and mathematical software ([details](session2/))
+2. Interactions between proof assistants and mathematical software ([details](https://proof-assistants-and-software-icms2024.github.io/))
 3. Software for the applications of group theory to combinatorics ([details](session3/))
 4. Classical Algebraic Geometry & Modern Computer Algebra: Innovative Software Design and Its Applications ([details](session4/))
 5. Advancing computer algebra with massively parallel methods ([details](session5/))
