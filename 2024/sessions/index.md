@@ -9,7 +9,7 @@ title: "ICMS 2024 - Sessions"
 1. Number theory and related areas ([details](session1/))
 2. Interactions between proof assistants and mathematical software ([details](https://proof-assistants-and-software-icms2024.github.io/))
 3. Software for the applications of group theory to combinatorics ([details](session3/))
-4. Classical Algebraic Geometry & Modern Computer Algebra: Innovative Software Design and Its Applications ([details](session4/))
+4. Classical Algebraic Geometry & Modern Computer Algebra: Innovative Software Design and Its Applications ([details](session_Bies_Kastner_Zach/))
 5. Advancing computer algebra with massively parallel methods ([details](session5/))
 6. Computer algebra applications in the life sciences ([details](https://sites.google.com/view/casinlife2024))
 7. Machine learning within computer algebra systems ([details](https://matthewengland.coventry.domains/ICMS24-MLwCAS.html))
