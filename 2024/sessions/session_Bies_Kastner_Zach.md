@@ -18,7 +18,7 @@ Recent years have shown new applications of symbolic methods in computer algebra
    * [Patrick Jefferson](https://inspirehep.net/authors/1274984)
    * [Chiara Meroni](https://merochia.wixsite.com/chiara-meroni)
    * [Giosuè Muratore](https://sites.google.com/view/giosue-muratore/home-page): Localization in Gromov--Witten theory of toric varieties in a computer algebra system
-   <!---[Luca Remke](https://www.idsr.uni-stuttgart.de/en/institute/Remke/)-->
+   * [Luca Remke](https://www.idsr.uni-stuttgart.de/en/institute/Remke/): Exceptional sequences of line bundles on toric varieties
    * [Andrew P. Turner](https://apturner.net/)
 
 ## Abstracts
