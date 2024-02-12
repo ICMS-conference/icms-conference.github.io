@@ -16,6 +16,6 @@ title: "ICMS 2024 - Sessions"
 8. Numerical software for special functions ([details](https://personales.unican.es/gila/ICMSessionSF.html))
 9. Algorithms for relative equilibria in the N-body problem ([details](session9/))
 10. Mathematical research data ([details](session10/))
-11. Computational aspects in algebraic geometry ([details](session11/))
+11. Symbolic-numeric methods in algebraic geometry ([details](https://tjyahl.github.io/organizing/ICMS-2024/index.html))
 12. Polyhedral geometry and combinatorics ([details](session12/))
 13. General Session ([details](session13/))
