@@ -13,7 +13,6 @@ This session addresses aspects of mathematical software that not covered by the 
 #### Integrating GeoGebra with React and WebAssembly: A Web-Based Approach for Mathematical Software Development
 #### [Mitsushi Fujimoto](mailto:fujimoto@fukuoka-edu.ac.jp) (University of Teacher Education Fukuoka, Japan)
 
-
 A dynamic mathematics software GeoGebra can be embedded on the web, and a
 JavaScript API is provided for interaction. By utilizing web platforms, GeoGebra
 can collaborate with various web technologies. In this talk, I would like to
