@@ -65,7 +65,24 @@ experimental and control groups, it has been shown that
 some restrictions to the context of its use can have
 a large influence on learners' thinking.
 
+
 #### Local duality in multi-parameter persistent homology
 #### [Fabian Lenzen](mailto:fabian.lenzen@tu-berlin.de) (TU Berlin, Germany)
 
 Persistent homology, a central tool in topological data analysis, computes and analyses the topology of a filtration of topological spaces. The case of 𝐙-indexed filtrations is algebraically simple, and highly efficient implementations are available for this case. Computing the persistent homology of 𝐙ⁿ-indexed filtrations is much more challenging computationally. Specifically, we will consider the problem of computing minimal free resolutions of the persistent homology of 𝐙ⁿ-indexed filtration. Although this can be done in principle with standard Gröbner base methods, these are not fast enough for practical applications; partly because they do not use the specifics of the problem. For the case n = 2, a more specialised algorithm by Lesnick and Wright has been shown to outperform common computer algebra systems. However, this algorithm is still much slower than what is achievable for n = 1, also it is unclear how to generalise it to n > 2. In this talk, I will explain some of the optimisations that are responsible for the efficiency of implementations for n = 1. We will see how these arise as an instance of local duality, and how this can be used to develop a new algorithm for n = 2, and possibly beyond. This algorithm has been implemented in our software 2pac. We explain some non-trivial algorithmic details behind the software, and explain how to apply multi-parameter persistent homology in practice.
+
+
+#### Extrapolating Solution Paths of Polynomial Homotopies towards Singularities with PHCpack and phcpy
+#### [Jan Verschelde](https://homepages.math.uic.edu/~jan/) (University of Illinois at Chicago, USA)
+#### [Kylash Viswanathan](mailto:kviswa5@uic.edu) (University of Illinois at Chicago, USA)
+
+
+A robust path tracker computes the radius of convergence of Newton’s method, estimates
+the distance to the nearest path, and then applies Pad ́e approximants to predict the next point
+on the path. Apriori step size control is less sensitive to finely tuned tolerances than aposteriori
+step size control, and is therefore robust. As shown in, extrapolation methods are effective
+to accurately locate the singular points at the end of solution paths.
+Computations in were executed with phcpy, the scripting interface to PHCpack,
+which now compiles with the project manager of the gnu-ada compiler, available via alire
+(alr), the package manager of Ada. All software is free and open source, released under version 3
+of the GNU GPL license. This talk will describe the effectiveness of extrapolation methods.
