@@ -14,7 +14,7 @@ title: "ICMS 2024 - Sessions"
 6. Computer algebra applications in the life sciences ([details](https://sites.google.com/view/casinlife2024))
 7. Machine learning within computer algebra systems ([details](https://matthewengland.coventry.domains/ICMS24-MLwCAS.html))
 8. Numerical software for special functions ([details](https://personales.unican.es/gila/ICMSessionSF.html))
-9. Algorithms for relative equilibria in the N-body problem ([details](session9/))
+9. Algorithms for relative equilibria in the N-body problem ([details](https://math.au.dk/~jensen/conferences/ICMS2024/))
 10. Mathematical research data ([details](session10/))
 11. Symbolic-numeric methods in algebraic geometry ([details](https://tjyahl.github.io/organizing/ICMS-2024/index.html))
 12. Polyhedral geometry and combinatorics ([details](session12/))
