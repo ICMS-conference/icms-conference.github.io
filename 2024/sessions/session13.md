@@ -66,22 +66,22 @@ some restrictions to the context of its use can have
 a large influence on learners' thinking.
 
 
-#### Local duality in multi-parameter persistent homology
-#### [Fabian Lenzen](mailto:fabian.lenzen@tu-berlin.de) (TU Berlin, Germany)
-
-Persistent homology, a central tool in topological data analysis, computes and analyses the topology of a filtration of topological spaces. The case of 𝐙-indexed filtrations is algebraically simple, and highly efficient implementations are available for this case. Computing the persistent homology of 𝐙ⁿ-indexed filtrations is much more challenging computationally. Specifically, we will consider the problem of computing minimal free resolutions of the persistent homology of 𝐙ⁿ-indexed filtration. Although this can be done in principle with standard Gröbner base methods, these are not fast enough for practical applications; partly because they do not use the specifics of the problem. For the case n = 2, a more specialised algorithm by Lesnick and Wright has been shown to outperform common computer algebra systems. However, this algorithm is still much slower than what is achievable for n = 1, also it is unclear how to generalise it to n > 2. In this talk, I will explain some of the optimisations that are responsible for the efficiency of implementations for n = 1. We will see how these arise as an instance of local duality, and how this can be used to develop a new algorithm for n = 2, and possibly beyond. This algorithm has been implemented in our software 2pac. We explain some non-trivial algorithmic details behind the software, and explain how to apply multi-parameter persistent homology in practice.
-
-
 #### Estimating the Relative Position of Small Multiple Rovers for an Asteroid Wide-area Exploration System by Solving Nonlinear Equations
 
 
-##### Takefumi Kasai (University of Tsukuba)
-##### [Akira Terui](https://researchmap.jp/aterui) (University of Tsukuba)
-##### [Masahiko Mikawa](https://mikawalab.org/) (University of Tsukuba)
+#### Takefumi Kasai (University of Tsukuba)
+#### [Akira Terui](https://researchmap.jp/aterui) (University of Tsukuba)
+#### [Masahiko Mikawa](https://mikawalab.org/) (University of Tsukuba)
 
 We propose a new method for estimating the relative position of small multiple rovers for an asteroid wide-area exploration system by solving nonlinear equations. A set of small multiple rovers, which are landed and scattered on the ground for asteroid exploration, communicate with each other using radio to estimate their relative position. They use the Received Signal Strength Indicator (RSSI) of the radio received by each rover to estimate each other’s distance and several antennas to estimate each other’s relative directions. According to the mathematical model of the RSSI, one needs to solve a system of nonlinear equations involving rational, trigonometric, and logarithmic functions.
 
 While previous studies used robust but relatively slow Evolutionary Algorithms (EA), we reduce the system of nonlinear equations to a system of linear equations by substituting nonlinear functions as variables, then directly solve it quickly to estimate the relative direction and the distance of a pair of rovers. Furthermore, we combine our proposed method with the least-squares method to estimate the relative positions of more than three rovers and correct the errors. The results of the experiments are shown.
+
+
+#### Local duality in multi-parameter persistent homology
+#### [Fabian Lenzen](mailto:fabian.lenzen@tu-berlin.de) (TU Berlin, Germany)
+
+Persistent homology, a central tool in topological data analysis, computes and analyses the topology of a filtration of topological spaces. The case of 𝐙-indexed filtrations is algebraically simple, and highly efficient implementations are available for this case. Computing the persistent homology of 𝐙ⁿ-indexed filtrations is much more challenging computationally. Specifically, we will consider the problem of computing minimal free resolutions of the persistent homology of 𝐙ⁿ-indexed filtration. Although this can be done in principle with standard Gröbner base methods, these are not fast enough for practical applications; partly because they do not use the specifics of the problem. For the case n = 2, a more specialised algorithm by Lesnick and Wright has been shown to outperform common computer algebra systems. However, this algorithm is still much slower than what is achievable for n = 1, also it is unclear how to generalise it to n > 2. In this talk, I will explain some of the optimisations that are responsible for the efficiency of implementations for n = 1. We will see how these arise as an instance of local duality, and how this can be used to develop a new algorithm for n = 2, and possibly beyond. This algorithm has been implemented in our software 2pac. We explain some non-trivial algorithmic details behind the software, and explain how to apply multi-parameter persistent homology in practice.
 
 
 #### Extrapolating Solution Paths of Polynomial Homotopies towards Singularities with PHCpack and phcpy
