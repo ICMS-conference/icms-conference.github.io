@@ -77,12 +77,4 @@ Persistent homology, a central tool in topological data analysis, computes and a
 #### [Kylash Viswanathan](mailto:kviswa5@uic.edu) (University of Illinois at Chicago, USA)
 
 
-A robust path tracker computes the radius of convergence of Newton’s method, estimates
-the distance to the nearest path, and then applies Pad ́e approximants to predict the next point
-on the path. Apriori step size control is less sensitive to finely tuned tolerances than aposteriori
-step size control, and is therefore robust. As shown in, extrapolation methods are effective
-to accurately locate the singular points at the end of solution paths.
-Computations in were executed with phcpy, the scripting interface to PHCpack,
-which now compiles with the project manager of the gnu-ada compiler, available via alire
-(alr), the package manager of Ada. All software is free and open source, released under version 3
-of the GNU GPL license. This talk will describe the effectiveness of extrapolation methods.
+A robust path tracker computes the radius of convergence of Newton’s method, estimates the distance to the nearest path, and then applies Pade approximants to predict the next point on the path. Apriori step size control is less sensitive to finely tuned tolerances than aposteriori step size control and is therefore robust. Extrapolation methods are effective to accurately locate the singular points at the end of solution paths. Computations are executed with phcpy, the scripting interface to PHCpack, which now compiles with the project manager of the gnu-ada compiler, available via alire (alr), the package manager of Ada. All software is free and open source, released under version 3 of the GNU GPL license. This talk will describe the effectiveness of extrapolation methods.
