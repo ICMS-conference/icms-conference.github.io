@@ -86,7 +86,7 @@ Persistent homology, a central tool in topological data analysis, computes and a
 
 #### DetGB: A Software Package for Computing Grobner Bases of Determinantal Ideals
 
-#### [Chenqi Mou](mailto:chenqi.mou@buaa.edu.cn) (Beihang University, Beijing, China)
+#### [Chenqi Mou](http://www.cmou.net/) (Beihang University, Beijing, China)
 #### [Qiuye Song](mailto:qiuye.song@buaa.edu.cn) (Beihang University, Beijing, China)
 #### [Yutong Zhou](mailto:zpengyt@buaa.edu.cn) (Beihang University, Beijing, China)
 
