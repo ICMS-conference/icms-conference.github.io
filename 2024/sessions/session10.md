@@ -21,7 +21,7 @@ As research data becomes more important, we need to start thinking about how to 
 
 
 #### Data related to the Atlas of Finite Groups
-#### Thomas Breuer
+#### Thomas Breuer (RWTH Aachen, Germany)
 A lot of information from the Atlas of Finite Groups
 is available in electronic form,
 and using these data in computations often leads to new information.
@@ -36,20 +36,20 @@ The talk will discuss several data libraries that are available in the systems G
 
 
 #### Towards a FAIR Documentation of Workflows and Models in Applied Mathematics
-#### Marco Reidelbach
+#### Marco Reidelbach (ZIB Berlin, Germany)
 
 The Mathematical Research Data Initiative (MaRDI) has developed a FAIR and machine-interpretable template for documenting Model-Simulation-Optimization workflows in applied mathematics. It captures the mathematical models utilized and individual process steps, detailing methods, software, hardware, input, and output data to address specific research objectives. To enable scientists across disciplines to document and publish their workflows on the MaRDI Portal, we introduce the MaRDMO Plugin for the Research Data Management Organiser, the most widely used Data Management Planning software in Germany. MaRDMO facilitates the workflow documentation semi-automatically, fetching additional information from sources like Wikidata, swMath, zbMath or the MaRDI Portal. Central to these workflows are mathematical models, necessitating proper documentation, for which MaRDI has developed the MathModDB ontology to capture the research fields and problems, formulations, quantities, and tasks associated with the model. Here we present the interaction of MaRDMO and MathModDB Knowledge Graph using a "Logical Data Analysis" workflow from the digital humanities.
 
 
 #### The Graded Ring Database
-#### Gavin Brown
+#### Gavin Brown (University of Warwick, United Kingdom)
 
 The Graded Ring Database (GRDB) holds data related to the rings of functions of geometrical objects.
 The main focus is on classification questions in algebraic geometry where the key objects are often graded polynomial rings and their quotients. The GRDB houses several complete classifications of different types of objects, but the main focus is on a list of Hilbert series (the generating functions for dimensions of graded pieces) of Fano 3-folds, which continue to be at the cutting edge of birational geometry and far from fully classified even after 50 years of intensive study and two Fields medals. In fact, this list is not a classification: it is a list of partial data for potential candidates to be Fano 3-folds, and as such some members of the list will not exist while others may exist in multiple ways yet to be discovered - that is the classification problem in a nutshell. Despite the subtlety of these flaws, the list, presented as a map of Fano 3-folds, complete with unexplored regions, has proved remarkably valuable to ongoing work and is cited by users across a range of different geometrical applications. I will describe the GRDB, its main aims, and the way it interacts with other databases to make progress.
 
 
 #### A FAIR File Format for Mathematical Software
-#### Antony Della Vecchia
+#### Antony Della Vecchia (TU Berlin, Germany)
 
 We describe a generic JSON based file format which is suitable for computations in computer algebra. This is
 implemented in the computer algebra system OSCAR, but we also indicate how it can be used in a different context.
@@ -57,7 +57,7 @@ implemented in the computer algebra system OSCAR, but we also indicate how it ca
 
 
 #### polyDB: An open database for combinatorial and geometric data
-#### Andreas Pfaffenholz
+#### Andreas Paffenholz (TU Darmstadt, Germany)
 
 polyDB (polydb.org) is an open database for combinatorial and geometric objects. The project started in 2015 as an extension for the computer algebra system polymake (polymake.org). Though it still has close ties with the polymake project, the database aims to be a general storage option for mathematical research data, independent of any particular software.
 
@@ -67,19 +67,19 @@ In my talk I will discuss the background and general design of polyDB, explain t
 
 
 #### Managing Data in the L-functions and Modular Forms Database (LMFDB)
-#### Jennifer Paulhus
+#### Jennifer Paulhus (Grinnell College, USA)
 
 The L-functions and Modular Forms Database (LMFDB) is a mature, massive online database of mathematical objects from number theory and arithmetic geometry. It was primarily conceived to help find connections between objects which are part of the Langlands program, but it has also branched out to other related mathematical objects, including a new database of half a million finite groups, and a quarter of a billion of their subgroups. In the years of developing LMFDB, we've learned many lessons about creating mathematical databases including how to present data to an average user, how to design advanced searches and download features for users with more specialized interests, and how to test for reliability and correctness of the data. This talk will focus on those lessons, using the new database of finite groups as a lens through which to tell this story.
 
 
 
 #### MaRDI Packaging System, a solution for predefined software environments
-#### Aaruni Kaushik
+#### Aaruni Kaushik (RPTU Kaiserslautern-Landau, Germany)
 
 We have developed a way to enshrine a software package into an easy to deploy and use sandbox environment we call a "runtime", via a program we developed called MaPS : MaRDI Packaging System. The program relies on Linux user namespaces to isolate a library environment from the host system, making the sandboxed software reproducible on other systems, with minimal effort, and an overlay filesystem to make local edits persistent. This project will aid reproducibility efforts of research papers: both mathematical and from other disciplines. As a proof of concept, we already provide runtimes for the OSCAR Computer Algebra System, polymake software for research in polyhedral geometry, and VIBRANT Virus Identification By iteRative ANnoTation. The software is in a pre release state: the interface for creating, deploying, and executing runtimes is final, and an interface for easily publishing runtimes is under active development.
 
 #### Peer reviewing software in Mathematical papers
-#### Jeroen Hanselman
+#### Jeroen Hanselman (RPTU Kaiserslautern, Germany)
 
 The advent of computers has allowed mathematicians to do increasingly more difficult computations that used to be practically impossible. We now have databases of mathematical objects of multiple Terabytes in size, huge computer algebra packages, proof assistants and many more computational tools to help us do mathematics.
 
@@ -89,7 +89,7 @@ It is crucial that we start thinking of guidelines and general practices that im
 
 
 #### How to share large data in mathematics?
-#### Benjamin Schröter
+#### Benjamin Schröter (KTH Royal Institute of Technology, Sweden)
 
 I will present two examples of large data collections that are relevant in my own research.
 Namely, the tropical Grassmanniann $TGr_0(3,8)$ which is a fairly large fan wich can be equipped with various polyheadral structures and the `polyDB' database which has many collections of data, including for example polyhedral and matroidal data.
