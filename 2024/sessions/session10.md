@@ -102,3 +102,14 @@ I will very briefly discuss the relevance of the particular data from my perspec
 
 The goal of this talk is to start an discussion within the community about the handling of data in the long run.
 
+#### Integrating Mathematical Data and Resources: Advancements in zbMATH Open for Enhanced Mathematical Research Accessibility and Reproducibility
+#### Maxence Azzouz-Thuderoz (FIZ Karlsruhe, Germany)
+
+zbMATH Open is emerging as a unified platform offering a spectrum of mathematical resources comprising mathematical software, formulae, reviews, and serial and mathematical item classification.
+zbMATH Open offers connection to external partners, DLMF and OEIS, via its Links API by indexing approximately 6330 documents containing 65,069 references to OEIS sequences and 15,858 references to 2053 DLMF functions. Significantly, the collection of 44,594 software entries from swMATH is entirely accessible through zbMATH Open. Here, we emphasize the accurate referencing of mathematical software in swMATH for maintaining integrity, advancing mathematical research, and enhancing reproducibility. We intend to report the ongoing efforts of swMATH, an integral part of zbMATH Open, to collect precise referencing software metadata. We describe how swMATH is embedded into zbMATH open and elaborate on the relationship of software and other mathematical research data like OEIS and DLMF, ensuring a complete and FAIR resource for the mathematical research community.
+
+#### Addressing Centralization Concerns in Software Development: Towards a Decentralized Version Control System
+#### Maxence Azzouz-Thuderoz (FIZ Karlsruhe, Germany)
+
+The software development domain has seen scholars' growing reliance on platforms like Github, raising issues regarding monopolization. Such centralized platforms raise concerns about data sovereignty and long-term viability. Moreover, a discrepancy in the resilience of the internet infrastructure could affect the proper functioning of a centralized forge. We explore the potential of a decentralized Version Control System (VCS) tailored to academic needs. We investigate the first prototypes of Interplanetary File System-based services for VCSs.
+
