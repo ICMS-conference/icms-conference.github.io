@@ -48,8 +48,6 @@ The Graded Ring Database (GRDB) holds data related to the rings of functions of 
 The main focus is on classification questions in algebraic geometry where the key objects are often graded polynomial rings and their quotients. The GRDB houses several complete classifications of different types of objects, but the main focus is on a list of Hilbert series (the generating functions for dimensions of graded pieces) of Fano 3-folds, which continue to be at the cutting edge of birational geometry and far from fully classified even after 50 years of intensive study and two Fields medals. In fact, this list is not a classification: it is a list of partial data for potential candidates to be Fano 3-folds, and as such some members of the list will not exist while others may exist in multiple ways yet to be discovered - that is the classification problem in a nutshell. Despite the subtlety of these flaws, the list, presented as a map of Fano 3-folds, complete with unexplored regions, has proved remarkably valuable to ongoing work and is cited by users across a range of different geometrical applications. I will describe the GRDB, its main aims, and the way it interacts with other databases to make progress.
 
 
-: (or Benjamin Lorenz)
-
 #### A FAIR File Format for Mathematical Software
 #### Antony Della Vecchia
 
@@ -98,9 +96,9 @@ Namely, the tropical Grassmanniann $TGr_0(3,8)$ which is a fairly large fan wich
 
 I will very briefly discuss the relevance of the particular data from my perspective, but the focus will lie on the following general questions and problems:
 
--- How to verify the data?
--- How to update, extend or modify data?
--- How to make the data accessible and useable for other users?
+- How to verify the data?
+- How to update, extend or modify data?
+- How to make the data accessible and useable for other users?
 
 The goal of this talk is to start an discussion within the community about the handling of data in the long run.
 
