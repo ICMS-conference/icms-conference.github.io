@@ -44,6 +44,14 @@ Candidates for such log singularities arise from explicit constructions of singu
 We summarize how AI can approach mathematics in three ways: theorem-proving, conjecture formulation, and language processing.
 Inspired by initial experiments in geometry and string theory, we present a number of recent experiments on how various standard machine-learning algorithms can help with pattern detection across disciplines ranging from algebraic geometry to representation theory, to combinatorics, and to number theory. At the heart of the programme is the question how does AI help with mathematical discovery.
 
+
+### Intersection Theory on Weighted Blowups of F-theory Vacua
+
+#### Patrick Jefferson
+
+Much of the physics of string theory vacuum solutions defined by Calabi-Yau varieties is captured by their intersection numbers. Unfortunately, the calculation of intersection numbers can be complicated by the presence of singularities (associated to massless charged degrees of freedom) that need to be resolved in a manner preserving the Calabi-Yau condition before intersection theory can be applied. This is a stringent condition that in practice sometimes requires the use of weighted blowups, which cannot in general be analyzed via the same techniques used to study their unweighted counterparts. Motivated by this challenge, I will present a recently proven formula expressing the pushforward of an analytic function of the exceptional divisor class of a weighted blowup in terms of the classes of the divisors whose complete intersection is the subvariety along which the blowup is centered. I will illustrate the utility of this formula with concrete examples and explain how it both solves certain open problems, as well as enables new lines of investigation, in F-theory.
+
+
 ### Chebyshev varieties
 
 #### Chiara Meroni
@@ -86,3 +94,11 @@ Alex Grosdos and Nils Sturma.
 #### Luca Remke
 
 We want to investigate whether every maximal exceptional sequence of line bundles is full for a smooth projective toric variety, given the existence of a full exceptional sequence of line bundles. This property has already been proved for toric varieties of Picard ranks 1 and 2. We therefore turn our attention to toric varieties of Picard rank 3, focusing on the del Pezzo surface of degree 7.
+
+
+### FTheoryTools: A computational tool for analysis of singular elliptic fibrations
+
+#### Andrew Turner
+
+I will discuss an in-development computational tool for the analysis of singular elliptic fibrations called FTheoryTools. This tool seeks to automate many of the intricate calculations involved in the analysis of F-theory models, and additionally to catalogue and make available many of the constructions that appear throughout the F-theory literature. FTheoryTools is a component of the open-source computer algebra system OSCAR. 
+
