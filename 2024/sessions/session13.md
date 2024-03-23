@@ -67,8 +67,6 @@ a large influence on learners' thinking.
 
 
 #### Estimating the Relative Position of Small Multiple Rovers for an Asteroid Wide-area Exploration System by Solving Nonlinear Equations
-
-
 #### Takefumi Kasai (University of Tsukuba)
 #### [Akira Terui](https://researchmap.jp/aterui) (University of Tsukuba)
 #### [Masahiko Mikawa](https://mikawalab.org/) (University of Tsukuba)
@@ -85,7 +83,6 @@ Persistent homology, a central tool in topological data analysis, computes and a
 
 
 #### DetGB: A Software Package for Computing Grobner Bases of Determinantal Ideals
-
 #### [Chenqi Mou](http://www.cmou.net/) (Beihang University, Beijing, China)
 #### [Qiuye Song](mailto:qiuye.song@buaa.edu.cn) (Beihang University, Beijing, China)
 #### [Yutong Zhou](mailto:zpengyt@buaa.edu.cn) (Beihang University, Beijing, China)
@@ -101,3 +98,10 @@ The developed package consists of three modules which compute the Grobner bases 
 
 
 A robust path tracker computes the radius of convergence of Newton’s method, estimates the distance to the nearest path, and then applies Pade approximants to predict the next point on the path. Apriori step size control is less sensitive to finely tuned tolerances than aposteriori step size control and is therefore robust. Extrapolation methods are effective to accurately locate the singular points at the end of solution paths. Computations are executed with phcpy, the scripting interface to PHCpack, which now compiles with the project manager of the gnu-ada compiler, available via alire (alr), the package manager of Ada. All software is free and open source, released under version 3 of the GNU GPL license. This talk will describe the effectiveness of extrapolation methods.
+
+
+#### Cylindrical Algebraic Decomposition in Macaulay2
+#### [Corin Lee](https://people.bath.ac.uk/cel34/) (Bath, UK)
+
+
+We are presenting the first implementation of Cylindrical Algebraic Decomposition (CAD) in Macaulay2, which is the algorithm (and the namesake algebraic object) that can be used to solve real quantifier elimination problems. Our implementation generates an open CAD for a given set of real polynomial expressions with rational coefficients. We are using the relatively newly justified projection/lifting scheme due to Lazard. Moreover, a new heuristic for variable ordering is considered. This work is joint with Tereso del Río and Hamid Rahkooy.
