@@ -108,7 +108,7 @@ We are presenting the first implementation of Cylindrical Algebraic Decompositio
 
 
 #### Algorithmic approach for an unique definition of the next generation matrix (to be confirmed)
-#### [Rim Adane](mailto:rim.adenane9@gmail.com) (Ibn Tofail University, Kenitra, Morocco)
+#### [Rim Adenane](mailto:rim.adenane9@gmail.com) (Ibn Tofail University, Kenitra, Morocco)
 
 
 The basic reproduction number R0 is a concept which originated in population dynamics, mathematical epidemiology, and ecology, and is closely related to the mean number of children in branching processes (refecting the fact that the phenomena of interest are well approximated by branching processes, at their inception). Despite the very extensive literature around R0 for deterministic epidemic models, we believe there are still aspects which are not fully understood. Foremost is the fact that R0 is not a function of the original ODE model, unless we include in it also a certain (F, V ) gradient decomposition, which is not unique. This is related to the specication of the "infected compartements", which is also not unique. A second interesting question is whether the extinction probabilities of the natural continuous time Markovian chain approximation of an ODE model around boundary points (disease-free equilibrium and invasion points) are also related to the (F, V ) gradient decomposition. I will present in the talk briefy three new contributions to the literature:
