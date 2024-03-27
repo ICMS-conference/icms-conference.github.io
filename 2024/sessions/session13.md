@@ -101,13 +101,13 @@ A robust path tracker computes the radius of convergence of Newton’s method, e
 
 
 #### Cylindrical Algebraic Decomposition in Macaulay2
-#### [Corin Lee](https://people.bath.ac.uk/cel34/) (Bath, UK)
+#### [Corin Lee](https://people.bath.ac.uk/cel34/) (University of Bath, UK)
 
 
 We are presenting the first implementation of Cylindrical Algebraic Decomposition (CAD) in Macaulay2, which is the algorithm (and the namesake algebraic object) that can be used to solve real quantifier elimination problems. Our implementation generates an open CAD for a given set of real polynomial expressions with rational coefficients. We are using the relatively newly justified projection/lifting scheme due to Lazard. Moreover, a new heuristic for variable ordering is considered. This work is joint with Tereso del Río and Hamid Rahkooy.
 
 
-#### Algorithmic approach for an unique denition of the next generation matrix (to be confirmed)
+#### Algorithmic approach for an unique definition of the next generation matrix (to be confirmed)
 #### [Rim Adane](mailto:rim.adenane9@gmail.com) (Ibn Tofail University, Kenitra, Morocco)
 
 
