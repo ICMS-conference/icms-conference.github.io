@@ -28,6 +28,8 @@ limits, style files and the submission link can be found on
 
 #### Towards a formal proof of the Freyd-Mitchell embedding theorem
 
+* [Markus Himmel](mailto:markus@himmel-villmar.de)
+
 Lean's mathlib currently provides several tools to facilitate diagram
 chasing in general abelian categories, but they suffer from deficiencies which
 make their application less straightforward than simply adapting an elementwise
@@ -78,10 +80,10 @@ isation process.
 
 #### Formalization of Hopf Algebra Category and Affine Group Scheme
 
-* [Yunzhou xie](mailto:yunzhou.xie21@imperial.ac.uk)
+* Speaker: [Yunzhou xie](mailto:yunzhou.xie21@imperial.ac.uk)
+* Speaker: [Yichen Feng](mailto:yichen.feng21@imperial.ac.uk)
+* Speaker: [Yanqiao Zhou](mailto:yanqiao.zhou21@imperial.ac.uk)
 * [Jujian Zhang](mailto:jujian.zhang19@imperial.ac.uk)
-* [Yichen Feng](mailto:yichen.feng21@imperial.ac.uk)
-* [Yanqiao Zhou](mailto:yanqiao.zhou21@imperial.ac.uk)
 
 This project delves into the progression of algebraic structures from coalgebra and bialgebra to Hopf
 algebra, with a special focus on affine group schemes. A key aspect of our study is the group structure that
@@ -117,6 +119,8 @@ Objectives
 
 #### Protein folding by recursive backtracking
 
+* [Bjørn Kjos-Hanssen](mailto:bjoernkh@hawaii.edu)
+
 The hydrophobic-polar (HP) protein folding model was introduced by Ken A. Gill in 1985. It attracted a great deal of attention, at least until the advent of Google's AlphaFold in 2018.
 
 In this model, a binary string like 0110 is interpreted as a polymer, a sequence HPPH of amino acids of two types. The string is embedded in an ambient space, and this embedding is called a fold. Some folds are better than others and this is quantified by the score of the fold.
@@ -127,13 +131,21 @@ A critical issue when formalizing the HP model seems to be the choice of definit
 
 #### Stacks in Lean
 
+* Speaker: [Calle Sonne](mailto:calle.sonne.23@ucl.ac.uk)
+* [Paul Lezeau](mailto:paul.lezeau.23@ucl.ac.uk) 
+  
 In this talk, we plan to explain some of our work that has led to defining Stacks in Lean. We will introduce some of the basic mathematical theory around this topic (categories fibered in groupoids, etc) and explain the various challenges that arise when formalising this. Finally, we will discuss our more recent efforts to redefine these notions using structures and data types that are more adapted to Lean, and advertise our upcoming project to use this work as a basis to formalize some basic deformation theory (Schlessinger's criterion, etc) for Kevin Buzzard's FLT project.
 
 #### Ideal prime factorisations and the Kummer-Dedekind theorem
 
+* [Paul Lezeau](mailto:paul.lezeau.23@ucl.ac.uk)
+
 In this talk I will discuss some of my past work on algebraic number theory in Lean, which culminated in a formalisation of the Kummer-Dedekind theorem. I plan to briefly recall some basic facts about algebraic number theory (existence of prime factorisations for ideals in Dedekind Domains, etc) and then discuss some aspects of the proof. In particular I will mention some of the tricky parts of formalising the argument, and various ideas that helped overcome these difficulties (for instance, the proof that ended up in Mathlib after some iterations of the reviewing process and a couple of suggestions from Anne Baanen is quite non-standard, and to the best of my knowledge original)
 
 #### Groups of order $p q$
+
+* Speaker: [Peiran Wu](pw72@st-andrews.ac.uk) 
+* Scott Harper
 
 We formalise in Lean a proof that any finite group of order $p q$ with $p$ and $q$ distinct prime numbers is isomorphic to the semidirect product of a cyclic group of order $p$ and one of order $q$. We apply the result to classify groups of certain small orders in Lean.
 
