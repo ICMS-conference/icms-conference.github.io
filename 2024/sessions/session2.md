@@ -5,14 +5,14 @@ title: "ICMS 2024 - Session 2: Novel Formalisations of Mathematics in Lean"
 
 ### Organizers
 
-* [Amelia Livingston (University College London, UK)](mailto:ucahali@ucl.ac.uk)
-* [David Ang (University College London, UK)](mailto:ucahdka@ucl.ac.uk)
-* [Fangming Li (Imperial College London, UK)](mailto:fangming.li17@imperial.ac.uk)
-* [Jujian Zhang (Imperial College London, UK)](mailto:jujian.zhang19@imperial.ac.uk)
+* [Amelia Livingston (University College London, UK)](mailto:ucahali@ucl.ac.uk)<br/>
+* [David Ang (University College London, UK)](mailto:ucahdka@ucl.ac.uk)<br/>
+* [Fangming Li (Imperial College London, UK)](mailto:fangming.li17@imperial.ac.uk)<br/>
+* [Jujian Zhang (Imperial College London, UK)](mailto:jujian.zhang19@imperial.ac.uk)<br/>
 
 ### Aim and Scope
 
-The session is consisted of 8 talks about recent formalisation projects of mathematics. 
+The session is about recent formalisation projects using the Lean4 theorem prover.
 
 ### Submission guidelines
 
@@ -23,8 +23,6 @@ distributed during the meeting and online via Springer. The deadline to
 submit to these proceedings is **5th April 2024.**  Details on page
 limits, style files and the submission link can be found on
 [the main ICMS webpage](https://maths.dur.ac.uk/icms2024/ICMS2024_Registration.html)
-
-  ---
 
 ### Accepted Talks
 
