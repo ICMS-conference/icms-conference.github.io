@@ -12,13 +12,15 @@ title: "ICMS 2024 - Session 2: Novel Formalisations of Mathematics in Lean"
 
 ### Aim and Scope
 
+The session is consisted of 8 talks about recent formalisation projects of mathematics. 
+
 ### Submission guidelines
 
 There is an option to submit an _extended abstract_ for
 the conference proceedings in Springer Lecture Notes in Computer Science
 to accompany the talk.  This will be reviewed and if accepted,
 distributed during the meeting and online via Springer. The deadline to
-submit to these proceedings is **22nd March 2024.**  Details on page
+submit to these proceedings is **5th April 2024.**  Details on page
 limits, style files and the submission link can be found on
 [the main ICMS webpage](https://maths.dur.ac.uk/icms2024/ICMS2024_Registration.html)
 
