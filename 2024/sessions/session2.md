@@ -12,7 +12,11 @@ title: "ICMS 2024 - Session 2: Novel Formalisations of Mathematics in Lean"
 
 ### Aim and Scope
 
-The session is about recent formalisation projects using the Lean4 theorem prover.
+Interactive theorem provers are pieces of software that allow one to express mathematical constructs
+and arguments and check them interactively. Formalisation, the process of writing mathematical proofs
+in these systems, is becoming increasingly popular amongst mathematicians.
+In this session, we will be focusing on the Lean4 theorem prover and exhibit recent novel formalisation
+projects prover.
 
 ### Submission guidelines
 
@@ -132,8 +136,8 @@ A critical issue when formalizing the HP model seems to be the choice of definit
 #### Stacks in Lean
 
 * Speaker: [Calle Sonne](mailto:calle.sonne.23@ucl.ac.uk)
-* [Paul Lezeau](mailto:paul.lezeau.23@ucl.ac.uk) 
-  
+* [Paul Lezeau](mailto:paul.lezeau.23@ucl.ac.uk)
+
 In this talk, we plan to explain some of our work that has led to defining Stacks in Lean. We will introduce some of the basic mathematical theory around this topic (categories fibered in groupoids, etc) and explain the various challenges that arise when formalising this. Finally, we will discuss our more recent efforts to redefine these notions using structures and data types that are more adapted to Lean, and advertise our upcoming project to use this work as a basis to formalize some basic deformation theory (Schlessinger's criterion, etc) for Kevin Buzzard's FLT project.
 
 #### Ideal prime factorisations and the Kummer-Dedekind theorem
@@ -144,7 +148,7 @@ In this talk I will discuss some of my past work on algebraic number theory in L
 
 #### Groups of order $p q$
 
-* Speaker: [Peiran Wu](pw72@st-andrews.ac.uk) 
+* Speaker: [Peiran Wu](pw72@st-andrews.ac.uk)
 * Scott Harper
 
 We formalise in Lean a proof that any finite group of order $p q$ with $p$ and $q$ distinct prime numbers is isomorphic to the semidirect product of a cyclic group of order $p$ and one of order $q$. We apply the result to classify groups of certain small orders in Lean.
