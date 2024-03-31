@@ -142,8 +142,8 @@ In this talk, we plan to explain some of our work that has led to defining Stack
 
 #### Groups of order $p q$
 
-* Speaker: [Peiran Wu](pw72@st-andrews.ac.uk)
-* Scott Harper
+* Speaker: [Peiran Wu](mailto:pw72@st-andrews.ac.uk)
+* [Scott Harper](mailto:scott.harper@st-andrews.ac.uk)
 
 We formalise in Lean a proof that any finite group of order $p q$ with $p$ and $q$ distinct prime numbers is isomorphic to the semidirect product of a cyclic group of order $p$ and one of order $q$. We apply the result to classify groups of certain small orders in Lean.
 
