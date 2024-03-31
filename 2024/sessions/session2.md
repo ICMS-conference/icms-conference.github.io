@@ -140,12 +140,6 @@ A critical issue when formalizing the HP model seems to be the choice of definit
 
 In this talk, we plan to explain some of our work that has led to defining Stacks in Lean. We will introduce some of the basic mathematical theory around this topic (categories fibered in groupoids, etc) and explain the various challenges that arise when formalising this. Finally, we will discuss our more recent efforts to redefine these notions using structures and data types that are more adapted to Lean, and advertise our upcoming project to use this work as a basis to formalize some basic deformation theory (Schlessinger's criterion, etc) for Kevin Buzzard's FLT project.
 
-#### Ideal prime factorisations and the Kummer-Dedekind theorem
-
-* [Paul Lezeau](mailto:paul.lezeau.23@ucl.ac.uk)
-
-In this talk I will discuss some of my past work on algebraic number theory in Lean, which culminated in a formalisation of the Kummer-Dedekind theorem. I plan to briefly recall some basic facts about algebraic number theory (existence of prime factorisations for ideals in Dedekind Domains, etc) and then discuss some aspects of the proof. In particular I will mention some of the tricky parts of formalising the argument, and various ideas that helped overcome these difficulties (for instance, the proof that ended up in Mathlib after some iterations of the reviewing process and a couple of suggestions from Anne Baanen is quite non-standard, and to the best of my knowledge original)
-
 #### Groups of order $p q$
 
 * Speaker: [Peiran Wu](pw72@st-andrews.ac.uk)
