@@ -16,7 +16,7 @@ Interactive theorem provers are pieces of software that allow one to express mat
 and arguments and check them interactively. Formalisation, the process of writing mathematical proofs
 in these systems, is becoming increasingly popular amongst mathematicians.
 In this session, we will be focusing on the Lean4 theorem prover and exhibit recent novel formalisation
-projects prover.
+projects.
 
 ### Submission guidelines
 
