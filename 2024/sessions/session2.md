@@ -92,7 +92,7 @@ A critical issue when formalizing the HP model seems to be the choice of definit
 #### Stacks in Lean
 
 * Speaker: [Calle Sonne](mailto:calle.sonne.23@ucl.ac.uk)
-* [Paul Lezeau](mailto:paul.lezeau.23@ucl.ac.uk)
+* Speaker: [Paul Lezeau](mailto:paul.lezeau.23@ucl.ac.uk)
 
 In this talk, we plan to explain some of our work that has led to defining Stacks in Lean. We will introduce some of the basic mathematical theory around this topic (categories fibered in groupoids, etc) and explain the various challenges that arise when formalising this. Finally, we will discuss our more recent efforts to redefine these notions using structures and data types that are more adapted to Lean, and advertise our upcoming project to use this work as a basis to formalize some basic deformation theory (Schlessinger's criterion, etc) for Kevin Buzzard's FLT project.
 
