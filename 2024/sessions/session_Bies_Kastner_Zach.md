@@ -22,6 +22,28 @@ Recent years have shown new applications of symbolic methods in computer algebra
    * [Luca Remke](https://www.idsr.uni-stuttgart.de/en/institute/Remke/) (University of Stuttgart)
    * [Andrew P. Turner](https://apturner.net/) (University of Pennsylvania)
 
+
+## Schedule
+
+All talks in this session will take place on Thursday, July 25. The schedule is as follows:
+
+| Time | Title | Speaker |
+| -------- | -------- | -------- |
+| 9.00 - 10.00 | Plenary Talk |
+| 10.00 - 10.30 | Coffee | |
+| 10.30 - 11.00 | Introduction | Bies, Kastner, Zach |
+| 11.00 - 11.30 | Chebyshev varieties | Meroni |
+| 11.30 - 12.00 | Exceptional sequences of line bundles on toric varieties | Remke |
+| 12.30 - 13.00 | Localization in Gromov--Witten theory of toric varieties in a computer algebra system | Muratore |
+| 12.30 - 13.30 | Lunch | |
+| 13.30 - 14.00 | FTheoryTools: A computational tool for analysis of singular elliptic fibrations | Turner |
+| 14.00 - 14.30 | Intersection Theory on Weighted Blowups of F-theory Vacua | Jefferson |
+| 14.30 - 15.00 | Computational analysis of logarithmic singularities | Felten |
+| 15.00 - 15.30 | Algebraic sparse factor analysis | Portakal |
+| 15.30 - 16.00 | Coffee | |
+| 16.00 - 17.00 | The AI Mathematician | He |
+
+
 ## Abstracts
 
 ### Computational analysis of logarithmic singularities
