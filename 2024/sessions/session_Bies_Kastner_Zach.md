@@ -27,7 +27,7 @@ Recent years have shown new applications of symbolic methods in computer algebra
 
 All talks in this session will take place on Thursday, July 25. The schedule is as follows:
 
-| Time | Title | Speaker |
+| Time &nbsp; &nbsp; | Title | Speaker |
 | -------- | -------- | -------- |
 | 9.00 - 10.00 | Plenary Talk |
 | 10.00 - 10.30 | Coffee | |
