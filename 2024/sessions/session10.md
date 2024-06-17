@@ -17,8 +17,27 @@ The main topic of mathematical research data is of course, the data itself. The 
 **FAIR data:**
 As research data becomes more important, we need to start thinking about how to handle the data. For this, it is useful to talk about the concept of FAIR data. FAIR is short for Findable, Accessible, Interoperable and Reusable. In short, we want to talk about measures we can take to ensure that other mathematicians have access to the work we did and are actually able to reproduce our results and reuse them. It happens far too often that data that was produced, say, two years ago can no longer be used for a variety of potential reasons. The session will also concern itself solutions to can help addressing the current state of affairs.
 
-## Accepted Talks
+## Schedule
 
+All talks in this session will take place on Wednesday, July 24. The schedule is as follows:
+
+| Time &nbsp; &nbsp; | Title | Speaker |
+| -------- | -------- | -------- |
+| 9.00 - 10.00 | Plenary Talk |
+| 10.00 - 10.30 | Coffee | 
+| 10.30 - 11.00 | Data related to the Atlas of Finite Groups | Breuer |
+| 11.00 - 11.30 | The Graded Ring Database | Brown |
+| 11.30 - 12.00 | MaRDI Packaging System, a solution for predefined software environments | Kaushik |
+| 12.30 - 13.00 | Towards a FAIR Documentation of Workflows and Models in Applied Mathematics | Reidelbach |
+| 12.30 - 13.30 | Lunch | |
+| 13.30 - 14.00 | polyDB: An open database for combinatorial and geometric data | Paffenholz |
+| 14.00 - 14.30 | Managing Data in the L-functions and Modular Forms Database (LMFDB) | Paulhus |
+| 14.30 - 15.00 | A FAIR File Format for Mathematical Software | Della Vecchia |
+| 15.00 - 15.30 | Peer reviewing software in Mathematical papers | Hanselman |
+| 15.30 - 16.00 | Coffee | 
+| 16.00 - 16.30 | How to share large data in mathematics? | Schröter |
+| 16.30 - 17.00 | Integrating Mathematical Data and Resources: Advancements in zbMATH Open| Azzouz-Thuderoz |
+| 17.00 - 17.30 | Addressing Centralization Concerns in Software Development | Azzouz-Thuderoz |
 
 #### Data related to the Atlas of Finite Groups
 #### Thomas Breuer (RWTH Aachen, Germany)
