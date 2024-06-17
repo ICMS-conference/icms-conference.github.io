@@ -3,6 +3,7 @@ layout: session
 title: "ICMS 2024 - Session 13: General Session"
 ---
 ### Organizers
+   * [Bettina Eick](http://www.iaa.tu-bs.de/beick/)<br/>
    * [Yue Ren](https://yueren.de)<br/>
 
 ### Aim and Scope
@@ -95,6 +96,13 @@ We propose a new method for estimating the relative position of small multiple r
 While previous studies used robust but relatively slow Evolutionary Algorithms (EA), we reduce the system of nonlinear equations to a system of linear equations by substituting nonlinear functions as variables, then directly solve it quickly to estimate the relative direction and the distance of a pair of rovers. Furthermore, we combine our proposed method with the least-squares method to estimate the relative positions of more than two rovers and correct the errors. The results of the experiments are shown.
 
 
+#### Cylindrical Algebraic Decomposition in Macaulay2
+#### [Corin Lee](https://people.bath.ac.uk/cel34/) (University of Bath, UK)
+
+
+We are presenting the first implementation of Cylindrical Algebraic Decomposition (CAD) in Macaulay2, which is the algorithm (and the namesake algebraic object) that can be used to solve real quantifier elimination problems. Our implementation generates an open CAD for a given set of real polynomial expressions with rational coefficients. We are using the relatively newly justified projection/lifting scheme due to Lazard. Moreover, a new heuristic for variable ordering is considered. This work is joint with Tereso del Río and Hamid Rahkooy.
+
+
 #### Local duality in multi-parameter persistent homology
 #### [Fabian Lenzen](mailto:fabian.lenzen@tu-berlin.de) (TU Berlin, Germany)
 
@@ -117,10 +125,3 @@ The developed package consists of three modules which compute the Grobner bases 
 
 
 A robust path tracker computes the radius of convergence of Newton’s method, estimates the distance to the nearest path, and then applies Pade approximants to predict the next point on the path. Apriori step size control is less sensitive to finely tuned tolerances than aposteriori step size control and is therefore robust. Extrapolation methods are effective to accurately locate the singular points at the end of solution paths. Computations are executed with phcpy, the scripting interface to PHCpack, which now compiles with the project manager of the gnu-ada compiler, available via alire (alr), the package manager of Ada. All software is free and open source, released under version 3 of the GNU GPL license. This talk will describe the effectiveness of extrapolation methods.
-
-
-#### Cylindrical Algebraic Decomposition in Macaulay2
-#### [Corin Lee](https://people.bath.ac.uk/cel34/) (University of Bath, UK)
-
-
-We are presenting the first implementation of Cylindrical Algebraic Decomposition (CAD) in Macaulay2, which is the algorithm (and the namesake algebraic object) that can be used to solve real quantifier elimination problems. Our implementation generates an open CAD for a given set of real polynomial expressions with rational coefficients. We are using the relatively newly justified projection/lifting scheme due to Lazard. Moreover, a new heuristic for variable ordering is considered. This work is joint with Tereso del Río and Hamid Rahkooy.
