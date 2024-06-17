@@ -8,7 +8,26 @@ title: "ICMS 2024 - Session 13: General Session"
 ### Aim and Scope
 This session addresses aspects of mathematical software that not covered by the other sessions.
 
-## Accepted Talks
+## Schedule
+
+All talks in this session will take place on Tuesday, July 23. The schedule is as follows:
+
+| Time &nbsp; &nbsp; | Title                                                                                                  | Speaker                 |
+|--------------------|--------------------------------------------------------------------------------------------------------|-------------------------|
+| 9:00 - 10:00       | Plenary Talk                                                                                           |                         |
+| 10:00 - 10:30      | Coffee                                                                                                 |                         |
+| 10:30 - 11:00      | DetGB: A Software Package for Computing Groebner Bases of Determinantal Ideals                         | Mou, Song, Zhou         |
+| 11:00 - 11:30      | Integrating GeoGebra with React and WebAssembly                                                        | Fujimoto                |
+| 11:30 - 12:00      | The use of HTML-based dynamic content for the learning of statistical test                             | Kaneko, Kitamoto, Noda  |
+| 12:30 - 13:00      | Estimating the Relative Position of Small Multiple Rovers for an Asteroid Wide-area Exploration System | Kasai, Terui, Mikawa    |
+| 12:30 - 13:30      | Lunch                                                                                                  |                         |
+| 13:30 - 14:00      | Cylindrical Algebraic Decomposition in Macaulay2                                                       | Lee                     |
+| 14:00 - 14:30      | Local duality in multi-parameter persistent homology                                                   | Lenzen                  |
+| 14:30 - 15:00      | Extrapolating Solution Paths of Polynomial Homotopies towards Singularities with PHCpack and phcpy     | Verschelde, Viswanathan |
+| 15:00 - 15:30      |                                                                                                        |                         |
+| 15:30 - 16:00      | Coffee                                                                                                 |                         |
+
+## Abstracts
 
 #### Integrating GeoGebra with React and WebAssembly: A Web-Based Approach for Mathematical Software Development
 #### [Mitsushi Fujimoto](mailto:fujimoto@fukuoka-edu.ac.jp) (University of Teacher Education Fukuoka, Japan)
