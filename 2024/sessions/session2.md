@@ -14,11 +14,83 @@ title: "ICMS 2024 - Session 2: Novel Formalisations of Mathematics in Lean"
 
 Interactive theorem provers are pieces of software that allow one to express mathematical constructs and arguments and check them interactively. Formalisation, the process of writing mathematical proofs in these systems, is becoming increasingly popular amongst mathematicians. In this session, we will be focusing on the Lean4 theorem prover and exhibit recent novel formalisation projects.
 
-### Submission Guidelines
+### Schedule
 
-There is an option to submit an _extended abstract_ for the conference proceedings in Springer Lecture Notes in Computer Science to accompany the talk. This will be reviewed and if accepted, distributed during the meeting and online via Springer. The deadline to submit to these proceedings is **5th April 2024**. Details on page limits, style files and the submission link can be found on [the main ICMS webpage](https://maths.dur.ac.uk/icms2024/ICMS2024_Registration.html).
+All talks in this session will take place on Thursday, July 25 in MCS3052 at the Department of Mathematical Sciences. The schedule is as follows:
 
-### Accepted Talks
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Title</th>
+      <th>Speaker</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>09.00 - 10.00</td>
+      <td>Plenary talk in MCS0001</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10.00 - 10.30</td>
+      <td>Coffee in MCS0001</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10.30 - 11.00</td>
+      <td>Towards a formal proof of the Freyd-Mitchell embedding theorem</td>
+      <td>Markus Himmel</td>
+    </tr>
+    <tr>
+      <td>11.00 - 11.30</td>
+      <td>Formalising Analysis in Lean: Compactness and Dimensionality</td>
+      <td>Dawid Lipinski</td>
+    </tr>
+    <tr>
+      <td>11.30 - 12.00</td>
+      <td>Formalising Families of `l`-adic Galois Representations in Lean 4</td>
+      <td>Ivan Farabella</td>
+    </tr>
+    <tr>
+      <td>12.00 - 12.30</td>
+      <td>Formalisation of the Category of Hopf Algebras in Lean 4</td>
+      <td>Yunzhou Xie, Yichen Feng, Yanqiao Zhou</td>
+    </tr>
+    <tr>
+      <td>12.30 - 13.30</td>
+      <td>Lunch in MCS0001</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13.30 - 14.00</td>
+      <td>Protein folding by recursive backtracking</td>
+      <td>Bjørn Kjos-Hanssen</td>
+    </tr>
+    <tr>
+      <td>14.00 - 14.30</td>
+      <td>Stacks in Lean</td>
+      <td>Calle Sonne, Paul Lezeau</td>
+    </tr>
+    <tr>
+      <td>14.30 - 15.00</td>
+      <td>Groups of order `p * q`</td>
+      <td>Peiran Wu</td>
+    </tr>
+    <tr>
+      <td>15.00 - 15.30</td>
+      <td>Formalization of the Existence of Frobenius Elements</td>
+      <td>Jou Glasheen</td>
+    </tr>
+    <tr>
+      <td>15.30 - 16.00</td>
+      <td>Coffee in MCS0001</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+### Titles and Abstracts
 
 #### Towards a formal proof of the Freyd-Mitchell embedding theorem
 
@@ -36,13 +108,13 @@ The project has several interesting properties: it is being carried out entirely
 
 The theorem that a closed unit ball is compact if, and only if, its vector space is finite-dimensional showcases how unintuitive infinite dimensional spaces can be. Many proofs skip over what's considered obvious, leaving readers unaware of the underlying assumptions until they attempt formalization. We will begin the talk by proving a particular formulation of Riesz's lemma in Lean. We will then use it to construct a sequence in the unit ball where the distance between all elements is 1 and show that such a sequence cannot contain a convergent subsequence. Subsequently, we'll establish that a closed unit ball is not sequentially compact. A significant challenge we encountered during this proof was the necessity to define the sequence through strong recursion, which posed some difficulties in its formalisation. We hope this talk will showcase Lean's role in enhancing understanding and generalization of proofs by prompting us to explore broader definitions and theorems within the Mathlib library.
 
-#### Formalising Families of `p`-adic Galois Representations in Lean 4
+#### Formalising Families of `l`-adic Galois Representations in Lean 4
 
 * [Ivan Farabella](mailto:ivan.farabella21@imperial.ac.uk)
 
-Families of `p`-adic Galois representations are an important tool in modern algebraic number theory. Andrew Wiles used families of representations associated with elliptic curves to prove Fermat's Last Theorem and the Langlands philosophy conjectures a deep connection to the theory of automorphic forms. We formalise of the definition of families of `p`-adic Galois representations as well as the definition of compatibility on them for the first time in an interactive theorem prover and discuss the formalisation process.
+Families of `l`-adic Galois representations are an important tool in modern algebraic number theory. Andrew Wiles used families of representations associated with elliptic curves to prove Fermat's Last Theorem and the Langlands philosophy conjectures a deep connection to the theory of automorphic forms. We formalise of the definition of families of `l`-adic Galois representations as well as the definition of compatibility on them for the first time in an interactive theorem prover and discuss the formalisation process.
 
-#### Formalization of Hopf Algebra Category and Affine Group Scheme
+#### Formalisation of the Category of Hopf Algebras in Lean 4
 
 * Speaker: [Yunzhou Xie](mailto:yunzhou.xie21@imperial.ac.uk)
 * Speaker: [Yichen Feng](mailto:yichen.feng21@imperial.ac.uk)
@@ -96,13 +168,13 @@ A critical issue when formalizing the HP model seems to be the choice of definit
 
 In this talk, we plan to explain some of our work that has led to defining Stacks in Lean. We will introduce some of the basic mathematical theory around this topic (categories fibered in groupoids, etc) and explain the various challenges that arise when formalising this. Finally, we will discuss our more recent efforts to redefine these notions using structures and data types that are more adapted to Lean, and advertise our upcoming project to use this work as a basis to formalize some basic deformation theory (Schlessinger's criterion, etc) for Kevin Buzzard's FLT project.
 
-#### Groups of order `p q`
+#### Groups of order `p * q`
 
 * [Peiran Wu](mailto:pw72@st-andrews.ac.uk)
 
-We formalise in Lean a proof that any finite group of order `p q` with `p` and `q` distinct prime numbers is isomorphic to the semidirect product of a cyclic group of order `p` and one of order `q`. We apply the result to classify groups of certain small orders in Lean.
+We formalise in Lean a proof that any finite group of order `p q` with `p` and `q` distinct prime numbers is isomorphic to the semidirect product of a cyclic group of order `p` and one of order `q`. We apply the result to classify groups of certain small orders in Lean. Joint work with Scott Harper.
 
-#### `A K L B Q Q_ne_bot γ h` : Formalization of the Existence of the Frobenius Element for Finite Galois Extensions of Number Fields in the `A K L B` Setup
+#### Formalization of the Existence of Frobenius Elements
 
 * [Jou Glasheen](mailto:jou.glasheen23@imperial.ac.uk)
 
