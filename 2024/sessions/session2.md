@@ -59,7 +59,7 @@ All talks in this session will take place on Thursday, July 25 in MCS3052 at the
     </tr>
     <tr>
       <td>12.30 - 13.30</td>
-      <td>Lunch in MCS0001</td>
+      <td>Lunch in front of MCS0001</td>
       <td></td>
     </tr>
     <tr>
