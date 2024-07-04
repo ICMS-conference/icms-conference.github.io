@@ -88,9 +88,9 @@ I will discuss an in-development computational tool for the analysis of singular
 
 In a smooth and proper family of algebraic varieties, the Hodge--de Rham spectral sequence degenerates at the first page, and the Hodge sheaves are locally free. Similarly, in logarithmic geometry, in a proper, log smooth, and saturated family of log schemes, the Hodge--de Rham spectral sequence degenerates at the first page, and the Hodge sheaves are locally free. This is a partial generalization of the classical theorem to degenerations. Filip, Ruddat, and the speaker have achieved a further generalization which applies to degenerations whose logarithmic singularities are toroidal. This generalization has important applications in the construction of new varieties. In an ongoing long-term project, we apply the method to the construction of Fano manifolds in arbitrary dimension. Unfortunately, in its current form, the method is not strong enough to give the desired result. To overcome the current challenges, we have to analyze more general classes of log singularities than toroidal log singularities. Any log singularity which is useful in this context has the following three properties:
 
- (1) its local deformation theory is under sufficient control to construct globally consistent local deformations,
- (2) a proper family with such log singularities has constant log Betti numbers, and
- (3) the Hodge--de Rham spectral sequence of a proper family with such log singularities degenerates at the first page.
+1. its local deformation theory is under sufficient control to construct globally consistent local deformations,
+2. a proper family with such log singularities has constant log Betti numbers, and
+3. the Hodge--de Rham spectral sequence of a proper family with such log singularities degenerates at the first page.
 
 Candidates for such log singularities arise from explicit constructions of singular log schemes. An important approach to establish or refute (1) for an explicit log singularity is via studying the cohomological properties of an explicit resolution of log singularities. To this end, we need to compute the derived direct images of coherent sheaves on the resolution such as the pieces of the log de Rham complex. An important approach to (2) and (3) is to test for the constancy of the log Hodge numbers in explicitly given families with the relevant singularities. Here, we need to compute the derived direct images of the pieces of the log de Rham complex of the family. In this talk, we discuss examples of these two analyses. 
 
