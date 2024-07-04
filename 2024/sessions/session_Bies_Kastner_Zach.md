@@ -15,7 +15,6 @@ Recent years have shown new applications of symbolic methods in computer algebra
 
    * [Simon Felten](https://simon-felten.github.io/) (Columbia University)
    * [Yang-Hui He](https://www.physics.ox.ac.uk/our-people/he) (London Institute for Mathematical Sciences)
-   * [Patrick Jefferson](https://inspirehep.net/authors/1274984) (Massachusetts Institute of Technology)
    * [Chiara Meroni](https://merochia.wixsite.com/chiara-meroni) (ETH Zurich)
    * [Giosuè Muratore](https://sites.google.com/view/giosue-muratore/home-page) (Universidade de Lisboa)
    * [İrem Portakal](https://www.irem-portakal.de/) (Max Planck Institute for Mathematics in the Sciences Leipzig)
@@ -37,9 +36,9 @@ All talks in this session will take place on Thursday, July 25. The schedule is 
 | 12.30 - 13.00 | Localization in Gromov--Witten theory of toric varieties in a computer algebra system | Muratore |
 | 12.30 - 13.30 | Lunch | |
 | 13.30 - 14.00 | FTheoryTools: A computational tool for analysis of singular elliptic fibrations | Turner |
-| 14.00 - 14.30 | Intersection Theory on Weighted Blowups of F-theory Vacua | Jefferson |
-| 14.30 - 15.00 | Computational analysis of logarithmic singularities | Felten |
-| 15.00 - 15.30 | Algebraic sparse factor analysis | Portakal |
+| 14.00 - 14.30 | Computational analysis of logarithmic singularities | Felten |
+| 14.30 - 15.00 | Algebraic sparse factor analysis | Portakal |
+| 15.00 - 15.30 |  | |
 | 15.30 - 16.00 | Coffee | |
 | 16.00 - 17.00 | The AI Mathematician | He |
 
@@ -66,12 +65,6 @@ Candidates for such log singularities arise from explicit constructions of singu
 We summarize how AI can approach mathematics in three ways: theorem-proving, conjecture formulation, and language processing.
 Inspired by initial experiments in geometry and string theory, we present a number of recent experiments on how various standard machine-learning algorithms can help with pattern detection across disciplines ranging from algebraic geometry to representation theory, to combinatorics, and to number theory. At the heart of the programme is the question how does AI help with mathematical discovery.
 
-
-### Intersection Theory on Weighted Blowups of F-theory Vacua
-
-#### Patrick Jefferson
-
-Much of the physics of string theory vacuum solutions defined by Calabi-Yau varieties is captured by their intersection numbers. Unfortunately, the calculation of intersection numbers can be complicated by the presence of singularities (associated to massless charged degrees of freedom) that need to be resolved in a manner preserving the Calabi-Yau condition before intersection theory can be applied. This is a stringent condition that in practice sometimes requires the use of weighted blowups, which cannot in general be analyzed via the same techniques used to study their unweighted counterparts. Motivated by this challenge, I will present a recently proven formula expressing the pushforward of an analytic function of the exceptional divisor class of a weighted blowup in terms of the classes of the divisors whose complete intersection is the subvariety along which the blowup is centered. I will illustrate the utility of this formula with concrete examples and explain how it both solves certain open problems, as well as enables new lines of investigation, in F-theory.
 
 
 ### Chebyshev varieties
