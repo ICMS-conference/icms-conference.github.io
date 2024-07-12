@@ -6,17 +6,19 @@ title: "ICMS 2024 - Session 1: Number theory and related areas"
    * [John Abbott (RPTU Kaiserslautern, Germany)](mailto:john:abbott@rptu.de) but replace the colon by a dot<br/>
 
 ### Aim and Scope
-Number theory underlies many techniques for symbolic computation, and also in several neighbouring disciplines such as modern cryptography & cryptanalysis.  In this session we shall see and discuss various state-of-the-art implementations as well as bring together researchers with varied applications and using different software systems. Topics may include, but are not limited to, certificates of correctness of computational results (e.g. primality certification), algebraic field extensions, local fields, arithmetic geometry.  Details about important implementation techniques are also encouraged (e.g. exploiting parallellism, new empirically-confirmed complexity results, adroit use of approximation).
+Number theory underlies many techniques for symbolic computation, and also in several neighbouring disciplines such as modern cryptography & cryptanalysis.  In this session we shall see and discuss various state-of-the-art implementations as well as bring together researchers with varied applications and using different software systems. Topics may include, but are not limited to, certificates of correctness of computational results (_e.g._ primality certification), algebraic field extensions, local fields, arithmetic geometry.  Details about important implementation techniques are also encouraged (_e.g._ exploiting parallellism, new empirically-confirmed complexity results, & adroit use of approximation).
 
 ### Schedule
 All talks in this session will take place in MCS3052 on Thursday afternoon (25th July) at the Department of Mathematical Sciences.  The schedule is as follows:
 | Time | Title | Speaker |
-| ---- | ----- | ------- |
+| ---- | :---- | ------- |
 | 16:00--16:30 | ECPP over MPI | A. Enge |
 | 16:30--17:00 | Determinants over ZZ | J. Abbott |
 | 17:00--17:30 | A weakness in GSW Encryption | A. Kaushik |
 
-Each 30 minute slot comprises approx 23 mins presentation, 5 mins questions, 2 mins changeover
+Each 30 minute slot comprises approx 23 mins presentation, 5 mins questions, 2 mins changeover.
+
+Talk abstracts are immediately below.
 
   ---
   
