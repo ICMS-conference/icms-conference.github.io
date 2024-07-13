@@ -10,6 +10,7 @@ Number theory underlies many techniques for symbolic computation, and also in se
 
 ### Schedule
 All talks in this session will take place in MCS3052 on Thursday afternoon (25th July) at the Department of Mathematical Sciences.  The schedule is as follows:
+
 | Time         | Title                        | Speaker    |
 |--------------|------------------------------|------------|
 | 16:00--16:30 | ECPP over MPI                | A. Enge    |
