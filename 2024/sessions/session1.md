@@ -10,10 +10,10 @@ Number theory underlies many techniques for symbolic computation, and also in se
 
 ### Schedule
 All talks in this session will take place in MCS3052 on Thursday afternoon (25th July) at the Department of Mathematical Sciences.  The schedule is as follows:
-| Time | Title | Speaker |
-| ---- | :---- | ------- |
-| 16:00--16:30 | ECPP over MPI | A. Enge |
-| 16:30--17:00 | Determinants over ZZ | J. Abbott |
+| Time         | Title                        | Speaker    |
+|--------------|------------------------------|------------|
+| 16:00--16:30 | ECPP over MPI                | A. Enge    |
+| 16:30--17:00 | Determinants over ZZ         | J. Abbott  |
 | 17:00--17:30 | A weakness in GSW Encryption | A. Kaushik |
 
 Each 30 minute slot comprises approx 23 mins presentation, 5 mins questions, 2 mins changeover.
@@ -21,7 +21,7 @@ Each 30 minute slot comprises approx 23 mins presentation, 5 mins questions, 2 m
 Talk abstracts are immediately below.
 
   ---
-  
+
 ## Accepted Talks
 
 Title:  **ECPP over MPI**
