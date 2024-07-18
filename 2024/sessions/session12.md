@@ -1,9 +1,11 @@
+
+
 ---
 layout: session
 title: "ICMS 2024 - Session 12: Polyhedral geometry and combinatorics</b>"
 ---
 ## Organizers
-   * [Victoria Schleis (Universität Tuebingen, Germany)](https://victoriaschleis.github.io/)<br/>
+   * [Victoria Schleis (Durham University, UK)](https://victoriaschleis.github.io/)<br/>
 
 ## Aim and Scope
 
@@ -15,7 +17,24 @@ Particular topics include (but are not limited to) computational methods and new
 
 The aim of the session is to bring together researchers in different areas of polyhedral and tropical geometry and combinatorics, but also users of different software systems. Details about important implementation techniques are particularly encouraged!
 
-## Accepted Talks
+## Schedule
+
+| Time &nbsp; &nbsp; | Tuesday | Wednesday |
+| -------- | -------- | -------- |
+| 9.00 - 10.00 | Plenary Talk | Plenary Talk |
+| 10.00 - 10.30 | Coffee | Coffee | 
+| 10.30 - 11.00 | Secondary fans of hypersimplices and finite metric spaces (Casabella) |   |
+| 11.00 - 11.30 | Checking regularity on the flip graph of triangulations (Kastner) |  |
+| 11.30 - 12.00 | Cross-ratios and perfect matchings (Silversmith) |  |
+| 12.30 - 13.00 | Counting Tropical Curves in P1xP1: Computation & Polynomiality Properties (Corey) |  |
+| 12.30 - 13.30 | Lunch | |
+| 13.30 - 14.00 | Quantum Automorphism Groups of Matroids (Wack) | Scalable Methods for Tropical Scaling (Radulescu) |
+| 14.00 - 14.30 | q-Matroids in Julia/Oscar (Degen) | Application of dynamic decomposition for tropical prevarieties to celestial mechanics (Jensen) |
+| 14.30 - 15.00 | Singular Matroid Realization Spaces (Luber) | Generalising Tropical Homotopies towards Tropical Intersection Products (Daisey) |
+| 15.00 - 15.30 | Divisors on Metric Graphs (Saillez)| Eigenvalue Methods for Sparse Tropical Polynomial Systems (Béreau) |
+| 15.30 - 16.00 | Coffee | Coffee | 
+
+## Abstracts of Accepted Talks
    
 ### Eigenvalue Methods for Sparse Tropical Polynomial Systems<br/>
 * [Antoine Béreau (École polytechnique, Paris, France)](https://antoine-bereau.fr/)<br/>

@@ -3,12 +3,32 @@ layout: session
 title: "ICMS 2024 - Session 13: General Session"
 ---
 ### Organizers
+   * [Bettina Eick](http://www.iaa.tu-bs.de/beick/)<br/>
    * [Yue Ren](https://yueren.de)<br/>
 
 ### Aim and Scope
 This session addresses aspects of mathematical software that not covered by the other sessions.
 
-## Accepted Talks
+## Schedule
+
+All talks in this session will take place on Tuesday, July 23. The schedule is as follows:
+
+| Time &nbsp; &nbsp; | Title                                                                                                  | Speaker                 |
+|--------------------|--------------------------------------------------------------------------------------------------------|-------------------------|
+| 9:00 - 10:00       | Plenary Talk                                                                                           |                         |
+| 10:00 - 10:30      | Coffee                                                                                                 |                         |
+| 10:30 - 11:00      | DetGB: A Software Package for Computing Groebner Bases of Determinantal Ideals                         | Mou, Song, Zhou         |
+| 11:00 - 11:30      | Integrating GeoGebra with React and WebAssembly                                                        | Fujimoto                |
+| 11:30 - 12:00      | The use of HTML-based dynamic content for the learning of statistical test                             | Kaneko, Kitamoto, Noda  |
+| 12:30 - 13:00      | Estimating the Relative Position of Small Multiple Rovers for an Asteroid Wide-area Exploration System | Kasai, Terui, Mikawa    |
+| 12:30 - 13:30      | Lunch                                                                                                  |                         |
+| 13:30 - 14:00      | Cylindrical Algebraic Decomposition in Macaulay2                                                       | Lee                     |
+| 14:00 - 14:30      | Local duality in multi-parameter persistent homology                                                   | Lenzen                  |
+| 14:30 - 15:00      | Extrapolating Solution Paths of Polynomial Homotopies towards Singularities with PHCpack and phcpy     | Verschelde, Viswanathan |
+| 15:00 - 15:30      |                                                                                                        |                         |
+| 15:30 - 16:00      | Coffee                                                                                                 |                         |
+
+## Abstracts
 
 #### Integrating GeoGebra with React and WebAssembly: A Web-Based Approach for Mathematical Software Development
 #### [Mitsushi Fujimoto](mailto:fujimoto@fukuoka-edu.ac.jp) (University of Teacher Education Fukuoka, Japan)
@@ -76,6 +96,13 @@ We propose a new method for estimating the relative position of small multiple r
 While previous studies used robust but relatively slow Evolutionary Algorithms (EA), we reduce the system of nonlinear equations to a system of linear equations by substituting nonlinear functions as variables, then directly solve it quickly to estimate the relative direction and the distance of a pair of rovers. Furthermore, we combine our proposed method with the least-squares method to estimate the relative positions of more than two rovers and correct the errors. The results of the experiments are shown.
 
 
+#### Cylindrical Algebraic Decomposition in Macaulay2
+#### [Corin Lee](https://people.bath.ac.uk/cel34/) (University of Bath, UK)
+
+
+We are presenting the first implementation of Cylindrical Algebraic Decomposition (CAD) in Macaulay2, which is the algorithm (and the namesake algebraic object) that can be used to solve real quantifier elimination problems. Our implementation generates an open CAD for a given set of real polynomial expressions with rational coefficients. We are using the relatively newly justified projection/lifting scheme due to Lazard. Moreover, a new heuristic for variable ordering is considered. This work is joint with Tereso del Río and Hamid Rahkooy.
+
+
 #### Local duality in multi-parameter persistent homology
 #### [Fabian Lenzen](mailto:fabian.lenzen@tu-berlin.de) (TU Berlin, Germany)
 
@@ -98,21 +125,3 @@ The developed package consists of three modules which compute the Grobner bases 
 
 
 A robust path tracker computes the radius of convergence of Newton’s method, estimates the distance to the nearest path, and then applies Pade approximants to predict the next point on the path. Apriori step size control is less sensitive to finely tuned tolerances than aposteriori step size control and is therefore robust. Extrapolation methods are effective to accurately locate the singular points at the end of solution paths. Computations are executed with phcpy, the scripting interface to PHCpack, which now compiles with the project manager of the gnu-ada compiler, available via alire (alr), the package manager of Ada. All software is free and open source, released under version 3 of the GNU GPL license. This talk will describe the effectiveness of extrapolation methods.
-
-
-#### Cylindrical Algebraic Decomposition in Macaulay2
-#### [Corin Lee](https://people.bath.ac.uk/cel34/) (University of Bath, UK)
-
-
-We are presenting the first implementation of Cylindrical Algebraic Decomposition (CAD) in Macaulay2, which is the algorithm (and the namesake algebraic object) that can be used to solve real quantifier elimination problems. Our implementation generates an open CAD for a given set of real polynomial expressions with rational coefficients. We are using the relatively newly justified projection/lifting scheme due to Lazard. Moreover, a new heuristic for variable ordering is considered. This work is joint with Tereso del Río and Hamid Rahkooy.
-
-
-#### Algorithmic approach for an unique definition of the next generation matrix (to be confirmed)
-#### [Rim Adenane](mailto:rim.adenane9@gmail.com) (Ibn Tofail University, Kenitra, Morocco)
-
-
-The basic reproduction number R0 is a concept which originated in population dynamics, mathematical epidemiology, and ecology, and is closely related to the mean number of children in branching processes (refecting the fact that the phenomena of interest are well approximated by branching processes, at their inception). Despite the very extensive literature around R0 for deterministic epidemic models, we believe there are still aspects which are not fully understood. Foremost is the fact that R0 is not a function of the original ODE model, unless we include in it also a certain (F, V ) gradient decomposition, which is not unique. This is related to the specication of the "infected compartements", which is also not unique. A second interesting question is whether the extinction probabilities of the natural continuous time Markovian chain approximation of an ODE model around boundary points (disease-free equilibrium and invasion points) are also related to the (F, V ) gradient decomposition. I will present in the talk briefy three new contributions to the literature:
-
-1) a universal algorithmic definition of a (F, V ) gradient decomposition (and hence of the resulting R0), which requires a minimal input from the user, namely the specification of an admissible set of disease/infection variables. We also present examples where other choices may be more reasonable, with more terms in F , or more terms in V.
-2) We glean out from the works of Bacaer a fixed point equation for the extinction probabilities of a stochastic model associated to a deterministic ODE model, which may be expressed in terms of the (F, V ) decomposition. The fact that both R0 and the extinction probabilities are functions of (F, V ) underlines the centrality of this pair, which may be viewed as more fundamental than the famous next generation matrix F V −1.
-3) We suggest introducing a new concept of suficient/minimal disease/infection set (suficient for determining R0). More precisely, our universal recipe of choosing "new infections" once the "infections" are specified suggests focusing on the choice of the latter, which is also not unique. The maximal choice of choosing all compartements which become 0 at the given boundary point seems to always work, but is the least useful for analytic computations, therefore we propose to investigate the minimal one. As a bonus, this idea seems useful for understanding the Jacobian factorization approach for computing R0 . We view this as a method for obtaining an approximation, which we show to always yield upper or lower bounds of the true R0, depending on whether R0 ≤ 1 or not.
