@@ -16,7 +16,7 @@ Interactive theorem provers are pieces of software that allow one to express mat
 
 ### Schedule
 
-All talks in this session will take place on Thursday, July 25 in MCS3052 at the Department of Mathematical Sciences. The schedule is as follows:
+All talks in this session will take place on Thursday, July 25 in MCS3070 at the Department of Mathematical Sciences. The schedule is as follows:
 
 <table>
   <thead>
