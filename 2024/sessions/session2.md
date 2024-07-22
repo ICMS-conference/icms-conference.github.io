@@ -69,8 +69,8 @@ All talks in this session will take place on Thursday, July 25 in MCS3070 at the
     </tr>
     <tr>
       <td>14.00 - 14.30</td>
-      <td>Stacks in Lean</td>
-      <td>Calle Sonne, Paul Lezeau</td>
+      <td><s>Stacks in Lean</s> (talk cancelled)</td>
+      <td><s>Calle Sonne, Paul Lezeau</s></td>
     </tr>
     <tr>
       <td>14.30 - 15.00</td>
@@ -160,13 +160,6 @@ In this model, a binary string like 0110 is interpreted as a polymer, a sequence
 In this project I formalize basic definitions and facts for the HP model in such a way that Lean can automatically calculate optimal scores. To speed up the calculation I use recursive backtracking. For good measure, I prove in Lean that my implementation of recursive backtracking and its application are correct.
 
 A critical issue when formalizing the HP model seems to be the choice of definition for the path induced by a sequence of folding moves (like up, down, left, right). I will present a couple of approaches used with varying success.
-
-#### Stacks in Lean
-
-* Speaker: [Calle Sonne](mailto:calle.sonne.23@ucl.ac.uk)
-* Speaker: [Paul Lezeau](mailto:paul.lezeau.23@ucl.ac.uk)
-
-In this talk, we plan to explain some of our work that has led to defining Stacks in Lean. We will introduce some of the basic mathematical theory around this topic (categories fibered in groupoids, etc) and explain the various challenges that arise when formalising this. Finally, we will discuss our more recent efforts to redefine these notions using structures and data types that are more adapted to Lean, and advertise our upcoming project to use this work as a basis to formalize some basic deformation theory (Schlessinger's criterion, etc) for Kevin Buzzard's FLT project.
 
 #### Groups of order `p * q`
 
