@@ -124,3 +124,8 @@ Alex Grosdos and Nils Sturma.
 
 We summarize how AI can approach mathematics in three ways: theorem-proving, conjecture formulation, and language processing.
 Inspired by initial experiments in geometry and string theory, we present a number of recent experiments on how various standard machine-learning algorithms can help with pattern detection across disciplines ranging from algebraic geometry to representation theory, to combinatorics, and to number theory. At the heart of the programme is the question how does AI help with mathematical discovery.
+
+### Moderated Discussion: "If I had the software to"
+
+Within the OSCAR project we have another opportunity to reach out for new goals and challenge the boundaries of what's currently accessible for computations in algebraic geometry. While the "engines" of the system such as Singular and Polymake have been around for quite some time and are well tuned and performant, it is our believe that many scientific projects are postponed or laid aside because of the difficulties to make such specialized software packages talk to each other, or because of the difficulties to run computations on a big scale, or... In this discussion we would like to encourage all participants in the room 
+to lay out some ideas about such loose ends in scientific projects and set the stage for envisioning joint directions for future developments of OSCAR and potential collaborations. 
