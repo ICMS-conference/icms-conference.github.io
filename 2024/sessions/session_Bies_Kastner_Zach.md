@@ -38,8 +38,8 @@ All talks in this session will take place on Thursday, July 25. The schedule is 
 | 13.30 - 14.00 | FTheoryTools: A computational tool for analysis of singular elliptic fibrations | Turner |
 | 14.00 - 14.30 | Computational analysis of logarithmic singularities | Felten |
 | 14.30 - 15.00 | Algebraic sparse factor analysis | Portakal (virtual) |
-| 15.00 - 15.30 |  | |
-| 15.30 - 16.00 | Coffee | |
+| 15.00 - 15.45 | Moderated discussion: "If I had the software to..." | Interactive |
+| 15.45 - 16.00 | Coffee | |
 | 16.00 - 17.00 | The AI Mathematician | He |
 
 
