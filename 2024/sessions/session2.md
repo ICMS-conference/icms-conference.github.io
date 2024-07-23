@@ -39,8 +39,8 @@ All talks in this session will take place on Thursday, July 25 in MCS3070 at the
     </tr>
     <tr>
       <td>10.30 - 11.00</td>
-      <td>Towards a formal proof of the Freyd-Mitchell embedding theorem</td>
-      <td>Markus Himmel</td>
+      <td>Introduction to Lean</td>
+      <td>Jujian Zhang</td>
     </tr>
     <tr>
       <td>11.00 - 11.30</td>
@@ -69,8 +69,8 @@ All talks in this session will take place on Thursday, July 25 in MCS3070 at the
     </tr>
     <tr>
       <td>14.00 - 14.30</td>
-      <td><s>Stacks in Lean</s> (talk cancelled)</td>
-      <td><s>Calle Sonne, Paul Lezeau</s></td>
+      <td>Towards a formal proof of the Freyd-Mitchell embedding theorem</td>
+      <td>Markus Himmel</td>
     </tr>
     <tr>
       <td>14.30 - 15.00</td>
@@ -91,16 +91,6 @@ All talks in this session will take place on Thursday, July 25 in MCS3070 at the
 </table>
 
 ### Titles and Abstracts
-
-#### Towards a formal proof of the Freyd-Mitchell embedding theorem
-
-* [Markus Himmel](mailto:markus@himmel-villmar.de)
-
-Lean's mathlib currently provides several tools to facilitate diagram chasing in general abelian categories, but they suffer from deficiencies which make their application less straightforward than simply adapting an elementwise proof in a category of modules.
-
-I will report on an ongoing project to formalize a proof of the Freyd-Mitchell embedding theorem, which states that every small abelian category can be embedded into a category of modules. This theorem vastly strengthens the existing diagram chasing techniques.
-
-The project has several interesting properties: it is being carried out entirely in the form of pull requests to mathlib, with only minimal amounts of code that is not merged at any time. We carefully selected a proof strategy that works well for mathlib, deducing the embedding theorem from various general theories that are useful outside of the embedding theorem. In set-based mathematics, the embedding theorem is accompanied by a "meta-theorem" explaining how the embedding theorem can be applied. I will explain how Lean's universes alleviate the need for such a meta-theorem in the formal setting.
 
 #### Formalising Analysis in Lean: Compactness and Dimensionality
 
@@ -160,6 +150,16 @@ In this model, a binary string like 0110 is interpreted as a polymer, a sequence
 In this project I formalize basic definitions and facts for the HP model in such a way that Lean can automatically calculate optimal scores. To speed up the calculation I use recursive backtracking. For good measure, I prove in Lean that my implementation of recursive backtracking and its application are correct.
 
 A critical issue when formalizing the HP model seems to be the choice of definition for the path induced by a sequence of folding moves (like up, down, left, right). I will present a couple of approaches used with varying success.
+
+#### Towards a formal proof of the Freyd-Mitchell embedding theorem
+
+* [Markus Himmel](mailto:markus@himmel-villmar.de)
+
+Lean's mathlib currently provides several tools to facilitate diagram chasing in general abelian categories, but they suffer from deficiencies which make their application less straightforward than simply adapting an elementwise proof in a category of modules.
+
+I will report on an ongoing project to formalize a proof of the Freyd-Mitchell embedding theorem, which states that every small abelian category can be embedded into a category of modules. This theorem vastly strengthens the existing diagram chasing techniques.
+
+The project has several interesting properties: it is being carried out entirely in the form of pull requests to mathlib, with only minimal amounts of code that is not merged at any time. We carefully selected a proof strategy that works well for mathlib, deducing the embedding theorem from various general theories that are useful outside of the embedding theorem. In set-based mathematics, the embedding theorem is accompanied by a "meta-theorem" explaining how the embedding theorem can be applied. I will explain how Lean's universes alleviate the need for such a meta-theorem in the formal setting.
 
 #### Groups of order `p * q`
 
