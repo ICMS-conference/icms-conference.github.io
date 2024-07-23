@@ -38,8 +38,8 @@ All talks in this session will take place on Thursday, July 25. The schedule is 
 | 13.30 - 14.00 | FTheoryTools: A computational tool for analysis of singular elliptic fibrations | Turner |
 | 14.00 - 14.30 | Computational analysis of logarithmic singularities | Felten |
 | 14.30 - 15.00 | Algebraic sparse factor analysis | Portakal (virtual) |
-| 15.00 - 15.30 |  | |
-| 15.30 - 16.00 | Coffee | |
+| 15.00 - 15.45 | Moderated discussion: "If I had the software to..." | Interactive |
+| 15.45 - 16.00 | Coffee | |
 | 16.00 - 17.00 | The AI Mathematician | He |
 
 
@@ -124,3 +124,8 @@ Alex Grosdos and Nils Sturma.
 
 We summarize how AI can approach mathematics in three ways: theorem-proving, conjecture formulation, and language processing.
 Inspired by initial experiments in geometry and string theory, we present a number of recent experiments on how various standard machine-learning algorithms can help with pattern detection across disciplines ranging from algebraic geometry to representation theory, to combinatorics, and to number theory. At the heart of the programme is the question how does AI help with mathematical discovery.
+
+### Moderated Discussion: "If I had the software to"
+
+Within the OSCAR project we have another opportunity to reach out for new goals and challenge the boundaries of what's currently accessible for computations in algebraic geometry. While the "engines" of the system such as Singular and Polymake have been around for quite some time and are well tuned and performant, it is our believe that many scientific projects are postponed or laid aside because of the difficulties to make such specialized software packages talk to each other, or because of the difficulties to run computations on a big scale, or... In this discussion we would like to encourage all participants in the room 
+to lay out some ideas about such loose ends in scientific projects and set the stage for envisioning joint directions for future developments of OSCAR and potential collaborations. 
