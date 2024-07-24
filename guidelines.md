@@ -12,8 +12,8 @@ choices.
 ## Conference Layout
 
 The typical ICMS conference takes four days, usually Monday through
-Thursday.  There are plenary talks and talks organized in various
-parallel session.
+Thursday.  There are invited plenary talks and talks organized in
+various parallel session.
 
 We have also seen software demos, software fairs and posters.
 
@@ -23,10 +23,8 @@ At some point there is a call for sessions.  The PC co-chairs decide
 which sessions will be accepted, rejected or possibly merged.
 
 Accepted session chairs become PC members automatically; it is OK for
-session chairs to present in their own sessions; no money promised to
-sessions now (if we are lucky we might be able to give out some
-limited travel support to those in need; depends on sponsors, final
-decisions might come in rather late).
+session chairs to present in their own sessions; usually no money
+promised to sessions for inviting people.
 
 Since the session chairs will become PC members, they will need to
 organize the review process, with the PC co-chairs taing the lead.
