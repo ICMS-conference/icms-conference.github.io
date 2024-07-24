@@ -32,8 +32,8 @@ organize the review process, with the PC co-chairs taing the lead.
 ## Proceedings
 
 Invited and session speakers (including presenters of software) can
-submit extended abstracts.  The entire PC decides acceptance.
-PC-cochairs have the final say.
+submit extended abstracts.  The entire PC decides acceptance with the 
+PC co-chairs having the final say.
 
 ## Timeline
 
