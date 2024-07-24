@@ -41,17 +41,15 @@ PC-cochairs have the final say.
 
 To get an idea, the following, e.g., is the timeline of ICMS 2020.
 
-| Item                          | Date             |
-----------------------------------------------------
-| Session proposal submission   | 02 December 2019 |
-| Session proposal decisions    | 16 December 2019 |
-| Short Abstract Submission     | 24 February 2020 |
-| Extended Abstract Submission  | 27 March 2020    |
-| Deadline for reviews 	        | 25 April 2020    |
-| PC decision on submissions    | 27 April 2020    |
-| Opening Date of Registrations | 01 May 2020      |
-| Camera ready papers           | 09 May 2020      |
-| End of early registration     | 18 May 2020      |
-| Registration closed           | 29 June 2020     |
-| 7th ICMS in Braunschweig 	    | 13-16 July 2020  |
+| Session proposal submission | 02 December 2019 |
+| Session proposal decisions | 16 December 2019 |
+| Short Abstract Submission | 24 February 2020 |
+| Extended Abstract Submission | 27 March 2020 |
+| Deadline for reviews | 25 April 2020 |
+| PC decision on submissions | 27 April 2020 |
+| Opening Date of Registrations | 01 May 2020 |
+| Camera ready papers | 09 May 2020 |
+| End of early registration | 18 May 2020 |
+| Registration closed | 29 June 2020 |
+| 7th ICMS in Braunschweig | 13-16 July 2020 |
 
