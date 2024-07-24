@@ -13,6 +13,6 @@ news: 2024
 ### Invited Speakers
 * [Matthias Köppe](https://www.math.ucdavis.edu/~mkoeppe/) (UC Davis, USA)
 * [Heather Macbeth](https://faculty.fordham.edu/hmacbeth1/) (Fordam University, USA)
-* [Mohab Safey El Din](https://www-polsys.lip6.fr/~safey/) (Sorbonne Universityt, France)
+* [Mohab Safey El Din](https://www-polsys.lip6.fr/~safey/) (Sorbonne University, France)
 
 Information about dates, registration, sessions, proceedings, and more can be found on the [Durham website](https://maths.dur.ac.uk/icms2024/ICMS2024.html).
