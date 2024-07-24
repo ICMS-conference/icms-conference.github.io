@@ -3,7 +3,7 @@ layout: page
 title: ICMS Guidelines (July 2024)
 ---
 
-At the business meeting of ICMS 2024 a majority of the partcipants
+At the business meeting of ICMS 2024 a majority of the participants
 felt the need for making some of the inner workings of ICMS more
 transparent.  Everything here tries to summarize how things were done
 in the past, rather than restricting future chairs to make their own
