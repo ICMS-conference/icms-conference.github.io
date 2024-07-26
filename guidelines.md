@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ICMS Guidelines (July 2024)
+title: ICMS Guidelines for Organizers (July 2024)
 ---
 
 At the business meeting of ICMS 2024 a majority of the participants
@@ -50,4 +50,6 @@ To get an idea, the following, e.g., is the timeline of ICMS 2020.
 | End of early registration | 18 May 2020 |
 | Registration closed | 29 June 2020 |
 | 7th ICMS in Braunschweig | 13-16 July 2020 |
+
+It has been pointed out that it could be wise to move all of the above to earlier dates.
 
