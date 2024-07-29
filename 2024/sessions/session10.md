@@ -25,15 +25,15 @@ All talks in this session will take place on Wednesday, July 24. The schedule is
 | -------- | -------- | -------- |
 | 9.00 - 10.00 | Plenary Talk |
 | 10.00 - 10.30 | Coffee | 
-| 10.30 - 11.00 | Data related to the Atlas of Finite Groups | Breuer |
+| 10.30 - 11.00 | [Data related to the Atlas of Finite Groups](https://raw.githubusercontent.com/JHanselman/icms-conference.github.io/master/2024/sessions/Talks-Session10/Breuer.pdf) | Breuer |
 | 11.00 - 11.30 | The Graded Ring Database | Brown |
 | 11.30 - 12.00 | MaRDI Packaging System, a solution for predefined software environments | Kaushik |
 | 12.30 - 13.00 | Towards a FAIR Documentation of Workflows and Models in Applied Mathematics | Reidelbach |
 | 12.30 - 13.30 | Lunch | |
-| 13.30 - 14.00 | polyDB: An open database for combinatorial and geometric data | Paffenholz |
-| 14.00 - 14.30 | Managing Data in the L-functions and Modular Forms Database (LMFDB) | Paulhus |
+| 13.30 - 14.00 | [polyDB: An open database for combinatorial and geometric data](https://raw.githubusercontent.com/JHanselman/icms-conference.github.io/master/2024/sessions/Talks-Session10/Paffenholz.pdf) | Paffenholz |
+| 14.00 - 14.30 | [Managing Data in the L-functions and Modular Forms Database (LMFDB)](https://raw.githubusercontent.com/JHanselman/icms-conference.github.io/master/2024/sessions/Talks-Session10/Paulhus.pdf) | Paulhus |
 | 14.30 - 15.00 | A FAIR File Format for Mathematical Software | Della Vecchia |
-| 15.00 - 15.30 | Peer reviewing software in Mathematical papers | Hanselman |
+| 15.00 - 15.30 | [Peer reviewing software in Mathematical papers](https://raw.githubusercontent.com/JHanselman/icms-conference.github.io/master/2024/sessions/Talks-Session10/Hanselman.pdf)| Hanselman |
 | 15.30 - 16.00 | Coffee | 
 | 16.00 - 16.30 | How to share large data in mathematics? | Schröter |
 | 16.30 - 17.00 | Integrating Mathematical Data and Resources: Advancements in zbMATH Open| Azzouz-Thuderoz |
