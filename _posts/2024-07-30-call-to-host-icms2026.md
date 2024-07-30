@@ -20,15 +20,14 @@ Here are the most important points:
 
 In terms of overall structure, the scientific program will be coordinated by the General Chair and the Program Committee Co-Chairs.  The General Chair will coordinate with the Local Chair.
 
-An application should include:
-* a short description of your institution
+An application should include a short description of:
+* your institution and the potential venue
 * how to get there
-* accomodation
+* potential accomodation
 * expected cost / average fee for participating (where lower is usually better, within reason)
 
-Please send your application, until 01 Sep 2024, in an email to
+Please send questions or your application, until 01 Sep 2024, in an email to
 
 * [Alicia Dickenstein](https://mate.dm.uba.ar/~alidick), Universidad de Buenos Aires, Argentina (general chair 2024)
 and
 * [Michael Joswig](https://www.math.tu-berlin.de/~joswig/), TU Berlin & MPI-MiS (general chair 2020)
-
