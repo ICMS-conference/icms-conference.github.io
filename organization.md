@@ -5,7 +5,7 @@ title: ICMS - Organizational Structure
 
 The organizational of the ICMS is given in the [bylaws](/bylaws/). The main governing body is the advisory board, it is supported by a secretary and a Web officer. All other offices are related to a particular congress.
 
-We actively solicit input from the community; please send a note to Advisory Board chair, [Michael Joswig](https://www.math.tu-berlin.de/~joswig/).
+We actively solicit input from the community; please send a note to Advisory Board chair, [Alicia Dickenstein](https://mate.dm.uba.ar/~alidick).
 
 ### Advisory Board
 
