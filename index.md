@@ -13,10 +13,11 @@ and practitioners centered around “mathematical software” as a scientific ac
 ICMS conferences since 2006 have published with Springer: see [Conference proceedings list](https://link.springer.com/conference/icms).
 
 ### Upcoming Congress
+* tbd
 
-* [ICMS 2024](/2024/) - Durham (United Kingdom), 22-25 July 2024. [local website](https://maths.dur.ac.uk/icms2024)
 
 ### Past Meetings
+* [ICMS 2024](/2024/) - Durham (United Kingdom), 22-25 July 2024. [local website](https://maths.dur.ac.uk/icms2024)
 * [ICMS 2020](/2020/) - Braunschweig (Germany), 13-17 July 2020. [local website](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
 * [ICMS 2018 - South Bend (USA)](/2018/) Notre Dame, 24-27 July 2018 ([local copy](/2018/))
 * [ICMS 2016 - Berlin (Germany)](http://icms2016.zib.de/) ([local copy](/2016/))
@@ -28,7 +29,7 @@ ICMS conferences since 2006 have published with Springer: see [Conference procee
 ## News ([older news](news/))
 
 {% for post in site.posts %}
-    {% if forloop.index < 8 %}
+    {% if forloop.index < 2 %}
 	{% include post_link.html %}
     {% endif %}
 {% endfor %}
