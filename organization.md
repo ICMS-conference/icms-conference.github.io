@@ -11,14 +11,15 @@ We actively solicit input from the community; please send a note to Advisory Boa
 
 The advisory board consists of the organizers of the past two ICMS.
 
- * [Michael Joswig](https://www.math.tu-berlin.de/~joswig/) (chair), TU Berlin & MPI-MiS (general chair 2020)
+ * [Alicia Dickenstein](https://mate.dm.uba.ar/~alidick) (chair), Universidad de Buenos Aires, Argentina (general chair 2024)
+ * [Kevin Buzzard](https://www.imperial.ac.uk/people/k.buzzard), Imperial College London, United Kingdom (program co-chair 2024)
+ * [Bettina Eick](http://www.iaa.tu-bs.de/beick), TU Braunschweig, Germany (program co-chair 2024)
+ * [Anton Leykin](https://antonleykin.math.gatech.edu), Georgia Institute of Technology, United States (program co-chair 2024)
+ * [Yue Ren](https://www.yueren.de), Durham, United Kingdom (local chair 2024)
+ * [Michael Joswig](https://www.math.tu-berlin.de/~joswig/), TU Berlin & MPI-MiS (general chair 2020)
  * [Anna Maria Bigatti](https://www.dima.unige.it/~bigatti/), Genova (program co-chair 2020)
  * [Jacques Carette](https://www.cas.mcmaster.ca/~carette/), McMaster (program co-chair 2020)
  * [James Davenport](http://people.bath.ac.uk/masjhd/), University of Bath (general chair 2018, program co-chair 2020)
- * [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/), Notre Dame University (local chair 2018)
- * [Manuel Kauers](http://www.kauers.de/), University Linz (program chair 2018)
- * [George Labahn](https://cs.uwaterloo.ca/~glabahn/), University of Waterloo (program co-chair 2018)
- * [Josef Urban](https://www.ciirc.cvut.cz/~urbanjo3/), Prague (program co-chair 2018)
  * [Timo de Wolff](http://www.iaa.tu-bs.de/timodewolff/), TU Braunschweig (local chair 2020)
 
 
@@ -36,6 +37,10 @@ The advisory board consists of the organizers of the past two ICMS.
  * [Peter Paule](mailto:Peter.Paule@risc.uni-linz.ac.at), RISC Linz (program chair 2016)
  * [Andrew Sommese](mailto:sommese@nd.edu), Notre Dame University. (program chair 2016, local chair 2018)
  * [Thorsten Koch](mailto:koch@zib.de), TU Berlin. (local chair 2016)
+ * [Jonathan Hauenstein](https://www3.nd.edu/~jhauenst/), Notre Dame University (local chair 2018)
+ * [Manuel Kauers](http://www.kauers.de/), University Linz (program chair 2018)
+ * [George Labahn](https://cs.uwaterloo.ca/~glabahn/), University of Waterloo (program co-chair 2018)
+ * [Josef Urban](https://www.ciirc.cvut.cz/~urbanjo3/), Prague (program co-chair 2018)
  * ... 
 
 ### Minutes
