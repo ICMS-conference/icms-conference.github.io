@@ -15,6 +15,11 @@ news: 2018
 
 ### Proceedings: [Mathematical Software - ICMS 2018](https://link.springer.com/book/10.1007/978-3-319-96418-8)
 
+### Invited Speakers
+* [Folkmar Bornemann](https://www.professoren.tum.de/en/bornemann-folkmar/), TU München, Germany
+* [Thomas Hales](https://www.mathematics.pitt.edu/people/thomas-hales), U Pittsburgh, U.S.A.
+* [William Stein](https://wstein.org/), U Washington, Seattle, U.S.A.
+
 ### [Program - GoogleDocs](https://docs.google.com/spreadsheets/d/e/2PACX-1vRSULRiO4YWUFx_splhhfJKre0Q_RyY9qt6gANS7UUf49zAZzSR1_4DGlhvT231i-SrwkBF8TcoLP5y/pubhtml) and [Program - GitHub PDF](http://icms-conference.org/2018/ICMS2018Schedule.pdf)
 
 ### [Sessions](sessions/) 

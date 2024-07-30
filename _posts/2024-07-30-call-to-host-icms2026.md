@@ -6,14 +6,13 @@ title: Call for hosting ICMS 2026
 The "International Congress of Mathematical Software" (ICMS) is a community of researchers and practitioners centered around "mathematical software" as a scientific activity.
 
 The first ICMS took place in Beijing, China in 2002, and its most recent edition took place this year in Durham, England.
+For the history and further details see the [ICMS web page](https://icms-conference.org/).
 
 Now we are inviting applications for hosting ICMS 2026 as "Local Chair".
 
-Basic facts about ICMS are collected at:
-   https://icms-conference.org/
 Here are the most important points:
 * 4 day international conference, preferably in late July
-* should not clash with ICM 2026 (in fact, it is intended to apply for satellite meeting status)
+* should not clash with [ICM 2026](https://www.mathunion.org/icm/icm-2026) (in fact, it is intended to apply for satellite meeting status)
 * typical number of participants: 150
 * few (i.e., 3-4) invited plenary talks
 * about 3 parallel sessions
