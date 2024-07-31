@@ -7,9 +7,15 @@ title: "Classical Algebraic Geometry & Modern Computer Algebra: Innovative Softw
    * [Lars Kastner (TU Berlin, Germany)](https://lkastner.github.io/)<br/>
    * [Matthias Zach (RPTU Kaiserslautern, Germany)](https://github.com/HechtiDerLachs)<br/>
 
+<div style="text-align: center;">
+  <img src="Talks-BKZ-Session/SessionPicture.jpeg" alt="Description of image" style="width:50%;">
+</div>
+
+
 ### Aim and Scope
 
 Recent years have shown new applications of symbolic methods in computer algebra at scale. For instance, previously deemed impossible classification algorithms from toric and tropical geometry result in terabyte sized data sets. This calls for the development of new algorithms, allowing --for example-- for parallelization, but also new high level user interfaces. The aim is to bring together experts in computational algebraic geometry and those who want to use newly provided methods and algorithms in their research endeavors. We encourage speakers to highlight the computational aspects of their work and to augment their presentation with code examples. Our focus includes valuable application of these methods in physics, particularly in string theory and F-theory.
+
 
 ## Accepted Talks
 
@@ -30,17 +36,17 @@ All talks in this session will take place on Thursday, July 25. The schedule is 
 | -------- | -------- | -------- |
 | 9.00 - 10.00 | Plenary Talk |
 | 10.00 - 10.30 | Coffee | |
-| 10.30 - 11.00 | [Talks-BKZ-Session/Bies-Kastner-Zach.pdf](Introduction) | Bies, Kastner, Zach |
-| 11.00 - 11.30 | [Talks-BKZ-Session/Meroni.pdf](Chebyshev varieties) | Meroni |
-| 11.30 - 12.00 | [Talks-BKZ-Session/Remke.pdf](Exceptional sequences of line bundles on toric varieties) | Remke |
+| 10.30 - 11.00 | [Introduction](Talks-BKZ-Session/Bies-Kastner-Zach.pdf) | Bies, Kastner, Zach |
+| 11.00 - 11.30 | [Chebyshev varieties](Talks-BKZ-Session/Meroni.pdf) | Meroni |
+| 11.30 - 12.00 | [Exceptional sequences of line bundles on toric varieties](Talks-BKZ-Session/Remke.pdf) | Remke |
 | 12.00 - 12.30 | Localization in Gromov--Witten theory of toric varieties in a computer algebra system | Muratore |
 | 12.30 - 13.30 | Lunch | |
-| 13.30 - 14.00 | [Talks-BKZ-Session/Turner.pdf](FTheoryTools: A computational tool for analysis of singular elliptic fibrations) | Turner |
-| 14.00 - 14.30 | [Talks-BKZ-Session/Felten.pdf](Computational analysis of logarithmic singularities) | Felten |
+| 13.30 - 14.00 | [FTheoryTools: A computational tool for analysis of singular elliptic fibrations](Talks-BKZ-Session/Turner.pdf) | Turner |
+| 14.00 - 14.30 | [Computational analysis of logarithmic singularities](Talks-BKZ-Session/Felten.pdf) | Felten |
 | 14.30 - 15.00 | Algebraic sparse factor analysis | Portakal (virtual) |
 | 15.00 - 15.30 | Moderated discussion: "If I had the software to..." | Interactive |
 | 15.45 - 16.00 | Coffee | |
-| 16.00 - 17.00 | [Talks-BKZ-Session/He.pdf](The AI Mathematician) | He |
+| 16.00 - 17.00 | [The AI Mathematician](Talks-BKZ-Session/He.pdf) | He |
 
 
 
