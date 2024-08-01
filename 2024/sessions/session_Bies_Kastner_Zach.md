@@ -39,7 +39,7 @@ All talks in this session will take place on Thursday, July 25. The schedule is 
 | 10.30 - 11.00 | [Introduction](Talks-BKZ-Session/Bies-Kastner-Zach.pdf) | Bies, Kastner, Zach |
 | 11.00 - 11.30 | [Chebyshev varieties](Talks-BKZ-Session/Meroni.pdf) | Meroni |
 | 11.30 - 12.00 | [Exceptional sequences of line bundles on toric varieties](Talks-BKZ-Session/Remke.pdf) | Remke |
-| 12.00 - 12.30 | Localization in Gromov--Witten theory of toric varieties in a computer algebra system | Muratore |
+| 12.00 - 12.30 | [Localization in Gromov--Witten theory of toric varieties in a computer algebra system](Talks-BKZ-Session/Muratore.pdf) | Muratore |
 | 12.30 - 13.30 | Lunch | |
 | 13.30 - 14.00 | [FTheoryTools: A computational tool for analysis of singular elliptic fibrations](Talks-BKZ-Session/Turner.pdf) | Turner |
 | 14.00 - 14.30 | [Computational analysis of logarithmic singularities](Talks-BKZ-Session/Felten.pdf) | Felten |
