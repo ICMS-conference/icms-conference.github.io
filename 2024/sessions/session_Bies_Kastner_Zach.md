@@ -7,9 +7,7 @@ title: "Classical Algebraic Geometry & Modern Computer Algebra: Innovative Softw
    * [Lars Kastner (TU Berlin, Germany)](https://lkastner.github.io/)<br/>
    * [Matthias Zach (RPTU Kaiserslautern, Germany)](https://github.com/HechtiDerLachs)<br/>
 
-<div style="text-align: center;">
-  <img src="Talks-BKZ-Session/SessionPicture.jpeg" alt="Description of image" style="width:50%;">
-</div>
+![A picture of the attendants in the session.](https://icms-conference.org/2024/sessions/Talks-BKZ-Session/SessionPicture.jpeg)
 
 
 ### Aim and Scope
