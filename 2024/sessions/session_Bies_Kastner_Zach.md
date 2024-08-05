@@ -41,7 +41,7 @@ All talks in this session will take place on Thursday, July 25. The schedule is 
 | 12.30 - 13.30 | Lunch | |
 | 13.30 - 14.00 | [FTheoryTools: A computational tool for analysis of singular elliptic fibrations](Talks-BKZ-Session/Turner.pdf) | Turner |
 | 14.00 - 14.30 | [Computational analysis of logarithmic singularities](Talks-BKZ-Session/Felten.pdf) | Felten |
-| 14.30 - 15.00 | Algebraic sparse factor analysis | Portakal (virtual) |
+| 14.30 - 15.00 | [Algebraic sparse factor analysis](Talks-BKZ-Session/Portakal.pdf) | Portakal (virtual) |
 | 15.00 - 15.30 | Moderated discussion: "If I had the software to..." | Interactive |
 | 15.45 - 16.00 | Coffee | |
 | 16.00 - 17.00 | [The AI Mathematician](Talks-BKZ-Session/He.pdf) | He |
