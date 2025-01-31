@@ -13,7 +13,7 @@ and practitioners centered around “mathematical software” as a scientific ac
 ICMS conferences since 2006 have published with Springer: see [Conference proceedings list](https://link.springer.com/conference/icms).
 
 ### Upcoming Congress
-* tbd
+* [ICMS 2026](/2026/) - Waterloo (Canada)
 
 
 ### Past Meetings
