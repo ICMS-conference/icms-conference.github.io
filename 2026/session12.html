@@ -163,12 +163,29 @@ Joint work with Xavier Allamigeon.
 
 <details>
 <summary><b>
- Computing all minimal Markov Bases
+  Distance-Reducing Markov Bases in Toric Ideals of Graphs and Bouquet Decompositions
   </b><br>
   Alex Milner
 </summary>
 <p style="padding-top:1em">  
-Abstract: From a statistical standpoint, Markov bases serve as a way to construct a connected Markov chain for performing conditional tests of a discrete exponential family. However, from an algebraic point of view, a Markov basis is simply a generating set of a toric ideal. In this talk, we will introduce the package AllMarkovBases for Macaulay2, which computes all Markov bases, which are minimal with respect to inclusion, of a given toric ideal. The package builds on the functionality of 4ti2 by producing the fiber graphs of the toric ideal corresponding to generating fibers. The package then uses these graphs to compute properties of the toric ideal such as its indispensable set of binomials as well as its universal Markov basis. In addition, the fiber graphs can be used to randomly sample from the set of minimal Markov bases and count the number of minimal Markov bases without computing them all explicitly.
+  Abstract: From a statistical standpoint, Markov bases serve as a way to construct a connected Markov chain 
+  for performing conditional tests of a discrete exponential family. However, from an algebraic point of view, 
+  a Markov basis is simply a generating set of a toric ideal. The distance-reduction property for a Markov 
+  basis then ensures that the associated Markov chain can navigate the sample space efficiently. We fix a 
+  convenient metric and, given any two states in the sample space, we ask whether one can always apply a 
+  move from the Markov basis to one of them so as to decrease their distance. If this is the case, then the 
+  Markov basis is called distance-reducing.
+
+ 
+  In this talk, we will look at distance reduction: firstly, in the context of toric ideals coming from graphs 
+  and, secondly, from the point of view of the bouquet structure of the toric ideals. The link between these 
+  two ideas comes from the fact that, for homogeneous toric ideals, the distance-reduction condition simplifies 
+  to a more combinatorial statement. Toric ideals of graphs are particularly nice, as they are homogeneous, 
+  whilst also providing visual intuition for the elements of the toric ideal. Furthermore, in the case that the 
+  toric ideal is a complete intersection, there is a necessary and sufficient condition depending on the circuits 
+  to check if a minimal Markov basis is distance-reducing. Finally, we will discuss homogeneous toric ideals with 
+  the same bouquet structure and signature and show, by considering the poset of signatures, that 
+  distance-reducing properties are always preserved.
 </p>
 </details>
 

@@ -126,6 +126,23 @@ To enable scalable certification, we develop a formally verified data structure 
 </p>
 </details></br>
 
+<details>
+<summary><b>
+7. From Language Models to Verified Mathematics: Agents, ProofAssistants, and Why They Matter</b><br>
+Speakers:  Cristopher Salvi (Imperial College London)
+</summary>
+<p style="padding-top:1em">
+When performing mathematical reasoning tasks, large languagemodels (LLMs) can generate plausible-looking proofs that are subtly wrong, and without a mechanism for mechanical verification, there is no way to tell.
+
+In this talk, we'll start by explaining what agentic AI pipelines are: systems where multiple AI models coordinate, use tools, anditerate on feedback rather than producing a single response. We will then introduce the Model Context Protocol (MCP), an open standard that allows AI agents to dynamically connect to external tools, databases, and services, and explain why this matters for building AI systems that can reason reliably about mathematics.
+
+We will then introduce Lean 4, an interactive proof assistant that can mechanically verify mathematical arguments, and explain why formal verification is relevant well beyond pure mathematicsresearch, from quantitative finance to AI safety to quantum computing. We'll walk through concrete examples, ranging fromLeetCode questions to graduate-level stochastic analysis problems, and show how one can build an MCP-based infrastructure layer that enhances any AI system chosen by the user (Claude, ChatGPT, Gemini etc.) to decompose mathematical problems into structured dependency graphs, formalise each component in Lean 4, and verify their correctness.
+
+In the final part of the talk, we'll demonstrate Logos's system live and discuss open directions for collaboration.
+
+No prior knowledge of proof assistants or agentic AI is assumed
+</p>
+</details></br>
     </div>
     </section>
 
