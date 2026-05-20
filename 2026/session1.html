@@ -64,7 +64,44 @@ Abstract: Combinatorial curve neighborhoods play a fundamental role in the quant
 
 <details>
 <summary><b>
- 2. Proof-of-work protocols for AI-generated solutions in mathematics</b><br>
+2. Formalizing Wu-Ritt Method in Lean 4</b><br>
+Authors: Yuxuan Xiao (Shandong University), Hao Shen  (Academy of Mathematics and Systems Science), Junyu Guo (Sun Yat-sen University),  Dingkang Wang and Lihong Zhi (Academy of Mathematics and Systems Science)
+</summary>
+<p style="padding-top:1em">
+Abstract
+We present a formalization of the Wu-Ritt characteristic set method for the triangular decomposition of polynomial systems in the Lean 4 theorem prover. Our development covers the core algebraic notions underlying the method, including polynomial initials, orders, pseudo-division, remainders with respect to a polynomial or a triangulated set, and standard and weak ascending sets. Building on these foundations, we formalize algorithms for computing basic sets, characteristic sets, and zero decompositions, and prove their termination and correctness. In particular, we formalize the well-ordering principle relating the zero set of a polynomial system to that of its characteristic set, and prove that the zero decomposition algorithm expresses the zero set of the original system as a union of zero sets of triangulated sets, excluding the zeros of the corresponding initials. The project provides a machine-checked verification of Wu's method in Lean 4 and offers a foundation for certified polynomial system solving and geometry theorem proving.
+</p>
+</details></br>
+
+<details>
+<summary><b>
+3.  A Macaulay2-Lean interface for bridging proof and computation</b><br>
+
+Spearkers: Matthew Ballard (University of South Carolina), Anton Leykin (Georgia Tech University), Michael Stillman (Cornell University), Damiano Testa (University of Warick), Doug Torrance (Piedmont University) and Jay Yang (Vanderbilt University)
+</summary>
+<p style="padding-top:1em">
+ Abstract:
+I will discuss work with on a new interface between Macaulay2 and Lean focused on bridging Macaulay2 and Lean. Our project aims to build tools that ease the use of Macaulay2 and potentially other computer algebra systems with Lean. Our current work focuses on using Macaulay2 to prove statements over commutative rings by using Macaulay2 to construct certificates. This includes in particular work with ideal membership and Groebner bases. I will discuss our approach and strategy along with current progress and future goals. This is work with Matthew Ballard, Anton Leykin, Mike Stillman, Damiano Testa, and Doug Torrance as part of the "Bridging Proof and Computation'' project funded by Renaissance Philanthropy.
+</p>
+</details></br>
+
+<details>
+<summary><b>
+4. Algebraic Reasoning in Lean 4</b><br>
+Speakers:  Junyu Guo, Hao Shen,  Junqi  Liu and  Lihong Zhi  (Academy of Mathematics and Systems Science)
+</summary>
+<p style="padding-top:1em">
+Groebner bases are foundational to symbolic computation, providing systematic algorithms for solving polynomial systems, deciding ideal membership, and transforming abstract reasoning about polynomial ideals into effective computation. They play a central role in automated algebraic reasoning and computational algebraic geometry.
+
+Despite their importance, efficient and formally verified polynomial computation in Lean 4 remains challenging due to the cost of large-scale algebraic operations inside a proof assistant. We present a comprehensive formalization of Groebner basis theory in Lean 4 together with a hybrid, certificate-based approach that combines external computation with internal verification. Computationally intensive tasks¡ªsuch as Groebner basis construction and polynomial remainder computation¡ªare delegated to SageMath, which produces explicit computational certificates. These certificates are then rigorously verified within Lean¡¯s trusted kernel.
+
+To enable scalable certification, we develop a formally verified data structure supporting efficient polynomial identity testing via kernel reduction. Building on this infrastructure, we implement an automated Lean tactic that manages the interaction with SageMath and completes the corresponding proofs without additional user input. The tactic solves a broad class of algebraic goals, including polynomial remainder certification, Grorbner basis verification, ideal equality, and ideal and radical membership testing.
+</p>
+</details></br>
+
+<details>
+<summary><b>
+5. Proof-of-work protocols for AI-generated solutions in mathematics</b><br>
 Speaker (online):
 Erich Kaltofen (North Carolina State University and Duke University
 </summary>
@@ -80,49 +117,12 @@ We will discuss the question if an AI-based solver whose errors are random shoul
 
 <details>
 <summary><b>
-3. Auto-formalization and Proof Synthesis via Semantic Equivalence Models</b><br>
+6. Auto-formalization and Proof Synthesis via Semantic Equivalence Models</b><br>
 Speaker: Vijay Ganesh Georgia Tech University (online).
 </summary>
 <p style="padding-top:1em">
 Abstract:
 In recent years we have witnessed a symbiotic trend wherein LLMs are being combined with provers, solvers, and computer algebra systems, resulting in dramatic breakthroughs in AI4math. Following this trend, we have developed two lines of work in my research group. The first is the idea that "good" joint embeddings (JE) can dramatically improve the efficacy of auto-formalization tools. We say that JEs are good if they respect the following invariant: semantically equivalent but formally dissimilar objects (e.g., pairs of sematically-equivalent natural and formal language proofs) must be "close by" in the embedding space, while semantically inequivalent ones must be "far apart". We use such JE semantic equivalence models (SEMs) as part of a successful RAG-based auto-formalization pipeline, demonstrating that such SEMs are a critical AI-for-math technology. The second idea is Reinforcement Learning with Symbolic Feedback (RLSF), a class of techniques that addresses the LLM hallucination problem in contexts where we have access to rich symbolic feedback such math, physics, and code, demonstrating that they too are critical to the success of AI for math.
-</p>
-</details></br>
-
-<details>
-<summary><b>
-4.  A Macaulay2-Lean interface for bridging proof and computation</b><br>
- 
-Spearkers: Matthew Ballard (University of South Carolina), Anton Leykin (Georgia Tech University), Michael Stillman (Cornell University), Damiano Testa (University of Warick), Doug Torrance (Piedmont University) and Jay Yang (Vanderbilt University)
-</summary>
-<p style="padding-top:1em">
- Abstract:
-I will discuss work with on a new interface between Macaulay2 and Lean focused on bridging Macaulay2 and Lean. Our project aims to build tools that ease the use of Macaulay2 and potentially other computer algebra systems with Lean. Our current work focuses on using Macaulay2 to prove statements over commutative rings by using Macaulay2 to construct certificates. This includes in particular work with ideal membership and Groebner bases. I will discuss our approach and strategy along with current progress and future goals. This is work with Matthew Ballard, Anton Leykin, Mike Stillman, Damiano Testa, and Doug Torrance as part of the "Bridging Proof and Computation'' project funded by Renaissance Philanthropy.
-</p>
-</details></br>
-
-<details>
-<summary><b>
-5. Formalizing Wu-Ritt Method in Lean 4</b><br>
-Authors: Yuxuan Xiao (Shandong University), Hao Shen, Dingkang Wang and Lihong Zhi (Academy of Mathematics and Systems Science)
-</summary>
-<p style="padding-top:1em">
-Abstract
-We present a formalization of the Wu-Ritt characteristic set method for the triangular decomposition of polynomial systems in the Lean 4 theorem prover. Our development covers the core algebraic notions underlying the method, including polynomial initials, orders, pseudo-division, remainders with respect to a polynomial or a triangulated set, and standard and weak ascending sets. Building on these foundations, we formalize algorithms for computing basic sets, characteristic sets, and zero decompositions, and prove their termination and correctness. In particular, we formalize the well-ordering principle relating the zero set of a polynomial system to that of its characteristic set, and prove that the zero decomposition algorithm expresses the zero set of the original system as a union of zero sets of triangulated sets, excluding the zeros of the corresponding initials. The project provides a machine-checked verification of Wu's method in Lean 4 and offers a foundation for certified polynomial system solving and geometry theorem proving.
-</p>
-</details></br>
-
-<details>
-<summary><b>
-6. Algebraic Reasoning in Lean 4</b><br>
-Speakers:  Junyu Guo, Hao Shen,  Junqi  Liu and  Lihong Zhi  (Academy of Mathematics and Systems Science)
-</summary>
-<p style="padding-top:1em">
-Groebner bases are foundational to symbolic computation, providing systematic algorithms for solving polynomial systems, deciding ideal membership, and transforming abstract reasoning about polynomial ideals into effective computation. They play a central role in automated algebraic reasoning and computational algebraic geometry.
-
-Despite their importance, efficient and formally verified polynomial computation in Lean 4 remains challenging due to the cost of large-scale algebraic operations inside a proof assistant. We present a comprehensive formalization of Groebner basis theory in Lean 4 together with a hybrid, certificate-based approach that combines external computation with internal verification. Computationally intensive tasks¡ªsuch as Groebner basis construction and polynomial remainder computation¡ªare delegated to SageMath, which produces explicit computational certificates. These certificates are then rigorously verified within Lean¡¯s trusted kernel.
-
-To enable scalable certification, we develop a formally verified data structure supporting efficient polynomial identity testing via kernel reduction. Building on this infrastructure, we implement an automated Lean tactic that manages the interaction with SageMath and completes the corresponding proofs without additional user input. The tactic solves a broad class of algebraic goals, including polynomial remainder certification, Grorbner basis verification, ideal equality, and ideal and radical membership testing.
 </p>
 </details></br>
 
