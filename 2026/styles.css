@@ -37,7 +37,8 @@ td {
 }
 
 .past {
-  color: lightgray;
+  text-decoration: line-through;
+  color: darkgray;
 }
 
 details.talk-summary p {
