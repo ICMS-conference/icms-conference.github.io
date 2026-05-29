@@ -84,22 +84,22 @@
   <section class="container">
     <h2>Important Dates</h2>
     <ul>
-      <li><b>Session proposal submission</b>: <span class="past"><em>December 1, 2025</em></span></li>
-      <li><b>Session proposal decisions</b>: <span class="past"><em>December 17, 2025</em></span></li>
-      <li><b>Short Abstract Submission</b>: <span class="past"><em> March 16, 2026 (extended)</em>.<br/>
+      <span class="past"><li><b>Session proposal submission</b>: <em>December 1, 2025</em></li>
+      <li><b>Session proposal decisions</b>: <em>December 17, 2025</em></li>
+      <li><b>Short Abstract Submission</b>: <em> March 16, 2026 (extended)</em>.<br/>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          [Submission by Email to the session organizers]</span></li>
+          [Submission by Email to the session organizers]</li>
       </span>
       <li><b>Opening Date of <a href="registration.html">Registrations</a></b>: <em>April 6</em></li>
-      <li><b>Extended Abstract/Full Paper Submission</b>: <span class="past"><em>April 18 (extended)</em>. <br/>
+      <li><b>Extended Abstract/Full Paper Submission</b>: <em>April 18 (extended)</em>. <br/>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          [Submission at https://easychair.org/conferences/?conf=icms26<!--<a href="https://easychair.org/conferences/?conf=icms26">https://easychair.org/conferences/?conf=icms26</a>-->]</span></li>
-      <li><b>Poster Submission</b>: <span class="past"><em>May 9, 2026</em>.<br/>
+          [Submission at <a href="https://easychair.org/conferences/?conf=icms26">https://easychair.org/conferences/?conf=icms26</a>]</li>
+      <li><b>Poster Submission</b>: <em>May 9, 2026</em>.<br/>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          [Submission at icms26-submit@inria.fr] </span></li>
-      <li><b>PC decision on extended abstracts and posters</b>: <em>May 30, 2026 (extended)</em></li>
+          [Submission at icms26-submit@inria.fr] </li>
+      <li><b>PC decision on extended abstracts and posters</b>: <em>May 16</em></li>
+      <li><b>Camera Ready Papers</b>: <em>May 28, 2026</em></li>
       <li><b>Early Registration Ends</b>: <em>June 15, 2026</em></li>
-      <li><b>Camera Ready Papers</b>: <em>June 21, 2026 (extended)</em></li>
       <li><b>9th ICMS in Waterloo</b>: <em>July 20-23, 2026</em></li>
     </ul>
   </section>
@@ -123,7 +123,7 @@
     <p>We thank the following organizations for their generous sponsorship:</p>
     <table>
       <tr><td>
-         <a href="https://www.cse-cst.gc.ca/en/mission/research-cse/tutte-institute-mathematics-computing"
+         <a href="https://orcca.on.ca"
             ><img src="Logo_Tutte.png" alt="ORCCA Logo"
               valign="middle" width="18%"/></a>
          &nbsp; &nbsp; &nbsp;

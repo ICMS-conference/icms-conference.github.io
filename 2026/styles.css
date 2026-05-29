@@ -37,7 +37,8 @@ td {
 }
 
 .past {
-  color: lightgray;
+  text-decoration: line-through;
+  color: darkgray;
 }
 
 details.talk-summary p {
@@ -119,9 +120,46 @@ h2 {
  
 h3 {
   font-size: 1.7rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
+ 
+h4 {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+ 
+p {
+  font-size: 1.1rem;
+  max-width: 700px;
+}
 
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary);
+  color: var(--white);
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  header, .container {
+    padding: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 p {
   font-size: 1.1rem;
   max-width: 700px;

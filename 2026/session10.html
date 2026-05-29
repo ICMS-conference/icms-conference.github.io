@@ -56,28 +56,32 @@
           <li>Profiling systems and libraries</li>
           <li>New computer algebra systems</li>
         </ul>
-        <h3>Session Talks (as of March 18):</h3>
+        <h3>Session Talks:</h3>
         
 <p>Click on triangle (▶) to open talk abstract.<br/></p>
-<details class="talk-summary"><summary><b>
-Accelerating the Factorization of Multilinear Boolean Polynomials
-</b><br/>
-Tian Chen, Michael Monagan (Simon Fraser U)
-</summary>
-<p>
-<b>Abstract</b>
-<a href="abstracts/Chen+.pdf">PDF</a>
-</p>
-</details>
+
+<h4>Thursday, July 23 10:30-12:30</h4>
 
 <details class="talk-summary"><summary><b>
-How Maple is Using AI to Boost Productivity
+The Ax Computer Algebra System
 </b><br/>
-Paul DeMarco (Maplesoft)
+Roman Pearce (Crow Computing)
 </summary>
 <p>
 <b>Abstract</b>
-The latest version of Maple has introduced several AI-based features.  Central to these is the use of the Model Context Protocol (MCP) -- an open standard that allows AI models to seamlessly connect with external data sources, tools, and software.  Using MCP the AI can be taught to call a "tool", like Maple, when it needs to make a calculation.  While this improves the calculation ability exhibited in an AI response, it doesn't necessarily help with reasoning and repeatability.  We will explore how a user can interact with a LLM, having back-and forth dialogue in order to access features that help lessen the learning curve towards generating usable code and visualizations. We will also look at unique features that use AI to import math expressions from images or digitize entire hand-written documents in a format that is suitable for further computation and validation.
+We describe the design of the Ax computer algebra system
+located online at axcas.net. The system has arbitrary precision integers,
+rationals, and floating point numbers, with immediate representations for
+small instances of all three. It automatically simplifies vectors to a sparse
+format, which is inherited by matrices and higher dimensional objects.
+Polynomials are supported with a sum-of-products data structure which
+is simplified to a sparse representation with packed exponents. Ax has
+modular algorithms for polynomials and matrices based on 63-bit primes,
+including a high performance Groebner basis engine which is released into
+the public domain. The system has a mark-and-sweep garbage collector
+and allocates data from slabs for dags of particular sizes. The language
+is similar to C and Javascript, but with automatic memoization. At this
+point the system should be considered experimental.
 </p>
 </details>
 
@@ -115,6 +119,36 @@ type systems · Hindley-Milner type inference
 </details>
 
 <details class="talk-summary"><summary><b>
+An Exploration of Word Encodings for Symbolic Language Runtimes
+</b><br/>
+Stephen M. Watt (U Waterloo)
+</summary>
+<p>
+<b>Abstract</b>
+Current computing platforms have largely standardized on wide machine words, typically 64 bits, with established conventions for representing pointers, integers, and floating-point values. Within this setting, techniques such as low-order-bit tagging and NaN-boxing have been used to encode type information efficiently in language runtimes. These approaches, however, interact in subtle ways with architectural constraints, including canonical address formats and evolving virtual memory models, and these interactions have significant impact on symbolic computing systems.
+</p><p>
+This talk examines representations in a setting where pointers, integers, and floating-point values coexist within a tagged framework. We focus on the trade-offs involved in tagging schemes, especially when aiming to preserve faithful NaN-boxing, and analyze how the available bit budget is divided among payload, type information, and architectural requirements. Constraints arising from canonical pointer formats, for example, can influence tagging strategies and the effective granularity of addressable memory.
+</p><p>
+Within the same framework, we also consider big integer arithmetic where digit size is treated as a parameter rather than a fixed constant. This introduces separate but related questions concerning carry propagation and efficiency, including the use of multi-word operations and parallel architectures.
+</p><p>
+The goal is to explore this design space in a technically grounded way, clarifying the interactions and trade-offs that arise when combining tagged representations with flexible arithmetic in practical systems.
+</p>
+</details>
+
+<h4>Thursday, July 23 14:00-15:30</h4>
+
+<details class="talk-summary"><summary><b>
+How Maple is Using AI to Boost Productivity
+</b><br/>
+Paul DeMarco (Maplesoft)
+</summary>
+<p>
+<b>Abstract</b>
+The latest version of Maple has introduced several AI-based features.  Central to these is the use of the Model Context Protocol (MCP) -- an open standard that allows AI models to seamlessly connect with external data sources, tools, and software.  Using MCP the AI can be taught to call a "tool", like Maple, when it needs to make a calculation.  While this improves the calculation ability exhibited in an AI response, it doesn't necessarily help with reasoning and repeatability.  We will explore how a user can interact with a LLM, having back-and forth dialogue in order to access features that help lessen the learning curve towards generating usable code and visualizations. We will also look at unique features that use AI to import math expressions from images or digitize entire hand-written documents in a format that is suitable for further computation and validation.
+</p>
+</details>
+
+<details class="talk-summary"><summary><b>
 Using a Machine Learning Model for Handwritten Digit Recognition in GeoGebra
 </b><br/>
 Mitsushi Fujimoto (U Teacher Education Fukuoka)
@@ -136,40 +170,6 @@ inference for a small-scale model. By leveraging this inference infrastructure, 
 implemented a feature that automatically resizes a triangle so that its side ratios match
 the handwritten digits entered beside each side. This demonstrates the potential of the
 approach for supporting geometry education.
-</p>
-</details>
-
-<details class="talk-summary"><summary><b>
-A Maple implementation of a parametric linear system solver using sparse rational function interpolation
-</b><br/>
-Michael Monagan, Mantej Sohki, Archit Srivastava (Simon Fraser U)
-</summary>
-<p>
-<b>Abstract</b>
-<a href="abstracts/Monagan+.pdf">PDF</a>
-</p>
-</details>
-
-<details class="talk-summary"><summary><b>
-The Ax Computer Algebra System
-</b><br/>
-Roman Pearce (Crow Computing)
-</summary>
-<p>
-<b>Abstract</b>
-We describe the design of the Ax computer algebra system
-located online at axcas.net. The system has arbitrary precision integers,
-rationals, and floating point numbers, with immediate representations for
-small instances of all three. It automatically simplifies vectors to a sparse
-format, which is inherited by matrices and higher dimensional objects.
-Polynomials are supported with a sum-of-products data structure which
-is simplified to a sparse representation with packed exponents. Ax has
-modular algorithms for polynomials and matrices based on 63-bit primes,
-including a high performance Groebner basis engine which is released into
-the public domain. The system has a mark-and-sweep garbage collector
-and allocates data from slabs for dags of particular sizes. The language
-is similar to C and Javascript, but with automatic memoization. At this
-point the system should be considered experimental.
 </p>
 </details>
 
@@ -203,6 +203,19 @@ computer algebra systems.
 </p>
 </details>
 
+<h4>Thursday, July 23 16:00-17:30</h4>
+
+<details class="talk-summary"><summary><b>
+A Maple implementation of a parametric linear system solver using sparse rational function interpolation
+</b><br/>
+Michael Monagan, Mantej Sohki, Archit Srivastava (Simon Fraser U)
+</summary>
+<p>
+<b>Abstract</b>
+<a href="abstracts/Monagan+.pdf">PDF</a>
+</p>
+</details>
+
 <details class="talk-summary"><summary><b>
 Implementing p-adic numbers in Macaulay2 using its foreign function interface and FLINT
 </b><br/>
@@ -215,21 +228,16 @@ Macaulay2 is a computer algebra platform widely used by researchers in algebraic
 </details>
 
 <details class="talk-summary"><summary><b>
-An Exploration of Word Encodings for Symbolic Language Runtimes
+Accelerating the Factorization of Multilinear Boolean Polynomials
 </b><br/>
-Stephen M. Watt (U Waterloo)
+Tian Chen, Michael Monagan (Simon Fraser U)
 </summary>
 <p>
 <b>Abstract</b>
-Current computing platforms have largely standardized on wide machine words, typically 64 bits, with established conventions for representing pointers, integers, and floating-point values. Within this setting, techniques such as low-order-bit tagging and NaN-boxing have been used to encode type information efficiently in language runtimes. These approaches, however, interact in subtle ways with architectural constraints, including canonical address formats and evolving virtual memory models, and these interactions have significant impact on symbolic computing systems.
-</p><p>
-This talk examines representations in a setting where pointers, integers, and floating-point values coexist within a tagged framework. We focus on the trade-offs involved in tagging schemes, especially when aiming to preserve faithful NaN-boxing, and analyze how the available bit budget is divided among payload, type information, and architectural requirements. Constraints arising from canonical pointer formats, for example, can influence tagging strategies and the effective granularity of addressable memory.
-</p><p>
-Within the same framework, we also consider big integer arithmetic where digit size is treated as a parameter rather than a fixed constant. This introduces separate but related questions concerning carry propagation and efficiency, including the use of multi-word operations and parallel architectures.
-</p><p>
-The goal is to explore this design space in a technically grounded way, clarifying the interactions and trade-offs that arise when combining tagged representations with flexible arithmetic in practical systems.
+<a href="abstracts/Chen+.pdf">PDF</a>
 </p>
 </details>
+
 </div>
 </section>
 
