@@ -125,9 +125,12 @@ Sebastian Pokutta, Christoph Spiegel, Marcel Wack, and Max Zimmer
 <p style="padding-top:1em">  
 Abstract: Coherent matching fields, introduced by Sturmfels and Zelevinsky (1993), play an important role in the study of the Grassmannian and its tropical counterpart. They can be identified with the vertices of a Minkowski sum of Birkhoff polytopes associated with the maximal minors of an $n \times r$ matrix.
 
+
 We present an algorithm for enumerating coherent matching fields up to row and column permutations. Our approach adapts the reverse search method of Avis and Fukuda (1992) to enumerate the orbits of the vertices of a polytope under a symmetry group. We further show how the shadow-vertex rule can be used to perform inexpensive pivots between coherent matching fields.
 
+
 We implemented this algorithm in Rust with distributed parallelism via MPI. This implementation enabled us to enumerate the $n \times r$ coherent matching fields for $n \leq 10$ when $r = 3$ and for $n \leq 8$ when $r = 4$, up to row and column permutations. As an application, we show that there exist configurations of nine points in $\mathbb{R}^2$ in general position whose order type cannot be realized by configurations of tropical points in general position, highlighting a new discrepancy between classical and tropical realizability.
+
 
 Joint work with Xavier Allamigeon.
 </p>
