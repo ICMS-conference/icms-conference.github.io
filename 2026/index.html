@@ -82,6 +82,259 @@
   </section>
 
   <section class="container">
+    <h2>Program</h2>
+    <div class="schedule-container">
+      <style>
+        .schedule-container {
+            font-family: inherit;
+            line-height: 1.4;
+        }
+        .schedule-table {
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+            margin-top: 20px;
+        }
+        .schedule-table th, .schedule-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+            word-wrap: break-word !important;
+            overflow-wrap: break-word !important;
+            white-space: normal !important;
+        }
+        .schedule-table th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+        .schedule-table th:first-child,
+        .schedule-table .time-col {
+            width: 10%; /* Try 8% to 10%, or a fixed size like 90px */
+        }
+        .schedule-table .time-col {
+            font-weight: bold;
+            background-color: #fafafa;
+            color: #333;
+            text-align: center;
+        }
+        .schedule-container .session-title {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 4px;
+        }
+        /* Overriding the global 800px width from main.css */
+        .schedule-container ul.session-list {
+            margin: 0 !important;
+            padding: 0 0 0 0 !important; 
+            width: auto !important; 
+            list-style-type: none !important;
+            font-size: 0.9em;
+        }
+        .schedule-container ul.session-list li {
+            margin: 0 0 6px 0 !important;
+            padding: 0 !important;
+            position: relative;
+            line-height: 1.3;
+        }
+        .schedule-container ul.session-list li::before {
+            content: "";
+            position: absolute;
+            left: -12px;
+        }
+        .schedule-container .note {
+            font-style: italic;
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 15px;
+        }
+        .schedule-container .time-exception {
+            display: block;
+            font-size: 0.85em;
+            color: #555;
+            margin-top: 4px;
+        }
+      </style>
+
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="time-col">9:00 - 10:00</td>
+            <td><span class="session-title">Registration</span></td>
+            <td><span class="session-title">Plenary: Eick</span></td>
+            <td><span class="session-title">Plenary: Rackauckas</span></td>
+            <td><span class="session-title">Plenary: Stillman</span></td>
+          </tr>
+          <tr>
+            <td class="time-col">10:00 - 10:30</td>
+            <td>Opening Remarks</td>
+            <td>Coffee Break</td>
+            <td>Coffee Break</td>
+            <td>Coffee Break</td>
+          </tr>
+          <tr>
+            <td class="time-col">10:30 - 12:00</td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a></li>
+                <li><a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/">4: Parallelization, AI, and Physics</a></li>
+                <li><a href="https://icms-conference.org/2026/session12.html">12: Combinatorial Algebra and Geometry</a></li>
+                <li><a href="https://icms-conference.org/2026/session3.html">3: Category Theory</li>
+                <li><a href="https://www.risat.org/ICMS-26.html">13: Weighted Projective Spaces</a></li>
+              </ul>
+            </td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a></li>
+                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a></li>
+                <li><a href="https://melczer.ca/ICMS26/">8: Enumerative and Analytic Combinatorics</a></li>
+                <li><a href="https://icms-conference.org/2026/session3.html">3: Category Theory</li>
+                <li><a href="https://icms-conference.org/2026/session7.html">7: Quarternion Matrix/Tensor</a></li>
+              </ul>
+            </td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a></li>
+                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a></li>
+                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a></li>
+                <li><a href="https://icms-conference.org/2026/session3.html">3: Category Theory</li>
+                <li><a href="https://icms-conference.org/2026/session1.html">1: Proof Assistants, CAS, and AI</a></li>
+              </ul>
+            </td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a>
+</li>
+                <li><a href="https://icms-conference.org/2026/session10.html">10: Design and Implementations of CAS</a></li>
+                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a></li>
+                <li><a href="https://icms-conference.org/2026/session16.html">15: General</a></li>
+                <li><a href="https://icms-conference.org/2026/session5.html">5: Lean</a></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="time-col">12:00 - 14:00</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch<span class="time-exception">(12:00-13:30)</span></td>
+            <td>Lunch</td>
+          </tr>
+          <tr>
+            <td class="time-col">14:00 - 15:30</td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a>
+</li>
+                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a></li>
+                <li><a href="https://icms-conference.org/2026/session12.html">12: Combinatorial Algebra and Geometry</a></li>
+                <li><a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/">4: Parallelization, AI, and Physics</a></li>
+                <li><a href="https://www.risat.org/ICMS-26.html">13: Weighted Projective Spaces</a></li>
+              </ul>
+            </td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a></li>
+                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a></li>
+                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a></li>
+                <li><a href="https://melczer.ca/ICMS26/">8: Enumerative and Analytic Combinatorics</a></li>
+                <li><a href="https://icms-conference.org/2026/session7.html">7: Quarternion Matrix/Tensor</a></li>
+              </ul>
+            </td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a></li>
+                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a></li>
+                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a></li>
+                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a></li>
+                <li><a href="https://icms-conference.org/2026/session1.html">1: Proof Assistants, CAS, and AI</a></li>
+              </ul>
+              <span class="time-exception">(13:30-15:00)</span>
+            </td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://icms-conference.org/2026/session5.html">5: Lean</a></li>
+                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a></li>
+                <li><a href="https://icms-conference.org/2026/session10.html">10: Design and Implementations of CAS</a></li>
+                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a></li>
+                <li><a href="https://icms-conference.org/2026/session1.html">1: Proof Assistants, CAS, and AI</a></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="time-col">15:30 - 16:00</td>
+            <td>Coffee Break</td>
+            <td>Coffee Break</td>
+            <td>Excursion</td>
+            <td>Coffee Break</td>
+          </tr>
+          <tr>
+            <td class="time-col">16:00 - 17:30</td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://icms-conference.org/2026/session2.html">2: Algebraic Solvers for Polynomial Systems</a></li>
+                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a></li>
+                <li><a href="https://icms-conference.org/2026/session12.html">12: Combinatorial Algebra and Geometry</a></li>
+                <li><a href="https://icms-conference.org/2026/session10.html">10: Design and Implementations of CAS</a></li>
+                <li><a href="https://www.risat.org/ICMS-26.html">13: Weighted Projective Spaces</a></li>
+              </ul>
+            </td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://icms-conference.org/2026/session2.html">2: Algebraic Solvers for Polynomial Systems</a></li>
+                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a></li>
+                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a></li>
+                <li><a href="https://melczer.ca/ICMS26/">8: Enumerative and Analytic Combinatorics</a></li>
+                <li><a href="https://icms-conference.org/2026/session7.html">7: Quarternion Matrix/Tensor</a></li>
+              </ul>
+            </td>
+            <td>Excursion</td>
+            <td>
+              <span class="session-title">Parallel Sessions</span>
+              <ul class="session-list">
+                <li><a href="https://icms-conference.org/2026/session5.html">5: Lean</a></li>
+                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a></li>
+                <li><a href="https://icms-conference.org/2026/session10.html">10: Design and Implementations of CAS</a></li>
+                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a></li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="time-col">evening</td>
+            <td><span class="session-title">Evening Reception (Maplesoft)</span></td>
+            <td></td>
+            <td><span class="session-title">Conference Dinner</span></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+			  Please note: Minor changes to the schedule are still possible, provided all affected parties agree.
+      </p>
+  </section>
+
+
+  <section class="container">
     <h2>Important Dates</h2>
     <ul>
       <li><b>Session proposal submission</b>: <span class="past"><em>December 1, 2025</em></span></li>
