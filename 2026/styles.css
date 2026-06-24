@@ -264,18 +264,18 @@ footer {
   vertical-align: baseline;
 }
 
-.schedule-table .track-1  { --track-color: #1d4ed8; }
+.schedule-table .track-1  { --track-color: #1d4ef8; }
 .schedule-table .track-2  { --track-color: #7e22ce; }
 .schedule-table .track-3  { --track-color: #047857; }
-.schedule-table .track-4  { --track-color: #9a3412; }
+.schedule-table .track-4  { --track-color: #ab00ab; }
 .schedule-table .track-5  { --track-color: #0f766e; }
 .schedule-table .track-6  { --track-color: #7c2d12; }
 .schedule-table .track-7  { --track-color: #4338ca; }
-.schedule-table .track-8  { --track-color: #166534; }
-.schedule-table .track-9  { --track-color: #b91c1c; }
+.schedule-table .track-8  { --track-color: #165524; }
+.schedule-table .track-9  { --track-color: #a91c2c; }
 .schedule-table .track-10 { --track-color: #0369a1; }
-.schedule-table .track-11 { --track-color: #854d0e; }
-.schedule-table .track-12 { --track-color: #6d28d9; }
+.schedule-table .track-11 { --track-color: #858d0e; }
+.schedule-table .track-12 { --track-color: #c058d9; }
 .schedule-table .track-13 { --track-color: #065f46; }
 .schedule-table .track-14 { --track-color: #be123c; }
 .schedule-table .track-15 { --track-color: #374151; }
