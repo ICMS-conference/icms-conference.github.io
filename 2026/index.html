@@ -84,80 +84,6 @@
   <section class="container">
     <h2>Program</h2>
     <div class="schedule-container">
-      <style>
-        .schedule-container {
-            font-family: inherit;
-            line-height: 1.4;
-        }
-        .schedule-table {
-            border-collapse: collapse;
-            width: 100%;
-            table-layout: fixed;
-            margin-top: 20px;
-        }
-        .schedule-table th, .schedule-table td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-            vertical-align: top;
-            word-wrap: break-word !important;
-            overflow-wrap: break-word !important;
-            white-space: normal !important;
-        }
-        .schedule-table th {
-            background-color: #f4f4f4;
-            font-weight: bold;
-            color: #333;
-            text-align: center;
-        }
-        .schedule-table th:first-child,
-        .schedule-table .time-col {
-            width: 10%; /* Try 8% to 10%, or a fixed size like 90px */
-        }
-        .schedule-table .time-col {
-            font-weight: bold;
-            background-color: #fafafa;
-            color: #333;
-            text-align: center;
-        }
-        .schedule-container .session-title {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 4px;
-        }
-        /* Overriding the global 800px width from main.css */
-        .schedule-container ul.session-list {
-            margin: 0 !important;
-            padding: 0 0 0 0 !important; 
-            width: auto !important; 
-            list-style-type: none !important;
-            font-size: 0.9em;
-        }
-        .schedule-container ul.session-list li {
-            margin: 0 0 6px 0 !important;
-            padding: 0 !important;
-            position: relative;
-            line-height: 1.3;
-        }
-        .schedule-container ul.session-list li::before {
-            content: "";
-            position: absolute;
-            left: -12px;
-        }
-        .schedule-container .note {
-            font-style: italic;
-            font-size: 0.9em;
-            color: #666;
-            margin-top: 15px;
-        }
-        .schedule-container .time-exception {
-            display: block;
-            font-size: 0.85em;
-            color: #555;
-            margin-top: 4px;
-        }
-      </style>
-
       <table class="schedule-table">
         <thead>
           <tr>
@@ -168,6 +94,7 @@
             <th>Thursday</th>
           </tr>
         </thead>
+
         <tbody>
           <tr>
             <td class="time-col">9:00 - 10:00</td>
@@ -176,6 +103,7 @@
             <td><span class="session-title">Plenary: Rackauckas</span> [BA101]</td>
             <td><span class="session-title">Plenary: Stillman</span> [BA101]</td>
           </tr>
+
           <tr>
             <td class="time-col">10:00 - 10:30</td>
             <td>Opening Remarks [BA101]</td>
@@ -183,50 +111,95 @@
             <td>Coffee Break</td>
             <td>Coffee Break</td>
           </tr>
+
           <tr>
             <td class="time-col">10:30 - 12:00</td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a> [BA101]</li>
-                <li><a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/">4: Parallelization, AI, and Physics</a> [BA110]</li>
-                <li><a href="https://icms-conference.org/2026/session12.html">12: Combinatorial Algebra and Geometry</a> [BA208]</li>
-                <li><a href="https://icms-conference.org/2026/session3.html">3: Category Theory</a> [BA210]</li>
-                <li><a href="https://www.risat.org/ICMS-26.html">13: Weighted Projective Spaces</a> [BA102]</li>
+                <li class="track track-3">
+                  <a href="https://icms-conference.org/2026/session3.html"><span class="track-badge">3</span> Category Theory</a> [BA210]
+                </li>
+                <li class="track track-4">
+                  <a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/"><span class="track-badge">4</span> Parallelization, AI, and Physics</a> [BA112]
+                </li>
+                <li class="track track-9">
+                  <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span> Biology and Computer Algebra</a> [BA101]
+                </li>
+                <li class="track track-12">
+                  <a href="https://icms-conference.org/2026/session12.html"><span class="track-badge">12</span> Combinatorial Algebra and Geometry</a> [BA110]
+                </li>
+                <li class="track track-13">
+                  <a href="https://www.risat.org/ICMS-26.html"><span class="track-badge">13</span> Weighted Projective Spaces</a> [BA208]
+                </li>
               </ul>
             </td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a> [BA101]</li>
-                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a> [BA110]</li>
-                <li><a href="https://melczer.ca/ICMS26/">8: Enumerative and Analytic Combinatorics</a> [BA102]</li>
-                <li><a href="https://icms-conference.org/2026/session3.html">3: Category Theory</a> [BA210]</li>
-                <li><a href="https://icms-conference.org/2026/session7.html">7: Quaternion Matrix/Tensor</a> [BA208]</li>
+                <li class="track track-3">
+                  <a href="https://icms-conference.org/2026/session3.html"><span class="track-badge">3</span> Category Theory</a> [BA210]
+                </li>
+                <li class="track track-7">
+                  <a href="https://icms-conference.org/2026/session7.html"><span class="track-badge">7</span> Quaternion Matrix/Tensor</a> [BA112]
+                </li>
+                <li class="track track-8">
+                  <a href="https://melczer.ca/ICMS26/"><span class="track-badge">8</span> Enumerative and Analytic Combinatorics</a> [BA208]
+                </li>
+                <li class="track track-9">
+                  <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span> Biology and Computer Algebra</a> [BA101]
+                </li>
+                <li class="track track-11">
+                  <a href="https://icms-conference.org/2026/session11.html"><span class="track-badge">11</span> Mathematical Knowledge Management</a> [BA110]
+                </li>
               </ul>
             </td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a> [BA101]</li>
-                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a> [BA110]</li>
-                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a> [BA102]</li>
-                <li><a href="https://icms-conference.org/2026/session3.html">3: Category Theory</a> [BA210]</li>
-                <li><a href="https://icms-conference.org/2026/session1.html">1: Proof Assistants, CAS, and AI</a> [BA208]</li>
+                <li class="track track-1">
+                  <a href="https://icms-conference.org/2026/session1.html"><span class="track-badge">1</span> Proof Assistants, CAS, and AI</a> [BA112]
+                </li>
+                <li class="track track-3">
+                  <a href="https://icms-conference.org/2026/session3.html"><span class="track-badge">3</span> Category Theory</a> [BA210]
+                </li>
+                <li class="track track-6">
+                  <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span> High-Performance Computer Algebra</a> [BA208]
+                </li>
+                <li class="track track-9">
+                  <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span> Biology and Computer Algebra</a> [BA101]
+                </li>
+                <li class="track track-11">
+                  <a href="https://icms-conference.org/2026/session11.html"><span class="track-badge">11</span> Mathematical Knowledge Management</a> [BA110]
+                </li>
               </ul>
             </td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a>
- [BA101]</li>
-                <li><a href="https://icms-conference.org/2026/session10.html">10: Design and Implementations of CAS</a> [BA210]</li>
-                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a> [BA102]</li>
-                <li><a href="https://icms-conference.org/2026/session16.html">15: General</a> [BA208]</li>
-                <li><a href="https://icms-conference.org/2026/session5.html">5: Lean</a> [BA110]</li>
+                <li class="track track-5">
+                  <a href="https://icms-conference.org/2026/session5.html"><span class="track-badge">5</span> Lean</a> [BA110]
+                </li>
+                <li class="track track-6">
+                  <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span> High-Performance Computer Algebra</a> [BA208]
+                </li>
+                <li class="track track-9">
+                  <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span> Biology and Computer Algebra</a> [BA101]
+                </li>
+                <li class="track track-10">
+                  <a href="https://icms-conference.org/2026/session10.html"><span class="track-badge">10</span> Design and Implementations of CAS</a> [BA210]
+                </li>
+                <li class="track track-15">
+                  <a href="https://icms-conference.org/2026/session16.html"><span class="track-badge">15</span> General</a> [BA112]
+                </li>
               </ul>
             </td>
           </tr>
+
           <tr>
             <td class="time-col">12:00 - 14:00</td>
             <td>Lunch</td>
@@ -234,92 +207,171 @@
             <td>Lunch<span class="time-exception">(12:00-13:30)</span></td>
             <td>Lunch</td>
           </tr>
+
           <tr>
             <td class="time-col">14:00 - 15:30</td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a>
- [BA101]</li>
-                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a> [BA112]</li>
-                <li><a href="https://icms-conference.org/2026/session12.html">12: Combinatorial Algebra and Geometry</a> [BA208]</li>
-                <li><a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/">4: Parallelization, AI, and Physics</a> [BA110]</li>
-                <li><a href="https://www.risat.org/ICMS-26.html">13: Weighted Projective Spaces</a> [BA102]</li>
+                <li class="track track-4">
+                  <a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/"><span class="track-badge">4</span> Parallelization, AI, and Physics</a> [BA112]
+                </li>
+                <li class="track track-9">
+                  <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span> Biology and Computer Algebra</a> [BA101]
+                </li>
+                <li class="track track-12">
+                  <a href="https://icms-conference.org/2026/session12.html"><span class="track-badge">12</span> Combinatorial Algebra and Geometry</a> [BA110]
+                </li>
+                <li class="track track-13">
+                  <a href="https://www.risat.org/ICMS-26.html"><span class="track-badge">13</span> Weighted Projective Spaces</a> [BA208]
+                </li>
+                <li class="track track-14">
+                  <a href="https://icms-conference.org/2026/session14.html"><span class="track-badge">14</span> Symbolic-Numeric Computation</a> [BA102]
+                </li>
               </ul>
             </td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a> [BA101]</li>
-                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a> [BA112]</li>
-                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a> [BA110]</li>
-                <li><a href="https://melczer.ca/ICMS26/">8: Enumerative and Analytic Combinatorics</a> [BA102]</li>
-                <li><a href="https://icms-conference.org/2026/session7.html">7: Quaternion Matrix/Tensor</a> [BA208]</li>
+                <li class="track track-7">
+                  <a href="https://icms-conference.org/2026/session7.html"><span class="track-badge">7</span> Quaternion Matrix/Tensor</a> [BA112]
+                </li>
+                <li class="track track-8">
+                  <a href="https://melczer.ca/ICMS26/"><span class="track-badge">8</span> Enumerative and Analytic Combinatorics</a> [BA208]
+                </li>
+                <li class="track track-9">
+                  <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span> Biology and Computer Algebra</a> [BA101]
+                </li>
+                <li class="track track-11">
+                  <a href="https://icms-conference.org/2026/session11.html"><span class="track-badge">11</span> Mathematical Knowledge Management</a> [BA110]
+                </li>
+                <li class="track track-14">
+                  <a href="https://icms-conference.org/2026/session14.html"><span class="track-badge">14</span> Symbolic-Numeric Computation</a> [BA102]
+                </li>
               </ul>
             </td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <span class="time-exception">(13:30-15:00)</span>
               <ul class="session-list">
-                <li><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">9: Biology and Computer Algebra</a> [BA101]</li>
-                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a> [BA112]</li>
-                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a> [BA110]</li>
-                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a> [BA102]</li>
-                <li><a href="https://icms-conference.org/2026/session1.html">1: Proof Assistants, CAS, and AI</a> [BA208]</li>
+                <li class="track track-1">
+                  <a href="https://icms-conference.org/2026/session1.html"><span class="track-badge">1</span> Proof Assistants, CAS, and AI</a> [BA112]
+                </li>
+                <li class="track track-6">
+                  <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span> High-Performance Computer Algebra</a> [BA208]
+                </li>
+                <li class="track track-9">
+                  <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span> Biology and Computer Algebra</a> [BA101]
+                </li>
+                <li class="track track-11">
+                  <a href="https://icms-conference.org/2026/session11.html"><span class="track-badge">11</span> Mathematical Knowledge Management</a> [BA110]
+                </li>
+                <li class="track track-14">
+                  <a href="https://icms-conference.org/2026/session14.html"><span class="track-badge">14</span> Symbolic-Numeric Computation</a> [BA102]
+                </li>
               </ul>
             </td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://icms-conference.org/2026/session5.html">5: Lean</a> [BA110]</li>
-                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a> [BA112]</li>
-                <li><a href="https://icms-conference.org/2026/session10.html">10: Design and Implementations of CAS</a> [BA210]</li>
-                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a> [BA102]</li>
-                <li><a href="https://icms-conference.org/2026/session1.html">1: Proof Assistants, CAS, and AI</a> [BA208]</li>
+                <li class="track track-1">
+                  <a href="https://icms-conference.org/2026/session1.html"><span class="track-badge">1</span> Proof Assistants, CAS, and AI</a> [BA112]
+                </li>
+                <li class="track track-5">
+                  <a href="https://icms-conference.org/2026/session5.html"><span class="track-badge">5</span> Lean</a> [BA110]
+                </li>
+                <li class="track track-6">
+                  <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span> High-Performance Computer Algebra</a> [BA208]
+                </li>
+                <li class="track track-10">
+                  <a href="https://icms-conference.org/2026/session10.html"><span class="track-badge">10</span> Design and Implementations of CAS</a> [BA210]
+                </li>
+                <li class="track track-14">
+                  <a href="https://icms-conference.org/2026/session14.html"><span class="track-badge">14</span> Symbolic-Numeric Computation</a> [BA102]
+                </li>
               </ul>
             </td>
           </tr>
+
           <tr>
             <td class="time-col">15:30 - 16:00</td>
             <td>Coffee Break</td>
             <td>Coffee Break</td>
-            <td rowspan="2"><span class="session-title">Excursion</span>
-            <span class="time-exception">(15:10-evening)</span></td>
+            <td rowspan="2">
+              <span class="session-title">Excursion</span>
+              <span class="time-exception">(15:10-evening)</span>
             </td>
             <td>Coffee Break</td>
           </tr>
+
           <tr>
             <td class="time-col">16:00 - 17:30</td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://icms-conference.org/2026/session2.html">2: Algebraic Solvers for Polynomial Systems</a> [BA101]</li>
-                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a> [BA112]</li>
-                <li><a href="https://icms-conference.org/2026/session12.html">12: Combinatorial Algebra and Geometry</a> [BA208]</li>
-                <li><a href="https://icms-conference.org/2026/session3.html">3: Category Theory</a> [BA210]</li>
-                <li><a href="https://www.risat.org/ICMS-26.html">13: Weighted Projective Spaces</a> [BA102]</li>
+                <li class="track track-2">
+                  <a href="https://icms-conference.org/2026/session2.html"><span class="track-badge">2</span> Algebraic Solvers for Polynomial Systems</a> [BA101]
+                </li>
+                <li class="track track-3">
+                  <a href="https://icms-conference.org/2026/session3.html"><span class="track-badge">3</span> Category Theory</a> [BA210]
+                </li>
+                <li class="track track-12">
+                  <a href="https://icms-conference.org/2026/session12.html"><span class="track-badge">12</span> Combinatorial Algebra and Geometry</a> [BA110]
+                </li>
+                <li class="track track-13">
+                  <a href="https://www.risat.org/ICMS-26.html"><span class="track-badge">13</span> Weighted Projective Spaces</a> [BA208]
+                </li>
+                <li class="track track-14">
+                  <a href="https://icms-conference.org/2026/session14.html"><span class="track-badge">14</span> Symbolic-Numeric Computation</a> [BA102]
+                </li>
               </ul>
             </td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://icms-conference.org/2026/session2.html">2: Algebraic Solvers for Polynomial Systems</a> [BA101]</li>
-                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a> [BA112]</li>
-                <li><a href="https://icms-conference.org/2026/session11.html">11: Mathematical Knowledge Management</a> [BA110]</li>
-                <li><a href="https://melczer.ca/ICMS26/">8: Enumerative and Analytic Combinatorics</a> [BA102]</li>
-                <li><a href="https://icms-conference.org/2026/session7.html">7: Quaternion Matrix/Tensor</a> [BA208]</li>
+                <li class="track track-2">
+                  <a href="https://icms-conference.org/2026/session2.html"><span class="track-badge">2</span> Algebraic Solvers for Polynomial Systems</a> [BA101]
+                </li>
+                <li class="track track-7">
+                  <a href="https://icms-conference.org/2026/session7.html"><span class="track-badge">7</span> Quaternion Matrix/Tensor</a> [BA112]
+                </li>
+                <li class="track track-8">
+                  <a href="https://melczer.ca/ICMS26/"><span class="track-badge">8</span> Enumerative and Analytic Combinatorics</a> [BA208]
+                </li>
+                <li class="track track-11">
+                  <a href="https://icms-conference.org/2026/session11.html"><span class="track-badge">11</span> Mathematical Knowledge Management</a> [BA110]
+                </li>
+                <li class="track track-14">
+                  <a href="https://icms-conference.org/2026/session14.html"><span class="track-badge">14</span> Symbolic-Numeric Computation</a> [BA102]
+                </li>
               </ul>
             </td>
+
             <td>
               <span class="session-title">Parallel Sessions</span>
               <ul class="session-list">
-                <li><a href="https://icms-conference.org/2026/session5.html">5: Lean</a> [BA110]</li>
-                <li><a href="https://icms-conference.org/2026/session14.html">14: Symbolic-Numeric Computation</a> [BA112]</li>
-                <li><a href="https://icms-conference.org/2026/session10.html">10: Design and Implementations of CAS</a> [BA210]</li>
-                <li><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">6: High-Performance Computer Algebra</a> [BA102]</li>
+                <li class="track track-5">
+                  <a href="https://icms-conference.org/2026/session5.html"><span class="track-badge">5</span> Lean</a> [BA110]
+                </li>
+                <li class="track track-6">
+                  <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span> High-Performance Computer Algebra</a> [BA208]
+                </li>
+                <li class="track track-10">
+                  <a href="https://icms-conference.org/2026/session10.html"><span class="track-badge">10</span> Design and Implementations of CAS</a> [BA210]
+                </li>
+                <li class="track track-14">
+                  <a href="https://icms-conference.org/2026/session14.html"><span class="track-badge">14</span> Symbolic-Numeric Computation</a> [BA102]
+                </li>
               </ul>
             </td>
           </tr>
+
           <tr>
             <td class="time-col">evening</td>
             <td><span class="session-title">Evening Reception (Maplesoft)</span></td>
@@ -330,8 +382,9 @@
         </tbody>
       </table>
       <p>
-			  Please note: Minor changes to the schedule are still possible, provided all affected parties agree.
+        Please note: Minor changes to the schedule are still possible, provided all affected parties agree.
       </p>
+    </div>
   </section>
 
 
