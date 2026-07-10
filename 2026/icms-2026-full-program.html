@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ICMS 2026 Full Program</title>
+<link href="styles.css" rel="stylesheet"/>
+<style>
+    .program-intro { margin-bottom: 1.5rem; }
+    .program-note { font-size: 0.95rem; }
+
+    /* The ordinary site container is intentionally narrow.  The full program
+       needs the available viewport so five parallel sessions remain visible. */
+    .program-container {
+      width: min(1500px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 1rem 0;
+      text-align: left;
+    }
+
+    .day-program { margin: 2rem 0 3.5rem; }
+    .day-program h2 { margin-bottom: 0.55rem; }
+    .program-scroll { width: 100%; overflow-x: auto; }
+
+    table.full-program {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      background: white;
+      font-size: 0.92rem;
+      line-height: 1.35;
+    }
+    .full-program th,
+    .full-program td {
+      border: 1px solid #b8c2cc;
+      padding: 0.58rem;
+      vertical-align: top;
+      overflow-wrap: break-word;
+      word-break: normal;
+      hyphens: auto;
+    }
+    .full-program thead th {
+      text-align: center;
+      background: #e8eef5;
+      white-space: nowrap;
+    }
+
+    /* Time occupies a shallow row above each block instead of consuming
+       one-sixth of every talk row. */
+    .full-program .block-time td {
+      padding: 0.34rem 0.65rem;
+      background: #dbe7f3;
+      color: #173a5e;
+      font-size: 0.96rem;
+      font-weight: 700;
+      text-align: left;
+      border-top: 2px solid #7e98b3;
+    }
+    .full-program .all-tracks {
+      text-align: center;
+      vertical-align: middle;
+      background: #f5f7f9;
+      font-weight: bold;
+      padding: 0.65rem;
+    }
+    .session-heading {
+      display: block;
+      margin-bottom: 0.32rem;
+      font-weight: bold;
+      line-height: 1.2;
+    }
+    .session-heading a { display: inline; }
+    .session-heading .room {
+      display: block;
+      margin-top: 0.15rem;
+      font-weight: normal;
+      white-space: nowrap;
+    }
+    .talk-list {
+      margin: 0.32rem 0 0 1.05rem;
+      padding: 0;
+      font-size: 0.96em;
+    }
+    .talk-list li { margin: 0 0 0.45rem; }
+    .talk-list li:last-child { margin-bottom: 0; }
+    .talk-title { font-style: italic; }
+    .tba { font-weight: bold; font-style: italic; }
+    .empty-track { text-align: center; vertical-align: middle !important; color: #666; }
+    .provisional { background: #fff9e6; }
+    .track-badge {
+      display: inline-block;
+      min-width: 1.65em;
+      padding: 0.03em 0.3em;
+      margin-right: 0.22em;
+      border-radius: 0.85em;
+      text-align: center;
+      background: #365f91;
+      color: white;
+      font-size: 0.86em;
+      line-height: 1.25;
+    }
+    .unassigned-talks { margin-top: 2rem; max-width: 1000px; }
+    .unassigned-talks details { margin: 0.8rem 0; }
+    .unassigned-talks summary { cursor: pointer; font-weight: bold; }
+
+    @media (max-width: 1050px) {
+      .program-container { width: calc(100% - 1rem); }
+      table.full-program { min-width: 1050px; }
+      .program-scroll {
+        padding-bottom: 0.35rem;
+        scrollbar-gutter: stable;
+      }
+    }
+    @media (max-width: 700px) {
+      .full-program th, .full-program td { padding: 0.48rem; }
+      table.full-program { font-size: 0.86rem; }
+    }
+    @media print {
+      @page { size: landscape; margin: 0.45in; }
+      header nav, footer { display: none; }
+      .program-container { width: 100%; padding: 0; }
+      .program-scroll { overflow: visible; }
+      table.full-program { min-width: 0; font-size: 7.3pt; }
+      .full-program th, .full-program td { padding: 0.25rem; }
+      .day-program { break-before: page; }
+      .day-program:first-of-type { break-before: auto; }
+      .full-program tr { break-inside: avoid; }
+    }
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<h1>International Congress on Mathematical Software 2026</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="sessions.html">Sessions</a>
+<a href="submission.html">Submission</a>
+<a href="registration.html">Registration</a>
+<a href="local-info.html">Local Info</a>
+<a href="organization.html">Organization</a>
+</nav>
+</div>
+</header>
+<section class="hero">
+<div class="container">
+<h2>Full Program</h2>
+<h3>Waterloo, Ontario, Canada, 20–23 July 2026</h3>
+<p class="program-intro">
+        This draft combines the conference block timetable with the talk information
+        currently published on the individual session pages. Items marked <b>TBA</b>
+        have not yet been assigned to a particular block or have not yet been published.
+       Within each day, recurring sessions remain in the same column across consecutive program blocks.</p>
+</div>
+</section>
+<main class="program-container">
+<section class="day-program" id="monday">
+<h2>Monday, 20 July 2026</h2>
+<div class="program-scroll">
+<table class="full-program">
+<thead><tr><th>Parallel 1</th><th>Parallel 2</th><th>Parallel 3</th><th>Parallel 4</th><th>Parallel 5</th></tr></thead>
+<tbody>
+<tr class="block-time"><td colspan="5">9:00–10:00</td></tr><tr><td class="all-tracks" colspan="5">Registration and coffee [BA Lobby]</td></tr>
+<tr class="block-time"><td colspan="5">10:00–10:30</td></tr><tr><td class="all-tracks" colspan="5">Opening remarks [BA101]</td></tr>
+<tr class="block-time"><td colspan="5">10:30–12:00</td></tr><tr>
+<td class="provisional"><span class="session-heading"><a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/"><span class="track-badge">4</span>Parallelization, AI, and Physics</a><span class="room">[BA112]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td><span class="session-heading"><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span>Biological Applications of Computer Algebra</a><span class="room">[BA101]</span></span><ul class="talk-list"><li>Anne Shiu — <span class="talk-title">Bistability and Linear Relations in a Model of Caspase Activation</span></li><li>Aviva K. Englander — <span class="talk-title">The Allee Effect: A Case Study of Numerical Methods</span></li></ul></td><td class="provisional"><span class="session-heading"><a href="session12.html"><span class="track-badge">12</span>Combinatorial Algebra and Geometry</a><span class="room">[BA110]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td class="provisional"><span class="session-heading"><a href="https://www.risat.org/ICMS-26.html"><span class="track-badge">13</span>Weighted Projective Spaces</a><span class="room">[BA208]</span></span><p class="tba">TBA</p></td><td><span class="session-heading"><a href="session3.html"><span class="track-badge">3</span>Computational Category Theory</a><span class="room">[BA210]</span></span><ul class="talk-list"><li>Kamal Saleh — <span class="talk-title">Transpiling CAP from GAP to Julia: Bridging Two Worlds of Computational Algebra</span></li><li>Evan Patterson — <span class="talk-title">CatColab: Formal Collaborative Modeling Based on Category Theory</span></li><li>Matt Cuffaro — <span class="talk-title">More Flexible Interfaces for Specifying Simulations of Systems in CatColab</span></li></ul></td></tr>
+<tr class="block-time"><td colspan="5">12:00–14:00</td></tr><tr><td class="all-tracks" colspan="5">Lunch</td></tr>
+<tr class="block-time"><td colspan="5">14:00–15:30</td></tr><tr>
+<td class="provisional"><span class="session-heading"><a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/"><span class="track-badge">4</span>Parallelization, AI, and Physics</a><span class="room">[BA112]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td><span class="session-heading"><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span>Biological Applications of Computer Algebra</a><span class="room">[BA101]</span></span><ul class="talk-list"><li>Xiaoxian Tang — <span class="talk-title">Detecting the Smallest Multistable Zero-One Reaction Networks</span></li><li>Cash Bortner — <span class="talk-title">Identifiability of Linear Compartmental Models</span></li></ul></td><td class="provisional"><span class="session-heading"><a href="session12.html"><span class="track-badge">12</span>Combinatorial Algebra and Geometry</a><span class="room">[BA110]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td class="provisional"><span class="session-heading"><a href="https://www.risat.org/ICMS-26.html"><span class="track-badge">13</span>Weighted Projective Spaces</a><span class="room">[BA208]</span></span><p class="tba">TBA</p></td><td><span class="session-heading"><a href="session14.html"><span class="track-badge">14</span>Symbolic-Numeric Computation</a><span class="room">[BA102]</span></span><ul class="talk-list"><li> Rob Corless — <span class="talk-title">Hybrid Symbolic-Numeric Computing: A Personal View</span></li><li> Tanmaya Karmarkar, Yves Lucet and Narendra Karmarkar — <span class="talk-title">Tensor Optimization Framework for Sums-of-Squares Certification</span></li><li> Anton Leykin — <span class="talk-title">Computer-Assisted Discovery and Proofs of Compatibility Conditions for Three Projective Cameras</span></li></ul></td></tr>
+<tr class="block-time"><td colspan="5">15:30–16:00</td></tr><tr><td class="all-tracks" colspan="5">Coffee break [BA Lobby]</td></tr>
+<tr class="block-time"><td colspan="5">16:00–17:30</td></tr><tr>
+<td><span class="session-heading"><a href="session2.html"><span class="track-badge">2</span>Algebraic Solvers for Polynomial Systems</a><span class="room">[BA101]</span></span><ul class="talk-list"><li> Sriram Gopalakrishnan — <span class="talk-title">Gröbner Bases of Determinantal Ideals</span></li><li> Dafna K. Matsegora and Stephen M. Watt — <span class="talk-title">On True Arc-Length Parameterized Splines</span></li><li> Deepak Singh Kalhan, Robert Corless and Stephen M. Watt — <span class="talk-title">Stability of Sobolev-Regularized Polynomial Differentiation Matrices</span></li></ul></td><td><span class="session-heading"><a href="session3.html"><span class="track-badge">3</span>Computational Category Theory</a><span class="room">[BA210]</span></span><ul class="talk-list"><li> Alexanna Little — <span class="talk-title">Categorical Message Passing Language and Its Semantics</span></li><li> Ryan Wisnesky and Daniel Filonik — <span class="talk-title">Relational to RDF Data Migration by Query Co-Evaluation</span></li><li> Nelson Martins-Ferreira — <span class="talk-title">Categorical Structures in MATLAB and Octave Programming</span></li></ul></td><td class="provisional"><span class="session-heading"><a href="session12.html"><span class="track-badge">12</span>Combinatorial Algebra and Geometry</a><span class="room">[BA110]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td class="provisional"><span class="session-heading"><a href="https://www.risat.org/ICMS-26.html"><span class="track-badge">13</span>Weighted Projective Spaces</a><span class="room">[BA208]</span></span><p class="tba">TBA</p></td><td><span class="session-heading"><a href="session14.html"><span class="track-badge">14</span>Symbolic-Numeric Computation</a><span class="room">[BA102]</span></span><ul class="talk-list"><li> Nobuki Takayama, Takaharu Yaguchi and Yi Zhang — <span class="talk-title">Holonomic Gradient Method: A Symbolic-Numeric Method to Evaluate Integrals with Parameters</span></li><li> Bernhard Andraschko, Ilias Kotsireas and Martin Kreuzer — <span class="talk-title">Computing Periodic Golay Pairs Using SAT Solvers</span></li><li> Juhee Kim and Taylor Brysiewicz — <span class="talk-title">Randomized Algorithms for Verifying Monodromy Groups</span></li></ul></td></tr>
+<tr class="block-time"><td colspan="5">Evening</td></tr><tr><td class="all-tracks" colspan="5">Conference reception — Maplesoft headquarters</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="day-program" id="tuesday">
+<h2>Tuesday, 21 July 2026</h2>
+<div class="program-scroll">
+<table class="full-program">
+<thead><tr><th>Parallel 1</th><th>Parallel 2</th><th>Parallel 3</th><th>Parallel 4</th><th>Parallel 5</th></tr></thead>
+<tbody>
+<tr class="block-time"><td colspan="5">9:00–10:00</td></tr><tr><td class="all-tracks" colspan="5"><a href="speaker-eick.html">Plenary — Bettina Eick</a>: <i>Computational Group Theory and the Classification of Finite Groups</i> [BA101]</td></tr>
+<tr class="block-time"><td colspan="5">10:00–10:30</td></tr><tr><td class="all-tracks" colspan="5">Coffee break [BA Lobby]</td></tr>
+<tr class="block-time"><td colspan="5">10:30–12:00</td></tr><tr>
+<td><span class="session-heading"><a href="session7.html"><span class="track-badge">7</span>Quaternion Matrix and Tensor Computation</a><span class="room">[BA112]</span></span><ul class="talk-list"><li>Mark Giesbrecht — <span class="talk-title">Factoring in the Quantum Plane over Q(ω)(t)</span></li><li>Dingkang Wang — <span class="talk-title">Efficient Implementation of Minor Left Prime Factorization for Multivariate Polynomial Matrices</span></li><li>Jing Yang — <span class="talk-title">Subresultants of Several Ore Polynomials</span></li></ul></td><td><span class="session-heading"><a href="https://melczer.ca/ICMS26/"><span class="track-badge">8</span>Enumerative and Analytic Combinatorics</a><span class="room">[BA208]</span></span><ul class="talk-list"><li> Tiadora Ruza — <span class="talk-title">Computing Asymptotics of Multivariate Algebraic Generating Functions</span></li><li> Gustavo Zambonin — <span class="talk-title">nth: Open-Source Generic Combinatorial (Un)ranking via the Symbolic Method</span></li><li> Casper Asbjørn Eriksen — <span class="talk-title">CombOL: A Library for Practical Enumeration and Boltzmann Sampling of Combinatorial Classes</span></li></ul></td><td><span class="session-heading"><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span>Biological Applications of Computer Algebra</a><span class="room">[BA101]</span></span><ul class="talk-list"><li>Álvaro Ribot — <span class="talk-title">Beyond Independent Component Analysis: Identifiability and Algorithms</span></li><li>Neriman Tokcan — <span class="talk-title">Tensor Algebra Approaches for Multi-Omics Data Analysis</span></li><li>Alexey Ovchinnikov — <span class="talk-title">When to Measure to Estimate Parameters in ODE Models?</span></li></ul></td><td><span class="session-heading"><a href="session11.html"><span class="track-badge">11</span>Mathematical Knowledge Management</a><span class="room">[BA110]</span></span><ul class="talk-list"><li>Ilka Agricola — <span class="talk-title">Fraudulent Publishing in the Mathematical Sciences: A Glimpse at the Parallel Universe of Fake Science</span></li><li>P. Tolmos, P. Velez and T. Recio — <span class="talk-title">Comparing Human Perception, Computer-Algebra-Based Algorithmic Approaches, and Generative AI for Ranking Elementary Geometry Statements</span></li><li>Maxence Azzouz-Thuderoz, Yuni Susanti and Moritz Schubotz — <span class="talk-title">Multi-Label Classification of Mathematical Software Communities Using Graph-Based Modeling of Structured Domain Metadata</span></li></ul></td><td><span class="session-heading"><a href="session3.html"><span class="track-badge">3</span>Computational Category Theory</a><span class="room">[BA210]</span></span><ul class="talk-list"><li>Yoshihiro Maruyama and Ryo Nasu — <span class="talk-title">Category-Equivariant Neural Networks: Equivariant Learning beyond Group Symmetries</span></li><li>Tom Kuhmichel — <span class="talk-title">Equivariant Orlik-Solomon Algebras</span></li><li>Marc Talleux — <span class="talk-title">Implementing Bisets for Groups in CAP</span></li></ul></td></tr>
+<tr class="block-time"><td colspan="5">12:00–14:00</td></tr><tr><td class="all-tracks" colspan="5">Lunch</td></tr>
+<tr class="block-time"><td colspan="5">14:00–15:30</td></tr><tr>
+<td><span class="session-heading"><a href="session7.html"><span class="track-badge">7</span>Quaternion Matrix and Tensor Computation</a><span class="room">[BA112]</span></span><ul class="talk-list"><li>Jiangfeng Chen and Qing-Wen Wang — <span class="talk-title">Some Matrix Equations over the Dual Quaternions with Applications</span></li><li>Shi Lei — <span class="talk-title">Higher-Order Reduced Biquaternion Matrices</span></li><li class="tba">TBA / open third position</li></ul></td><td><span class="session-heading"><a href="https://melczer.ca/ICMS26/"><span class="track-badge">8</span>Enumerative and Analytic Combinatorics</a><span class="room">[BA208]</span></span><ul class="talk-list"><li> Yuzhuo Lei and Chirantan Mukherjee — <span class="talk-title">Quasi-Polynomials, Z-Polyhedra and Parametric Integer Linear Programming</span></li><li> Jaime Gutierrez — <span class="talk-title">PLPP: A SageMath Package for Computing and Manipulating Local Permutation Polynomials and Latin Hypercubes</span></li><li> Leigh Foster — <span class="talk-title">Tilepaint: Visualizations and Calculations in Tilings, Perfect Matchings, and Polymer Covers</span></li></ul></td><td><span class="session-heading"><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span>Biological Applications of Computer Algebra</a><span class="room">[BA101]</span></span><ul class="talk-list"><li>Alex Markham — <span class="talk-title">Computational and Algebraic Questions in Causal Inference</span></li><li>Qixia Luo — <span class="talk-title">DAG Learning for Graphical Discrete Lyapunov Models under Non-Gaussianity</span></li><li>Luis Sierra Muntané — <span class="talk-title">Algebraic Deconvolution of Transcriptomic Data: A Free Probability Approach to High-Dimensional Signal Recovery</span></li></ul></td><td><span class="session-heading"><a href="session11.html"><span class="track-badge">11</span>Mathematical Knowledge Management</a><span class="room">[BA110]</span></span><ul class="talk-list"><li>Kevin M. Buzzard — <span class="talk-title">Mathlib: A Formally-Verified Repository of Mathematical Knowledge</span></li><li>Katja Berčič — <span class="talk-title">The Landscape of Collections of Mathematical Objects</span></li><li>William M. Farmer — <span class="talk-title">How to Build a Formal Mathematical Library in Which Communication Is Prioritized over Certification</span></li></ul></td><td><span class="session-heading"><a href="session14.html"><span class="track-badge">14</span>Symbolic-Numeric Computation</a><span class="room">[BA102]</span></span><ul class="talk-list"><li> Joseph Cummings and Jonathan D. Hauenstein — <span class="talk-title">Mixed Volume and Ramification Points of Polyhedral Homotopies</span></li><li> Paul Breiding, David Johnson and Taylor Brysiewicz — <span class="talk-title">Parallel Certification of Roots of Polynomial Systems</span></li><li> Katie Kruzan and Jan Verschelde — <span class="talk-title">Newton’s Method for Real Powered Series Using PHCpack and phcpy</span></li></ul></td></tr>
+<tr class="block-time"><td colspan="5">15:30–16:00</td></tr><tr><td class="all-tracks" colspan="5">Coffee and posters [BA Lobby]</td></tr>
+<tr class="block-time"><td colspan="5">16:00–17:30</td></tr><tr>
+<td><span class="session-heading"><a href="session2.html"><span class="track-badge">2</span>Algebraic Solvers for Polynomial Systems</a><span class="room">[BA101]</span></span><ul class="talk-list"><li> Jérémy Berthomieu, Christian Eder, Vincent Neiger and Mohab Safey El Din — <span class="talk-title">msolve</span></li><li> Théo Ternier — <span class="talk-title">A Data Structure for Monomial Ideals in Signature Gröbner Basis Computations</span></li><li> Kamillo Ferry — <span class="talk-title">Ore Algebras in OSCAR</span></li></ul></td><td><span class="session-heading"><a href="https://melczer.ca/ICMS26/"><span class="track-badge">8</span>Enumerative and Analytic Combinatorics</a><span class="room">[BA208]</span></span><ul class="talk-list"><li> Robert Dougherty-Bliss — <span class="talk-title">Enumerating Balanced Matrices</span></li><li> Lucas Pannier — <span class="talk-title">An Effective Proof of the p-Curvature Conjecture for First-Order Differential Equations with Rational Coefficients</span></li><li> John H. Smith — <span class="talk-title">Fast Diagonals of Rational Functions in SageMath</span></li></ul></td><td class="empty-track">—</td><td><span class="session-heading"><a href="session11.html"><span class="track-badge">11</span>Mathematical Knowledge Management</a><span class="room">[BA110]</span></span><ul class="talk-list"><li>Michael Kohlhase and Dennis Müller — <span class="talk-title">Extend Your Math with Semantics and Services</span></li><li>Ankit Satpute et al. — <span class="talk-title">Improving Research Software Discoverability in Mathematical Literature at zbMATH Open</span></li><li>Stefanie Heim, Michael Kohlhase, Silas Kuder and Florian Rabe — <span class="talk-title">NuFrameIT: Serious Games via Computation and Reasoning</span></li></ul></td><td><span class="session-heading"><a href="session14.html"><span class="track-badge">14</span>Symbolic-Numeric Computation</a><span class="room">[BA102]</span></span><ul class="talk-list"><li> Oskar Henriksson — <span class="talk-title">Numerical Elimination and Parameter Space Exploration</span></li><li> Alexandre Guillemot and John Voigt — <span class="talk-title">Belyi Map Verification Using Certified Path Tracking</span></li><li> Kisun Lee — <span class="talk-title">Certifying Algebraic Structures via Interval Arithmetic</span></li></ul></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="day-program" id="wednesday">
+<h2>Wednesday, 22 July 2026</h2>
+<div class="program-scroll">
+<table class="full-program">
+<thead><tr><th>Parallel 1</th><th>Parallel 2</th><th>Parallel 3</th><th>Parallel 4</th><th>Parallel 5</th></tr></thead>
+<tbody>
+<tr class="block-time"><td colspan="5">9:00–10:00</td></tr><tr><td class="all-tracks" colspan="5"><a href="speaker-rackauckas.html">Plenary — Christopher Rackauckas</a>: <i>The Role of Human Engineers and Mathematicians in the Age of AI</i> [BA101]</td></tr>
+<tr class="block-time"><td colspan="5">10:00–10:30</td></tr><tr><td class="all-tracks" colspan="5">Coffee break [BA Lobby]</td></tr>
+<tr class="block-time"><td colspan="5">10:30–12:00</td></tr><tr>
+<td class="provisional"><span class="session-heading"><a href="session1.html"><span class="track-badge">1</span>Proof Assistants, CAS, and AI</a><span class="room">[BA112]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td><span class="session-heading"><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span>High-Performance Computer Algebra</a><span class="room">[BA208]</span></span><ul class="talk-list"><li> Alexander Brandt — <span class="talk-title">Multithreaded Programming in the BPAS Library</span></li><li> Greg Alejandro Solis-Reyes, Marc Moreno Maza and Alexander Brandt — <span class="talk-title">Parallel Computation of the Power Series Solutions to Algebraic and Differential Equations</span></li><li> Miriam Okutuo and Alexander Brandt — <span class="talk-title">Sparse Polynomial Multiplication on Chiplet-Based Architectures</span></li></ul></td><td><span class="session-heading"><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span>Biological Applications of Computer Algebra</a><span class="room">[BA101]</span></span><ul class="talk-list"><li>Samuel Martin — <span class="talk-title">Algebraic Invariants for Inferring Four-Leaf Semi-Directed Phylogenetic Networks</span></li><li>Antony Della Vecchia — <span class="talk-title">Phylogenetic Models, Data Structures and Databases</span></li><li>Max Hill — <span class="talk-title">Semialgebraic Conditions for Detecting Hybrid Three-Cycles in Phylogenetic Networks</span></li></ul></td><td><span class="session-heading"><a href="session11.html"><span class="track-badge">11</span>Mathematical Knowledge Management</a><span class="room">[BA110]</span></span><ul class="talk-list"><li>Deyan Ginev — <span class="talk-title">Scaling Accessible Mathematics on arXiv: HTML Conversion and MathML 4</span></li><li>Ilka Agricola — <span class="talk-title">Math for Visually Impaired People</span></li><li>Neil Soiffer — <span class="talk-title">Author Intent: The Next Step in Advancing the Accessibility of Mathematics</span></li></ul></td><td class="provisional"><span class="session-heading"><a href="session3.html"><span class="track-badge">3</span>Computational Category Theory</a><span class="room">[BA210]</span></span><ul class="talk-list"><li class="tba">Plenary talk — speaker/title TBA</li><li>Bruno Gavranović — <span class="talk-title">TensorType: Implementing and Extending Deep Learning with Types</span></li></ul></td></tr>
+<tr class="block-time"><td colspan="5">12:00–13:30</td></tr><tr><td class="all-tracks" colspan="5">Lunch</td></tr>
+<tr class="block-time"><td colspan="5">13:30–15:00</td></tr><tr>
+<td class="provisional"><span class="session-heading"><a href="session1.html"><span class="track-badge">1</span>Proof Assistants, CAS, and AI</a><span class="room">[BA112]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td><span class="session-heading"><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span>High-Performance Computer Algebra</a><span class="room">[BA208]</span></span><ul class="talk-list"><li> Roman Pearce — <span class="talk-title">Parallelizing the F4 Algorithm for Gröbner Bases</span></li><li> Alexander Demin — <span class="talk-title">Efficient Gröbner Tracing in Groebner.jl</span></li><li> Xavier Dahan — <span class="talk-title">Some Practical Implementations for Bivariate Gröbner Bases</span></li></ul></td><td><span class="session-heading"><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span>Biological Applications of Computer Algebra</a><span class="room">[BA101]</span></span><ul class="talk-list"><li>Ruriko Yoshida — <span class="talk-title">Phylogenetic Tree Inference with Tropical Axial Attention</span></li><li>Roan Talbut — <span class="talk-title">Tropical Gradient Descent</span></li><li>Bryson Kagy — <span class="talk-title">Quintet Concordance Factors and Identifiability</span></li></ul></td><td><span class="session-heading"><a href="session11.html"><span class="track-badge">11</span>Mathematical Knowledge Management</a><span class="room">[BA110]</span></span><ul class="talk-list"><li>Moritz Schubotz — <span class="talk-title">Five Years Mathematical Research Data Initiative</span></li><li>Patrick D. F. Ion — <span class="talk-title">Can We Have a Global Digital Mathematics Library?</span></li><li>Stephen M. Watt — <span class="talk-title">Where Should the IMKT Be at Age 10?</span></li></ul></td><td><span class="session-heading"><a href="session14.html"><span class="track-badge">14</span>Symbolic-Numeric Computation</a><span class="room">[BA102]</span></span><ul class="talk-list"><li> Laureano González-Vega — <span class="talk-title">Computing the Eigenvalues of QM-Matrices and Q1,2-Matrices</span></li><li> Denis Arzelier, Florent Bréhard and Mioara Joldes — <span class="talk-title">Mathematical Software for the Evaluation of Distribution Functions of Quadratic Forms of Gaussian Random Variables</span></li><li> Ruiqi Huang and Anton Leykin — <span class="talk-title">Approximating Periodic Orbits with Algebraic Curves and Related Minimal Problems</span></li></ul></td></tr>
+<tr class="block-time"><td colspan="5">15:10–evening</td></tr><tr><td class="all-tracks" colspan="5">Excursion and conference dinner — Niagara Falls; transportation provided</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="day-program" id="thursday">
+<h2>Thursday, 23 July 2026</h2>
+<div class="program-scroll">
+<table class="full-program">
+<thead><tr><th>Parallel 1</th><th>Parallel 2</th><th>Parallel 3</th><th>Parallel 4</th><th>Parallel 5</th></tr></thead>
+<tbody>
+<tr class="block-time"><td colspan="5">9:00–10:00</td></tr><tr><td class="all-tracks" colspan="5"><a href="speaker-stillman.html">Plenary — Mike Stillman</a>: <i>Computational Algebraic Geometry, Applications to Physics, and Macaulay2</i> [BA101]</td></tr>
+<tr class="block-time"><td colspan="5">10:00–10:30</td></tr><tr><td class="all-tracks" colspan="5">Coffee and posters [BA Lobby]</td></tr>
+<tr class="block-time"><td colspan="5">10:30–12:00</td></tr><tr>
+<td class="provisional"><span class="session-heading"><a href="session5.html"><span class="track-badge">5</span>Mathematics in Lean</a><span class="room">[BA110]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td><span class="session-heading"><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span>High-Performance Computer Algebra</a><span class="room">[BA208]</span></span><ul class="talk-list"><li> Gennadi Malaschonok — <span class="talk-title">The Extended Adjugate Matrix</span></li><li> Shahadat Hossain — <span class="talk-title">Computing with Diagonally Structured Matrices: CPU- and GPU-Accelerated Matrix Multiplication</span></li><li> Alexander Demin and Fabrice Rouillier — <span class="talk-title">Fast Rational Univariate Representation via Gaussian Elimination</span></li></ul></td><td><span class="session-heading"><a href="session10.html"><span class="track-badge">10</span>Design and Implementation of CAS</a><span class="room">[BA210]</span></span><ul class="talk-list"><li>Roman Pearce — <span class="talk-title">The Ax Computer Algebra System</span></li><li>Satoshi Egi — <span class="talk-title">Simplified Index Rules for Integrating Tensor Index Notation into Programming Languages with Static Type Systems</span></li><li>Stephen M. Watt — <span class="talk-title">An Exploration of Word Encodings for Symbolic Language Runtimes</span></li></ul></td><td><span class="session-heading"><a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/"><span class="track-badge">9</span>Biological Applications of Computer Algebra</a><span class="room">[BA101]</span></span><ul class="talk-list"><li>Caitlin Lienkaemper — <span class="talk-title">How Parallel Synapses Enhance Classification Capacity</span></li><li>Samuel Desrochers — <span class="talk-title">A Formal Model of Neuronal Circuits</span></li><li class="tba">TBA / open third position</li></ul></td><td><span class="session-heading"><a href="session16.html"><span class="track-badge">15</span>General Session</a><span class="room">[BA112]</span></span><ul class="talk-list"><li>Yu Nakai, Akira Terui and Masahiko Mikawa — <span class="talk-title">Trajectory Planning and Certification for Three-DOF Robot Manipulators Using Real Quantifier Elimination Based on Comprehensive Gröbner Systems</span></li><li>Martin D. Pham — <span class="talk-title">WebAssembly for Edge Scientific Computing: Neural Simulation and Xiangqi</span></li><li>Dafna K. Matsegora and Stephen M. Watt — <span class="talk-title">On True Arc-Length Parameterized Splines</span></li><li>Deepak Singh Kalhan, Robert Corless and Stephen M. Watt — <span class="talk-title">Stability of Sobolev-Regularized Polynomial Differentiation Matrices</span></li></ul></td></tr>
+<tr class="block-time"><td colspan="5">12:00–14:00</td></tr><tr><td class="all-tracks" colspan="5">Lunch</td></tr>
+<tr class="block-time"><td colspan="5">14:00–15:30</td></tr><tr>
+<td class="provisional"><span class="session-heading"><a href="session5.html"><span class="track-badge">5</span>Mathematics in Lean</a><span class="room">[BA110]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td><span class="session-heading"><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span>High-Performance Computer Algebra</a><span class="room">[BA208]</span></span><ul class="talk-list"><li> Alexey Ovchinnikov — <span class="talk-title">Uncertainty Quantification in Parameter Estimation with Noisy Data</span></li><li> Ryan Curtin, Marcus Edel and Conrad Sanderson — <span class="talk-title">Fast GPU Linear Algebra via Compile-Time Expression Fusion</span></li><li> Howard Chen and Jan Verschelde — <span class="talk-title">Accelerating Multiple-Double Arithmetic with NVIDIA Tensor Cores</span></li></ul></td><td><span class="session-heading"><a href="session10.html"><span class="track-badge">10</span>Design and Implementation of CAS</a><span class="room">[BA210]</span></span><ul class="talk-list"><li>Paul DeMarco — <span class="talk-title">How Maple Is Using AI to Boost Productivity</span></li><li>Mitsushi Fujimoto — <span class="talk-title">Using a Machine Learning Model for Handwritten Digit Recognition in GeoGebra</span></li><li>Seerat Kaur and Jugpratap Singh — <span class="talk-title">Performance Profiling of Symbolic Simplification in SymPy: A Large-Scale Benchmark Study</span></li></ul></td><td><span class="session-heading"><a href="session14.html"><span class="track-badge">14</span>Symbolic-Numeric Computation</a><span class="room">[BA102]</span></span><ul class="talk-list"><li> Bingwei Zhang and Chee Yap — <span class="talk-title">Taylor Tubes: A Technique to Improve the Speed and Accuracy of Validated IVP Algorithms</span></li><li> Ned Nedialkov — <span class="talk-title">ADTAYL: Taylor Series, ODEs, and Lie Derivatives in MATLAB</span></li><li> Alexander Demin, Christina Katsamaki and Fabrice Rouillier — <span class="talk-title">Certified Symbolic-Numeric Algorithms for Critical Engineering Applications</span></li></ul></td><td class="provisional"><span class="session-heading"><a href="session1.html"><span class="track-badge">1</span>Proof Assistants, CAS, and AI</a><span class="room">[BA112]</span></span><p class="tba">TBA — block assignment unpublished</p></td></tr>
+<tr class="block-time"><td colspan="5">15:30–16:00</td></tr><tr><td class="all-tracks" colspan="5">Coffee break [BA Lobby]</td></tr>
+<tr class="block-time"><td colspan="5">16:00–17:30</td></tr><tr>
+<td class="provisional"><span class="session-heading"><a href="session5.html"><span class="track-badge">5</span>Mathematics in Lean</a><span class="room">[BA110]</span></span><p class="tba">TBA — block assignment unpublished</p></td><td><span class="session-heading"><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html"><span class="track-badge">6</span>High-Performance Computer Algebra</a><span class="room">[BA208]</span></span><ul class="talk-list"><li> Adam Murdock Gale and Marc Moreno Maza — <span class="talk-title">Parallel Computations of Transversal Hypergraphs</span></li><li> Anton Leykin — <span class="talk-title">Parallel Tropical Geometry and Celestial Mechanics</span></li><li> Omar Sobhy and Marc Moreno Maza — <span class="talk-title">Big Integer Arithmetic on the GPU</span></li></ul></td><td><span class="session-heading"><a href="session10.html"><span class="track-badge">10</span>Design and Implementation of CAS</a><span class="room">[BA210]</span></span><ul class="talk-list"><li>Michael Monagan, Mantej Sohki and Archit Srivastava — <span class="talk-title">A Maple Implementation of a Parametric Linear System Solver Using Sparse Rational Function Interpolation</span></li><li>Douglas Torrance — <span class="talk-title">Implementing p-Adic Numbers in Macaulay2 Using Its Foreign Function Interface and FLINT</span></li><li class="tba">TBA / open third position</li></ul></td><td><span class="session-heading"><a href="session14.html"><span class="track-badge">14</span>Symbolic-Numeric Computation</a><span class="room">[BA102]</span></span><ul class="talk-list"><li> Enrica Barrilli and Bernard Mourrain — <span class="talk-title">Eigensolvers for Polynomial Roots and Tensor Decomposition</span></li><li> Soo Go and Victor Y. Pan — <span class="talk-title">Semi-Heuristic Acceleration of Near-Optimal Black-Box Polynomial Root-Finders</span></li><li class="tba">TBA / open third position</li></ul></td><td class="empty-track">—</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="unassigned-talks">
+<h2>Talks Awaiting Block Assignment</h2>
+<p class="program-note">These talks appear on their session pages, but their allocation among the session's timetable blocks has not yet been published.</p>
+<details><summary>Session 1 — Proof Assistants, CAS, and AI</summary><ul><li>Yihe Huang, Sizhe Cui, Jiaqi Wang and Jujian Zhang — <i>Formalization of Combinatorial Curve Neighborhoods in the Affine Flag Manifold of Type A₁⁽¹⁾</i></li><li>Yuxuan Xiao, Hao Shen, Junyu Guo, Dingkang Wang and Lihong Zhi — <i>Formalizing Wu–Ritt Method in Lean 4</i></li><li>Matthew Ballard et al. — <i>A Macaulay2–Lean Interface for Bridging Proof and Computation</i></li><li>Junyu Guo, Hao Shen, Junqi Liu and Lihong Zhi — <i>Algebraic Reasoning in Lean 4</i></li><li>Erich Kaltofen — <i>Proof-of-Work Protocols for AI-Generated Solutions in Mathematics</i></li><li>Vijay Ganesh — <i>Auto-Formalization and Proof Synthesis via Semantic Equivalence Models</i></li><li>Cristopher Salvi — <i>From Language Models to Verified Mathematics: Agents, Proof Assistants, and Why They Matter</i></li></ul></details>
+<details><summary>Session 4 — Parallelization, AI, and Physics</summary><ul><li>Janko Böhm — <i>AI-Assisted Computer Algebra with Singular: Interfaces, Workflows, and Applications</i></li><li>Yang Zhang — <i>Using Singular for State-of-the-Art Feynman Integral Reduction</i></li><li>Magdaleen Marais — <i>Massively Parallel Computation Networks: A Petri-Net Language in Singular, a Mathematical Type System, and AI-Assisted Petri-Net Design</i></li><li>Marcel Wittmann — <i>Parallel Buchberger’s Algorithm in Singular/GPI-Space with Applications to Feynman Integrals</i></li><li>Benjamin Mirgain — <i>Algorithmic Approach to Finding Minimal Model Surfaces</i></li><li>Yue Ren — <i>Combinatorial Tropical Homotopy Continuation</i></li></ul></details>
+<details><summary>Session 5 — Mathematics in Lean</summary><ul><li>Zhengqin Fan and Simon DeDeo — <i>Ablation: A Tool for Probing Creativity and Constraint in Formalization Agents</i></li><li>Jovan Gerbscheid — <i>Automatically Translating Definitions and Proofs</i></li><li>Sidharth Hariharan — <i>The Sphere Packing Project</i></li><li>Bhavik Mehta — <i>Formalising Polychromatic Colourings of Integers</i></li><li>Alex Meiburg — <i>The Generalized Quantum Stein’s Lemma</i></li></ul></details>
+<details><summary>Session 12 — Combinatorial Algebra and Geometry</summary><ul><li>Lena Weis — <i>Tropical k-Means Clustering for Phylogenetic Trees</i></li><li>Will Huang — <i>The EuclideanDistanceDegree Package for Macaulay2</i></li><li>Aram Dermenjian — <i>The Strong Exchange Property for Coxeter Matroids</i></li><li>Michael Joswig — <i>Fast Isotopy Computation for Combinatorial Patchworks</i></li><li>Yiyuan Chen — <i>Enumeration of Coherent Matching Fields Modulo Symmetry</i></li><li>Alex Milner — <i>Distance-Reducing Markov Bases in Toric Ideals of Graphs and Bouquet Decompositions</i></li><li>Dante Luber — <i>Introduction to OSCAR for Research</i></li></ul></details>
+<details><summary>Session 13 — Weighted Projective Spaces</summary><p>TBA — no talk list has yet been published on the linked session page.</p></details>
+</section>
+<p class="program-note"><b>Draft note:</b> Minor changes to the schedule are still possible.</p>
+</main>
+<footer>2026 ICMS | Wilfrid Laurier University and University of Waterloo</footer>
+</body>
+</html>
