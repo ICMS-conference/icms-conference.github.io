@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+ <!-- ICMS 2026 full program, draft version 11. Updated from version 10 on 2026-07-13 with the corrected Session 3 schedule and uniform TBA blocks. Explicit session-page schedules override conflicting index.html block assignments; all Wednesday afternoon sessions are fixed at 13:30-15:00. -->
  <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
   <title>
    ICMS 2026 Full Program
   </title>
-  <link href="styles.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet"/>
   <style>
    .program-intro { margin-bottom: 1.5rem; }
     .program-note { font-size: 0.95rem; }
@@ -136,7 +137,6 @@
       .day-program:first-of-type { break-before: auto; }
       .full-program tr { break-inside: avoid; }
     }
-   .block-tba { margin: 0.4rem 0 0; font-size: 0.9rem; color: #6b4f00; }
   </style>
  </head>
  <body>
@@ -317,7 +317,7 @@
           </span>
          </span>
          <p class="tba">
-          TBA
+          TBA &mdash; block assignment unpublished
          </p>
         </td>
         <td>
@@ -334,12 +334,9 @@
          </span>
          <ul class="talk-list">
           <li>
-           Kamal Saleh &mdash;
-           <span class="talk-title">
-            Transpiling CAP from GAP to Julia: Bridging Two Worlds of Computational Algebra
-           </span>
-          </li>
-          <li>
+           <strong>
+            Session plenary:
+           </strong>
            Evan Patterson &mdash;
            <span class="talk-title">
             CatColab: Formal Collaborative Modeling Based on Category Theory
@@ -386,24 +383,7 @@
           TBA &mdash; block assignment unpublished
          </p>
         </td>
-        <td>
-         <span class="session-heading">
-          <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">
-           <span class="track-badge">
-            9
-           </span>
-           Biological Applications of Computer Algebra
-          </a>
-          <span class="room">
-           [BA101]
-          </span>
-         </span>
-         <p class="block-tba">
-          <strong>
-           TBA
-          </strong>
-          &mdash; talk allocation pending reconciliation with the session page
-         </p>
+        <td aria-label="No session scheduled" class="empty-track">
         </td>
         <td class="provisional">
          <span class="session-heading">
@@ -434,7 +414,7 @@
           </span>
          </span>
          <p class="tba">
-          TBA
+          TBA &mdash; block assignment unpublished
          </p>
         </td>
         <td>
@@ -534,7 +514,7 @@
          </span>
          <ul class="talk-list">
           <li>
-           Alexanna Little &mdash;
+           Xanna Little &mdash;
            <span class="talk-title">
             Categorical Message Passing Language and Its Semantics
            </span>
@@ -582,7 +562,7 @@
           </span>
          </span>
          <p class="tba">
-          TBA
+          TBA &mdash; block assignment unpublished
          </p>
         </td>
         <td>
@@ -838,9 +818,9 @@
          </span>
          <ul class="talk-list">
           <li>
-           Yoshihiro Maruyama and Ryo Nasu &mdash;
+           Kamal Saleh &mdash;
            <span class="talk-title">
-            Category-Equivariant Neural Networks: Equivariant Learning beyond Group Symmetries
+            Transpiling CAP from GAP to Julia: Bridging Two Worlds of Computational Algebra
            </span>
           </li>
           <li>
@@ -987,7 +967,7 @@
          </span>
          <ul class="talk-list">
           <li>
-           Kevin M. Buzzard &mdash;
+           <strong>Session plenary:</strong> Kevin M. Buzzard &mdash;
            <span class="talk-title">
             Mathlib: A Formally-Verified Repository of Mathematical Knowledge
            </span>
@@ -1192,6 +1172,11 @@
          </ul>
         </td>
        </tr>
+       <tr>
+        <td class="all-tracks" colspan="5">
+         ICMS Business Meeting [17:30 BA101]
+        </td>
+       </tr>
       </tbody>
      </table>
     </div>
@@ -1370,7 +1355,7 @@
           </li>
          </ul>
         </td>
-        <td class="provisional">
+        <td>
          <span class="session-heading">
           <a href="session3.html">
            <span class="track-badge">
@@ -1383,10 +1368,16 @@
           </span>
          </span>
          <ul class="talk-list">
-          <li class="tba">
-           Plenary talk &mdash; speaker/title TBA
+          <li>
+           Yoshihiro Maruyama and Ryo Nasu &mdash;
+           <span class="talk-title">
+            Category-Equivariant Neural Networks: Equivariant Learning beyond Group Symmetries
+           </span>
           </li>
           <li>
+           <strong>
+            Session plenary:
+           </strong>
            Bruno Gavranovi&cacute; &mdash;
            <span class="talk-title">
             TensorType: Implementing and Extending Deep Learning with Types
@@ -1744,7 +1735,7 @@
         </td>
         <td>
          <span class="session-heading">
-          <a href="session15.html">
+          <a href="session16.html">
            <span class="track-badge">
             15
            </span>
@@ -2059,14 +2050,9 @@
          &mdash;
         </td>
        </tr>
-       <tr class="block-time">
-        <td colspan="5">
-         17:30
-        </td>
-       </tr>
        <tr>
         <td class="all-tracks" colspan="5">
-         Closing Remarks [BA101]
+         Closing Remarks [17:30 BA101]
         </td>
        </tr>
       </tbody>
@@ -2078,10 +2064,10 @@
      Talks Awaiting Block Assignment
     </h2>
     <p class="program-note">
-     These talks appear on their session pages, but their allocation among the session's timetable blocks has not yet been published.
-     <span>
-      Wednesday afternoon uses the conference-wide time 13:30&ndash;15:00, overriding conflicting times on individual session pages.
-     </span>
+     This draft combines the schedules currently published on the individual session pages.
+     When a session page gives an explicit schedule, only those blocks are included; all Wednesday afternoon sessions use 13:30&ndash;15:00.
+     Items marked TBA have not yet been assigned to a particular block or have not yet been published.
+     Within each day, recurring sessions remain in the same column across consecutive program blocks.
     </p>
     <details>
      <summary>
@@ -2336,7 +2322,11 @@
     <b>
      Draft note:
     </b>
-    Minor changes to the schedule are still possible.
+    Minor changes to the schedule are still possible. The General Session link follows the current conference site convention, where the displayed session number is 15 but the file is named
+    <code>
+     session16.html
+    </code>
+    .
    </p>
   </main>
   <footer>
