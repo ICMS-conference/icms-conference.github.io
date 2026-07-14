@@ -36,41 +36,91 @@
 	
         <h3>Session Talks:</h3>
 
-        <h4> Qing-Wen Wang (Shanghai University, China): Some matrix equations over the dual quaternions with applications</h4>
-        Dual quaternions have important applications in fields such as information control, robotics, and hand-eye calibration. At the same time, matrix equations play a crucial role in system control, particularly the generalized Sylvester matrix equation $AX-EXF = CY+D$, which has extensive applications in higher-order linear systems. However, research on this matrix equation in the context of dual quaternions has not yet been discovered. Therefore, this paper aims to fill this research gap by establishing the necessary and sufficient conditions for the solvability of this generalized Sylvester matrix equation over dual quaternions and providing a general solution when it is consistent. As an application, we design a color image encryption and decryption scheme based on this generalized Sylvester matrix equation. Experimental results demonstrate the high feasibility and effectiveness of the proposed scheme.
+<p>Click on triangle (▶) to open talk abstract.<br/></p>
 
-        <h4>Jing Yang (Guangxi Mingzu University, China): Subresultants of Several Ore Polynomials</h4>
-        Subresultants are fundamental tools in computer algebra and algebraic geometry, and their extensions to several commutative polynomials have been a significant development in recent years. In this talk, we generalize the theory of subresultants to the setting of several Ore polynomials. Our contributions are as follows:
-        1. We introduce a novel definition of subresultants for several Ore polynomials, expressed explicitly in terms of their coefficients;<br>
-        2. We explore some notable structures in the proposed subresultants to facilitate their computation;<br>
-        3. We demonstrate the utility of the developed subresultants by employing them to compute the parametric greatest common right divisor (GCRD) of several Ore polynomials. This is a joint work with Jiaqi Meng, Rixin Tang.
+<h4>Tuesday, July 21 10:30-12:00</h4>
 
-        <h4>Dingkang Wang (Chinese Academy of Sciences, China): Efficient Implementation of Minor Left Prime Factorization for Multivariate Polynomial Matrices</h4>
-        Minor left prime (MLP) factorization of multivariate polynomial matrices is a core computational operation in multidimensional systems and signal processing, and efficient calculation for non-full row rank matrices with three or more variables remains a key challenge. This work presents an optimized implementation of an MLP factorization algorithm on the computer algebra system Maple, based on a new necessary and sufficient condition that establishes a direct correlation between a non-full row rank matrix and its arbitrary full row rank submatrices.
+<details class="talk-summary"><summary><b>
+Factoring in the Quantum Plane over Q(ω)(t)
+</b><br/>
+Mark Giesbrecht (University of Waterloo, Canada)
+</summary>
+<p>
+<b>Abstract</b>
+We discuss factorization algorithms for the dilation Ore extension R=K(t)[X;σ], σ(t)=ωt, where K=Q(ω) and ω is a primitive m-th root of unity. This ring is a localization of the coordinate ring of the quantum plane, and it provides a natural setting in which to study non-commutative factorization over function fields in characteristic zero.
+
+ A basic tool in our methods is the bound, or minimal central left multiple, of a skew polynomial. In this setting the centre is C=K(t<sup>m</sup>)[X<sup>m</sup>], so factorization begins by factoring the bound in the commutative centre and then using right gcd computations to split all reducible-bound pieces.
+        The main difficulty is the remaining case in which the bound is irreducible. For these pieces we propose a characteristic-zero/modular strategy, analogous in spirit to older modular methods for factoring integer and bivariate polynomials. The central parameter t<sup>m</sup> is first specialized to suitable algebraic values, producing cyclic algebras over number fields, and these specialized problems are then reduced modulo suitable primes to finite fields where fast skew-factorization algorithms apply. Candidate factors are reconstructed and certified by exact division in the original ring. This yields a practical, certifying framework for factoring over Q(ω)(t). The main open issue is a general complexity analysis for the irreducible-bound case. 
+</p>
+</details>
+
+<details class="talk-summary"><summary><b>
+Efficient Implementation of Minor Left Prime Factorization for Multivariate Polynomial Matrices 
+</b><br/>
+Dingkang Wang (Chinese Academy of Sciences, China)
+</summary>
+<p>
+<b>Abstract</b>
+Minor left prime (MLP) factorization of multivariate polynomial matrices is a core computational operation in multidimensional systems and signal processing, and efficient calculation for non-full row rank matrices with three or more variables remains a key challenge. This work presents an optimized implementation of an MLP factorization algorithm on the computer algebra system Maple, based on a new necessary and sufficient condition that establishes a direct correlation between a non-full row rank matrix and its arbitrary full row rank submatrices.
         The constructive algorithm’s key implementation steps include: elementary row transformations to extract linearly independent rows of the target matrix, computation of the maximum-order determinant factor of a full row rank submatrix, syzygy module calculation via Gröbner basis, and free module verification using column reduced minors. The Maple package QUILLENSUSLIN is utilized for free basis calculation of free modules, and the final MLP factorization factors are derived by computing the generalized right inverse of the constructed MLP matrix, ensuring the correctness and rigor of the factorization results.
         Comprehensive comparative experiments are conducted on an Intel(R) Xeon(R) CPU E7-4809 v2 @ 1.90GHz platform with 756GB RAM, with all timings averaged over 100 repetitions on eight multivariate polynomial matrices ($3\times 3$ and $3 \times 4$ dimensions over the complex field with three variables). Experimental results demonstrate that the proposed algorithm achieves a $2.28-31.52 \times$ speedup over the classical Guan’s MLP factorization algorithm. The significant efficiency gain is attributed to two core optimizations over traditional methods: replacing the complex quotient module $\rho(F) : I_r(F)$ with the simplified one $\rho(F_1) :d_r(F_1)$ and using column reduced minors instead of Fitting ideals for free module validation, which substantially reduces the computational complexity of Gröbner basis operations.
         The source code for the Maple implementation of the proposed algorithm and all comparative test cases are publicly available at
         http://www.mmrc.iss.ac.cn/~dwang/software.html
         supporting reproducible research and practical industrial applications. This implementation provides a fast and reliable computational tool for MLP factorization, effectively facilitating its application in multidimensional systems analysis and signal processing. This is a joint work with Dong Lu and Fanghui Xiao.
+ </p>
+</details>
 
-        <h4>Pattrawut Chansangiam (King Mongkut’s Institute of Technology Ladkrabang, Bangkok, Thailand): Quaternionic Conjugate-Gradient Algorithm for Solving Sylvester-Type Matrix Equations over Quaternion Algebras</h4>
-        We propose a structure-exploiting conjugate-gradient (CG)–type algorithm for solving
-        certain quaternionic matrix equations over the generalized quaternions. By exploiting the intrinsic component-wise structure of quaternion matrices, the proposed method applies the CG framework directly to the quaternionic matrix equation, rather than explicitly forming or solving the associated
-        large-scale real linear system. This approach significantly reduces memory requirements and computational complexity for large problems. The proposed framework naturally includes real- and complex-valued matrix equations, the Hamilton quaternion case, and other quaternion algebras as special cases. Numerical experiments demonstrate the efficiency and robustness of the proposed method compared
-        with existing approaches.
+<details class="talk-summary"><summary><b>
+Subresultants of Several Ore Polynomials
+</b><br/>
+Jing Yang (Guangxi Mingzu University, China)
+</summary>
+<p>
+<b>Abstract</b> 
+        Subresultants are fundamental tools in computer algebra and algebraic geometry, and their extensions to several commutative polynomials have been a significant development in recent years. In this talk, we generalize the theory of subresultants to the setting of several Ore polynomials. Our contributions are as follows:
+        1. We introduce a novel definition of subresultants for several Ore polynomials, expressed explicitly in terms of their coefficients;<br>
+        2. We explore some notable structures in the proposed subresultants to facilitate their computation;<br>
+        3. We demonstrate the utility of the developed subresultants by employing them to compute the parametric greatest common right divisor (GCRD) of several Ore polynomials. This is a joint work with Jiaqi Meng, Rixin Tang.
+ </p>
+</details>
 
-        <h4>Shi Lei (University of Manitoba, Canada): Higher-order Reduced Biquaternion Matrices</h4>
-        In this talk,  we discuss the solvability and numerical solution of   multiterm matrix equation $\sum_i^n A_i XB_i = C $ over n-reduced biquaternions. We develop a fast algorithm for the minimal norm least squares solution. Complexity analysis demonstrates that our method reduces the computational cost from $O(64m^3n^3)$ to $O(2m^3n^3)$, achieving a substantial speedup. Numerical experiments  to   image restoration validate the algorithm’s accuracy, efficiency, and robustness against noise. Notably, our approach successfully achieves machine-precision accuracy $(∼10−14)$  in high-resolution multi-channel color image processing.
+<h4>Tuesday, July 21 14:00-15:30</h4>
 
-        <h4>Yang Zhang (University of Manitoba, Canada): Computing tensor ranks for third-order quaternion tensors</h4>
+<details class="talk-summary"><summary><b>
+ Some Matrix Equations over the Dual Quaternions with Applications
+</b><br/>
+ Jiangfeng Chen and Qing-Wen Wang (Shanghai University, China)
+</summary>
+<p>
+<b>Abstract</b>
+Dual quaternions have important applications in fields such as information control, robotics, and hand-eye calibration. At the same time, matrix equations play a crucial role in system control, particularly the generalized Sylvester matrix equation $AX-EXF = CY+D$, which has extensive applications in higher-order linear systems. However, research on this matrix equation in the context of dual quaternions has not yet been discovered. Therefore, this paper aims to fill this research gap by establishing the necessary and sufficient conditions for the solvability of this generalized Sylvester matrix equation over dual quaternions and providing a general solution when it is consistent. As an application, we design a color image encryption and decryption scheme based on this generalized Sylvester matrix equation. Experimental results demonstrate the high feasibility and effectiveness of the proposed scheme.
+</p>
+</details>
+
+
+<details class="talk-summary"><summary><b>
+Higher-order Reduced Biquaternion Matrices
+</b><br/>
+Shi Lei (University of Manitoba, Canada)
+</summary>
+<p>
+<b>Abstract</b>
+        In this talk,  we discuss the solvability and numerical solution of   multiterm matrix equation $\sum_i^n A_i XB_i = C $ over n-reduced biquaternions. We develop a fast algorithm for the minimal norm least squares solution. Complexity analysis demonstrates that our method reduces the computational cost from $O(64m^3n^3)$ to $O(2m^3n^3)$, achieving a substantial speedup. Numerical experiments  to   image restoration validate the algorithm’s accuracy, efficiency, and robustness against noise. Notably, our approach successfully achieves machine-precision accuracy 10<sup>−14</sup>  in high-resolution multi-channel color image processing.
+</p>
+</details>
+
+
+<details class="talk-summary"><summary><b>
+Computing Tensor Ranks for Third-order Quaternion Tensors
+</b><br/>
+Yang Zhang (University of Manitoba, Canada)
+</summary>
+<p>
+<b>Abstract</b>
         Determining the tensor ranks is challenging, even for small-size tensors. Meanwhile, the tensor ranks may vary depending on the based fields. Up to now, most published results on the tensor ranks are over the real/complex number fields or finite fields, which are commutative. A limited number of papers have been published on tensor ranks over non-commutative algebras. In this talk,  we describe some properties of quaternion tensors,  discuss the characterization of quaternion tensor ranks,  compute the tensor ranks for several quaternion tensors using  evaluation method, and find the upper bounds of the ranks for some quaternion tensors.
-
-        <h4>Mark Giesbrecht (University of Waterloo, Canada): Factoring in the Quantum Plane over Q(ω)(t)</h4>
-        We discuss factorization algorithms for the dilation Ore extension R=K(t)[X;σ], σ(t)=ωt, where K=Q(ω) and ω is a primitive m-th root of unity. This ring is a localization of the coordinate ring of the quantum plane, and it provides a natural setting in which to study non-commutative factorization over function fields in characteristic zero.
-
-        A basic tool in our methods is the bound, or minimal central left multiple, of a skew polynomial. In this setting the centre is C=K(tm)[Xm], so factorization begins by factoring the bound in the commutative centre and then using right gcd computations to split all reducible-bound pieces.
-
-        The main difficulty is the remaining case in which the bound is irreducible. For these pieces we propose a characteristic-zero/modular strategy, analogous in spirit to older modular methods for factoring integer and bivariate polynomials. The central parameter tm is first specialized to suitable algebraic values, producing cyclic algebras over number fields, and these specialized problems are then reduced modulo suitable primes to finite fields where fast skew-factorization algorithms apply. Candidate factors are reconstructed and certified by exact division in the original ring. This yields a practical, certifying framework for factoring over Q(ω)(t). The main open issue is a general complexity analysis for the irreducible-bound case.
+</p>
+</details>
+         
       </div>
     </section>
 

@@ -1,0 +1,3006 @@
+<!-- ICMS 2026 full program rebuild v4; embedded styles.css for standalone rendering; external styles.css link retained for deployment -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   ICMS 2026 Full Program
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+
+  <style id="icms-embedded-base-style" data-source="styles.css">
+:root {
+  --primary: #003366;
+  --accent: #007acc;
+  --background: #f9f9f9;
+  --text: #333;
+  --white: #fff;
+  --off-white: #ccc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: var(--background);
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+}
+
+td {
+  padding: 0 15px;
+  vertical-align: top;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+.past {
+  text-decoration: line-through;
+  color: darkgray;
+}
+
+details.talk-summary p {
+  font-size: 0.9em;
+  margin-bottom: 0.75em;
+}
+
+details.talk-summary summary b {
+  color: #55b;
+}
+
+.talk {
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+}
+
+ul,
+ol {
+  padding-left: 2rem;
+  font-size: 1.1rem;
+}
+
+header {
+  background: var(--primary);
+  color: var(--white);
+  padding: 1rem 0 2rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+a {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--off-white);
+  font-weight: bold;
+  text-decoration-thickness: 2px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.7rem;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: var(--off-white);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+.hero {
+  color: var(--primary);
+  padding: 2rem 0;
+}
+
+h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.7rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+p {
+  max-width: 700px;
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary);
+  color: var(--white);
+  margin-top: 3rem;
+}
+
+/* Program schedule */
+
+.schedule-container {
+  font-family: inherit;
+  line-height: 1.4;
+}
+
+.schedule-table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.schedule-table th,
+.schedule-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+}
+
+.schedule-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.schedule-table th:first-child,
+.schedule-table .time-col {
+  width: 10%;
+}
+
+.schedule-table .time-col {
+  background-color: #fafafa;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+
+.schedule-container .session-title {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.schedule-container ul.session-list {
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style-type: none !important;
+  font-size: 0.9em;
+}
+
+.schedule-container ul.session-list li {
+  position: relative;
+  margin: 0 0 6px !important;
+  padding: 0 !important;
+  line-height: 1.3;
+}
+
+.schedule-container ul.session-list li::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+}
+
+.schedule-container .note {
+  margin-top: 15px;
+  color: #666;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.schedule-container .time-exception {
+  display: block;
+  margin-top: 4px;
+  color: #555;
+  font-size: 0.85em;
+}
+
+.schedule-table .track {
+  --track-color: #374151;
+}
+
+.schedule-table .track a,
+.schedule-table .track a:visited {
+  color: var(--track-color);
+  font-weight: 600;
+  text-decoration-color: var(--track-color);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.schedule-table .track a:hover {
+  color: var(--track-color);
+  text-decoration-thickness: 2px;
+}
+
+.schedule-table .track-badge {
+  display: inline-block;
+  min-width: 1.55em;
+  margin-right: 0.25em;
+  padding: 0.02em 0.22em;
+  border: 1px solid var(--track-color);
+  border-radius: 0.35em;
+  background: #fff;
+  color: var(--track-color);
+  font-size: 0.9em;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.schedule-table .track-1  { --track-color: #1d4ef8; }
+.schedule-table .track-2  { --track-color: #7e22ce; }
+.schedule-table .track-3  { --track-color: #047857; }
+.schedule-table .track-4  { --track-color: #ab00ab; }
+.schedule-table .track-5  { --track-color: #0f766e; }
+.schedule-table .track-6  { --track-color: #7c2d12; }
+.schedule-table .track-7  { --track-color: #4338ca; }
+.schedule-table .track-8  { --track-color: #165524; }
+.schedule-table .track-9  { --track-color: #a91c2c; }
+.schedule-table .track-10 { --track-color: #0369a1; }
+.schedule-table .track-11 { --track-color: #858d0e; }
+.schedule-table .track-12 { --track-color: #c058d9; }
+.schedule-table .track-13 { --track-color: #065f46; }
+.schedule-table .track-14 { --track-color: #be123c; }
+.schedule-table .track-15 { --track-color: #374151; }
+
+@media (max-width: 600px) {
+  header,
+  .container {
+    padding: 0.8rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+  </style>
+  <style>
+   .program-shell {
+      width: min(96vw, 1600px);
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    .program-intro {
+      max-width: 900px;
+      margin-bottom: 1.5rem;
+    }
+
+    .program-day {
+      margin: 2.5rem 0 3.5rem;
+    }
+
+    .program-day > h2 {
+      margin-bottom: 0.75rem;
+      color: var(--primary);
+    }
+
+    .table-scroll {
+      overflow-x: auto;
+      padding-bottom: 0.5rem;
+    }
+
+    .program-table {
+      width: 100%;
+      min-width: 1120px;
+      table-layout: fixed;
+      border-collapse: collapse;
+      margin: 0;
+      font-size: 0.91rem;
+      line-height: 1.28;
+    }
+
+    .program-table th,
+    .program-table td {
+      border: 1px solid #cfcfcf;
+      padding: 0.65rem;
+      vertical-align: top;
+      overflow-wrap: anywhere;
+    }
+
+    .program-table thead th,
+    .program-table thead th:first-child {
+      width: 20%;
+      background: #edf2f7;
+      color: var(--primary);
+      text-align: center;
+    }
+
+
+    .program-table .session-cell {
+      box-shadow: inset 0 4px 0 var(--track-color);
+    }
+
+    .program-table .session-heading a,
+    .program-table .session-heading a:visited {
+      color: var(--track-color);
+      text-decoration-color: var(--track-color);
+    }
+
+    .program-table .session-cell .track-badge {
+      border-color: var(--track-color);
+      color: var(--track-color);
+    }
+
+    .program-table .time-row th {
+      padding: 0.4rem 0.75rem;
+      background: var(--primary);
+      color: var(--white);
+      text-align: left;
+      letter-spacing: 0.015em;
+    }
+
+    .session-cell {
+      border-top: 4px solid var(--track-color) !important;
+      background: #fff;
+    }
+
+    .session-heading {
+      margin-bottom: 0.6rem;
+      font-size: 0.98rem;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+
+    .session-heading a {
+      color: var(--track-color);
+      text-decoration-color: var(--track-color);
+    }
+
+    .session-heading .room {
+      display: block;
+      margin-top: 0.25rem;
+      color: #555;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .talk-list {
+      margin: 0;
+      padding-left: 1.15rem;
+      font-size: 0.9rem;
+    }
+
+    .talk-list li {
+      margin: 0 0 0.72rem;
+      padding-left: 0.05rem;
+    }
+
+    .talk-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    .talk-title {
+      display: block;
+      font-weight: 650;
+    }
+
+    .speaker {
+      display: block;
+      margin-top: 0.12rem;
+      color: #555;
+      font-size: 0.94em;
+    }
+
+    .talk-label {
+      display: inline-block;
+      margin: 0 0 0.2rem;
+      padding: 0.08rem 0.35rem;
+      border-radius: 0.25rem;
+      background: #eef2ff;
+      color: #3730a3;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .tba {
+      margin-top: 0.85rem;
+      padding: 0.75rem;
+      border: 1px dashed #9ca3af;
+      border-radius: 0.35rem;
+      background: #f8fafc;
+      color: #4b5563;
+      font-style: italic;
+      text-align: center;
+    }
+
+    .empty-cell {
+      background:
+        repeating-linear-gradient(
+          -45deg,
+          #fafafa,
+          #fafafa 8px,
+          #f4f4f4 8px,
+          #f4f4f4 16px
+        );
+    }
+
+    .event-row td {
+      padding: 0.8rem 1rem;
+      background: #f7fafc;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 1.04rem;
+    }
+
+    .event-row.event-compact td {
+      height: 4.25rem;
+    }
+
+    .event-row.event-medium td {
+      height: 5.5rem;
+    }
+
+    .event-row.event-tall td {
+      height: 8rem;
+    }
+
+    .unassigned {
+      max-width: 1100px;
+      margin: 3rem auto 0;
+    }
+
+    .unassigned > p {
+      max-width: 900px;
+    }
+
+    .unassigned-session {
+      margin: 2rem 0;
+      padding: 1rem 1.25rem;
+      border-left: 5px solid var(--track-color);
+      background: #fff;
+    }
+
+    .unassigned-session h3 {
+      margin: 0 0 0.5rem;
+      padding: 0;
+      font-size: 1.25rem;
+    }
+
+    .unassigned-session h3 a {
+      color: var(--track-color);
+    }
+
+    .unassigned-session p {
+      margin-bottom: 0.8rem;
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    .program-note {
+      max-width: 1100px;
+      margin: 2rem auto 0;
+      padding: 0.9rem 1rem;
+      border-left: 4px solid var(--accent);
+      background: #eef6ff;
+    }
+
+    @media (max-width: 800px) {
+      .program-shell {
+        width: 100%;
+        padding: 0.75rem;
+      }
+
+      .program-table {
+        font-size: 0.86rem;
+      }
+    }
+
+    @media print {
+      @page {
+        size: landscape;
+        margin: 0.45in;
+      }
+
+      header,
+      footer,
+      nav {
+        display: none;
+      }
+
+      .program-shell {
+        width: 100%;
+        padding: 0;
+      }
+
+      .table-scroll {
+        overflow: visible;
+      }
+
+      .program-table {
+        min-width: 0;
+        font-size: 7.5pt;
+      }
+
+      .program-day {
+        break-before: page;
+      }
+
+      .program-day:first-of-type {
+        break-before: auto;
+      }
+
+      .unassigned-session {
+        break-inside: avoid;
+      }
+    }
+
+    .empty-cell {
+      background: #f3f4f6;
+      color: #9ca3af;
+      text-align: center;
+      vertical-align: middle !important;
+    }
+
+    .empty-cell::after {
+      content: "—";
+      font-size: 1.1rem;
+    }
+  </style>
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <h1>
+     International Congress on Mathematical Software 2026
+    </h1>
+    <nav>
+     <a href="index.html">
+      Home
+     </a>
+     <a href="sessions.html">
+      Sessions
+     </a>
+     <a href="submission.html">
+      Submission
+     </a>
+     <a href="registration.html">
+      Registration
+     </a>
+     <a href="local-info.html">
+      Local Info
+     </a>
+     <a href="organization.html">
+      Organization
+     </a>
+    </nav>
+   </div>
+  </header>
+  <section class="hero">
+   <div class="container">
+    <h2>
+     ICMS 2026 Full Program
+    </h2>
+    <h3>
+     Waterloo, Ontario, Canada, 20–23 July 2026
+    </h3>
+   </div>
+  </section>
+  <main class="program-shell">
+   <section class="program-day">
+    <h2>
+     Monday, 20 July
+    </h2>
+    <div class="table-scroll">
+     <table class="schedule-table program-table">
+      <thead>
+       <tr>
+        <th>
+         Parallel 1
+        </th>
+        <th>
+         Parallel 2
+        </th>
+        <th>
+         Parallel 3
+        </th>
+        <th>
+         Parallel 4
+        </th>
+        <th>
+         Parallel 5
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr class="time-row">
+        <th colspan="5">
+         9:00–10:00
+        </th>
+       </tr>
+       <tr class="event-row event-medium">
+        <td colspan="5">
+         <strong>
+          Registration and coffee
+         </strong>
+         [BA Lobby]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         10:00–10:30
+        </th>
+       </tr>
+       <tr class="event-row event-compact">
+        <td colspan="5">
+         <strong>
+          Opening Remarks
+         </strong>
+         [BA101]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         10:30–12:00
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-4">
+         <div class="session-heading">
+          <a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/">
+           <span class="track-badge">
+            4
+           </span>
+           Parallelization, AI, and Physics
+          </a>
+          <span class="room">
+           [BA112]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-label">
+            Overview talk
+           </span>
+           <span class="talk-title">
+            AI-Assisted Computer Algebra with Singular: Interfaces, Workflows, and Applications
+           </span>
+           <span class="speaker">
+            Janko Böhm
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Using Singular for the State-of-the-Art Feynman Integral Reduction
+           </span>
+           <span class="speaker">
+            Yang Zhang
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Massively Parallel Computation Networks: A Petri-Net Language in Singular, a Mathematical Type System, and AI-Assisted Petri-Net Design
+           </span>
+           <span class="speaker">
+            Magdaleen Marais
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-3">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session3.html">
+           <span class="track-badge">
+            3
+           </span>
+           Computational Category Theory
+          </a>
+          <span class="room">
+           [BA210]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-label">
+            Session plenary
+           </span>
+           <span class="talk-title">
+            CatColab: Formal Collaborative Modeling Based on Category Theory
+           </span>
+           <span class="speaker">
+            Evan Patterson
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            More Flexible Interfaces for Specifying Simulations of Systems in CatColab
+           </span>
+           <span class="speaker">
+            Matt Cuffaro
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-9">
+         <div class="session-heading">
+          <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">
+           <span class="track-badge">
+            9
+           </span>
+           Biological Applications of Computer Algebra
+          </a>
+          <span class="room">
+           [BA101]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Bistability and Linear Relations in a Model of Caspase Activation
+           </span>
+           <span class="speaker">
+            Anne Shiu
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            The Allee Effect: A Case Study of Numerical Methods
+           </span>
+           <span class="speaker">
+            Aviva K. Englander
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Identifiability of Linear Compartmental Models
+           </span>
+           <span class="speaker">
+            Cash Bortner
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-12">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session12.html">
+           <span class="track-badge">
+            12
+           </span>
+           Combinatorial Algebra and Geometry
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <div class="tba">
+          TBA — block assignment unpublished
+         </div>
+        </td>
+        <td aria-label="No session" class="empty-cell">
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         12:00–14:00
+        </th>
+       </tr>
+       <tr class="event-row event-tall">
+        <td colspan="5">
+         <strong>
+          Lunch
+         </strong>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         14:00–15:30
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-4">
+         <div class="session-heading">
+          <a href="https://agag-jboehm.math.rptu.de/~boehm/ICMS2026/">
+           <span class="track-badge">
+            4
+           </span>
+           Parallelization, AI, and Physics
+          </a>
+          <span class="room">
+           [BA112]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Parallel Buchberger's Algorithm in Singular/GPI-Space with Applications to Feynman Integrals
+           </span>
+           <span class="speaker">
+            Marcel Wittmann
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Algorithmic Approach to Finding Minimal Model Surfaces
+           </span>
+           <span class="speaker">
+            Benjamin Mirgain
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Combinatorial Tropical Homotopy Continuation
+           </span>
+           <span class="speaker">
+            Yue Ren
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td aria-label="No session" class="empty-cell">
+        </td>
+        <td aria-label="No session" class="empty-cell">
+        </td>
+        <td class="session-cell track track-12">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session12.html">
+           <span class="track-badge">
+            12
+           </span>
+           Combinatorial Algebra and Geometry
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <div class="tba">
+          TBA — block assignment unpublished
+         </div>
+        </td>
+        <td class="session-cell track track-14">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session14.html">
+           <span class="track-badge">
+            14
+           </span>
+           Symbolic-Numeric Computation
+          </a>
+          <span class="room">
+           [BA102]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-label">
+            Introductory presentation
+           </span>
+           <span class="talk-title">
+            Hybrid Symbolic-Numeric Computing: A Personal View
+           </span>
+           <span class="speaker">
+            Rob Corless
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Tensor Optimization Framework for Sums-of-Squares Certification
+           </span>
+           <span class="speaker">
+            Tanmaya Karmarkar, Yves Lucet, and Narendra Karmarkar
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Computer-Assisted Discovery and Proofs of Compatibility Conditions for Three Projective Cameras
+           </span>
+           <span class="speaker">
+            Anton Leykin
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         15:30–16:00
+        </th>
+       </tr>
+       <tr class="event-row event-compact">
+        <td colspan="5">
+         <strong>
+          Coffee break
+         </strong>
+         [BA Lobby]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         16:00–17:30
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-2">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session2.html">
+           <span class="track-badge">
+            2
+           </span>
+           Algebraic Solvers for Polynomial Systems
+          </a>
+          <span class="room">
+           [BA101]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Gröbner Bases of Determinantal Ideals
+           </span>
+           <span class="speaker">
+            Sriram Gopalakrishnan
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            On True Arc-Length Parameterized Splines
+           </span>
+           <span class="speaker">
+            Dafna K. Matsegora and Stephen M. Watt
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Stability of Sobolev-Regularized Polynomial Differentiation Matrices
+           </span>
+           <span class="speaker">
+            Deepak Singh Kalhan, Robert Corless, and Stephen M. Watt
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-3">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session3.html">
+           <span class="track-badge">
+            3
+           </span>
+           Computational Category Theory
+          </a>
+          <span class="room">
+           [BA210]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Categorical Message Passing Language (CaMPL) and Its Semantics
+           </span>
+           <span class="speaker">
+            Xanna Little
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Relational to RDF Data Migration by Query Co-Evaluation
+           </span>
+           <span class="speaker">
+            Ryan Wisnesky and Daniel Filonik
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Categorical Structures in MATLAB and Octave Programming
+           </span>
+           <span class="speaker">
+            Nelson Martins-Ferreira
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td aria-label="No session" class="empty-cell">
+        </td>
+        <td class="session-cell track track-12">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session12.html">
+           <span class="track-badge">
+            12
+           </span>
+           Combinatorial Algebra and Geometry
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <div class="tba">
+          TBA — block assignment unpublished
+         </div>
+        </td>
+        <td class="session-cell track track-14">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session14.html">
+           <span class="track-badge">
+            14
+           </span>
+           Symbolic-Numeric Computation
+          </a>
+          <span class="room">
+           [BA102]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Holonomic Gradient Method: A Symbolic-Numeric Method to Evaluate Integrals with Parameters
+           </span>
+           <span class="speaker">
+            Nobuki Takayama, Takaharu Yaguchi, and Yi Zhang
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Computing Periodic Golay Pairs Using SAT Solvers
+           </span>
+           <span class="speaker">
+            Bernhard Andraschko, Ilias Kotsireas, and Martin Kreuzer
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Randomized Algorithms for Verifying Monodromy Groups
+           </span>
+           <span class="speaker">
+            Juhee Kim and Taylor Brysiewicz
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         Evening
+        </th>
+       </tr>
+       <tr class="event-row event-tall">
+        <td colspan="5">
+         <strong>
+          Evening Reception
+         </strong>
+         [Maplesoft]
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </section>
+   <section class="program-day">
+    <h2>
+     Tuesday, 21 July
+    </h2>
+    <div class="table-scroll">
+     <table class="schedule-table program-table">
+      <thead>
+       <tr>
+        <th>
+         Parallel 1
+        </th>
+        <th>
+         Parallel 2
+        </th>
+        <th>
+         Parallel 3
+        </th>
+        <th>
+         Parallel 4
+        </th>
+        <th>
+         Parallel 5
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr class="time-row">
+        <th colspan="5">
+         9:00–10:00
+        </th>
+       </tr>
+       <tr class="event-row event-tall">
+        <td colspan="5">
+         <strong>
+          Plenary — Bettina Eick
+         </strong>
+         <br/>
+         <a href="speaker-eick.html">
+          <em>
+           Computational Group Theory and the Classification of Finite Groups
+          </em>
+         </a>
+         [BA101]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         10:00–10:30
+        </th>
+       </tr>
+       <tr class="event-row event-compact">
+        <td colspan="5">
+         <strong>
+          Coffee break
+         </strong>
+         [BA Lobby]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         10:30–12:00
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-7">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session7.html">
+           <span class="track-badge">
+            7
+           </span>
+           Quaternion Matrix/Tensor
+          </a>
+          <span class="room">
+           [BA112]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Factoring in the Quantum Plane over Q(ω)(t)
+           </span>
+           <span class="speaker">
+            Mark Giesbrecht
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Efficient Implementation of Minor Left Prime Factorization for Multivariate Polynomial Matrices
+           </span>
+           <span class="speaker">
+            Dingkang Wang
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Subresultants of Several Ore Polynomials
+           </span>
+           <span class="speaker">
+            Jing Yang
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-8">
+         <div class="session-heading">
+          <a href="https://melczer.ca/ICMS26/">
+           <span class="track-badge">
+            8
+           </span>
+           Enumerative and Analytic Combinatorics
+          </a>
+          <span class="room">
+           [BA208]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Computing Asymptotics of Multivariate Algebraic Generating Functions
+           </span>
+           <span class="speaker">
+            Tiadora Ruza
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            nth: Open-Source Generic Combinatorial (Un)ranking via the Symbolic Method
+           </span>
+           <span class="speaker">
+            Gustavo Zambonin
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            CombOL: A Library for Practical Enumeration and Boltzmann Sampling of Combinatorial Classes
+           </span>
+           <span class="speaker">
+            Casper Asbjørn Eriksen
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-9">
+         <div class="session-heading">
+          <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">
+           <span class="track-badge">
+            9
+           </span>
+           Biological Applications of Computer Algebra
+          </a>
+          <span class="room">
+           [BA101]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Beyond Independent Component Analysis: Identifiability and Algorithms
+           </span>
+           <span class="speaker">
+            Álvaro Ribot
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Tensor Algebra Approaches for Multi-Omics Data Analysis
+           </span>
+           <span class="speaker">
+            Neriman Tokcan
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            When to Measure to Estimate Parameters in ODE Models?
+           </span>
+           <span class="speaker">
+            Alexey Ovchinnikov
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-11">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session11.html">
+           <span class="track-badge">
+            11
+           </span>
+           Mathematical Knowledge Management
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Fraudulent Publishing in the Mathematical Sciences: A Glimpse at the Parallel Universe of Fake Science
+           </span>
+           <span class="speaker">
+            Ilka Agricola
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Comparing Human Perception, Computer-Algebra-Based Algorithmic Approaches, and Generative AI for Ranking Elementary Geometry Statements
+           </span>
+           <span class="speaker">
+            P. Tolmos, P. Velez, and T. Recio
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Multi-Label Classification of Mathematical Software Communities Using Graph-Based Modeling of Structured Domain Metadata
+           </span>
+           <span class="speaker">
+            Maxence Azzouz-Thuderoz, Yuni Susanti, and Moritz Schubotz
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-3">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session3.html">
+           <span class="track-badge">
+            3
+           </span>
+           Computational Category Theory
+          </a>
+          <span class="room">
+           [BA210]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Transpiling CAP from GAP to Julia: Bridging Two Worlds of Computational Algebra
+           </span>
+           <span class="speaker">
+            Kamal Saleh
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Equivariant Orlik–Solomon Algebras
+           </span>
+           <span class="speaker">
+            Tom Kuhmichel
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Implementing Bisets for Groups in CAP
+           </span>
+           <span class="speaker">
+            Marc Talleux
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         12:00–14:00
+        </th>
+       </tr>
+       <tr class="event-row event-tall">
+        <td colspan="5">
+         <strong>
+          Lunch
+         </strong>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         14:00–15:30
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-7">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session7.html">
+           <span class="track-badge">
+            7
+           </span>
+           Quaternion Matrix/Tensor
+          </a>
+          <span class="room">
+           [BA112]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Some Matrix Equations over the Dual Quaternions with Applications
+           </span>
+           <span class="speaker">
+            Jiangfeng Chen and Qing-Wen Wang
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Higher-Order Reduced Biquaternion Matrices
+           </span>
+           <span class="speaker">
+            Shi Lei
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Computing Tensor Ranks for Third-Order Quaternion Tensors
+           </span>
+           <span class="speaker">
+            Yang Zhang
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-8">
+         <div class="session-heading">
+          <a href="https://melczer.ca/ICMS26/">
+           <span class="track-badge">
+            8
+           </span>
+           Enumerative and Analytic Combinatorics
+          </a>
+          <span class="room">
+           [BA208]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Quasi-Polynomials, Z-Polyhedra, and Parametric Integer Linear Programming
+           </span>
+           <span class="speaker">
+            Yuzhuo Lei and Chirantan Mukherjee
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            PLPP: A SageMath Package for Computing and Manipulating Local Permutation Polynomials and Latin Hypercubes
+           </span>
+           <span class="speaker">
+            Jaime Gutierrez
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Tilepaint: Visualizations and Calculations in Tilings, Perfect Matchings, and Polymer Covers
+           </span>
+           <span class="speaker">
+            Leigh Foster
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-9">
+         <div class="session-heading">
+          <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">
+           <span class="track-badge">
+            9
+           </span>
+           Biological Applications of Computer Algebra
+          </a>
+          <span class="room">
+           [BA101]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Computational and Algebraic Questions in Causal Inference
+           </span>
+           <span class="speaker">
+            Alex Markham
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            DAG Learning for Graphical Discrete Lyapunov Models under Non-Gaussianity
+           </span>
+           <span class="speaker">
+            Qixia Luo
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Algebraic Deconvolution of Transcriptomic Data: A Free Probability Approach to High-Dimensional Signal Recovery
+           </span>
+           <span class="speaker">
+            Luis Sierra Muntané
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-11">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session11.html">
+           <span class="track-badge">
+            11
+           </span>
+           Mathematical Knowledge Management
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-label">
+            Session plenary
+           </span>
+           <span class="talk-title">
+            Mathlib: A Formally Verified Repository of Mathematical Knowledge
+           </span>
+           <span class="speaker">
+            Kevin M. Buzzard
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            The Landscape of Collections of Mathematical Objects
+           </span>
+           <span class="speaker">
+            Katja Berčič
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            How to Build a Formal Mathematical Library in Which Communication Is Prioritized over Certification
+           </span>
+           <span class="speaker">
+            William M. Farmer
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-14">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session14.html">
+           <span class="track-badge">
+            14
+           </span>
+           Symbolic-Numeric Computation
+          </a>
+          <span class="room">
+           [BA102]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Mixed Volume and Ramification Points of Polyhedral Homotopies
+           </span>
+           <span class="speaker">
+            Joseph Cummings and Jonathan D. Hauenstein
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Parallel Certification of Roots of Polynomial Systems
+           </span>
+           <span class="speaker">
+            Paul Breiding, David Johnson, and Taylor Brysiewicz
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Newton's Method for Real Powered Series Using PHCpack and phcpy
+           </span>
+           <span class="speaker">
+            Katie Kruzan and Jan Verschelde
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         15:30–16:00
+        </th>
+       </tr>
+       <tr class="event-row event-compact">
+        <td colspan="5">
+         <strong>
+          Coffee and posters
+         </strong>
+         [BA Lobby]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         16:00–17:30
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-2">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session2.html">
+           <span class="track-badge">
+            2
+           </span>
+           Algebraic Solvers for Polynomial Systems
+          </a>
+          <span class="room">
+           [BA101]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            msolve
+           </span>
+           <span class="speaker">
+            Jérémy Berthomieu, Christian Eder, Vincent Neiger, and Mohab Safey El Din
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            A Data Structure for Monomial Ideals in Signature Gröbner Basis Computations
+           </span>
+           <span class="speaker">
+            Théo Ternier
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-8">
+         <div class="session-heading">
+          <a href="https://melczer.ca/ICMS26/">
+           <span class="track-badge">
+            8
+           </span>
+           Enumerative and Analytic Combinatorics
+          </a>
+          <span class="room">
+           [BA208]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Enumerating Balanced Matrices
+           </span>
+           <span class="speaker">
+            Robert Dougherty-Bliss
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            An Effective Proof of the p-Curvature Conjecture for First-Order Differential Equations with Rational Coefficients
+           </span>
+           <span class="speaker">
+            Lucas Pannier
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Fast Diagonals of Rational Functions in SageMath
+           </span>
+           <span class="speaker">
+            John H. Smith
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td aria-label="No session" class="empty-cell">
+        </td>
+        <td class="session-cell track track-11">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session11.html">
+           <span class="track-badge">
+            11
+           </span>
+           Mathematical Knowledge Management
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Extend Your Math with Semantics and Services
+           </span>
+           <span class="speaker">
+            Michael Kohlhase and Dennis Müller
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Improving Research Software Discoverability in Mathematical Literature at zbMATH Open
+           </span>
+           <span class="speaker">
+            Ankit Satpute, Maxence Azzouz-Thuderoz, André Greiner-Petter, Daniel Mietchen, Olaf Teschke, and Moritz Schubotz
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            NuFrameIT: Serious Games via Computation and Reasoning
+           </span>
+           <span class="speaker">
+            Stefanie Heim, Michael Kohlhase, Silas Kuder, and Florian Rabe
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-14">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session14.html">
+           <span class="track-badge">
+            14
+           </span>
+           Symbolic-Numeric Computation
+          </a>
+          <span class="room">
+           [BA102]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Numerical Elimination and Parameter Space Exploration
+           </span>
+           <span class="speaker">
+            Oskar Henriksson
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Belyi Map Verification Using Certified Path Tracking
+           </span>
+           <span class="speaker">
+            Alexandre Guillemot and John Voigt
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Certifying Algebraic Structures via Interval Arithmetic
+           </span>
+           <span class="speaker">
+            Kisun Lee
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="event-row event-compact">
+        <td colspan="5">
+         <strong>
+          ICMS Business Meeting
+         </strong>
+         [17:30 BA101]
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </section>
+   <section class="program-day">
+    <h2>
+     Wednesday, 22 July
+    </h2>
+    <div class="table-scroll">
+     <table class="schedule-table program-table">
+      <thead>
+       <tr>
+        <th>
+         Parallel 1
+        </th>
+        <th>
+         Parallel 2
+        </th>
+        <th>
+         Parallel 3
+        </th>
+        <th>
+         Parallel 4
+        </th>
+        <th>
+         Parallel 5
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr class="time-row">
+        <th colspan="5">
+         9:00–10:00
+        </th>
+       </tr>
+       <tr class="event-row event-tall">
+        <td colspan="5">
+         <strong>
+          Plenary — Christopher Rackauckas
+         </strong>
+         <br/>
+         <a href="speaker-rackauckas.html">
+          <em>
+           The Role of Human Engineers and Mathematicians in the Age of AI
+          </em>
+         </a>
+         [BA101]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         10:00–10:30
+        </th>
+       </tr>
+       <tr class="event-row event-compact">
+        <td colspan="5">
+         <strong>
+          Coffee break
+         </strong>
+         [BA Lobby]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         10:30–12:00
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-1">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session1.html">
+           <span class="track-badge">
+            1
+           </span>
+           Proof Assistants, CAS, and AI
+          </a>
+          <span class="room">
+           [BA112]
+          </span>
+         </div>
+         <div class="tba">
+          TBA — block assignment unpublished
+         </div>
+        </td>
+        <td class="session-cell track track-3">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session3.html">
+           <span class="track-badge">
+            3
+           </span>
+           Computational Category Theory
+          </a>
+          <span class="room">
+           [BA210]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Category-Equivariant Neural Networks: Equivariant Learning Beyond Group Symmetries
+           </span>
+           <span class="speaker">
+            Yoshihiro Maruyama and Ryo Nasu
+           </span>
+          </li>
+          <li>
+           <span class="talk-label">
+            Session plenary
+           </span>
+           <span class="talk-title">
+            TensorType: Implementing and Extending Deep Learning with Types
+           </span>
+           <span class="speaker">
+            Bruno Gavranović
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-6">
+         <div class="session-heading">
+          <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">
+           <span class="track-badge">
+            6
+           </span>
+           High-Performance Computer Algebra
+          </a>
+          <span class="room">
+           [BA208]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Multithreaded Programming in the BPAS Library
+           </span>
+           <span class="speaker">
+            Alexander Brandt
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Parallel Computation of the Power Series Solutions to Algebraic and Differential Equations
+           </span>
+           <span class="speaker">
+            Greg Alejandro Solis-Reyes, Marc Moreno Maza, and Alexander Brandt
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Sparse Polynomial Multiplication on Chiplet-Based Architectures
+           </span>
+           <span class="speaker">
+            Miriam Okutuo and Alexander Brandt
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-9">
+         <div class="session-heading">
+          <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">
+           <span class="track-badge">
+            9
+           </span>
+           Biological Applications of Computer Algebra
+          </a>
+          <span class="room">
+           [BA101]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Algebraic Invariants for Inferring Four-Leaf Semi-Directed Phylogenetic Networks
+           </span>
+           <span class="speaker">
+            Samuel Martin
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Phylogenetic Models, Data Structures, and Databases
+           </span>
+           <span class="speaker">
+            Antony Della Vecchia
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Semialgebraic Conditions for Detecting Hybrid Three-Cycles in Phylogenetic Networks
+           </span>
+           <span class="speaker">
+            Max Hill
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-11">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session11.html">
+           <span class="track-badge">
+            11
+           </span>
+           Mathematical Knowledge Management
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Scaling Accessible Mathematics on arXiv: HTML Conversion and MathML 4
+           </span>
+           <span class="speaker">
+            Deyan Ginev
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Math for Visually Impaired People
+           </span>
+           <span class="speaker">
+            Ilka Agricola
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Author Intent: The Next Step in Advancing the Accessibility of Mathematics
+           </span>
+           <span class="speaker">
+            Neil Soiffer
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         12:00–13:30
+        </th>
+       </tr>
+       <tr class="event-row event-tall">
+        <td colspan="5">
+         <strong>
+          Lunch
+         </strong>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         13:30–15:00
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-1">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session1.html">
+           <span class="track-badge">
+            1
+           </span>
+           Proof Assistants, CAS, and AI
+          </a>
+          <span class="room">
+           [BA112]
+          </span>
+         </div>
+         <div class="tba">
+          TBA — block assignment unpublished
+         </div>
+        </td>
+        <td class="session-cell track track-14">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session14.html">
+           <span class="track-badge">
+            14
+           </span>
+           Symbolic-Numeric Computation
+          </a>
+          <span class="room">
+           [BA102]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Computing the Eigenvalues of QM-Matrices and Q₁,₂-Matrices
+           </span>
+           <span class="speaker">
+            Laureano González-Vega
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Mathematical Software for the Evaluation of Distribution Functions of Quadratic Forms of Gaussian Random Variables
+           </span>
+           <span class="speaker">
+            Denis Arzelier, Florent Bréhard, and Mioara Joldes
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Approximating Periodic Orbits with Algebraic Curves and Related Minimal Problems
+           </span>
+           <span class="speaker">
+            Ruiqi Huang and Anton Leykin
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-6">
+         <div class="session-heading">
+          <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">
+           <span class="track-badge">
+            6
+           </span>
+           High-Performance Computer Algebra
+          </a>
+          <span class="room">
+           [BA208]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Parallelizing the F4 Algorithm for Gröbner Bases
+           </span>
+           <span class="speaker">
+            Roman Pearce
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Efficient Gröbner Tracing in Groebner.jl
+           </span>
+           <span class="speaker">
+            Alexander Demin
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Some Practical Implementations for Bivariate Gröbner Bases
+           </span>
+           <span class="speaker">
+            Xavier Dahan
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-9">
+         <div class="session-heading">
+          <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">
+           <span class="track-badge">
+            9
+           </span>
+           Biological Applications of Computer Algebra
+          </a>
+          <span class="room">
+           [BA101]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Phylogenetic Tree Inference with Tropical Axial Attention
+           </span>
+           <span class="speaker">
+            Ruriko Yoshida
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Tropical Gradient Descent
+           </span>
+           <span class="speaker">
+            Roan Talbut
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Quintet Concordance Factors and Identifiability
+           </span>
+           <span class="speaker">
+            Joseph Cummings
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-11">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session11.html">
+           <span class="track-badge">
+            11
+           </span>
+           Mathematical Knowledge Management
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Five Years of the Mathematical Research Data Initiative
+           </span>
+           <span class="speaker">
+            Moritz Schubotz
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Can We Have a Global Digital Mathematics Library?
+           </span>
+           <span class="speaker">
+            Patrick D. F. Ion
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Where Should the IMKT Be at Age 10?
+           </span>
+           <span class="speaker">
+            Stephen M. Watt
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         15:10–evening
+        </th>
+       </tr>
+       <tr class="event-row event-tall">
+        <td colspan="5">
+         <strong>
+          Excursion and Conference Dinner
+         </strong>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </section>
+   <section class="program-day">
+    <h2>
+     Thursday, 23 July
+    </h2>
+    <div class="table-scroll">
+     <table class="schedule-table program-table">
+      <thead>
+       <tr>
+        <th>
+         Parallel 1
+        </th>
+        <th>
+         Parallel 2
+        </th>
+        <th>
+         Parallel 3
+        </th>
+        <th>
+         Parallel 4
+        </th>
+        <th>
+         Parallel 5
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr class="time-row">
+        <th colspan="5">
+         9:00–10:00
+        </th>
+       </tr>
+       <tr class="event-row event-tall">
+        <td colspan="5">
+         <strong>
+          Plenary — Mike Stillman
+         </strong>
+         <br/>
+         <a href="speaker-stillman.html">
+          <em>
+           Computational Algebraic Geometry, Applications to Physics, and Macaulay2
+          </em>
+         </a>
+         [BA101]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         10:00–10:30
+        </th>
+       </tr>
+       <tr class="event-row event-compact">
+        <td colspan="5">
+         <strong>
+          Coffee and posters
+         </strong>
+         [BA Lobby]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         10:30–12:00
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-5">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session5.html">
+           <span class="track-badge">
+            5
+           </span>
+           Mathematics in Lean
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <div class="tba">
+          TBA — block assignment unpublished
+         </div>
+        </td>
+        <td class="session-cell track track-6">
+         <div class="session-heading">
+          <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">
+           <span class="track-badge">
+            6
+           </span>
+           High-Performance Computer Algebra
+          </a>
+          <span class="room">
+           [BA208]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            The Extended Adjugate Matrix
+           </span>
+           <span class="speaker">
+            Gennadi Malaschonok
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Computing with Diagonally Structured Matrices: CPU- and GPU-Accelerated Matrix Multiplication
+           </span>
+           <span class="speaker">
+            Shahadat Hossain
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Fast Rational Univariate Representation via Gaussian Elimination
+           </span>
+           <span class="speaker">
+            Alexander Demin and Fabrice Rouillier
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-9">
+         <div class="session-heading">
+          <a href="https://sites.google.com/view/bio-apps-of-comp-alg-icms-26/">
+           <span class="track-badge">
+            9
+           </span>
+           Biological Applications of Computer Algebra
+          </a>
+          <span class="room">
+           [BA101]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            How Parallel Synapses Enhance Classification Capacity
+           </span>
+           <span class="speaker">
+            Caitlin Lienkaemper
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            A Formal Model of Neuronal Circuits
+           </span>
+           <span class="speaker">
+            Samuel Desrochers
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-10">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session10.html">
+           <span class="track-badge">
+            10
+           </span>
+           Design and Implementation of CAS
+          </a>
+          <span class="room">
+           [BA210]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            The Ax Computer Algebra System
+           </span>
+           <span class="speaker">
+            Roman Pearce
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Simplified Index Rules for Integrating Tensor Index Notation into Programming Languages with Static Type Systems
+           </span>
+           <span class="speaker">
+            Satoshi Egi
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            An Exploration of Word Encodings for Symbolic Language Runtimes
+           </span>
+           <span class="speaker">
+            Stephen M. Watt
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-15">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session15.html">
+           <span class="track-badge">
+            15
+           </span>
+           General Session
+          </a>
+          <span class="room">
+           [BA112]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Trajectory Planning and Certification for 3-DOF Robot Manipulators Using Real Quantifier Elimination Based on Comprehensive Gröbner Systems
+           </span>
+           <span class="speaker">
+            Yu Nakai, Akira Terui, and Masahiko Mikawa
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            WebAssembly for Edge Scientific Computing: Neural Simulation and Xiangqi (Chinese Chess)
+           </span>
+           <span class="speaker">
+            Martin D. Pham
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            A Database of Binary Septics and Applications to Galois Theory and Coding
+           </span>
+           <span class="speaker">
+            Jurgen Mezinaj
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         12:00–14:00
+        </th>
+       </tr>
+       <tr class="event-row event-tall">
+        <td colspan="5">
+         <strong>
+          Lunch
+         </strong>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         14:00–15:30
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-5">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session5.html">
+           <span class="track-badge">
+            5
+           </span>
+           Mathematics in Lean
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <div class="tba">
+          TBA — block assignment unpublished
+         </div>
+        </td>
+        <td class="session-cell track track-6">
+         <div class="session-heading">
+          <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">
+           <span class="track-badge">
+            6
+           </span>
+           High-Performance Computer Algebra
+          </a>
+          <span class="room">
+           [BA208]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Uncertainty Quantification in Parameter Estimation with Noisy Data
+           </span>
+           <span class="speaker">
+            Alexey Ovchinnikov
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Fast GPU Linear Algebra via Compile-Time Expression Fusion
+           </span>
+           <span class="speaker">
+            Ryan Curtin, Marcus Edel, and Conrad Sanderson
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Accelerating Multiple-Double Arithmetic with NVIDIA Tensor Cores
+           </span>
+           <span class="speaker">
+            Howard Chen and Jan Verschelde
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-1">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session1.html">
+           <span class="track-badge">
+            1
+           </span>
+           Proof Assistants, CAS, and AI
+          </a>
+          <span class="room">
+           [BA112]
+          </span>
+         </div>
+         <div class="tba">
+          TBA — block assignment unpublished
+         </div>
+        </td>
+        <td class="session-cell track track-10">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session10.html">
+           <span class="track-badge">
+            10
+           </span>
+           Design and Implementation of CAS
+          </a>
+          <span class="room">
+           [BA210]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            How Maple Is Using AI to Boost Productivity
+           </span>
+           <span class="speaker">
+            Paul DeMarco
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Using a Machine Learning Model for Handwritten Digit Recognition in GeoGebra
+           </span>
+           <span class="speaker">
+            Mitsushi Fujimoto
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Performance Profiling of Symbolic Simplification in SymPy: A Large-Scale Benchmark Study
+           </span>
+           <span class="speaker">
+            Seerat Kaur and Jugpratap Singh
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-14">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session14.html">
+           <span class="track-badge">
+            14
+           </span>
+           Symbolic-Numeric Computation
+          </a>
+          <span class="room">
+           [BA102]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Taylor Tubes: A Technique to Improve the Speed and Accuracy of Validated IVP Algorithms
+           </span>
+           <span class="speaker">
+            Bingwei Zhang and Chee Yap
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            ADTAYL: Taylor Series, ODEs, and Lie Derivatives in MATLAB
+           </span>
+           <span class="speaker">
+            Ned Nedialkov
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Certified Symbolic-Numeric Algorithms for Critical Engineering Applications
+           </span>
+           <span class="speaker">
+            Alexander Demin, Christina Katsamaki, and Fabrice Rouillier
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         15:30–16:00
+        </th>
+       </tr>
+       <tr class="event-row event-compact">
+        <td colspan="5">
+         <strong>
+          Coffee break
+         </strong>
+         [BA Lobby]
+        </td>
+       </tr>
+       <tr class="time-row">
+        <th colspan="5">
+         16:00–17:30
+        </th>
+       </tr>
+       <tr>
+        <td class="session-cell track track-5">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session5.html">
+           <span class="track-badge">
+            5
+           </span>
+           Mathematics in Lean
+          </a>
+          <span class="room">
+           [BA110]
+          </span>
+         </div>
+         <div class="tba">
+          TBA — block assignment unpublished
+         </div>
+        </td>
+        <td class="session-cell track track-6">
+         <div class="session-heading">
+          <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/HPCA.html">
+           <span class="track-badge">
+            6
+           </span>
+           High-Performance Computer Algebra
+          </a>
+          <span class="room">
+           [BA208]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Parallel Computations of Transversal Hypergraphs
+           </span>
+           <span class="speaker">
+            Adam Murdock Gale and Marc Moreno Maza
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Parallel Tropical Geometry and Celestial Mechanics
+           </span>
+           <span class="speaker">
+            Anton Leykin
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Big Integer Arithmetic on the GPU
+           </span>
+           <span class="speaker">
+            Omar Sobhy and Marc Moreno Maza
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td aria-label="No session" class="empty-cell">
+        </td>
+        <td class="session-cell track track-10">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session10.html">
+           <span class="track-badge">
+            10
+           </span>
+           Design and Implementation of CAS
+          </a>
+          <span class="room">
+           [BA210]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            A Maple Implementation of a Parametric Linear System Solver Using Sparse Rational Function Interpolation
+           </span>
+           <span class="speaker">
+            Michael Monagan, Mantej Sohki, and Archit Srivastava
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Implementing p-Adic Numbers in Macaulay2 Using Its Foreign Function Interface and FLINT
+           </span>
+           <span class="speaker">
+            Douglas Torrance
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Accelerating the Factorization of Multilinear Boolean Polynomials
+           </span>
+           <span class="speaker">
+            Tian Chen and Michael Monagan
+           </span>
+          </li>
+         </ul>
+        </td>
+        <td class="session-cell track track-14">
+         <div class="session-heading">
+          <a href="https://icms-conference.org/2026/session14.html">
+           <span class="track-badge">
+            14
+           </span>
+           Symbolic-Numeric Computation
+          </a>
+          <span class="room">
+           [BA102]
+          </span>
+         </div>
+         <ul class="talk-list">
+          <li>
+           <span class="talk-title">
+            Eigensolvers for Polynomial Roots and Tensor Decomposition
+           </span>
+           <span class="speaker">
+            Enrica Barrilli and Bernard Mourrain
+           </span>
+          </li>
+          <li>
+           <span class="talk-title">
+            Semi-Heuristic Acceleration of Near-Optimal Black-Box Polynomial Root-Finders
+           </span>
+           <span class="speaker">
+            Soo Go and Victor Y. Pan
+           </span>
+          </li>
+         </ul>
+        </td>
+       </tr>
+       <tr class="event-row event-compact">
+        <td colspan="5">
+         <strong>
+          Closing Remarks
+         </strong>
+         [17:30 BA101]
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </section>
+   <section class="unassigned">
+    <h2>
+     Talks Awaiting Block Assignment
+    </h2>
+    <p>
+     The following sessions have published talk lists but not a block-by-block allocation.
+      Their timetable cells therefore use the same TBA wording and style.
+    </p>
+    <section class="unassigned-session track track-1">
+     <h3>
+      <a href="https://icms-conference.org/2026/session1.html">
+       <span class="track-badge">
+        1
+       </span>
+       Proof Assistants, CAS, and AI
+      </a>
+     </h3>
+     <p>
+      These talks are published, but their allocation among the session's program blocks is not yet published.
+     </p>
+     <ul class="talk-list">
+      <li>
+       <span class="talk-title">
+        Formalization of Combinatorial Curve Neighborhoods in the Affine Flag Manifold of Type A₁⁽¹⁾
+       </span>
+       <span class="speaker">
+        Yihe Huang, Sizhe Cui, Jiaqi Wang, and Jujian Zhang
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Formalizing the Wu–Ritt Method in Lean 4
+       </span>
+       <span class="speaker">
+        Yuxuan Xiao, Hao Shen, Junyu Guo, Dingkang Wang, and Lihong Zhi
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        A Macaulay2–Lean Interface for Bridging Proof and Computation
+       </span>
+       <span class="speaker">
+        Matthew Ballard, Anton Leykin, Michael Stillman, Damiano Testa, Douglas Torrance, and Jay Yang
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Algebraic Reasoning in Lean 4
+       </span>
+       <span class="speaker">
+        Junyu Guo, Hao Shen, Junqi Liu, and Lihong Zhi
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Proof-of-Work Protocols for AI-Generated Solutions in Mathematics
+       </span>
+       <span class="speaker">
+        Erich Kaltofen
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Auto-Formalization and Proof Synthesis via Semantic Equivalence Models
+       </span>
+       <span class="speaker">
+        Vijay Ganesh
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        From Language Models to Verified Mathematics: Agents, Proof Assistants, and Why They Matter
+       </span>
+       <span class="speaker">
+        Cristopher Salvi
+       </span>
+      </li>
+     </ul>
+    </section>
+    <section class="unassigned-session track track-5">
+     <h3>
+      <a href="https://icms-conference.org/2026/session5.html">
+       <span class="track-badge">
+        5
+       </span>
+       Mathematics in Lean
+      </a>
+     </h3>
+     <p>
+      These talks are published, but their allocation among the session's program blocks is not yet published.
+     </p>
+     <ul class="talk-list">
+      <li>
+       <span class="talk-title">
+        Ablation: A Tool for Probing Creativity and Constraint in Formalization Agents
+       </span>
+       <span class="speaker">
+        Zhengqin Fan and Simon DeDeo
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Automatically Translating Definitions and Proofs
+       </span>
+       <span class="speaker">
+        Jovan Gerbscheid
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        The Sphere Packing Project
+       </span>
+       <span class="speaker">
+        Sidharth Hariharan
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Formalising Polychromatic Colourings of Integers
+       </span>
+       <span class="speaker">
+        Bhavik Mehta
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        The Generalized Quantum Stein's Lemma
+       </span>
+       <span class="speaker">
+        Alex Meiburg
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Formalizing Quasi-Borel Spaces in Lean 4
+       </span>
+       <span class="speaker">
+        Anthony Vandikas and Kiarash Sotoudeh
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Reflections on Trusting Lean
+       </span>
+       <span class="speaker">
+        Lorenzo Bresolin and Marcello Mamino
+       </span>
+      </li>
+     </ul>
+    </section>
+    <section class="unassigned-session track track-12">
+     <h3>
+      <a href="https://icms-conference.org/2026/session12.html">
+       <span class="track-badge">
+        12
+       </span>
+       Combinatorial Algebra and Geometry
+      </a>
+     </h3>
+     <p>
+      These talks are published, but their allocation among the session's program blocks is not yet published.
+     </p>
+     <ul class="talk-list">
+      <li>
+       <span class="talk-title">
+        Tropical k-Means Clustering for Phylogenetic Trees
+       </span>
+       <span class="speaker">
+        Lena Weis
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        The EuclideanDistanceDegree Package for Macaulay2
+       </span>
+       <span class="speaker">
+        Will Huang
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        The Strong Exchange Property for Coxeter Matroids
+       </span>
+       <span class="speaker">
+        Aram Dermenjian
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Fast Isotopy Computation for Combinatorial Patchworks
+       </span>
+       <span class="speaker">
+        Michael Joswig
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Enumeration of Coherent Matching Fields Modulo Symmetry
+       </span>
+       <span class="speaker">
+        Yiyuan Chen
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Distance-Reducing Markov Bases in Toric Ideals of Graphs and Bouquet Decompositions
+       </span>
+       <span class="speaker">
+        Alex Milner
+       </span>
+      </li>
+      <li>
+       <span class="talk-title">
+        Introduction to OSCAR for Research
+       </span>
+       <span class="speaker">
+        Dante Luber
+       </span>
+      </li>
+     </ul>
+    </section>
+   </section>
+   <p class="program-note">
+    Please note: Minor changes to the schedule are still possible, provided all affected parties agree.
+   </p>
+  </main>
+  <footer>
+   2026 ICMS | Wilfrid Laurier University and University of Waterloo
+  </footer>
+ </body>
+</html>
