@@ -299,3 +299,11 @@ footer {
     gap: 0.5rem;
   }
 }
+
+.session-table {
+  border-collapse: collapse;
+}
+
+.session-table td {
+  border: 1px solid #000;
+}
