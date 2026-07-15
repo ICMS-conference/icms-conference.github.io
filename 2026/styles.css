@@ -18,6 +18,10 @@ body {
   line-height: 1.6;
   background: var(--background);
   color: var(--text);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -142,7 +146,7 @@ footer {
   padding: 1rem;
   background: var(--primary);
   color: var(--white);
-  margin-top: 3rem;
+  margin-top: auto;
 }
 
 /* Program schedule */
