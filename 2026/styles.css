@@ -40,6 +40,10 @@ td {
   text-align: left;
 }
 
+.cancelled {
+  text-decoration: line-through;
+}
+
 .past {
   text-decoration: line-through;
   color: darkgray;
