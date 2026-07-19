@@ -43,9 +43,12 @@
         <details>
           <summary>
             Thursday 23 July 10:30<br>
-            <b>The sphere packing project</b><br>
+            <b>Progress in Formalising Sphere Packing in Dimension 8</b><br>
             Sidharth Hariharan
           </summary>
+          <p style="padding-top:1em">
+            This talk is about the ongoing effort to formalise the solution the sphere packing problem in dimension 8. We discuss our progress this far, describe key design choices, reflect on significant milestones, and outline key objectives and challenges that remain. Based on joint work with Christopher Birkbeck, Seewoo Lee, Gareth Ma, Bhavik Mehta, Auguste Poiroux and Maryna Viazovska.
+          </p>
         </details></br>
 
         <details>
@@ -54,6 +57,12 @@
             <b>Ablation: A Tool for Probing Creativity and Constraint in Formalization Agents</b><br>
             Zhengqin Fan, Simon DeDeo
           </summary>
+          <p style="padding-top:1em">
+            A key component of mathematical creativity lies in finding novel solutions under constraint. Existing frameworks evaluate AI agents’ problem-solving capabilities using open or newly constructed problems, but face challenges of data scarcity and high resource demands. We propose Ablation — systematically restricting agents’ access to Lean 4 tactics — as a resource-efficient and interpretable alternative that generates an abundance of problem instances.
+            Concretely, we partition the Lean 4 tactic set into dependency-structured groups and evaluate agent performance when each group is withheld, using Terry Tao’s Analysis I as our test corpus. A particularly compelling instantiation ablates classical tactics, restricting agents to constructive logic and probing whether they can produce valid and novel formalizations without explicit guidance.
+            Our framework enables several structural inquiries: the correlation between the theorem-proving search space and the available tactic set; the effect of tactic availability on proof elegance, measured via proof length and AST complexity; and the relationship between tactic choice and formalization interpretability.
+            Strikingly, we observe constraint-enabled creativity: a subset of ablated proofs are significantly shorter than their unconstrained counterparts — a counterintuitive finding suggesting that restriction can sharpen, rather than impede, creative proof construction.
+          </p>
         </details></br>
 
         <details>
@@ -70,6 +79,9 @@
             <b>Formalising Polychromatic Colourings of Integers</b><br>
             Bhavik Mehta
           </summary>
+          <p style="padding-top:1em">
+            Abstract: A colouring of the integers by finitely many colours can be called polychromatic for a finite set S if every translate of S uses every colour. For a fixed number of colours k, it is known that there is a finite bound g(k) for which every set of size at least g(k) admits a polychromatic k-colouring, and a large computer search was used to help prove g(3)=4. We discuss the Lean formalisation of both of these results, which mix topology, probability theory, combinatorics, and software verification, and explore how the philosophy of Lean and mathlib enable this process.
+          </p>
         </details></br>
 
         <details>
@@ -78,6 +90,9 @@
             <b>The Generalized Quantum Stein's Lemma</b><br>
             Alex Meiburg
           </summary>
+          <p style="padding-top:1em">
+          The Generalized Quantum Stein's Lemma is a theorem in quantum hypothesis testing that provides an operational meaning to the relative entropy within the context of quantum resource theories. Its original proof was found to have a gap ten years later, which led to a difficult search for a corrected proof which took over a year. We formalize the proof presented in [Hayashi and Yamasaki (2024)] in the Lean interactive theorem prover. This is the most technically demanding theorem in physics with a computer-verified proof to date. This body of work has become Lean-QuantumInfo, now part of Physlib, the first significant Lean formalization of any quantum computing.
+          </p>
         </details></br>
 
         <details>
@@ -86,6 +101,10 @@
             <b>Formalizing Quasi-Borel Spaces in Lean 4</b><br>
             Anthony Vandikas, Kiarash Sotoudeh
           </summary>
+          <p style="padding-top:1em">
+            Quasi-Borel spaces provide an alternative to the measure-theoretic formulation of probability theory that naturally supports higher-order functions, making them well suited for formalizing the semantics of higher-order probabilistic programming languages. Quasi-Borel spaces also form a conservative extension of standard Borel spaces, preserving the usual results of measure-theoretic probability.
+            Our goal is to obtain machine-checked semantics for probabilistic programming languages within Lean. To this end, we have formalized quasi-Borel spaces as a library in Lean 4, building on mathlib’s existing development of measure theory and probability theory. We have integrated our developments of quasi-Borel spaces with mathlib’s existing automation for proving function properties (i.e. @[fun_prop]).
+          </p>
         </details></br>
 
         <details>
@@ -94,6 +113,9 @@
             <b>Reflections on Trusting Lean</b><br>
             Lorenzo Bresolin, Marcello Mamino
           </summary>
+          <p style="padding-top:1em">
+            It is known, by works of Werner and Carneiro, that the type theory of Lean (and indeed of CIC plus a version of choice) is equiconsistent with ZFC plus "there are infinitely many strongly inaccessible cardinals". We prove a finer connection between these two formal systems; namely, given any formula in the language of second order arithmetic, that formula is provable in the aforementioned extension of ZFC if and only if the same formula, when viewed as a type in Lean, is inhabited.
+          </p>
         </details></br>
       </div>
     </section>
