@@ -18,6 +18,10 @@ body {
   line-height: 1.6;
   background: var(--background);
   color: var(--text);
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -34,6 +38,10 @@ td {
   margin: 0 auto;
   padding: 1rem;
   text-align: left;
+}
+
+.cancelled {
+  text-decoration: line-through;
 }
 
 .past {
@@ -142,7 +150,7 @@ footer {
   padding: 1rem;
   background: var(--primary);
   color: var(--white);
-  margin-top: 3rem;
+  margin-top: auto;
 }
 
 /* Program schedule */
@@ -298,4 +306,12 @@ footer {
     flex-direction: column;
     gap: 0.5rem;
   }
+}
+
+.session-table {
+  border-collapse: collapse;
+}
+
+.session-table td {
+  border: 1px solid #000;
 }
