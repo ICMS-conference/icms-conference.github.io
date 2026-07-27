@@ -12,11 +12,12 @@ and practitioners centered around “mathematical software” as a scientific ac
 
 ICMS conferences since 2006 have published with Springer: see [Conference proceedings list](https://link.springer.com/conference/icms).
 
-### Upcoming Congress
-* [ICMS 2026](/2026/) - Waterloo (Canada), 20-23 July 2026.
+### Call for ICMS 2028
+* [ICMS 2028](/2026/call-for-2028-proposals.html) - Deadline October 15, 2026
 
 
 ### Past Meetings
+* [ICMS 2026](/2026/) - Waterloo (Canada), 20-23 July 2026.
 * [ICMS 2024](/2024/) - Durham (United Kingdom), 22-25 July 2024. [(local website)](https://maths.dur.ac.uk/icms2024)
 * [ICMS 2020](/2020/) - Braunschweig (Germany), 13-17 July 2020. [(local website)](http://www.iaa.tu-bs.de/AppliedAlgebra/ICMS2020/ICMS2020.html)
 * [ICMS 2018](/2018/) - South Bend (USA), Notre Dame, 24-27 July 2018 [(local website)](https://icms-conference.org/2018/local/)
