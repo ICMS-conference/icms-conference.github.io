@@ -24,7 +24,7 @@ ICMS conferences since 2006 have published with Springer: see [Conference procee
 * [ICMS 2016](/2016/) - Berlin (Germany), 11-14 July 2016 [(local website)](http://icms2016.zib.de/)
 * [ICMS 2014](/2014/) - Seoul (Korea), 05-09 Aug 2014 [(local website)](http://voronoi.hanyang.ac.kr/icms2014/)
 * [ICMS 2010](/2010/) - Kobe (Japan), 13-17 Sep 2010 [(local website)](http://www.math.kobe-u.ac.jp/icms2010/)
-* [ICMS 2006](/2006/) - Castro Urdiales (Spain)], 01-03 Sep 2006 [(local website)](http://www.icms2006.unican.es/)
+* [ICMS 2006](/2006/) - Castro Urdiales (Spain), 01-03 Sep 2006 [(local website)](http://www.icms2006.unican.es/)
 * [ICMS 2002](/2002/) - Beijing (China), Chinese Academy of Sciences, 17-19 Aug 2002 [(local website)](http://www.mmrc.iss.ac.cn/icms/)
 
 ## News ([older news](news/))
