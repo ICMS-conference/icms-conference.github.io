@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://icms-conference.org/2026/session6.html -->
+<html lang="en" data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICMS 2026</title>
+    <link rel="stylesheet" href="HPCA_files/styles_b5j8.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>International Congress on Mathematical Software 2026</h1>
+        <nav>
+        <a href="https://icms-conference.org/2026/index.html">Home</a>
+        <a href="https://icms-conference.org/2026/sessions.html">Sessions</a>
+        <a href="https://icms-conference.org/2026/submission.html">Submission</a>
+        <a href="https://icms-conference.org/2026/registration.html">Registration</a>
+        <a href="https://icms-conference.org/2026/local-info.html">Local Info</a>
+        <a href="https://icms-conference.org/2026/organization.html">Organization</a>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h3>High-Performance Computer Algebra</h3>
+        <h3>Session Organizers:</h3>
+        <ul>
+          <li><a href="mailto:ABrandt@dal.ca">Alexander Brandt</a> (Dalhousie),</li>
+          <li><a href="mailto:moreno@csd.uwo.ca">Marc Moreno Maza</a> (Western).</li>
+        </ul>
+		<br>
+
+		<!--<h3><a href="https://web.cs.dal.ca/~brandt/ICMS-2026/CfA.html">Call For Abstracts</a></h3> -->
+
+		<h3>Session Abstract:</h3>
+		<p>Computer algebra, also known as symbolic computation, faces many 
+challenges toward high- performance and practical applications. While 
+some computer algebra systems have made some success, the widespread use
+ of symbolic computing in scientific and engineering applications 
+remains limited. This may be attributed in part to the inherent 
+difficulties of exact computation including expression swell, 
+implementation challenges, and algorithmic complexity. Yet, with the 
+increase in computational power provided by modern computer 
+architectures, efficient implementations are still possible with the 
+right tools and techniques.
+		</p><br>
+		<p>To this end, this session is dedicated to exploring 
+high-performance computing applied to computer algebra and its 
+applications, practical and efficient implementations, and research on 
+the challenges inherent to these topics. The scope of this session 
+includes: code optimization techniques; parallel and distributed 
+computing; hardware accelerators (e.g. GPUs); efficient memory 
+management; cache complexity and cache-oblivious algorithms; practical 
+and optimized implementation techniques; and techniques for adaptive or 
+automated performance including auto-tuning and hardware-aware 
+algorithms.</p>
+		<br>
+
+		<h3>Session Schedule:</h3>
+
+		<table border="1" style="width:100%">
+  <tbody><tr style="background-color: #7799cc;"><td colspan="3"><b>Wednesday, 22 July 2026</b></td></tr>
+  <tr><td>10:30</td>
+  <td style="width:42%">Alexander Brandt (Dalhousie University)</td>
+    <td><a href="#brandt"><i>Multithreaded Programming in the BPAS Library</i></a></td></tr>
+  <tr><td>11:00</td>
+    <td>Greg Alejandro Solis-Reyes (Western University)<br>
+    	Marc Moreno Maza (Western University) <br>
+    Alexander Brandt (Dalhousie University) </td>
+    <td><a href="#solisreyes"><i>Parallel Computation of The Power Series Solutions to Algebraic and Differential Equations</i></a></td></tr>
+  <tr><td>11:30</td>
+    <td>Miriam Okutuo (Dalhousie University) <br>
+    Alexander Brandt (Dalhousie University)</td>
+    <td><a href="#okutuo"><i>Sparse Polynomial Multiplication on Chiplet-Based Architectures</i></a></td></tr>
+  <tr style="background-color: #d7eefc;"><td>12:00</td><td></td><td><b>Lunch break</b></td></tr>
+  <tr><td>13:30</td>
+    <td>Roman Pearce (axcas.net)</td>
+    <td><a href="#pearce"><i>Parallelizing the F4 Algorithm for Gröbner Basis</i></a></td></tr>
+  <tr><td>14:00</td>
+    <td>Alexander Demin (Higher School of Economics)</td>
+    <td><a href="#demin"><i>Efficient Gröbner tracing in Groebner.jl</i></a></td></tr>
+  <tr><td>14:30</td>
+    <td>Xavier Dahan (Tohoku University)</td>
+    <td><a href="#dahan"><i>Some Practical Implementations for Bivariate Gröbner Bases</i></a></td></tr>
+  <tr style="background-color: #d7eefc;"><td>15:00</td><td></td><td><b>Excursion and Conference Dinner (15:10 - evening)</b></td></tr> 
+		</tbody></table><br>
+
+
+ 	<table border="1">
+  <tbody><tr style="background-color: #7799cc;"><td colspan="3"><b>Thursday, 23 July 2026</b></td></tr>
+  <tr><td>10:30</td>
+    <td style="width:42%">Gennadi Malaschonok (National University of Kyiv-Mohyla Academy)</td>
+    <td><a href="#malaschonok"><i>The Extended Adjugate Matrix</i></a></td></tr>
+  <tr><td>11:00</td>
+    <td>Shahadat Hossain (University of Northern British Columbia)</td>
+    <td><a href="#hossain"><i>Computing with Diagonally Structured Matrices: CPU and GPU-Accelerated Matrix Multiplication</i></a></td></tr>
+  <tr><td>11:30</td>
+    <td>Alexander Demin (Higher School of Economics) <br>
+    Fabrice Rouillier (Sorbonne Université) </td>
+  <td><a href="#demin2"><i>Fast Rational Univariate Representation via Gaussian Elimination</i></a></td></tr>
+  
+  <tr style="background-color: #d7eefc;"><td>12:00</td><td></td><td><b>Lunch break</b></td></tr>
+
+  <tr><td>14:00</td>
+    <td>Alexey Ovchinnikov (CUNY Queens College)</td>
+    <td><a href="#ovchinnikov"><i>Uncertainty Quantification in Parameter Estimation with Noisy Data</i></a></td></tr>
+  <tr><td>14:30</td>
+    <td>Ryan Curtin <br>
+    Marcus Edel (Collabora) <br>
+  Conrad Sanderson (CRISO)</td>
+    <td><a href="#curtin"><i>Fast GPU Linear Algebra via Compile Time Expression Fusion</i></a></td></tr>
+  <tr><td>15:00</td>
+    <td>Howard Chen (University of Illinois at Chicago) <br>
+    Jan Verschelde (University of Illionois at Chicago)</td>
+    <td><a href="#chen"><i>Accelerating Multiple Double Arithmetic with NVIDIA Tensor Cores</i></a></td></tr>
+
+  <tr style="background-color: #d7eefc;"><td>15:30</td><td></td><td><b>Coffee break</b></td></tr>
+
+  <tr><td>16:00</td>
+    <td>Adam Murdock Gale (Western University) <br>
+    Marc Moreno Maza (Western University) </td>
+    <td><a href="#gale"><i>Parallel Computations of Transversal Hypergraphs</i></a></td></tr>
+  <tr><td>16:30</td>
+    <td>Anton Leykin (Georgia Tech)</td>
+    <td><a href="#leykin"><i>Parallel Tropical Geometry and Celestial Mechanics</i></a></td></tr>
+  <tr><td>17:00</td>
+	  <td><s>Omar Sobhy (Western University)</s><br>
+		  <s>Marc Moreno Maza (Western University</s> </td>
+	  <td><a href="#sobhy"><i><s>Big Integer Arithmetic on the GPU</s></i></a></td></tr>
+
+</tbody></table><br>
+
+		<h3>Session Talks:</h3>
+
+		<details id="pearce">
+			<summary><b>Parallelizing the F4 Algorithm for Gröbner Bases</b><br> Roman Pearce (axcas.net) <br> <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/slides/Pearce-HPCA2026.pdf">(slides)</a>
+			</summary>
+			<p style="padding-top:1em">Computing a Gröbner basis can be the first
+ step in solving a system of polynomial equations exactly.  In this 
+talk, we describe a high performance parallel implementation of the F4 
+algorithm of Faugere for 63-bit primes.  Our implementation in C is 
+available at axcas.net and is released into the public domain, with the 
+goal of seeing it incorporated into computer algebra systems, both 
+commercial and open source, as part of a modular method.  Our code 
+implements the matrix compression scheme used by Faugere, which does not
+ duplicate coefficients or monomials and encodes the difference between 
+successive column numbers efficiently using bytes where possible. It 
+uses the parallel probabilistic Gaussian elimination developed by 
+Monagan, Pearce, and Steel, which selects the sparsest pivots, then 
+divides the remaining N rows into blocks of size sqrt(N) and reduces 
+random linear combinations of the rows in each block, stopping when zero
+ reductions start to occur. We have developed a new approach to parallel
+ symbolic preprocessing which proceeds in stages to reduce contention, 
+using a parallel version of Davenport's power of two hash table to 
+create monomials. And we have added a dynamic pairs limit which captures
+ early degree drops and controls the memory use on large problems. We 
+present benchmarks of the program running on various machines, including
+ a 16 core/32 thread 5.4GHz Ryzen 9955HX.</p>
+		</details><br>
+
+		<details id="demin">
+			<summary><b>Efficient Gröbner tracing in Groebner.jl</b><br> Alexander Demin (Higher School of Economics, Russia) <br> <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/slides/Demin-HPCA2026.pdf">(slides)</a>
+			</summary>
+			<p style="padding-top:1em">A standard way to deal with expression 
+swell in computer algebra is to use multi-modular or 
+evaluation-interpolation methods. When such computations involve Gröbner
+ bases, these methods typically compute many Gröbner bases of 
+specializations of the same ideal. This can be done efficiently with 
+some precomputation, for instance, using Traverso’s tracing.</p><br>
+
+			<p>The package Groebner.jl implements F4 with tracing and provides an accessible interface for it (<a href="https://github.com/sumiya11/Groebner.jl">https://github.com/sumiya11/Groebner.jl</a>).
+ As a result, tracing can be conveniently incorporated into algorithms 
+where computing a Gröbner basis is not the final goal. Additionally, the
+ package supports generic types, allowing SIMD-friendly representations 
+of coefficients (for example, tuples of machine integers) to be compiled
+ into efficient code almost automatically by Julia. In the talk, we will
+ advocate for this design by demonstrating how existing software 
+leverages the tracing from Groebner.jl to achieve order-of-magnitude 
+speedups in several applications, including parameter identifiability of
+ ODEs and polynomial system solving.</p>
+		</details><br>
+
+		<details id="chen">
+			<summary><b>Accelerating Multiple Double Arithmetic with NVIDIA Tensor Cores</b><br> Howard Chen and Jan Verschelde (University of Illinois at Chicago, USA)
+                </summary>
+                <p style="padding-top:1em">
+A multiple double is an unevaluated sum of doubles.
+An NVIDIA tensor core is a specialized high-performance
+compute core for matrix multiplication.
+The Ampere A100, released in 2020, introduced tensor cores
+capable of 64-bit floating-point arithmetic.
+Every multiple double arithmetical operation requires renormalization,
+which involves branching, for which tensor cores are unsuited.
+To solve this problem caused by renormalization,
+we apply a solution similar to the Ozaki scheme
+[Ozaki et al, Numerical Algorithms, 2012].</p><br>
+
+<p>Our software is available under the GPU GPL license on github.
+Using the CUDA SDK, version 12.4 of nvcc,
+in addition to the A100, housed in a Microway GPU server,
+running Linux, with software compiled with g++, the code was
+developed on an NVIDIA RTX 4080, in an Alienware gaming laptop,
+running Windows 11, with the Community Visual Studio compiler.
+Using shared memory on the A100, 13.75 FP64 TFLOPS was reached,
+on the FP64 tensor cores on the RTX 4080 give 0.50 TFLOPS.
+                </p>
+		</details><br>
+
+
+		<details id="leykin">
+			<summary><b>Parallel Tropical Geometry and Celestial Mechanics</b><br> Anton Leykin (Georgia Tech, USA)
+		</summary>
+		<p style="padding-top:1em">
+I will revisit the algorithm for
+"Dynamic Decomposition of Tropical Prevarieties"
+by Anders Jensen, which we successfully applied
+to "Smale's 6th Problem for Generic Masses" in celestial mechanics
+for the five-body problem (n = 5).
+While sequential computation is practical in this case
+and the computer-assisted proof can be executed in about one hour,
+each attempt at the next case, n = 6, requires on the order of one CPU year.
+I will summarize our current progress for n = 6, including
+an efficient parallelization of the implementation on a single node
+(shared memory), as well as potential ways to attack the problem
+on a distributed cluster.
+		</p>
+		</details><br>
+
+		<details id="demin2">
+			<summary><b>Fast Rational Univariate Representation via Gaussian Elimination</b><br>
+				Fabrice Rouillier (Sorbonne University, France) and Alexander Demin (Higher School of Economics, Russia)
+		</summary>
+		<p style="padding-top:1em">
+		In this talk, we show how classical Gaussian elimination can be used 
+to efficiently compute rational univariate representations of solutions 
+of general zero-dimensional polynomial systems. We focus in particular 
+on the FGLM-like component of the algorithm, including the computation 
+of minimal polynomials. We provide a compact implementation of our 
+method in Julia (a bit over 1000 lines of code). Despite relying on 
+dense Gaussian elimination, our implementation is able to compute 
+parametrizations of systems with thousands of solutions within seconds. 
+We describe the main ingredients of the implementation, including 
+practical linear algebra modulo a machine prime, techniques for avoiding
+ redundant computations, strategies for vectorization and SIMD, and 
+multi-threading and multi-process execution policies.
+		</p>
+		</details><br>
+
+
+        <details id="solisreyes">
+                <summary><b>Parallel Computation of the Power Series Solutions to Algebraic and Differential equations</b>
+			<br>Greg Alejandro Solis-Reyes (Western University, Canada) <br> <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/slides/SolisReyes-HPCA2026.pdf">(slides)</a>
+                </summary>
+                <p style="padding-top:1em">
+		Power series are used to approximate the  solutions of certain 
+algebraic or differential equations at a point. These techniques are 
+commonly used in computer algebra for instance to compute the branches 
+of a plane algebraic curve around a singularity or to compute the limit 
+points of a constructible set.</p><br>
+
+		<p>In most parallel algebraic computations, the algorithmic patterns 
+follow a multi-way divide-and-conquer scheme or a map-reduce scheme 
+(generally for-loop nests). In contrast, the parallelization of 
+algorithms computing the power series solutions to algebraic and 
+differential equations yield less common and more challenging patterns.</p><br>
+
+		<p>Parallelizing the factorization of univariate polynomials over 
+multivariate power series, based on Weierstrass preparation theorem, 
+yields to the composition of stencil schemes and map-reduce schemes. The
+ same is true when computing the the power series solutions to a linear 
+ordinary differential equation at one of its ordinary points.</p><br>
+
+		<p>Parallelizing the factorization of univariate polynomials over 
+multivariate power series, based on Hensel's lemma, can be done by a 
+producer-consumer scheme composed with the schemes involved in the 
+parallelization of Weierstrass preparation theorem. When moving to the 
+extended Hensel construction, dynamic programming takes center stage.</p><br>
+
+		<p>In this talk, we will discuss these various parallelization schemes
+ for the computation of the power series solutions to algebraic and 
+differential equations.  This will include algorithm analysis as well as
+ experimentation reports.</p><br>
+
+		<p>This is joint work with Marc Moreno Maza (Western University, Canada) and Alexander Brandt (Dalhousie University, Canada).
+                </p>
+                </details><br>
+
+
+
+        <details id="gale">
+                <summary><b>Parallel Computations of Transversal Hypergraphs</b><br>
+			Adam Murdock Gale (Western University, Canada)
+                </summary>
+                <p style="padding-top:1em">
+		Hypergraph theory is a generalization of graph theory in which an edge
+ can be any non-empty subset of the vertex set, and thus may contain 
+more than two vertices. Given a hypergraph H, with vertex set V, a 
+non-empty subset S of V is transversal to H if S has a non-empty 
+intersection with every edge of H. The transversal hypergraph of H, 
+denoted by Tr(H),  is the set of all subsets of V which are transversal 
+to H and inclusion-minimal with that property.</p><br>
+
+		<p>Over the past two decades, hypergraph theory, and transversal 
+hypergraph computation in particular, have gained significant attention 
+and are used in areas like algebra, artificial intelligence, chemistry, 
+computer vision, integrated circuits and VLSI, Physics, scheduling, data
+ mining, social sciences, and even philosophy, to name a few.</p><br>
+
+<p>Traditionally, Tr(H) is computed by a divide-and-conquer algorithm, 
+based on a formula due to Claude Berge. Various works have improved this
+ approach in terms of arithmetic count, cache complexity and 
+parallelism. Moreover, recent studies suggest that the running time of 
+Berge algorithm is on average quasi-linear in the size of Tr(H).</p><br>
+
+<p>The size of Tr(H) can be exponential in the size of H, thus no 
+algorithm computing tr(H) can run in polynomial time. However, the 
+question of whether Tr(H) can be computed in output-polynomial total 
+time (i.e., in time polynomial in the combined sizes of the input and 
+the output) is an open problem. Studying this latter problem has lead to
+ another line of research, in particular by Thomas Eiter and Georg 
+Gotlob, based on a completion algorithm for computing Tr(H).</p><br>
+
+<p>In this talk, we will discuss these lines of research. Moreover, we 
+will present parallel and optimized C implementation of Berge 
+divide-and-conquer algorithm, and Eiter and Gotlob completion algorithm.</p><br>
+
+
+
+		<p>This is joint work with Marc Moreno Maza (Western University, Canada).
+                </p>
+                </details><br>
+
+		<details id="sobhy">
+		<summary><b>Big Integer Arithmetic on the GPU</b><br> Omar Sobhy (Western University, Canada)
+                </summary>
+                <p style="padding-top:1em">
+		Implementing arithmetic operations for integer numbers in arbitrary 
+precision on graphics processor units (GPUs) is a challenging task as 
+well as an active research subject.</p><br>
+
+			<p>In this talk, we explore this subject under the angle of 
+heterogeneous computing. We build our work on top of NVIDIA's CGBN 
+(Cooperative Groups Big Numbers) library dedicated to fixed size, 
+unsigned multiple precision integer arithmetic in CUDA. CGBN is a highly
+ optimized library for small to medium sized numbers (32 bits through 
+32K bits, in 32 bit increments).</p><br>
+
+			<p>We extend CGBN to support arbitrary precision and signed 
+arithmetic. We extract parallelism by composing CGBN's CUDA kernels with
+ higher-level algorithms, like polylog parallel addition/subtraction and
+ sub-linear parallel multiplication.
+			</p><br>
+
+                <p>This is joint work with Marc Moreno Maza (Western University, Canada).
+                </p>
+                </details><br>
+
+		<details id="malaschonok">
+			<summary><b>The Extended Adjugate Matrix</b><br>
+			Gennadi Malaschonok (National University of Kyiv-Mohyla Academy, Ukraine)
+                </summary>
+                <p style="padding-top:1em">
+		John Dixon proposed an algorithm for solving systems of linear 
+equations with invertible integer coefficient matrices. Subsequently, an
+ algorithm was developed to compute the adjugate of any non-singular 
+integer matrix. Both methods exhibit cubic bit complexity relative to 
+the matrix size.</p><br>
+		<p>We introduce the concept of the "Extended Adjugate Matrix" for a 
+matrix M of arbitrary rank r &gt; 0. This matrix contains an adjugate 
+sub-matrix corresponding to a non-singular sub-matrix of rank r, while 
+the remaining rows (or columns) generate the null-space of M.</p><br>
+		<p> We present an algorithm for computing the extended adjugate matrix
+ with the following properties. It achieves the complexity of matrix 
+multiplication in terms of the number of operations on coefficients. The
+ algorithm is local (pivot-preserving), which is essential for 
+distributed computing with sparse matrices on supercomputers. As all 
+scalars are minors of the original matrix M, the algorithm is applicable
+ to matrices over function rings, polynomials, or rational numbers. 
+Various algebraic techniques, such as finite field arithmetic, can be 
+applied to further reduce computational complexity in specific rings 
+(e.g., for rational numbers or polynomials).
+                </p>
+                </details><br>
+
+                <details id="okutuo">
+                        <summary><b>Sparse Polynomial Multiplication on Chiplet-Based Architectures</b><br>
+                        Miriam Okutuo (Dalhousie University, Canada)
+                </summary>
+                <p style="padding-top:1em">
+		Chiplet-based architectures are relatively new designs for CPUs which 
+move beyond the traditional monolithic design. Among many manufacturing 
+and economic advantages, chiplet designs allow for many more cores to be
+ packaged on a single CPU. For example, from 8-16 cores typical of a 
+monolithic design up to an astonishing 192 cores on AMD’s EPYC 9965 CPU.
+ However, one hidden concern is that this new design distributes the L3 
+cache into so-called slices resulting in non-uniform memory access. 
+Cores sharing an L3 cache slice can communicate effectively but a core 
+will suffer increased latency retrieving data from a different L3 slice.</p><br>
+
+		<p>In this talk we give a brief overview of chiplet architectures and 
+their design, considering implications on software and developers. 
+Previous multithreaded algorithms designed to take advantage of a single
+ L3 cache (i.e. with heavy thread cooperation) may no longer operate 
+effectively with cache slices. Using sparse polynomial multiplication as
+ a case study, we explore how multithreaded algorithm design may account
+ for chiplet-based architectures for effective execution. We discuss 
+composition of parallel code regions, thread pinning, and thread 
+cooperation. </p>
+                </details><br>
+
+
+                <details id="ovchinnikov">
+                        <summary><b>Uncertainty Quantification in Parameter Estimation with Noisy Data</b><br>
+                Alexey Ovchinnikov (CUNY Queens College, USA)
+                </summary>
+                <p style="padding-top:1em">
+                Parameter estimation for ordinary differential equation 
+(ODE) models is a critical task often hindered by noisy data and the 
+limitations of traditional optimization methods. The 
+differential-algebraic approach offers theoretical advantages, such as 
+eliminating the need for initial parameter guesses, and finding all 
+global solutions without getting stuck in local minima. The algebraic 
+approach has been historically hampered by its sensitivity to 
+measurement noise. In this work, we resolve this limitation by replacing
+ the noise-sensitive derivative estimation step with a robust 
+probabilistic framework based on Gaussian Process Regression. We also 
+analyze the uncertainty in the calculated estimates.
+                </p>
+                </details><br>
+
+                <details id="dahan">
+                        <summary><b>Some Practical Implementations for Bivariate Gröbner Bases</b><br>
+                        Xavier Dahan (Tohoku University, Japan)
+                </summary>
+                <p style="padding-top:1em">
+		The talk will present latest implementation results for the 
+computation of and with bivariate lexicographic Groebner bases in 
+special cases. Such as, when the input contains several bivariate 
+polynomials and a univariate one. It splits the output following the 
+dichotomy "invertible/nilpotent" when the system is not radical, 
+extending the standard "invertible/zero". Its complexity for non-reduced
+ minimal Greobner bases is nearly optimal.</p><br>
+
+		<p>When reducing this minimal non-reduced Groebner bases, which ends 
+up being the most time consuming task by far, we implemented, rather 
+naively, the fast normal formof StPierre-Schost [2]. The speed-up it 
+brings varies depending on the input, up to a factor 5
+compared to the estimable Reduce command of Magma. Besides, we will also
+ show some timings related to Chinese Remainder Theorem maps for lexGBs 
+as presented in [3].
+Finally, when possible, we will compare the above implementations with 
+those introduced in [4] based on Hermite Normal Form.</p><br>
+
+<p>[1] X. Dahan. Lexicographic Groebner bases of bivariate polynomials modulo a univariate one (JSC, 2022).<br>
+[2] St-Pierre, Schost. A Newton iteration for lexicographic Groebner bases in two variables. (J. Algebra, 2024).<br>
+[3] X. Dahan. Chinese Remainder Theorem for bivariate lexicographic Groebner bases (ISSAC, 2023).<br>
+[4] St-Pierre, Schost. An m-adic algorithm for bivariate Groebner basis (JSC, 2024).
+                </p>
+                </details><br>
+
+
+                <details id="brandt">
+                        <summary><b>Multithreaded Programming in the BPAS Library</b><br>
+				Alexander Brandt (Dalhousie University, Canada) <br> <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/slides/Brandt-HPCA2026.pdf">(slides)</a>
+                </summary>
+                <p style="padding-top:1em">
+		The BPAS (Basic Polynomial Algebra Subprograms) Library is a C/C++ 
+library for high-performance polynomial algebra particularly targeting 
+multithreaded parallelism. In this talk, we discuss the use and 
+implementation of object-oriented parallelism constructs in the BPAS 
+library. Similar to compiler-based approaches like Cilk or OpenMP, we 
+attempt to make it easier to write multithreaded code. In our case, we 
+provide an object-oriented approach built using only standard C++ which 
+encapsulates the complexities of parallelism behind its interface. We 
+discuss the use of these interfaces to implement fork-join parallelism 
+and some standard parallel programming patterns.</p><br>
+
+		<p>We take examples from the BPAS library to show the use of this 
+object-oriented multithreading in action for algebraic computation. This
+ includes polynomial multiplication, power series, interpolation, 
+subresultants, and solving systems of polynomial equations via 
+triangular decomposition.
+</p>
+                </details><br>
+
+
+		<details id="hossain">
+                        <summary><b>Computing with Diagonally Structured Matrices: CPU and GPU-Accelerated Matrix Multiplication</b><br>
+                        Shahadat Hossain (University of Northern British Columbia, Canada)<br> <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/slides/Hossain-HPCA2026.pdf">(slides)</a>
+                </summary>
+                <p style="padding-top:1em">
+		Matrix–matrix multiplication is a fundamental operation across a wide 
+range of scientific applications. In this talk, we explore algorithmic 
+strategies for this computation by reordering the underlying arithmetic 
+operations beyond the conventional triple-loop framework. We introduce 
+the concept of diagonal storage, an orientation-independent and uniform 
+scheme for storing nonzero elements in both dense and structured sparse 
+matrices, including symmetric, triangular, regular and arbitrarily 
+banded forms. Results from extensive numerical experiments on benchmark 
+test instances show substantial performance improvements in both serial 
+and parallel implementations of matrix–matrix and matrix–transpose 
+multiplication, compared with optimized standard approaches.</p><br>
+		<p>This is joint work with Sardar Anisul Haque and Mohammad Tanvir Parvez.</p>
+                </details><br>
+
+		<details id="curtin">
+                        <summary><b>Fast GPU Linear Algebra via Compile Time Expression Fusion</b><br>
+				Ryan Curtin, Marcus Edel, Conrad Sanderson (Collabora, Canada) <br> <a href="https://web.cs.dal.ca/~brandt/ICMS-2026/slides/Curtin-HPCA2026.pdf">(slides)</a>
+                </summary>
+                <p style="padding-top:1em">
+		We describe the Bandicoot GPU linear algebra toolkit, a C++ based 
+library that prioritises ease of use without compromising efficiency. 
+Bandicoot's API is compatible with the popular Armadillo CPU linear 
+algebra library, enabling easy transition for existing CPU-based 
+codebases. Unlike other GPU-focused toolkits, Bandicoot uses template 
+metaprogramming to generate fused GPU kernels directly at *compile 
+time*, yielding efficient kernels that are often able to saturate memory
+ bandwidth. This removes the need for runtime overhead or JIT 
+infrastructure. Empirical results show that Bandicoot outperforms 
+(sometimes by considerable margins) commonly-used linear algebra 
+toolkits including PyTorch, TensorFlow, and JAX.
+		</p><br>
+		</details><br>
+
+      </div>
+    </section>
+
+    <footer>
+      2026 ICMS | Wilfrid Laurier University and University of Waterloo
+    </footer>
+
+
+<x-rbc-extension></x-rbc-extension><style type="text/css">
+        @font-face {
+          font-family: 'Roboto';
+          font-weight: 300;
+          src: url("chrome-extension://hgkldehjkbldmhhkokccmeloejmkhfio/fonts/Roboto/Roboto-Light.ttf");
+        }
+
+        @font-face {
+          font-family: 'Roboto';
+          font-weight: 400;
+          src: url("chrome-extension://hgkldehjkbldmhhkokccmeloejmkhfio/fonts/Roboto/Roboto-Regular.ttf");
+        }
+
+        @font-face {
+          font-family: 'Roboto';
+          font-weight: 500;
+          src: url("chrome-extension://hgkldehjkbldmhhkokccmeloejmkhfio/fonts/Roboto/Roboto-Medium.ttf");
+        }
+
+        @font-face {
+          font-family: 'Roboto';
+          font-weight: 700;
+          src: url("chrome-extension://hgkldehjkbldmhhkokccmeloejmkhfio/fonts/Roboto/Roboto-Bold.ttf");
+        }
+      </style><style type="text/css">
+        @font-face {
+          font-family: 'RBCText';
+          font-weight: 300;
+          src: url("chrome-extension://hgkldehjkbldmhhkokccmeloejmkhfio/fonts/RBC-Text/RBCText-Light.otf");
+        }
+
+        @font-face {
+          font-family: 'RBCText';
+          font-weight: 400;
+          src: url("chrome-extension://hgkldehjkbldmhhkokccmeloejmkhfio/fonts/RBC-Text/RBCText-Regular.otf");
+        }
+
+        @font-face {
+          font-family: 'RBCText';
+          font-weight: 500;
+          src: url("chrome-extension://hgkldehjkbldmhhkokccmeloejmkhfio/fonts/RBC-Text/RBCText-Medium.otf");
+        }
+
+        @font-face {
+          font-family: 'RBCText';
+          font-weight: 700;
+          src: url("chrome-extension://hgkldehjkbldmhhkokccmeloejmkhfio/fonts/RBC-Text/RBCText-Bold.ttf");
+        }
+      </style>
+</body></html>
